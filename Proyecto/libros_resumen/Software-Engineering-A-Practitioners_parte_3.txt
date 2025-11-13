@@ -1,0 +1,89 @@
+### Parte 3 (Pág. 81–120)
+
+## Resumen de Páginas 81-120: Modelos de Proceso Evolutivos y Unificado
+
+### Introducción Contextual
+El texto presenta una discusión crítica sobre la selección de modelos de proceso de software, utilizando como caso de estudio el proyecto *SafeHome* de CPI Corporation. Se evidencia la necesidad de transitar de enfoques ad hoc hacia procesos más estructurados que garanticen calidad y mantenibilidad a largo plazo.
+
+### Definiciones Fundamentales
+
+**Prototipado**: Paradigma de desarrollo que construye versiones preliminares para:
+- Definir requisitos mediante mecanismos tangibles
+- Servir como base para la evolución del producto final
+- Establecer reglas claras de aceptación entre stakeholders
+
+**Modelo Evolutivo**: Enfoque que acomoda el crecimiento y cambio progresivo del producto mediante iteraciones controladas.
+
+### Modelos de Proceso Analizados
+
+#### 1. Modelo Espiral (Spiral Model)
+**Propuesto por**: Barry Boehm (1988)
+
+**Características Estructurales**:
+- Combina iteratividad del prototipado con sistematicidad del modelo cascada
+- Organiza el desarrollo en circuitos evolutivos alrededor de ejes espirales
+- Segmenta actividades mediante marcos de trabajo definidos por el equipo
+
+**Mecanismos Clave**:
+- **Puntos de anclaje**: Combinación de productos de trabajo y condiciones alcanzadas en cada revolución
+- **Gestión de riesgos**: Evaluación continua en cada iteración (Capítulo 26)
+- **Planificación adaptativa**: Ajuste de costos y cronogramas basado en retroalimentación
+
+**Ventajas**:
+- Desarrollo rápido de versiones progresivamente completas
+- Reducción de riesgos mediante prototipado controlado
+- Aplicabilidad durante todo el ciclo de vida del software
+
+**Limitaciones**:
+- Dificultad de control percibida por clientes en contextos contractuales
+- Requiere expertise significativa en evaluación de riesgos
+- Dependencia crítica de la identificación temprana de riesgos mayores
+
+#### 2. Proceso Unificado (Unified Process - UP)
+**Fundamentos**:
+- Sintetiza mejores características de modelos tradicionales
+- Incorpora principios ágiles de desarrollo (Capítulo 3)
+- Utiliza UML (Unified Modeling Language) como estándar de modelado
+
+### Fases del Proceso Unificado
+
+#### Fase de Inicio (Inception)
+- **Actividades**: Comunicación con cliente y planificación
+- **Entregables**: 
+  - Casos de uso preliminares
+  - Identificación de recursos principales
+  - Evaluación de riesgos mayores
+  - Cronograma preliminar para incrementos
+
+#### Fase de Elaboración (Elaboration)
+- Refinamiento y expansión de casos de uso preliminares
+- Creación de línea base arquitectónica con cinco vistas:
+  1. Modelo de casos de uso
+  2. Modelo de análisis
+  3. Modelo de diseño
+  4. Modelo de implementación
+  5. Modelo de despliegue
+
+#### Fase de Construcción (Construction)
+- Implementación de características requeridas en código fuente
+- Diseño y ejecución de pruebas unitarias
+- Actividades de integración y pruebas de integración
+- Derivación de suites de pruebas de aceptación desde casos de uso
+
+#### Fase de Transición (Transition)
+- Entrega para pruebas beta con usuarios finales
+- Recopilación de retroalimentación sobre defectos y cambios necesarios
+- Actividades finales de construcción y despliegue
+
+### Consideraciones de Gestión
+
+**Balance Crítico**: Los equipos deben establecer equilibrio entre:
+- Flexibilidad y extensibilidad
+- Velocidad de desarrollo
+- Parámetros de proyecto y producto
+- Satisfacción del cliente (árbitro final de calidad)
+
+**Adaptabilidad Planificatoria**: Necesidad de re-planificación iterativa versus expectativas de planificación fija en management tradicional.
+
+### Conclusión
+Los modelos evolutivos representan aproximaciones realistas al desarrollo de software moderno, caracterizado por cambios continuos, plazos ajustados y énfasis en satisfacción del usuario. La selección del modelo adecuado debe considerar tanto factores técnicos como organizacionales, privilegiando enfoques que permitan adaptación controlada frente a la incertidumbre inherente del desarrollo software.

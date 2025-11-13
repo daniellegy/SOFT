@@ -1,0 +1,74 @@
+### Parte 2 (Pág. 31–60)
+
+## Resumen de Páginas 31-60: El Enfoque de la Ingeniería de Software
+
+### 1.3. El Enfoque de la Ingeniería de Software
+
+#### 1.3.1. Proceso de Desarrollo por Fases
+
+**Definición Fundamental**: El proceso de desarrollo de software se estructura en fases secuenciales, cada una con entregables específicos, siguiendo un modelo de proceso determinado.
+
+**Justificación del Enfoque por Fases**:
+- Reduce la complejidad mediante división del problema
+- Permite control de calidad y seguimiento en puntos definidos
+- Minimiza costos de desarrollo
+- Facilita la gestión de proyectos complejos
+
+**Fases Fundamentales del Proceso**:
+
+**1. Análisis de Requisitos**
+- **Propósito**: Comprender el problema que el sistema debe resolver
+- **Enfoque**: Identificar QUÉ se necesita, no CÓMO implementarlo
+- **Actividades principales**:
+  - Comprensión del problema y su contexto
+  - Especificación de requisitos
+- **Producto**: Documento de Especificación de Requisitos de Software que incluye:
+  - Requisitos funcionales y de rendimiento
+  - Formatos de entrada/salida
+  - Restricciones de diseño
+  - Manual de usuario preliminar
+
+**2. Diseño de Software**
+- **Propósito**: Planificar la solución al problema especificado
+- **Transición**: Del dominio del problema al dominio de la solución
+- **Niveles de diseño**:
+  - **Diseño de Arquitectura**: Componentes/subsistemas y sus interconexiones
+  - **Diseño de Alto Nivel**: Módulos y sus especificaciones
+  - **Diseño Detallado**: Lógica interna de cada módulo
+
+**3. Codificación**
+- **Objetivo**: Traducir el diseño a código en un lenguaje específico
+- **Criterios de calidad**:
+  - Legibilidad y comprensibilidad del código
+  - Simplicidad y claridad
+  - Reducción del esfuerzo de prueba y mantenimiento
+
+**4. Pruebas**
+- **Función principal**: Detección de defectos en el software
+- **Tipos de pruebas**:
+  - Pruebas unitarias (módulos individuales)
+  - Pruebas de integración (interconexiones)
+  - Pruebas del sistema (requisitos globales)
+  - Pruebas de aceptación (datos reales del cliente)
+- **Documentación del proceso**:
+  - Plan de pruebas
+  - Especificación de casos de prueba
+  - Informes de pruebas y errores
+
+#### 1.3.2. Gestión del Proceso
+
+**Necesidad de Gestión**: El proceso de desarrollo por sí solo no especifica:
+- Asignación de recursos
+- Programación de actividades
+- División del trabajo
+- Gestión de riesgos
+- Control de calidad
+
+**Actividad Central**: **Planificación del Proyecto**
+- Establece la línea base para monitoreo y control
+- Es fundamental para alcanzar objetivos de costo y calidad
+- Sin planificación adecuada, es improbable cumplir con los objetivos del proyecto
+
+### Conclusión
+
+El enfoque de ingeniería de software presentado enfatiza la separación entre proceso y producto, destacando que la calidad del proceso determina fundamentalmente la calidad del producto final. La estructuración en fases permite gestionar la complejidad inherente al desarrollo de software, mientras que la gestión del proceso asegura la ejecución efectiva de estas fases dentro de las restricciones del proyecto.

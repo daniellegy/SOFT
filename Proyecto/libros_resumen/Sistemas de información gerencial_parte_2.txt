@@ -1,0 +1,80 @@
+### Parte 2 (Pág. 41–80)
+
+## Resumen Académico: Sistemas de Información Gerencial (Páginas 41-80)
+
+### Introducción Contextual
+El caso de estudio de los Gigantes de San Francisco ilustra la aplicación estratégica de sistemas de información en el ámbito deportivo-profesional, demostrando cómo la tecnología transforma tanto el rendimiento deportivo como las operaciones empresariales.
+
+### Definiciones y Conceptos Fundamentales
+
+**Sistema de Información:** Conjunto integrado de componentes que recopilan, procesan, almacenan y distribuyen información para apoyar la toma de decisiones y el control en una organización.
+
+**Tecnología de la Información (TI):** Inversión en hardware, software y equipos de telecomunicaciones que sustentan los sistemas de información.
+
+### Aplicaciones Estratégicas en el Caso de Estudio
+
+#### 1. Optimización del Rendimiento Deportivo
+- **FIELDf/x:** Sistema de video que registra digitalmente en tiempo real posiciones de jugadores y pelotas
+- **Capacidades:** 
+  - Generación de estadísticas defensivas avanzadas
+  - Medición de velocidad y tiempos de respuesta
+  - Producción de 1 millón de registros por juego
+  - Análisis predictivo de probabilidades de ejecución
+
+#### 2. Gestión Comercial y de Ingresos
+- **Sistema de Precios Dinámicos (Qcue):**
+  - Ajuste automático de precios según demanda
+  - Modelo similar al sector aeronáutico
+  - Resultado: 100% de ocupación desde 2010
+
+- **Mercado Secundario de Boletos:**
+  - Plataforma online para reventa de boletos
+  - Sistema de activación/desactivación de códigos de barras
+  - Recuperación de ingresos potencialmente perdidos
+
+#### 3. Experiencia del Cliente
+- **Infraestructura Tecnológica:**
+  - Red Wi-Fi masiva en AT&T Park
+  - Una de las redes inalámbricas públicas más grandes del mundo
+  - Servicios interactivos para aficionados
+
+### Marco Conceptual de Sistemas de Información
+
+#### Componentes Interrelacionados:
+- **Organización:** Estructura empresarial y procesos
+- **Tecnología:** Infraestructura hardware/software
+- **Administración:** Toma de decisiones estratégicas
+
+#### Proceso de Solución de Problemas:
+1. Identificación de desafíos empresariales
+2. Diseño de soluciones tecnológicas
+3. Implementación y gestión de sistemas
+4. Evaluación de resultados
+
+### Impacto Macroecónomico de los Sistemas de Información
+
+#### Inversión Global:
+- Estados Unidos: $817 mil millones en hardware, software y telecomunicaciones (2014)
+- $230 mil millones adicionales en servicios de consultoría
+- Crecimiento de 14% a 33% en inversión tecnológica (1999-2013)
+
+#### Transformación Digital:
+- **Penetración Tecnológica:**
+  - 247 millones de usuarios móviles en EE.UU. (67% población)
+  - 167 millones acceden a Internet mediante dispositivos móviles
+  - 46% de población mundial usa tablets
+
+- **Comportamiento Empresarial:**
+  - 114 millones de sitios .com registrados globalmente
+  - 196 millones de estadounidenses investigan productos en línea
+  - Cadenas de suministro aceleradas con inventario justo a tiempo
+
+### Conclusión Analítica
+
+Los sistemas de información representan un componente estratégico fundamental para la competitividad empresarial contemporánea. El caso de los Gigantes de San Francisco demuestra cómo la implementación inteligente de tecnología puede generar:
+
+1. **Ventajas Competitivas** mediante análisis de datos avanzados
+2. **Optimización de Ingresos** a través de modelos de precios dinámicos
+3. **Fortalecimiento de Relaciones con Clientes** mediante experiencias digitales mejoradas
+
+La efectiva integración de organización, tecnología y administración determina el éxito en la implementación de sistemas de información, transformando tanto las operaciones internas como la posición competitiva en el mercado.

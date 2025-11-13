@@ -1,0 +1,98 @@
+### Parte 19 (Pág. 721–760)
+
+## Resumen de las páginas 721-760: Medición de Software
+
+### 1. Fundamentos de la Medición de Software
+
+**Definición clave**: La medición de software se refiere al proceso de cuantificar atributos internos del software para predecir características de calidad externas.
+
+**Requisitos para una medición efectiva**:
+1. **Medición precisa** de atributos internos mediante herramientas especializadas
+2. **Existencia de relación** entre atributos medibles y atributos de calidad externos
+3. **Validación de la relación** mediante modelos matemáticos (lineales, exponenciales, etc.)
+
+### 2. Software Analytics
+
+**Concepto emergente**: Aplicación de técnicas de minería de datos y aprendizaje automático para analizar repositorios de datos de productos y procesos software.
+
+**Enfoque**: Basado en correlaciones descubiertas a partir de grandes volúmenes de datos, en lugar de modelos predefinidos de relaciones de calidad.
+
+### 3. Barreras para la Implementación de Programas de Medición
+
+1. **Retorno de inversión incierto**
+2. **Ausencia de estándares** para métricas y procesos de medición
+3. **Costos de desarrollo** de herramientas especializadas
+4. **Variabilidad de procesos** en organizaciones no estandarizadas
+5. **Limitada aplicabilidad** de métricas tradicionales en desarrollo ágil y basado en reutilización
+6. **Contradicción con métodos ágiles** debido a sobrecarga adicional
+
+### 4. Ingeniería de Software Empírica
+
+**Definición**: Área de investigación que utiliza experimentos y recolección de datos de proyectos reales para formular y validar hipótesis sobre métodos y técnicas de ingeniería de software.
+
+**Limitación**: Dificultad para aplicar resultados genéricos a proyectos específicos debido a factores locales.
+
+### 5. Métricas de Producto
+
+**Definición**: Métricas predictoras que cuantifican atributos internos de sistemas software.
+
+#### Clasificación:
+
+**A. Métricas Dinámicas**
+- Recopiladas durante ejecución del programa
+- Relacionadas con eficiencia y confiabilidad
+- Ejemplos: número de reportes de errores, tiempo de ejecución
+
+**B. Métricas Estáticas**
+- Medidas sobre representaciones del sistema (diseño, código, documentación)
+- Relacionadas con complejidad, comprensibilidad y mantenibilidad
+
+### 6. Métricas Estáticas Principales
+
+| Métrica | Descripción | Relación con Calidad |
+|---------|-------------|---------------------|
+| **Fan-in/Fan-out** | Medida de acoplamiento entre funciones | Alta complejidad y efectos en cascada |
+| **Longitud de código** | Medida de tamaño del programa | Predictor de propensión a errores |
+| **Complejidad Ciclomática** | Complejidad de control del programa | Relacionada con comprensibilidad |
+| **Longitud de identificadores** | Longitud promedio de nombres | Mayor longitud → mejor comprensibilidad |
+| **Profundidad de anidamiento condicional** | Nivel de anidamiento de sentencias if | Mayor profundidad → mayor complejidad |
+| **Índice Fog** | Legibilidad de documentos | Mayor valor → menor comprensibilidad |
+
+### 7. Métricas Orientadas a Objetos (Suite CK)
+
+**Definición**: Conjunto de seis métricas propuestas por Chidamber y Kemerer para evaluación de software orientado a objetos.
+
+#### Métricas CK:
+
+1. **WMC (Métodos Ponderados por Clase)**
+   - Número de métodos ponderados por complejidad
+   - Mayor valor → mayor complejidad de clase
+
+2. **DIT (Profundidad del Árbol de Herencia)**
+   - Número de niveles en árbol de herencia
+   - Mayor profundidad → mayor complejidad de diseño
+
+3. **NOC (Número de Hijos)**
+   - Número de subclases inmediatas
+   - Indica grado de reutilización
+
+4. **CBO (Acoplamiento entre Clases)**
+   - Grado de dependencia entre clases
+   - Alto valor → mayor impacto de cambios
+
+5. **RFC (Respuesta para una Clase)**
+   - Número de métodos ejecutables en respuesta a mensaje
+   - Relacionado con complejidad y propensión a errores
+
+6. **LCOM (Falta de Cohesión en Métodos)**
+   - Medida de cohesión de métodos en clase
+   - Valor debatido en la comunidad
+
+### 8. Conclusiones Relevantes
+
+- Las relaciones entre métricas estáticas y atributos de calidad son **indirectas**
+- El **tamaño del programa** y la **complejidad de control** son los predictores más confiables
+- Existe **evidencia limitada** sobre la relación de métricas OO con atributos externos de calidad
+- Las herramientas UML modernas pueden **automatizar** la recolección de métricas CK
+
+Este resumen proporciona una visión estructurada de los conceptos fundamentales de medición de software, destacando tanto las oportunidades como las limitaciones actuales en la aplicación práctica de estas métricas en entornos industriales.

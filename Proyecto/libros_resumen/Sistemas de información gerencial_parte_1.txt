@@ -1,0 +1,96 @@
+### Parte 1 (Pág. 1–40)
+
+## Resumen Académico: Sistemas de Información Gerencial (Páginas 1-40)
+
+### I. Marco Conceptual y Enfoque Pedagógico
+
+**1.1 Integración Negocio-Tecnología**
+El texto establece un enfoque pedagógico basado en la integración sinérgica entre:
+- Conocimientos empresariales
+- Competencias tecnológicas
+- Habilidades de solución de problemas
+
+**1.2 Competencias Clave Desarrolladas**
+El modelo formativo propuesto desarrolla cuatro dimensiones fundamentales:
+
+**A. Habilidades de Aplicaciones de Negocios**
+- Dominio de herramientas de software empresarial
+- Integración de conocimientos de negocio con destrezas técnicas
+- Aplicaciones específicas:
+  * Hojas de cálculo (análisis financiero, presupuestos)
+  * Bases de datos (gestión de información)
+  * Herramientas web (desarrollo de portales corporativos)
+
+**B. Habilidades de Internet**
+- Investigación y análisis mediante herramientas en línea
+- Evaluación de servicios tecnológicos
+- Análisis competitivo y de mercado
+- Gestión de recursos digitales
+
+**C. Habilidades Analíticas y de Comunicación**
+- Investigación sistemática de problemas empresariales
+- Análisis crítico y pensamiento creativo
+- Desarrollo de soluciones estratégicas
+- Comunicación efectiva (oral y escrita)
+
+### II. Estructura Organizacional del Contenido
+
+**2.1 Áreas Funcionales Cubiertas**
+El texto organiza el aprendizaje según áreas empresariales clave:
+
+**Finanzas y Contabilidad**
+- Análisis de estados financieros
+- Evaluación de riesgos
+- Presupuestación de capital
+- Análisis de costo total de propiedad (TCO)
+
+**Recursos Humanos**
+- Sistemas de seguimiento de competencias
+- Bases de datos de talento
+- Portales de empleo
+
+**Manufactura y Producción**
+- Gestión de cadena de suministro
+- Control de inventarios
+- Análisis de proveedores
+
+**Ventas y Marketing**
+- Análisis de tendencias de mercado
+- Perfiles de clientes
+- Estrategias de comercio electrónico
+
+### III. Marco Teórico y Metodológico
+
+**3.1 Enfoque por Competencias**
+El modelo educativo se fundamenta en:
+- Aprendizaje basado en proyectos reales
+- Integración teoría-práctica
+- Desarrollo de portafolio demostrativo para empleadores
+
+**3.2 Metodología de Evaluación**
+- Proyectos aplicados como herramientas de evaluación
+- Desarrollo de habilidades transferibles al entorno laboral
+- Enfoque en solución de problemas empresariales concretos
+
+### IV. Relevancia para la Ingeniería de Software
+
+**4.1 Aplicaciones en Desarrollo de Sistemas**
+- Diseño de sistemas de información gerencial
+- Implementación de bases de datos empresariales
+- Desarrollo de interfaces usuario-empresa
+- Integración de tecnologías web en entornos corporativos
+
+**4.2 Consideraciones de Diseño**
+- Alineación con procesos empresariales
+- Enfoque en usabilidad gerencial
+- Integración con infraestructura tecnológica existente
+
+### Conclusiones Preliminares
+
+Las primeras páginas establecen un marco pedagógico que integra:
+1. Fundamentos teóricos de sistemas de información
+2. Aplicaciones prácticas en contextos empresariales
+3. Desarrollo de competencias técnicas y analísticas
+4. Preparación para desafíos del entorno empresarial digital
+
+Este enfoque proporciona una base sólida para comprender el papel estratégico de los sistemas de información en la gestión empresarial contemporánea, particularmente relevante para profesionales de ingeniería de software que desarrollan soluciones para entornos corporativos.

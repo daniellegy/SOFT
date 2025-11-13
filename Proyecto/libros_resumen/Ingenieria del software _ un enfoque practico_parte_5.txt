@@ -1,0 +1,86 @@
+### Parte 5 (Pág. 161–200)
+
+# Resumen del Capítulo 6: Modelado de los Requerimientos (Páginas 161-200)
+
+## 6.1.3 Análisis del Dominio
+
+### Definición y Conceptos Fundamentales
+
+**Análisis del dominio del software**: Según Firesmith [Fir93], es "la identificación, análisis y especificación de los requerimientos comunes, a partir de un dominio de aplicación específica, normalmente para usarlo varias veces en múltiples proyectos dentro del dominio de la aplicación".
+
+**Análisis del dominio orientado a objetos**: "La identificación, análisis y especificación de capacidades comunes y reutilizables dentro de un dominio de aplicación específica en términos de objetos, clases, subensambles y estructuras comunes".
+
+### Propósito y Beneficios
+
+- **Objetivo principal**: Encontrar o crear clases o patrones de análisis aplicables en general para facilitar su reutilización
+- **Beneficios clave**:
+  - Reducción de tiempo de desarrollo
+  - Disminución de costos
+  - Incremento en la probabilidad de aplicar patrones de diseño y componentes ejecutables
+  - Mejora del time-to-market
+
+### Proceso y Entradas/Salidas
+
+**Entradas (Fuentes de conocimiento del dominio)**:
+- Encuestas a clientes
+- Consejo de expertos
+- Requerimientos actuales y futuros
+- Aplicaciones existentes
+- Bibliografía técnica
+
+**Salidas (Modelo de análisis del dominio)**:
+- Modelos funcionales
+- Lenguajes del dominio
+- Estándares de reutilización
+- Taxonomías de clase
+
+### Punto Clave Destacado
+
+"El análisis del dominio no busca en una aplicación específica, sino en el dominio en el que reside la aplicación. El objetivo es identificar elementos comunes para la solución de problemas, que sean útiles en todas las aplicaciones dentro del dominio."
+
+## 6.1.4 Enfoques del Modelado de Requerimientos
+
+### Dos Enfoques Principales
+
+1. **Análisis Estructurado**:
+   - Considera datos y procesos como entidades separadas
+   - Modela objetos de datos definiendo atributos y relaciones
+   - Representa procesos que transforman los datos
+
+2. **Análisis Orientado a Objetos**:
+   - Se centra en la definición de clases y su colaboración
+   - Utiliza UML y el proceso unificado
+   - Modela objetos y sus interacciones
+
+### Elementos del Modelo de Análisis (Figura 6.3)
+
+**Elementos basados en el escenario**:
+- Casos de uso
+- Historias de usuario
+- Ilustran la interacción usuario-sistema
+
+**Elementos basados en la clase**:
+- Diagramas de clase
+- Diagramas de colaboración
+- Modelan objetos y sus relaciones
+
+**Elementos del comportamiento**:
+- Diagramas de estado
+- Diagramas de secuencia
+- Muestran cambios de estado por eventos externos
+
+**Elementos orientados al flujo**:
+- DFD (Diagramas de Flujo de Datos)
+- Modelos de datos
+- Representan el sistema como transformación de información
+
+## Principios Fundamentales del Modelado
+
+1. **Minimización del acoplamiento**: Reducir la interconectividad excesiva en el sistema
+2. **Valor agregado**: El modelo debe ser útil para todos los participantes (negocios, diseñadores, QA)
+3. **Simplicidad**: Mantener el modelo tan sencillo como sea posible
+4. **Selección estratégica**: Elegir la combinación de representaciones que proporcione el mejor modelo y puente hacia el diseño
+
+## Caso de Estudio: CasaSegura
+
+El texto incluye un ejemplo práctico donde se aplica el análisis del dominio para desarrollar interfaces de usuario comunes para un sistema de seguridad del hogar, demostrando la aplicación práctica de los conceptos teóricos presentados.

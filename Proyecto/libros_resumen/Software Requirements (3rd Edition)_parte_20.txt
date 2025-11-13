@@ -1,0 +1,80 @@
+### Parte 20 (Pág. 476–500)
+
+## Resumen de Páginas 476-500: Sistemas Embebidos y Tiempo Real
+
+### 1. Modelado de Comportamiento del Sistema
+
+**Diagramas de Transición de Estados (STD)**
+- Representan el comportamiento del sistema mediante estados y transiciones
+- Permiten visualizar requisitos funcionales a alto nivel
+- Ejemplo aplicado: cinta de correr con estados como "en funcionamiento", "en pausa", "inactivo"
+
+**Tablas Evento-Respuesta**
+- Técnica complementaria para especificar comportamiento en tiempo real
+- Clasificación de eventos:
+  - Eventos de negocio (disparadores de casos de uso)
+  - Eventos de señal (entradas de sensores)
+  - Eventos temporales (intervalos de tiempo específicos)
+- Proporcionan requisitos detallados que complementan los STD
+
+### 2. Arquitectura del Sistema
+
+**Diagramas Arquitectónicos**
+- Componente del diseño de alto nivel
+- Identifican subsistemas principales e interfaces (datos y control)
+- Lenguajes de descripción arquitectónica disponibles, incluyendo UML
+- Beneficios:
+  - Revelan requisitos funcionales, de interfaz y de calidad
+  - Permiten refinamiento iterativo de la arquitectura
+  - Guían selección de componentes hardware y diseño de interfaces
+
+### 3. Especificación de Requisitos
+
+**Requisitos Funcionales Ejemplificados**
+- `Incline.Angle.Range`: Rango de inclinación de 0-10 grados en incrementos de 0.5°
+- `Incline.Angle.Limits`: Retroalimentación audible al alcanzar límites
+
+**Reglas de Negocio**
+- Aplicables a sistemas embebidos (ej: cálculo de calorías quemadas)
+- Combinan parámetros como peso del usuario y programa de ejercicio
+
+### 4. Técnicas de Validación
+
+**Prototipado y Simulación**
+- Técnicas poderosas para elicitar y validar requisitos
+- Ventajas:
+  - Reducen costos de desarrollo hardware
+  - Permiten probar conceptos operacionales
+  - Explorar opciones de requisitos y diseño
+- Limitación: las simulaciones difieren del producto real
+
+### 5. Gestión de Interfaces
+
+**Clases de Interfaces**
+- Interfaces externas (usuarios, software, hardware, comunicaciones)
+- Interfaces internas (entre subsistemas)
+- Especificación mediante documento separado para sistemas complejos
+
+### 6. Requisitos de Temporización
+
+**Dimensiones Críticas**
+- **Tiempo de ejecución**: Duración entre inicio y finalización de tarea
+- **Latencia**: Retardo entre evento disparador y respuesta del sistema
+- **Predictibilidad**: Consistencia temporal en eventos recurrentes
+
+**Aspectos a Considerar**
+- Periodicidad de ejecución de tareas y tolerancias
+- Plazos de ejecución y consecuencias de incumplimiento
+- Tasas de llegada de datos en diferentes estados del sistema
+- Secuenciación y priorización de tareas
+- Dependencias modales del sistema
+
+**Consideraciones de Especificación**
+- Distinción entre requisitos de tiempo real suave y estricto
+- Evitar sobre-especificación que conduzca a sobre-ingeniería
+- Balance entre rendimiento y costos del hardware
+- Enfoque: "Ser tan rápido como se necesita, minimizando costos totales"
+
+### Conclusión
+
+La especificación de sistemas embebidos y de tiempo real requiere aproximaciones múltiples que combinen modelado de comportamiento, análisis arquitectónico, prototipado y gestión rigurosa de interfaces y temporización. La iteración entre representaciones múltiples de requisitos permite identificar omisiones y garantizar la completitud de la especificación.

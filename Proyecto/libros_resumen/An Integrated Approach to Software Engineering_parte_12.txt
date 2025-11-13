@@ -1,0 +1,100 @@
+### Parte 12 (Pág. 331–360)
+
+## Resumen de las Páginas 331-360: Conceptos de Diseño Orientado a Objetos
+
+### 1. Herencia: Concepto Fundamental
+
+**Definición**: La herencia es un mecanismo que permite a una clase (denominada subclase o clase derivada) adquirir propiedades y comportamientos de otra clase (superclase o clase base). Esta relación se representa mediante el concepto "es-un" (is-a), donde un objeto de la subclase también es instancia de la superclase.
+
+**Estructura de la Herencia**:
+- **Parte Derivada**: Componentes heredados de la clase base
+- **Parte Incremental**: Nuevas definiciones y código específico añadido en la subclase
+
+**Características de Redefinición**:
+- Modificación de visibilidad de operaciones
+- Cambio en la implementación de métodos
+- Renombrado o anulación de características heredadas
+
+### 2. Jerarquía de Herencia
+
+**Principio Fundamental**: La jerarquía debe reflejar la estructura del dominio del problema, no simplemente facilitar la reutilización de código.
+
+**Ventajas**:
+- Acumulación de características comunes en superclases
+- Promoción de reutilización mediante definición de operaciones comunes
+- Especialización progresiva mediante subclases
+
+**Consideraciones de Diseño**:
+- Dependencia entre subclases y superclases
+- Impacto de cambios en superclases sobre subclases herederas
+- Implicaciones en el proceso de testing
+
+### 3. Ejemplo Práctico: Sistema Gráfico
+
+Se presenta una jerarquía de clases para un sistema gráfico:
+
+```
+GraphicalObject (clase base abstracta)
+├── ZeroAreaObject
+│   ├── Line
+│   └── OpenCurve
+└── NonZeroAreaObject
+    ├── Polygon
+    └── Circle
+```
+
+**Conceptos Implementados**:
+- **Clases Abstractas**: GraphicalObject contiene operaciones virtuales puras
+- **Métodos Virtuales**: Operaciones como move(), rotate(), scale() requieren implementación específica en cada subclase
+- **Atributos Protegidos**: Accesibles por subclases pero no públicamente
+
+### 4. Tipos de Herencia
+
+**Herencia Estricta**:
+- Subclase hereda todas las características de la superclase
+- Añade únicamente características nuevas
+- Mantiene relación "es-un" pura
+
+**Herencia No Estricta**:
+- Subclase no hereda todas las características
+- Puede redefinir características existentes
+- Complica el comportamiento dinámico y testing
+
+### 5. Herencia Múltiple
+
+**Definición**: Capacidad de una clase de heredar de múltiples superclases simultáneamente.
+
+**Problemas Asociados**:
+- **Ambiguidad de Nombres**: Conflictos cuando múltiples superclases definen características con el mismo nombre
+- **Herencia Repetida**: Cuando una clase hereda indirectamente múltiples veces de la misma superclase
+- **Complejidad Incremental**: Dificultad en resolución de referencias y mantenimiento
+
+**Recomendación**: Evitar el uso de herencia múltiple debido a su complejidad inherente.
+
+### 6. Polimorfismo
+
+**Definición**: Capacidad de un objeto de pertenecer a diferentes tipos, permitiendo que referencias puedan apuntar a objetos de distintos tipos en tiempo de ejecución.
+
+**Tipos de Polimorfismo**:
+
+**Polimorfismo de Objetos**:
+- **Tipo Estático**: Tipo declarado en el texto del programa (invariable)
+- **Tipo Dinámico**: Tipo actual del objeto en tiempo de ejecución (puede variar)
+
+**Polimorfismo de Características**:
+- **Vinculación Dinámica (Dynamic Binding)**: El código asociado a una llamada a procedimiento se determina en tiempo de ejecución
+- Permite que operaciones definidas en superclases sean redefinidas en subclases
+
+### 7. Implicaciones en el Diseño
+
+**Ventajas del Enfoque Orientado a Objetos**:
+- Reutilización efectiva de código
+- Modelado natural de relaciones del dominio
+- Flexibilidad mediante polimorfismo
+
+**Consideraciones de Implementación**:
+- Necesidad de soporte lingüístico para herencia y polimorfismo
+- Importancia del diseño cuidadoso de jerarquías
+- Impacto en estrategias de testing
+
+Este resumen presenta los conceptos fundamentales del diseño orientado a objetos, destacando la herencia como mecanismo central para la especialización y reutilización, y el polimorfismo como facilitador de flexibilidad en el comportamiento del sistema.

@@ -1,0 +1,89 @@
+### Parte 15 (Pág. 351–375)
+
+## Resumen de Técnicas de Priorización de Requerimientos (Páginas 351-375)
+
+### Introducción Conceptual
+La priorización de requerimientos constituye un proceso fundamental en la ingeniería de requisitos que permite determinar la secuencia óptima de implementación de funcionalidades, maximizando el valor entregado dentro de las restricciones de recursos y tiempo del proyecto.
+
+### Técnicas de Priorización Analizadas
+
+#### 1. Método Binario (In/Out)
+- **Definición**: Técnica de clasificación dicotómica donde los stakeholders evalúan cada requerimiento como "incluido" o "excluido" para el release actual.
+- **Proceso**: 
+  - Evaluación colectiva basada en objetivos de negocio
+  - Reducción progresiva al mínimo viable
+  - Reevaluación iterativa para releases futuros
+- **Ventaja**: Simplicidad y rapidez de ejecución
+
+#### 2. Comparación Pareada y Ordenamiento
+- **Concepto**: Establecimiento de prioridad única mediante comparación binaria de todos los pares de requerimientos
+- **Limitación**: 
+  - Complejidad computacional O(n²)
+  - Impráctico para más de 20-30 requerimientos
+  - Considerado excesivo para implementación por lotes
+
+#### 3. Escala de Tres Niveles
+- **Clasificación**: Agrupamiento en categorías Alto/Medio/Bajo
+- **Modelo Bidimensional** (Figura 16-1):
+  - **Importancia**: Contribución a objetivos de negocio
+  - **Urgencia**: Necesidad de implementación inmediata
+- **Categorización**:
+  - **Alta**: Importante + Urgente (crítico para release actual)
+  - **Media**: Importante + No urgente (postergable)
+  - **Baja**: No importante + No urgente (prescindible)
+  - **Cuarto cuadrante**: Urgente + No importante (eliminar)
+
+#### 4. Priorización Multipaso (Figura 16-2)
+- **Proceso iterativo** para proyectos de gran escala:
+  - Primera pasada: Clasificación inicial Alto/Medio/Bajo
+  - Segunda pasada: Subdivisión de "Alto" en Alto/Más Alto/Máximo
+  - Reclasificación de grupos para enfoque en capacidades críticas
+
+#### 5. Esquema MoSCoW
+- **Clasificación cuaternaria**:
+  - **Must**: Imprescindible para el éxito
+  - **Should**: Importante pero no mandatorio
+  - **Could**: Deseable pero prescindible
+  - **Won't**: Excluido del release actual
+- **Críticas identificadas**:
+  - Ambiguidad temporal en categoría "Won't"
+  - Tendencia a sobreclasificar como "Must"
+  - Falta de criterios objetivos de decisión
+
+#### 6. Método de los $100
+- **Mecánica**: Asignación de 100 unidades monetarias ficticias
+- **Objetivo**: Cuantificación relativa de valor percibido
+- **Limitaciones**:
+  - Posibilidad de manipulación estratégica
+  - No considera esfuerzo de implementación
+  - Enfoque exclusivo en valor percibido
+
+### Consideraciones Fundamentales
+
+#### Gestión de Dependencias
+- **Problema**: Requerimientos de alta prioridad dependientes de elementos de menor prioridad
+- **Solución**: Análisis de dependencias cruzadas durante la priorización
+
+#### Atributos de Requerimientos
+- **Recomendación**: Inclusión de prioridad como atributo formal en:
+  - Documentos de requisitos de usuario
+  - Especificación de Requisitos de Software (SRS)
+  - Bases de datos de requisitos
+
+#### Técnicas Analíticas Avanzadas
+
+##### Quality Function Deployment (QFD)
+- **Características**:
+  - Método riguroso de correlación valor-características
+  - Escasa adopción en la industria software
+  - Requiere significativa inversión en proceso
+
+##### Modelo de Valor-Costo-Riesgo
+- **Enfoque estructurado** mediante hojas de cálculo
+- **Consideración multidimensional**:
+  - Valor para el cliente
+  - Costo de implementación
+  - Factores de riesgo asociados
+
+### Conclusión
+La selección de técnicas de priorización debe basarse en el contexto específico del proyecto, considerando factores como escala, complejidad, cultura organizacional y recursos disponibles. La combinación de métodos cualitativos y cuantitativos, junto con la gestión consciente de dependencias, constituye la aproximación más robusta para una priorización efectiva de requerimientos.

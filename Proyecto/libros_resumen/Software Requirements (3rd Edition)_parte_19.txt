@@ -1,0 +1,73 @@
+### Parte 19 (Pág. 451–475)
+
+## Resumen de las páginas 451-475: Proyectos Externalizados y Automatización de Procesos de Negocio
+
+### Capítulo 23: Proyectos Externalizados
+
+#### Interacciones entre Adquirente y Proveedor
+**Definición clave**: En proyectos externalizados, se requieren mecanismos formales de comunicación para supervisar las actividades del proveedor en ausencia de comunicación cara a cara en tiempo real.
+
+**Procesos y mecanismos críticos**:
+- **Puntos de contacto formales**: Establecer revisiones estructuradas entre adquirente y proveedor
+- **Ciclos de revisión múltiples**: Planificar tiempo para iteraciones de revisión de requisitos
+- **Herramientas de colaboración**: Facilitar revisiones por pares en ubicaciones distribuidas
+
+**Factores culturales y de comunicación**:
+- Diferencias culturales pueden afectar la efectividad de las revisiones
+- Algunas culturas evitan la crítica constructiva por consideraciones de cortesía
+- Es esencial identificar estas características culturales para establecer expectativas realistas
+
+#### Gestión de Riesgos y Calidad
+**Técnicas de gestión**:
+- **Revisiones por pares y prototipos**: Permiten verificar la interpretación de requisitos
+- **Desarrollo incremental**: Facilita correcciones de curso ante malentendidos
+- **Seguimiento de cuestiones**: Utilizar herramientas de seguimiento accesibles para ambas partes
+
+**Desafíos específicos**:
+- Proveedores pueden carecer de conocimiento específico del dominio
+- Diferencias lingüísticas pueden llevar a interpretaciones literales de requisitos
+- Formato de fechas, sistemas de medición y convenciones culturales varían entre países
+
+#### Gestión de Cambios
+**Proceso establecido**:
+- Implementar proceso de control de cambios mutuamente aceptable
+- Utilizar herramientas web-based para solicitudes de cambio
+- Identificar claramente los tomadores de decisiones
+- El contrato debe especificar responsabilidades de pago por diferentes tipos de cambios
+
+#### Criterios de Aceptación
+**Definición anticipada**:
+- Establecer criterios de aceptación en la solicitud de propuesta (RFP)
+- Validar requisitos antes de entregarlos al equipo externalizado
+- Definir responsabilidades y financiamiento para correcciones
+
+### Capítulo 24: Proyectos de Automatización de Procesos de Negocio
+
+#### Concepto Fundamental
+**Definición**: Proyectos que reemplazan procesos manuales de negocio con software para reducir costos operativos y mejorar eficiencia.
+
+**Enfoques de implementación**:
+- Construcción de nuevos sistemas
+- Extensión de sistemas existentes
+- Adquisición de paquetes COTS (Commercial Off-The-Shelf)
+
+#### Caso de Estudio Ilustrativo
+**Ejemplo**: Sistema de cálculo de perfil de riesgo para préstamos
+- Análisis reveló que la recopilación de datos consumía más tiempo que los cálculos
+- Enfoque por fases: automatización parcial inicial seguida de automatización completa
+- Solución enfocada en cuellos de botella identificados mediante análisis
+
+#### Modelado de Procesos de Negocio
+**Metodología central**:
+- **Modelado de procesos**: Base para la elicitación de requisitos
+- **Identificación de tareas**: Derivar requisitos funcionales a partir de tareas de usuario
+- **Análisis de eficiencias**: Identificar áreas de mayor impacto para la automatización
+
+### Conclusiones Clave
+
+1. **Proyectos Externalizados**: Requieren comunicación estructurada, gestión cultural consciente y procesos de cambio bien definidos
+2. **Automatización de Procesos**: Se beneficia del análisis detallado de procesos existentes y enfoques iterativos
+3. **Calidad de Requisitos**: Es fundamental para el éxito en ambos tipos de proyectos
+4. **Consideraciones Culturales y Lingüísticas**: Deben integrarse en las estrategias de comunicación y revisión
+
+La sección enfatiza que la claridad en los requisitos, los procesos de comunicación efectivos y el entendimiento cultural son determinantes críticos para el éxito en proyectos de software complejos y distribuidos.

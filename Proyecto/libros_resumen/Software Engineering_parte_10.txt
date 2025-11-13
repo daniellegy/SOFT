@@ -1,0 +1,91 @@
+### Parte 10 (Pág. 361–400)
+
+## Resumen de las páginas 361-400: Procesos de Ingeniería de Seguridad y Casos de Seguridad
+
+### 12.3 Procesos de Ingeniería de Seguridad
+
+#### 12.3.4 Análisis Estático de Programas
+
+**Definición:** Los analizadores estáticos automáticos son herramientas de software que examinan el texto fuente de un programa y detectan posibles fallos y anomalías.
+
+**Características Fundamentales:**
+- Realizan parsing del texto del programa para reconocer diferentes tipos de sentencias
+- Detectan si las sentencias están bien formadas
+- Realizan inferencias sobre el flujo de control
+- Computan conjuntos de valores posibles para los datos del programa
+- Complementan las capacidades de detección de errores del compilador
+
+**Ventajas Comparativas:**
+- Más rápido y económico que las revisiones detalladas de código
+- Efectivo para descubrir ciertos tipos de fallos de programa
+- No requiere que los programadores aprendan notaciones especializadas
+
+**Niveles de Verificación en Analizadores Estáticos:**
+
+1. **Verificación de Errores Característicos**
+   - Detección de errores comunes en lenguajes como Java o C
+   - Análisis basado en patrones característicos de problemas
+   - Altamente costo-efectivo (90% de errores resultan de 10 tipos característicos)
+
+2. **Verificación de Errores Definidos por el Usuario**
+   - Los usuarios definen patrones de error a detectar
+   - Pueden relacionarse con el dominio de aplicación o conocimiento específico del sistema
+   - Permite a las organizaciones acumular conocimiento sobre errores comunes
+
+3. **Verificación de Aserciones**
+   - Enfoque más general y poderoso
+   - Los desarrolladores incluyen aserciones formales en el programa
+   - El analizador ejecuta simbólicamente el código y verifica las aserciones
+
+**Limitaciones y Consideraciones:**
+- Genera numerosos falsos positivos que requieren filtrado
+- No puede descubrir todas las clases de errores detectables en inspecciones
+- La reducción de falsos positivos requiere trabajo adicional del desarrollador
+
+### 12.4 Casos de Seguridad
+
+**Definición:** Un caso de seguridad es "un cuerpo documentado de evidencia que proporciona un argumento convincente y válido de que un sistema es adecuadamente seguro para una aplicación dada en un entorno dado" (Bishop y Bloomfield, 1998).
+
+**Propósito Fundamental:** Convencer a los reguladores de que se han realizado los mejores esfuerzos posibles para garantizar la seguridad del sistema.
+
+**Componentes del Caso de Seguridad:**
+
+1. **Descripción del Sistema**
+   - Visión general del sistema
+   - Descripción de componentes críticos
+
+2. **Requisitos de Seguridad**
+   - Requisitos de seguridad extraídos de la especificación de requisitos del sistema
+   - Detalles de otros requisitos relevantes del sistema
+
+3. **Análisis de Riesgos y Peligros**
+   - Documentación de peligros y riesgos identificados
+   - Medidas tomadas para reducir riesgos
+   - Análisis de peligros y registros de peligros
+
+4. **Análisis de Diseño**
+   - Conjunto de argumentos estructurados que justifican por qué el diseño es seguro
+
+5. **Verificación y Validación**
+   - Descripción de procedimientos de V&V
+   - Planes de prueba del sistema
+   - Resúmenes de resultados de pruebas
+   - Registros de análisis estáticos del código fuente
+
+6. **Informes de Revisión**
+   - Registros de todas las revisiones de diseño y seguridad
+
+7. **Competencias del Equipo**
+   - Evidencia de la competencia de todo el equipo involucrado en desarrollo y validación
+
+8. **Garantía de Calidad del Proceso**
+   - Registros de los procesos de garantía de calidad
+
+**Consideraciones Prácticas:**
+- Los casos de seguridad son documentos grandes y complejos
+- Requieren integración estrecha con el diseño e implementación del sistema
+- Es esencial la colaboración temprana con los reguladores
+- Los cambios en el sistema incrementan significativamente los costos del caso de seguridad
+- Existen variaciones según la industria y madurez del dominio
+
+**Caso de Seguridad de Software:** Como parte del caso de seguridad general, debe relacionar fallos de software con fallos del sistema y demostrar que estos fallos no ocurrirán o no se propagarán de manera que causen fallos peligrosos del sistema.

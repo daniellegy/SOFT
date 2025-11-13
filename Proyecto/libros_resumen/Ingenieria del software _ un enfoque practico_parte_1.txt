@@ -1,0 +1,75 @@
+### Parte 1 (Pág. 1–40)
+
+## Resumen Académico: Fundamentos de la Ingeniería del Software (Páginas 1-40)
+
+### 1. Naturaleza del Software
+**Definición clave**: El software se conceptualiza como: (1) instrucciones que permiten a programas computacionales proporcionar función, desempeño y características deseadas; (2) estructuras de datos que facilitan la manipulación adecuada de información; y (3) documentación que describe operación y uso.
+
+**Dominios de aplicación**:
+- Software de sistemas
+- Software de aplicación
+- Software de ingeniería/científico
+- Software empotrado
+- Líneas de producto
+
+**Características distintivas**:
+- Desarrollado, no fabricado
+- No se desgasta
+- Mayoría se construye a medida
+
+### 2. Ingeniería del Software: Marco Conceptual
+**Definición formal**: "La ingeniería del software es la aplicación de un enfoque sistemático, disciplinado y cuantificable al desarrollo, operación y mantenimiento del software" (IEEE).
+
+**Pilares fundamentales**:
+- **Procesos**: Marco de trabajo que establece actividades para desarrollo eficaz
+- **Métodos**: Técnicas para análisis de requerimientos, diseño, construcción, pruebas
+- **Herramientas**: Soporte automatizado para procesos y métodos
+
+### 3. El Proceso del Software
+**Estructura básica**:
+- **Comunicación**: Recopilación de requerimientos
+- **Planeación**: Estimación, calendarización, seguimiento
+- **Modelado**: Análisis y diseño
+- **Construcción**: Codificación y pruebas
+- **Despliegue**: Entrega y retroalimentación
+
+### 4. Modelos de Proceso Relevantes
+**Modelos prescriptivos**:
+- **Cascada**: Secuencial lineal con fases definidas
+- **Incremental**: Entrega por componentes funcionales
+- **Evolutivo**: Desarrollo iterativo con refinamiento progresivo
+- **Concurrente**: Actividades paralelas con estados definidos
+
+**Modelos especializados**:
+- **Basado en componentes**: Reutilización sistemática
+- **Métodos formales**: Especificación matemática rigurosa
+- **Orientado a aspectos**: Separación de preocupaciones transversales
+
+### 5. Proceso Unificado (UP)
+**Características principales**:
+- Dirigido por casos de uso
+- Centrado en arquitectura
+- Iterativo e incremental
+
+**Fases fundamentales**:
+1. Concepción
+2. Elaboración
+3. Construcción
+4. Transición
+
+### 6. Procesos Personal y de Equipo
+- **Proceso Personal del Software (PPS)**: Disciplina individual para trabajo de calidad
+- **Proceso del Equipo de Software (PES)**: Coordinación grupal para objetivos comunes
+
+### 7. Principios Rectores
+**Principios fundamentales**:
+- Proveer valor al negocio
+- Mantener visión pragmática
+- Demostrar excelencia técnica
+- Enfrentar la realidad del cambio
+- Equilibrar economía y calidad
+
+### Conclusiones
+La ingeniería del software emerge como disciplina que trasciende la programación, estableciendo marcos sistemáticos para abordar la complejidad inherente al desarrollo de software. Los modelos de proceso proporcionan estructuras adaptables según contexto, tamaño y naturaleza del proyecto, mientras los principios fundamentales orientan la práctica profesional hacia soluciones robustas y sostenibles.
+
+Este resumen sintetiza los conceptos fundacionales que establecen las bases para la aplicación práctica de metodologías de ingeniería de software en contextos profesionales.

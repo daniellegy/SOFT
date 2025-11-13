@@ -1,0 +1,66 @@
+### Parte 10 (Pág. 361–400)
+
+**Resumen Académico: Seguridad en Sistemas de Información (Páginas 361-400)**
+
+### **1. Política de Seguridad**
+**Definición:** Conjunto de enunciados que clasifican riesgos informáticos, establecen objetivos de seguridad y definen mecanismos para alcanzarlos.
+
+**Componentes Clave:**
+- **Evaluación de Activos:** Identificación de información crítica y responsables.
+- **Nivel de Riesgo Aceptable:** Determinación de tolerancia a pérdidas (ej. datos crediticios cada 10/100 años).
+- **Política de Uso Aceptable (AUP):** Define usos permitidos de recursos tecnológicos, privacidad y consecuencias por incumplimientos.
+- **Administración de Identidad:** 
+  - Procesos para identificar usuarios válidos
+  - Control de acceso a recursos
+  - Autenticación y protección de identidades
+
+**Ejemplo de Implementación:** 
+Sistema de RRHH con perfiles diferenciados:
+- *Perfil 1:* Empleados administrativos (actualización limitada, sin acceso a salarios/historial médico)
+- *Perfil 2:* Gerentes divisionales (lectura completa, sin capacidades de actualización)
+
+### **2. Planificación de Continuidad Operacional**
+**Planificación de Recuperación de Desastres:**
+- Enfoque técnico para restaurar servicios interrumpidos
+- Estrategias: Centros duplicados (MasterCard), servicios tercerizados (SunGard)
+- Objetivo: Mantener funcionamiento de sistemas críticos
+
+**Planificación de Continuidad de Negocios:**
+- Restauración de operaciones comerciales post-desastre
+- Identificación de procesos críticos y planes de acción
+- Ejemplo: Deutsche Bank con equipos multinacionales y diferenciación entre procesos de supervivencia y apoyo en crisis
+
+**Análisis de Impacto Comercial:**
+- Determinación de sistemas más críticos
+- Evaluación de tiempos máximos de inactividad tolerable
+- Establecimiento de prioridades de recuperación
+
+### **3. Función de Auditoría**
+**Auditoría de Sistemas de Información:**
+- Evaluación integral del entorno de seguridad
+- Verificación de gobernanza de sistemas individuales
+- Metodología: Rastreo de transacciones, simulaciones de ataques, uso de software especializado
+
+**Productos de Auditoría:**
+- Listado clasificado de debilidades (Figura 8.4)
+- Estimación de probabilidad e impacto de amenazas
+- Planes de acción gerencial para contrarrestar deficiencias
+
+### **4. Herramientas y Tecnologías de Protección**
+**Administración de Identidad y Autenticación:**
+- **Autenticación:** Verificación de identidad mediante:
+  - Contraseñas (método predominante)
+  - Identidades digitales únicas
+- **Control de Acceso:** Asignación de privilegios diferenciados por perfiles de usuario
+
+### **Modelos y Procesos Relevantes**
+1. **Modelo de Gestión de Riesgos:** 
+   - Identificación → Evaluación → Priorización → Control
+
+2. **Proceso de Continuidad:** 
+   - Análisis de impacto → Planificación técnica (DR) → Planificación operativa (BC)
+
+3. **Ciclo de Auditoría:**
+   - Evaluación → Identificación de debilidades → Plan de acción → Seguimiento
+
+**Conclusión:** La seguridad informática requiere un enfoque estratificado que integre políticas organizacionales, planificación operacional, verificación mediante auditorías y implementación tecnológica robusta, con especial énfasis en la administración de identidades y la autenticación como pilares fundamentales.

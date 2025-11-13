@@ -1,0 +1,76 @@
+### Parte 27 (Pág. 651–673)
+
+# Resumen de las Páginas 651-673 de "Software Requirements (3rd Ed.)"
+
+## I. Referencias Bibliográficas (Página 651)
+
+La sección comprende una extensa lista de referencias académicas y profesionales fundamentales para la ingeniería de requisitos, incluyendo obras seminales de autores como:
+- **Weinberg, Gerald M.** (1995) sobre mejora de procesos de requisitos
+- **Wiegers, Karl E.** (múltiples publicaciones 1996-2011) sobre cultura de ingeniería de software, revisiones por pares y prácticas efectivas
+- **Young, Ralph R.** (2001, 2004) sobre prácticas efectivas de requisitos
+
+## II. Índice Analítico y Definiciones Clave (Páginas 652-655)
+
+### A. Términos y Conceptos Fundamentales
+
+**Definiciones Estructurales:**
+- **Criterios de Aceptación**: Condiciones que debe satisfacer el software para ser aceptado por el usuario (p. 597)
+- **Línea Base de Requisitos**: Conjunto de requisitos aprobados que sirve como referencia para el desarrollo (p. 597)
+- **Reglas de Negocio**: Declaraciones que definen o constriñen aspectos del negocio (p. 598)
+
+### B. Desarrollo Ágil y Gestión de Requisitos
+
+**Características Principales:**
+- **Backlog de Producto**: Repositorio dinámico de requisitos priorizados (p. 597)
+- **Especificación Ligera**: Documentación mínima necesaria con enfoque en user stories
+- **Gestión de Cambios**: Procesos adaptativos para evolución continua de requisitos
+
+**Roles en Proyectos Ágil:**
+- **Product Owner**: Responsable máximo de la definición y priorización de requisitos (p. 601)
+- **Business Analyst**: Función evolucionada hacia facilitador entre negocio y desarrollo
+
+### C. Procesos de Análisis y Modelado
+
+**Técnicas de Modelado:**
+- **Diagramas de Actividad**: Representación de flujos de proceso (p. 597)
+- **Diagramas de Clases**: Modelado estático de entidades y relaciones (p. 598)
+- **BPMN (Business Process Model and Notation)**: Estandar para modelado de procesos de negocio (p. 422)
+
+**Procesos de Gestión:**
+- **Control de Cambios**: Mecanismos formales para modificación de requisitos baselined
+- **Análisis de Impacto**: Evaluación sistemática de efectos de cambios propuestos (p. 533)
+
+### D. Tipologías de Requisitos Especializados
+
+**Atributos de Calidad:**
+- **Requisitos de Disponibilidad**: Especificaciones de tiempo de operación y tolerancia a fallos (p. 594)
+- **Requisitos de Seguridad**: Especificaciones para prevención de riesgos operativos
+
+**Proyectos de Business Analytics:**
+- **Especificación de Datos**: Definición de necesidades de datos y transformaciones
+- **Requisitos de Información**: Especificaciones de uso y presentación de información
+
+### E. Herramientas y Artefactos
+
+**Gestión de Requisitos:**
+- **Matriz CRUD**: Técnica para rastreo de operaciones sobre datos (p. 598)
+- **Diccionario de Datos**: Repositorio centralizado de definiciones de datos (p. 598)
+
+**Comunicación y Colaboración:**
+- **Bill of Rights/Responsibilities**: Marco ético para relaciones cliente-desarrollador
+- **Workshops Colaborativos**: Técnicas de elicitation grupal
+
+## III. Modelos Relevantes y Buenas Prácticas
+
+### Modelos de Proceso:
+- **Business Process Automation**: Automatización de flujos de trabajo existentes
+- **Business Process Improvement**: Optimización de procesos actuales
+- **Business Process Reengineering**: Rediseño radical de procesos
+
+### Prácticas Recomendadas:
+- **Definición Temprana de Criterios de Aceptación**
+- **Gestión Proactiva del Alcance**
+- **Comunicación Continua con Stakeholders**
+- **Uso Sistemático de Técnicas de Modelado**
+
+Este resumen destaca la integración entre fundamentos teóricos de ingeniería de requisitos y aplicaciones prácticas en contextos de desarrollo moderno, particularmente en entornos ágiles y proyectos especializados.

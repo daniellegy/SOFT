@@ -1,0 +1,91 @@
+### Parte 11 (Pág. 301–330)
+
+## Resumen de Métricas de Diseño en Ingeniería de Software (Páginas 301-330)
+
+### Introducción
+Esta sección aborda métricas cuantitativas para evaluar la calidad del diseño orientado a funciones, centrándose en estabilidad del diseño, flujo de información y complejidad modular.
+
+### 6.6 Métricas de Diseño
+
+#### 6.6.1 Métricas de Estabilidad del Diseño
+
+**Definición Clave**: La estabilidad del diseño mide la susceptibilidad de un módulo a generar efectos de propagación (ripple effect) ante cambios.
+
+**Procedimiento de Cálculo de Estabilidad**:
+
+1. **Análisis de Dependencias**:
+   - Jx = {módulos que invocan a x}
+   - J^x = {módulos invocados por x}
+   - Rxy = {parámetros retornados de x a y}
+   - R^xy = {parámetros pasados de x a y}
+   - GRx = {datos globales referenciados en x}
+   - GDx = {datos globales definidos en x}
+
+2. **Cálculo de Suposiciones**:
+   - TPxy: Suposiciones sobre parámetros retornados
+   - TP^xy: Suposiciones sobre parámetros pasados
+   - TGx: Suposiciones sobre datos globales modificados
+
+3. **Métricas de Estabilidad**:
+   - DLRE (Design Logical Ripple Effect): 
+     ```
+     DLREx = TGx + ΣTPxy + ΣTP^xy
+     ```
+   - Estabilidad del Módulo: 
+     ```
+     DSx = 1/(1 + DLREx)
+     ```
+   - Estabilidad del Programa: 
+     ```
+     PDS = 1/(1 + ΣDLREx)
+     ```
+
+**Aplicación**: Las métricas de estabilidad permiten comparar diseños alternativos e identificar módulos con alto acoplamiento para posibles rediseños.
+
+#### 6.6.3 Métricas de Flujo de Información
+
+**Concepto Fundamental**: La complejidad de un módulo depende de su complejidad interna y de las interconexiones con otros módulos.
+
+**Modelos de Complejidad**:
+
+1. **Modelo Basado en Tamaño y Flujo**:
+   ```
+   Dc = tamaño * (entrada * salida)²
+   ```
+   Donde:
+   - Entrada: elementos de datos que fluyen hacia el módulo
+   - Salida: elementos de datos que fluyen desde el módulo
+
+2. **Modelo Basado en Conectividad**:
+   ```
+   Dc = fan_in * fan_out + entrada * salida
+   ```
+   Donde:
+   - fan_in: número de módulos que llaman al módulo
+   - fan_out: número de módulos llamados por el módulo
+
+**Clasificación de Módulos**:
+
+- **Propensos a errores**: Dc > promedio + desviación estándar
+- **Complejos**: promedio < Dc < promedio + desviación estándar
+- **Normales**: resto de casos
+
+### 6.7 Resumen del Capítulo
+
+**Definición de Diseño**: Plan de solución que satisface requisitos y preserva la arquitectura del sistema.
+
+**Proceso de Diseño en Dos Niveles**:
+1. **Diseño del Sistema**: Define módulos e interacciones
+2. **Diseño Detallado**: Especifica lógica de procesamiento y estructuras de datos
+
+**Principios Fundamentales**:
+- **Partición de Problemas**: Divide complejidad en problemas más pequeños
+- **Abstracción**: Permite concentrarse en componentes individuales
+- **Modularidad**: Componentes con abstracciones bien definidas y mínimo impacto ante cambios
+
+**Criterios de Modularidad**:
+- **Acoplamiento**: Medida de interdependencia entre módulos
+- **Cohesión**: Medida de fuerza de relación entre elementos internos del módulo
+
+### Conclusión
+Las métricas presentadas proporcionan herramientas cuantitativas para evaluar y mejorar la calidad del diseño, identificando módulos problemáticos y permitiendo comparaciones entre alternativas de diseño. La validación empírica sugiere que estas métricas correlacionan con la mantenibilidad y propensión a errores del software.

@@ -1,0 +1,78 @@
+### Parte 23 (Pág. 551–575)
+
+## Resumen de páginas 551-575: Mejora de los procesos de requisitos
+
+### 1. Relación de los requisitos con otros procesos del proyecto
+
+Los requisitos constituyen el fundamento de todo proyecto de software bien gestionado, estableciendo conexiones críticas con diversos procesos técnicos y de gestión:
+
+**Planificación del proyecto**
+- Los requisitos determinan la selección del ciclo de vida de desarrollo
+- Constituyen la base para estimaciones de recursos y cronogramas
+- Permiten ajustes de alcance mediante enfoques incrementales o entregas por fases
+- En metodologías ágiles, el alcance se define mediante historias de usuario en el backlog
+
+**Seguimiento y control del proyecto**
+- Monitoreo del estado de implementación y verificación
+- Modificación del alcance mediante procesos de replanificación
+- En enfoques ágiles: ajuste mediante reordenación de prioridades en iteraciones
+
+**Control de cambios**
+- Implementación mediante procesos definidos tras el establecimiento de línea base
+- Modificación del backlog de trabajo pendiente
+- Evaluación de impacto mediante trazabilidad de requisitos
+
+**Pruebas de aceptación y sistema**
+- Los requisitos de usuario y funcionales son entradas esenciales
+- Especificación clara del comportamiento esperado como prerrequisito para verificación efectiva
+
+**Construcción**
+- Base para diseño e implementación
+- Integración de productos de trabajo mediante revisiones de diseño
+- Verificación mediante pruebas unitarias y trazabilidad
+
+**Documentación de usuario**
+- Los requisitos proporcionan insumos para documentación técnica
+- Requisitos mal definidos o cambiantes generan problemas documentales
+
+### 2. Grupos de interés y sus contribuciones
+
+El texto identifica múltiples stakeholders que interactúan con el equipo de desarrollo:
+
+- **Analistas de negocio y gestores de proyecto**: Facilitan comunicación y coordinación
+- **Marketing**: Proporciona requisitos de mercado y conceptos de producto
+- **Patrocinadores**: Requieren visibilidad del progreso y estado de requisitos
+- **Ingeniería de sistemas**: Colabora en partición de requisitos entre subsistemas
+
+### 3. Compromiso con el cambio
+
+**Resistencias comunes:**
+- Percepción de falta de tiempo para adoptar mejores prácticas
+- Vista del control de cambios como barrera burocrática
+- Consideración de actividades de requisitos como retardantes del "trabajo real"
+
+**Estrategias de superación:**
+- Comunicación clara de beneficios y racional de mejora
+- Enfoque colaborativo: "¿Podemos encontrar juntos una mejor manera?"
+- Visibilización constructiva de problemas existentes
+- Demostración de retorno de inversión en reducción de retrabajo
+
+### 4. Compromiso gerencial
+
+El texto distingue entre:
+- **Permiso gerencial**: Autorización superficial para cambios
+- **Compromiso gerencial**: Sustento activo y consistente
+
+**Evidencias de compromiso real:**
+- Comportamientos sostenidos, no meras declaraciones
+- Persistencia en nuevas prácticas ante dificultades
+- Asignación de recursos y apoyo tangible
+
+### Conceptos clave definidos
+
+**Proceso de mejora**: Ciclo estructurado para implementar mejoras en ingeniería de requisitos
+**Activos de proceso**: Elementos organizacionales que soportan la ejecución de procesos
+**Trazabilidad de requisitos**: Mecanismo para evaluar impacto de cambios y derivar elementos de software
+**Control de cambios**: Proceso definido para gestionar modificaciones post-baseline
+
+El capítulo establece que la mejora de procesos de requisitos requiere comprensión sistémica de interrelaciones, gestión efectiva de stakeholders y compromiso organizacional genuino para lograr beneficios sostenibles.

@@ -1,0 +1,65 @@
+### Parte 12 (Pág. 441–480)
+
+## Resumen de las Páginas 441-480: Aplicaciones Móviles y Diseño de WebApps
+
+### 13.4 Aplicaciones Sensibles al Contexto
+
+**Definición Clave**: Las aplicaciones sensibles al contexto (context-aware apps) utilizan información contextual como ubicación, tiempo y objetos circundantes para adaptar su funcionalidad y crear nuevas aplicaciones móviles.
+
+**Características Fundamentales**:
+- **Virtualización de la experiencia móvil**: Taivalsaari destaca que el almacenamiento en la nube permite actualizar dispositivos móviles y características de software a nivel global
+- **Fusión de mundos real y virtual**: Según Rodden, la computación móvil integra ambos mundos mediante dispositivos conscientes de su entorno
+- **Adaptabilidad contextual**: Las interfaces altamente adaptativas compensan limitaciones de dispositivos (tamaño de pantalla, memoria)
+
+**Desafíos Técnicos**:
+- Procesamiento de datos inciertos y heterogéneos
+- Integración de múltiples sensores con problemas de ruido, descalibración y desgaste
+- Comunicación basada en eventos preferible sobre flujos continuos de datos
+- Soporte para múltiples estilos de interacción (gestos, voz, lápiz)
+
+### 13.5 Pirámide de Diseño para WebApps
+
+**Concepto Central**: El diseño efectivo de aplicaciones web requiere habilidades diversas y se estructura mediante una pirámide de diseño que incluye múltiples niveles de acción.
+
+#### 13.5.1 Diseño de Interfaz WebApp
+
+**Objetivos Principales**:
+1. Establecer una ventana consistente al contenido y funcionalidad
+2. Guiar al usuario a través de interacciones secuenciales
+3. Organizar opciones de navegación y contenido disponible
+
+**Características Específicas**:
+- **Punto de entrada indeterminado**: Los usuarios pueden acceder desde cualquier nivel de la arquitectura
+- **Mecanismos de navegación**: Menús posicionados consistentemente, iconos gráficos reconocibles, imágenes enlazadas
+- **Gestión del "espacio vital"**: Distribución equilibrada entre estética, navegación, contenido y funcionalidad
+
+#### 13.5.2 Diseño Estético
+
+**Principios de Diseño Visual**:
+- **Espacio abierto**: Evitar saturación de información para prevenir caos visual
+- **Énfasis en contenido**: 80% del espacio dedicado a contenido (Nielsen)
+- **Organización visual**: De arriba-izquierda a abajo-derecha
+- **Agrupación geográfica**: Patrones reconocibles para navegación, contenido y función
+- **Limitación de scroll**: Preferir múltiples páginas sobre scroll extenso
+- **Diseño responsivo**: Uso de porcentajes en lugar de tamaños fijos
+
+#### 13.5.3 Diseño de Contenido
+
+**Estructura de Objetos de Contenido**:
+- **Atributos**: Información específica del contenido y atributos de implementación
+- **Relaciones**: Asociaciones UML y agregaciones para representar relaciones entre objetos
+- **Ejemplo SafeHome**: Clase CompDescription compuesta por MarketingDescription, Photograph, TechDescription, Schematic y Videos
+
+#### 13.5.4 Diseño de Arquitectura
+
+**Arquitectura de Tres Capas** (Jacyntho et al.):
+1. **Capa de interfaz**: Separación clara del aspecto visual (look-and-feel)
+2. **Capa de navegación**: Nodos de navegación independientes
+3. **Capa de aplicación**: Datos de aplicación separados del contenido
+
+**Componentes Arquitectónicos**:
+- **Arquitectura de contenido**: Estructuración de objetos para presentación y navegación
+- **Arquitectura WebApp**: Gestión de interacción del usuario, procesamiento interno y presentación de contenido
+- **Principio MVC**: Separación de Modelo-Vista-Controlador para facilitar implementación y reutilización
+
+**Conclusión**: El diseño efectivo de WebApps requiere integración coordinada de interfaz, estética, contenido y arquitectura, manteniendo separación de responsabilidades para optimizar calidad, usabilidad y mantenibilidad.

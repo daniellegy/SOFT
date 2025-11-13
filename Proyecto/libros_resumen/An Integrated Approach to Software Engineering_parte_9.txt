@@ -1,0 +1,78 @@
+### Parte 9 (Pág. 241–270)
+
+## Resumen de Planificación de Proyectos de Software (Páginas 241-270)
+
+### 5.4 Planificación de Gestión de Configuración
+La planificación de Gestión de Configuración (CM) se realiza al inicio del proyecto cuando se conocen el entorno operativo y las especificaciones de requisitos. Las actividades clave incluyen:
+
+- **Identificación de elementos de configuración**, incluyendo elementos suministrados por el cliente y adquiridos
+- **Definición de esquema de nomenclatura** para elementos de configuración
+- **Estructura de directorios** necesaria para CM
+- **Procedimientos de gestión de versiones** y métodos de seguimiento de cambios
+- **Restricciones de acceso** y procedimientos de control de cambios
+- **Identificación de responsabilidades** del Controlador de Configuración (CC)
+- **Puntos de creación de líneas base**
+- **Procedimientos de respaldo, reconciliación y liberación**
+
+El resultado de esta fase es el **Plan de Gestión de Configuración**.
+
+### 5.5 Plan de Calidad
+
+#### 5.5.1 Definiciones Fundamentales
+- **Calidad del software**: Definida como "densidad de defectos entregados" - número de defectos por unidad de tamaño en el software entregado
+- **Defecto**: Elemento en el software que causa comportamiento inconsistente con los requisitos del cliente
+- **Control de Calidad (QC)**: Actividades cuyo propósito principal es identificar defectos
+
+#### 5.5.2 Ciclo de Inyección y Eliminación de Defectos
+El desarrollo de software es propenso a errores, con defectos que pueden inyectarse en múltiples etapas:
+
+**Etapas de inyección**:
+- Especificación de requisitos
+- Diseño de alto nivel
+- Diseño detallado
+- Codificación
+
+**Actividades de eliminación**:
+- Revisiones de requisitos, diseño y código
+- Pruebas unitarias, de integración, de sistema y de aceptación
+- Actividades de Verificación y Validación (V&V)
+
+#### 5.5.3 Enfoques de Gestión de Calidad
+
+**Enfoque Procedimental**:
+- Ejecución de procesos definidos en puntos específicos
+- No permite afirmaciones sobre porcentaje de defectos eliminados
+- Depende de la calidad del procedimiento y su ejecución
+
+**Enfoque Cuantitativo**:
+- **Predicción de defectos**: Establecimiento de metas de densidad de defectos
+- **Control Estadístico de Procesos (SPC)**: Establecimiento de límites de control para actividades de QC
+- Requiere datos históricos para estimaciones
+
+#### 5.5.4 Elementos del Plan de Calidad
+El plan de calidad especifica:
+- Tareas de control de calidad programables
+- Documentos y código a inspeccionar
+- Niveles de prueba a realizar
+- Métodos, responsabilidades y criterios de evaluación para actividades V&V
+
+### 5.6 Gestión de Riesgos
+
+#### 5.6.1 Conceptos Fundamentales
+- **Riesgo**: Exposición a la posibilidad de daño o pérdida que afecta adversamente coste, calidad o cronograma
+- **Gestión de riesgos**: Minimización del impacto de eventos no planificados
+- Se enfoca en eventos probabilísticos, no en eventos comúnmente esperados
+
+#### 5.6.2 Actividades de Gestión de Riesgos
+El proceso comprende tres fases principales:
+
+1. **Identificación de Riesgos**
+2. **Evaluación de Riesgos**
+   - Análisis de riesgos
+   - Priorización de riesgos
+3. **Control de Riesgos**
+   - Planificación de gestión de riesgos
+   - Resolución de riesgos
+   - Monitoreo de riesgos
+
+La gestión de riesgos es considerada una de las mejores prácticas para gestionar proyectos de software grandes, complementando la gestión de proyectos convencional al tratar eventos infrecuentes con impacto significativo.

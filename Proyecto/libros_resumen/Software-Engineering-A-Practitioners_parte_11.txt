@@ -1,0 +1,95 @@
+### Parte 11 (Pág. 401–440)
+
+## Resumen de las Páginas 401-440: Diseño de Interfaz de Usuario y Experiencia de Usuario
+
+### 1. **Recolección y Análisis de Datos (Página 401)**
+
+**Definición Clave**: El proceso inicial de diseño de interfaz implica la recolección sistemática de información sobre los usuarios potenciales del producto.
+
+**Procesos Relevantes**:
+- **Identificación de grupos de usuarios**: Determinación de los diferentes tipos de usuarios que interactuarán con el sistema
+- **Creación de personas**: Desarrollo de representaciones ficticias de usuarios que incluyen:
+  - Educación, estilo de vida, valores y metas
+  - Necesidades, limitaciones y patrones de comportamiento
+- **Desarrollo de escenarios**: Historias de usuario que describen cómo las personas utilizarán el producto
+- **Validación mediante cognitive walkthrough**: Técnica de revisión donde los stakeholders asumen roles de personas para validar escenarios
+
+### 2. **Análisis de Tareas (Páginas 403-404)**
+
+**Concepto Central**: El análisis sistemático de las tareas que los usuarios deben realizar para alcanzar sus objetivos mediante el software.
+
+**Preguntas Clave del Análisis**:
+- ¿Qué trabajo realizará el usuario en circunstancias específicas?
+- ¿Qué tareas y subtareas se ejecutarán?
+- ¿Qué objetos del dominio manipulará el usuario?
+- ¿Cuál es la secuencia de trabajo (workflow)?
+- ¿Cuál es la jerarquía de tareas?
+
+**Metodología**:
+- **Elaboración gradual**: Refinamiento iterativo de tareas principales en subtareas
+- **Ejemplo aplicado**: Sistema de diseño de interiores con tareas como:
+  1. Dibujar plano basado en dimensiones
+  2. Colocar ventanas y puertas
+  3. Utilizar plantillas de muebles
+  4. Optimizar distribución
+  5. Etiquetar elementos
+  6. Dimensionar ubicaciones
+  7. Generar vista en perspectiva
+
+### 3. **Análisis del Ambiente de Trabajo (Página 404)**
+
+**Definición**: Evaluación de las condiciones físicas y culturales donde se utilizará el sistema.
+
+**Factores Críticos**:
+- **Ambiente físico**: Iluminación, ruido, accesibilidad del hardware
+- **Restricciones técnicas**: Limitaciones de entrada (teclado, mouse, pantalla táctil)
+- **Cultura organizacional**:
+  - Métricas de interacción (tiempo por transacción, precisión)
+  - Colaboración entre usuarios
+  - Mecanismos de soporte técnico
+
+### 4. **Diseño de Experiencia de Usuario (UX) (Páginas 405-406)**
+
+**Modelo Iterativo**: Proceso cíclico entre investigación de usuarios, diseño y construcción.
+
+**Sprint de Diseño UX de Google (5 días)**:
+
+**Día 1: Comprensión**
+- Investigación de necesidades de usuarios y objetivos del negocio
+- Técnicas: "lightning talks" (presentaciones breves de expertos)
+- Artefactos: mapas de viaje del cliente, personas, flujos de trabajo
+
+**Día 2: Bosquejo**
+- Lluvia de ideas individual para soluciones
+- Representación visual en papel
+- Generación de múltiples ideas sin restricciones
+
+**Día 3: Decisión**
+- Presentación de soluciones propuestas
+- Votación para selección de alternativas
+- Consideración de restricciones (presupuesto, recursos, perfiles de usuario)
+
+**Día 4: Prototipado**
+- Desarrollo de producto mínimo viable
+- Prototipos digitales o en papel
+- Enfoque experimental para validar hipótesis
+
+**Día 5: Validación**
+- Pruebas con usuarios reales
+- Observación por todo el equipo de desarrollo
+- Retroalimentación en tiempo real para iteraciones inmediatas
+
+### 5. **Diseño de Interfaz de Usuario (Página 407)**
+
+**Proceso de Definición**:
+- **Análisis de casos de uso**: Identificación de sustantivos (objetos) y verbos (acciones)
+- **Categorización de objetos**:
+  - **Objetos fuente**: Elementos que se manipulan (ej: icono de sensor)
+  - **Objetos destino**: Elementos que reciben acciones (ej: ubicación en pantalla)
+  - **Objetos de aplicación**: Funcionalidades del sistema
+
+**Ejemplo Aplicado**: Sistema SafeHome donde iconos de sensores (objetos fuente) se arrastran a ubicaciones en planos (objetos destino) para configurar el sistema de vigilancia.
+
+### **Conclusión**
+
+Las páginas analizadas presentan un marco metodológico integral para el diseño de interfaces de usuario, integrando análisis sistemático de usuarios, tareas y ambientes de trabajo con procesos iterativos de diseño de experiencia de usuario. El enfoque combina técnicas tradicionales de ingeniería de software con metodologías ágiles modernas, destacando la importancia de la validación continua con usuarios reales para lograr interfaces efectivas y usables.

@@ -1,0 +1,65 @@
+### Parte 10 (Pág. 361–400)
+
+## Resumen del Capítulo 13: Diseño de WebApps (Páginas 361-400)
+
+### 13.8 Diseño de la Navegación
+
+#### 13.8.1 Semántica de la Navegación
+
+**Definiciones Clave:**
+- **Unidad Semántica de Navegación (USN):** Conjunto de estructuras de información y navegación relacionadas que colaboran para cumplir un subconjunto de requerimientos del usuario relacionados.
+- **Forma de Navegar (FdN):** Representa la mejor ruta de navegación para lograr una meta específica para un tipo de usuario particular.
+- **Nodos de Navegación (NN):** Elementos individuales conectados por vínculos dentro de una FdN.
+
+**Proceso de Diseño:**
+1. **Identificación de Actores:** Cada categoría de usuario (actor) posee diferentes requerimientos de navegación
+2. **Análisis de Casos de Uso:** Cada caso de uso define un conjunto de clases que incluyen objetos de contenido o funciones
+3. **Creación de USN:** Se desarrolla una USN para cada caso de uso asociado con cada rol de usuario
+4. **Organización Jerárquica:** La estructura general de navegación se organiza como jerarquía de USN
+
+**Ejemplo Práctico:**
+El caso de uso "Seleccionar Componentes de CasaSegura" ilustra cómo se mapean las clases de dominio del problema con objetos de contenido específicos, estableciendo vínculos de navegación entre nodos como Habitación, Componente del Producto y Descripción del Componente.
+
+#### 13.8.2 Sintaxis de Navegación
+
+**Mecanismos de Implementación:**
+
+1. **Vínculos Individuales:**
+   - Basados en texto, iconos, botones e interruptores
+   - Metáforas gráficas
+   - Requieren consistencia con heurísticas de diseño de interfaz
+
+2. **Barras de Navegación:**
+   - **Horizontal:** Lista 4-7 categorías principales
+   - **Vertical:** Presenta categorías principales o expansión jerárquica
+
+3. **Pestañas:** Variación de barras de navegación que representan categorías como pestañas seleccionables
+
+4. **Mapas del Sitio:** Tabla de contenido completa accesible desde cualquier página
+
+**Convenciones de Diseño:**
+- Iconos y vínculos gráficos con apariencia tridimensional
+- Retroalimentación auditiva/visual para confirmar selecciones
+- Uso de color para diferenciar vínculos visitados/no visitados
+- Consistencia en los mecanismos de navegación
+
+### 13.9 Diseño en el Nivel de Componentes
+
+**Capacidades de los Componentes:**
+- Generación dinámica de contenido y capacidad de navegación
+- Procesamiento de datos apropiado para el dominio del negocio
+- Consulta y acceso complejo a bases de datos
+- Interfaces con sistemas corporativos externos
+
+**Aplicabilidad de Métodos Tradicionales:**
+Los métodos de diseño convencionales del capítulo 10 se aplican directamente a componentes de webapps, con adaptaciones mínimas relacionadas principalmente con el ambiente de implementación y lenguajes de programación.
+
+### 13.10 Método de Diseño de Hipermedios Orientado a Objetos (MDHOO)
+
+**Contexto Histórico:**
+- Propuesto inicialmente por Daniel Schwabe et al. (1995, 1998)
+- Uno de los métodos de diseño de webapps más estudiados
+- Compuesto por cuatro actividades distintas (el texto se interrumpe antes de detallarlas)
+
+**Observación General:**
+El diseño de navegación debe considerar tanto aspectos semánticos (qué navegar) como sintácticos (cómo navegar), integrando arquitectura de contenido, casos de uso y perfiles de usuario para crear experiencias de navegación efectivas y coherentes.

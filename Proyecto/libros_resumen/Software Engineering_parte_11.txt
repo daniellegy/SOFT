@@ -1,0 +1,71 @@
+### Parte 11 (Pág. 401–440)
+
+## Resumen de Páginas 401-440: Ingeniería de Seguridad en Sistemas Software
+
+### 13.4 Diseño de Sistemas Seguros
+
+#### Directrices Fundamentales para el Diseño Seguro
+
+**Directriz 7: Especificación del Formato de Entradas del Sistema**
+- **Definición clave**: Establecimiento formal de la estructura y formato esperado de todas las entradas del sistema
+- **Problemas abordados**: 
+  - Desbordamiento de búfer (buffer overflow)
+  - Envenenamiento SQL (SQL poisoning)
+  - Comportamiento no anticipado del sistema
+- **Implementación**: Validación de entradas basada en especificaciones predefinidas (ej: nombres solo alfabéticos, límites de longitud)
+
+**Directriz 8: Compartimentación de Activos**
+- **Concepto fundamental**: Principio de "necesidad de conocer" (need to know)
+- **Mecanismo**: Segmentación de información en compartimentos independientes
+- **Beneficios**:
+  - Contención de ataques comprometidos
+  - Limitación de pérdidas por ataques internos
+- **Consideraciones especiales**: Mecanismos de anulación segura para casos de emergencia con registro obligatorio en logs
+
+**Directriz 9: Diseño para Despliegue**
+- **Problema central**: Vulnerabilidades por configuración incorrecta durante el despliegue
+- **Estrategias recomendadas**:
+  1. Soporte para visualización y análisis de configuraciones
+  2. Minimización de privilegios por defecto
+  3. Localización de configuraciones relacionadas
+  4. Mecanismos sencillos para reparar vulnerabilidades
+
+**Directriz 10: Diseño para Recuperación**
+- **Premisa fundamental**: Asunción de fallos de seguridad inevitables
+- **Mecanismos de recuperación**:
+  - Sistemas de autenticación alternativos
+  - Protocolos de cambio de credenciales masivos
+  - Mecanismos challenge/response para recuperación
+- **Relación con resiliencia**: Componente esencial de sistemas resistentes
+
+### 13.4.4 Programación de Sistemas Seguros
+
+**Aspectos Críticos Identificados**:
+1. **Vulnerabilidades específicas del lenguaje**: Ejemplo de desbordamiento de búfer en C/C++ vs Java
+2. **Relación con confiabilidad**: Mejoras en fiabilidad mejoran seguridad
+
+**Directrices de Programación Confiable** (Figura 13.16):
+- Limitación de visibilidad de información
+- Validación exhaustiva de entradas
+- Manejo completo de excepciones
+- Minimización de construcciones propensas a errores
+- Capacidades de reinicio
+- Verificación de límites de arrays
+- Timeouts en componentes externos
+- Nomenclatura de constantes
+
+### 13.5 Pruebas y Garantía de Seguridad
+
+**Desafíos Fundamentales en Pruebas de Seguridad**:
+
+1. **Naturaleza de los requisitos de seguridad**:
+   - Requisitos "no deberá" (shall not) vs funcionales
+   - Imposibilidad de demostración completa de ausencia de vulnerabilidades
+   - Limitaciones en la anticipación de nuevos vectores de ataque
+
+2. **Naturaleza adaptativa de los atacantes**:
+   - Inteligencia y experimentación activa
+   - Comportamiento fuera de patrones normales de uso
+   - Ecosistema de intercambio de vulnerabilidades y malware
+
+**Conclusión**: La seguridad en ingeniería de software requiere un enfoque multidimensional que integre diseño seguro, programación confiable y pruebas exhaustivas, reconociendo las limitaciones inherentes en la garantía de seguridad absoluta.

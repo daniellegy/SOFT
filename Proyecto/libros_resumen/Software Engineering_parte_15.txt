@@ -1,0 +1,84 @@
+### Parte 15 (Pág. 561–600)
+
+## Resumen de las Páginas 561-600: Sistemas Sociotécnicos y Propiedades Emergentes
+
+### 1. Sistemas Sociotécnicos
+
+**Definición**: Sistemas que integran componentes técnicos (hardware, software) con componentes humanos y organizacionales, donde las interacciones sociales y técnicas son interdependientes.
+
+**Características Fundamentales**:
+- La interpretación de objetivos organizacionales puede variar con cambios en la gestión
+- Las consideraciones sociotécnicas son críticas para determinar el éxito del sistema
+- Requieren metodologías especializadas que consideren dimensiones sociales y culturales
+
+### 2. Propiedades Emergentes
+
+**Definición**: Propiedades del sistema como un todo que no pueden atribuirse a componentes individuales específicos, sino que emergen de la integración e interacción de los componentes del sistema.
+
+#### 2.1 Tipología de Propiedades Emergentes
+
+**Propiedades Emergentes Funcionales**:
+- Emergen después de la integración de componentes
+- Ejemplo: Una bicicleta adquiere la propiedad funcional de dispositivo de transporte solo cuando está completamente ensamblada
+
+**Propiedades Emergentes No Funcionales**:
+- Relacionadas con el comportamiento del sistema en su entorno operativo
+- Ejemplos: confiabilidad, rendimiento, seguridad, usabilidad
+- Son críticas para sistemas basados en computadora
+
+#### 2.2 Ejemplos Específicos de Propiedades Emergentes
+
+| Propiedad | Descripción |
+|-----------|-------------|
+| **Confiabilidad** | Depende de la confiabilidad de componentes pero las interacciones inesperadas pueden causar nuevos tipos de fallas |
+| **Reparabilidad** | Refleja la facilidad para diagnosticar y corregir problemas, dependiendo del acceso a componentes |
+| **Seguridad** | Capacidad para resistir ataques, compleja de medir debido a amenazas no anticipadas |
+| **Usabilidad** | Facilidad de uso que depende de componentes técnicos, operadores y entorno operativo |
+| **Volumen** | Espacio total ocupado, determinado por la disposición y conexión de componentes |
+
+### 3. Confiabilidad en Sistemas Sociotécnicos
+
+**Factores que Influyen**:
+- **Confiabilidad del hardware**: Probabilidad de falla de componentes físicos y tiempo de reparación
+- **Confiabilidad del software**: Probabilidad de producir salidas incorrectas (fallas transitorias)
+- **Confiabilidad del operador**: Probabilidad de error humano en la entrada de datos
+
+**Propagación de Fallas** (Figura 19.6):
+- Las fallas se propagan entre niveles (hardware → software → operación)
+- Una falla inicial puede desencadenar una cadena de problemas que conduzca al colapso del sistema
+- Las interacciones entre fallas son impredecibles y dependen del contexto
+
+### 4. No Determinismo
+
+**Definición**: Comportamiento del sistema que no es absolutamente predecible.
+
+**Causas en Sistemas Sociotécnicos**:
+- Inclusión de personas (comportamiento humano variable)
+- Cambios frecuentes en hardware, software y datos
+- Complejidad de las interacciones entre cambios
+
+**Beneficios del No Determinismo**:
+- Permite adaptabilidad del sistema a cambios ambientales
+- Facilita la capacidad de operadores para diagnosticar y recuperarse de problemas detectados
+
+### 5. Criterios de Éxito y Problemas Perversos (Wicked Problems)
+
+**Problemas Perversos** (Rittel y Webber, 1973):
+- Problemas extremadamente complejos sin especificación definitiva
+- Múltiples stakeholders con perspectivas diferentes
+- La verdadera naturaleza del problema emerge durante el desarrollo de la solución
+- Ejemplo: Planificación de emergencias para terremotos
+
+**Evaluación del Éxito**:
+- No se juzga contra criterios originales de desarrollo
+- Se basa en la efectividad del sistema al momento del despliegue
+- Debe considerar cambios en el entorno empresarial durante el desarrollo
+- Debe manejar objetivos múltiples y potencialmente conflictivos
+
+**Ejemplo Práctico**: Sistema Mentcare diseñado para:
+1. Mejorar la calidad de la atención en salud mental
+2. Mejorar la relación costo-efectividad del tratamiento
+
+### Conclusiones Relevantes
+
+Los sistemas sociotécnicos presentan desafíos únicos debido a su naturaleza compleja, propiedades emergentes y comportamiento no determinista. La evaluación del éxito requiere considerar no solo los objetivos técnicos originales, sino también la adaptabilidad del sistema a entornos organizacionales en constante cambio y la efectividad en resolver problemas complejos y multidimensionales.

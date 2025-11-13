@@ -1,0 +1,68 @@
+### Parte 20 (Pág. 761–800)
+
+## Resumen del Glosario de Ingeniería de Software (Páginas 761-800)
+
+### Introducción
+El presente resumen analiza sistemáticamente los términos fundamentales comprendidos en el glosario de ingeniería de software, organizándolos según su relevancia conceptual y aplicación en el desarrollo de sistemas software.
+
+### Definiciones y Conceptos Fundamentales
+
+#### **Arquitecturas y Modelos de Sistemas**
+- **Arquitectura Cliente-Servidor**: Modelo arquitectónico distribuido donde la funcionalidad se ofrece como conjunto de servicios proporcionados por servidores, accedidos por clientes mediante variantes como arquitecturas de tres capas.
+- **Sistema Distribuido**: Sistema software cuyos subsistemas o componentes ejecutan en diferentes procesadores.
+- **Sistema Embebido**: Sistema software integrado en dispositivos hardware (ej: teléfonos móviles), generalmente sistemas de tiempo real que requieren respuesta oportuna a eventos del entorno.
+
+#### **Desarrollo y Metodologías**
+- **Desarrollo Brownfield**: Desarrollo de software que debe integrarse con múltiples sistemas existentes en el entorno.
+- **Desarrollo Incremental**: Enfoque de desarrollo donde el software se entrega e implementa en incrementos sucesivos.
+- **Programación Extrema (XP)**: Método ágil que incluye prácticas como requisitos basados en escenarios, desarrollo "test-first" y programación en parejas.
+- **DSDM (Dynamic System Development Method)**: Considerado uno de los primeros métodos ágiles de desarrollo.
+
+#### **Gestión de Configuración y Calidad**
+- **Gestión de Configuración**: Proceso que gestiona cambios en productos software evolutivos, incluyendo gestión de versiones, construcción de sistemas, gestión de cambios y gestión de releases.
+- **Elemento de Configuración**: Unidad legible por máquina (documento o archivo de código fuente) sujeta a cambios controlados.
+- **CMMI (Capability Maturity Model Integration)**: Enfoque integrado de modelado de madurez de capacidad de procesos, basado en prácticas de ingeniería de software y gestión de calidad integrada.
+
+#### **Componentes y Modelado**
+- **Componente**: Unidad de software desplegable e independiente, completamente definida y accedida mediante interfaces.
+- **Ingeniería de Software Basada en Componentes (CBSE)**: Desarrollo de software mediante composición de componentes independientes y desplegables consistentes con un modelo de componentes.
+- **Diagrama de Clases**: Tipo de diagrama UML que muestra clases de objetos en un sistema y sus relaciones.
+
+### Procesos y Herramientas Especializadas
+
+#### **Herramientas CASE**
+- **CASE (Computer-Aided Software Engineering)**: Término histórico para desarrollo de software usando soporte de herramientas automatizadas.
+- **Herramienta CASE**: Software que soporta actividades del proceso de desarrollo (editores de diseño, depuradores).
+- **Banco de Trabajo CASE**: Conjunto integrado de herramientas CASE que soportan actividades principales del proceso.
+
+#### **Gestión de Versiones**
+- **Git**: Herramienta distribuida de gestión de versiones y construcción de sistemas donde desarrolladores copian completamente el repositorio del proyecto.
+- **GitHub**: Servidor que mantiene numerosos repositorios Git, tanto privados como públicos.
+
+### Sistemas Críticos y Confiabilidad
+
+#### **Conceptos de Dependabilidad**
+- **Sistema Crítico**: Sistema cuyas fallas pueden resultar en pérdidas económicas, humanas o ambientales significativas.
+- **Confidabilidad (Dependability)**: Propiedad agregada que considera seguridad, confiabilidad, disponibilidad, seguridad y resiliencia del sistema.
+- **Caso de Confidabilidad**: Documento estructurado que respalda afirmaciones sobre la confidabilidad de un sistema.
+
+#### **Manejo de Fallos**
+- **Tolerancia a Fallos**: Capacidad de un sistema para continuar ejecutándose tras ocurrir fallos.
+- **Arquitecturas Tolerantes a Fallos**: Arquitecturas diseñadas para permitir recuperación de fallos software, basadas en componentes redundantes y diversos.
+- **Detección de Fallos**: Uso de procesos y verificación en tiempo de ejecución para detectar y eliminar fallos antes de que resulten en fallas del sistema.
+
+### Modelos y Notaciones Especializadas
+
+#### **Modelado de Procesos**
+- **BPMN (Business Process Modeling Notation)**: Notación para definir flujos de trabajo que describen procesos de negocio y composición de servicios.
+- **Modelo de Dominio**: Definición de abstracciones de dominio que sirve como base de conocimiento sobre un área problemática.
+
+#### **Estimación y Métricas**
+- **COCOMO II (Constructive Cost Modeling)**: Modelo algorítmico de estimación de costos, última instanciación del modelo COCOMO original.
+- **Métrica de Control**: Métrica software que permite a gestores tomar decisiones de planificación basadas en información del proceso o producto software.
+
+### Consideraciones Éticas y Profesionales
+- **Código de Ética y Práctica Profesional**: Conjunto de directrices que establecen el comportamiento ético y profesional esperado para ingenieros de software, definido bajo ocho encabezados principales.
+
+### Conclusión
+El glosario analizado proporciona una base terminológica esencial para la comprensión integral de la ingeniería de software moderna, abarcando desde conceptos fundamentales de arquitectura y desarrollo hasta consideraciones avanzadas de confiabilidad y ética profesional. Esta taxonomía especializada facilita la comunicación precisa y el entendimiento común entre profesionales del área.

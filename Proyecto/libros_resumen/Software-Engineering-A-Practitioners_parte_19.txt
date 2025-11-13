@@ -1,0 +1,75 @@
+### Parte 19 (Pág. 721–760)
+
+## Resumen de Métricas y Análisis de Software (Páginas 721-760)
+
+### 1. Fundamentos de la Medición en Ingeniería de Software
+
+**Definiciones Clave:**
+- **Medida (Measure):** Punto único de datos recolectado (ej. número de errores en un componente)
+- **Medición (Measurement):** Proceso de recolección de múltiples puntos de datos
+- **Métrica (Metric):** Relación entre medidas individuales (ej. promedio de errores por revisión)
+- **Indicador (Indicator):** Métrica o combinación de métricas que proporciona información sobre el proceso, proyecto o producto
+
+**Importancia de la Medición:**
+La medición constituye un elemento fundamental en los procesos de ingeniería, permitiendo:
+- Mejora continua del proceso de software
+- Asistencia en estimación, control de calidad y evaluación de productividad
+- Toma de decisiones tácticas durante el desarrollo del proyecto
+- Evaluación objetiva de atributos de modelos y productos
+
+### 2. Atributos de Métricas Efectivas
+
+Según Ejiogu [Eji91], las métricas efectivas deben poseer:
+- **Facilidad de derivación y cómputo**
+- **Correspondencia intuitiva** con los atributos del producto
+- **Resultados no ambiguos**
+- **Bases sólidas** en modelos de requisitos, diseño o estructura del programa
+- **Independencia** de particularidades sintácticas del lenguaje de programación
+- **Capacidad para conducir** a productos de mayor calidad
+
+### 3. Software Analytics vs. Métricas de Software
+
+**Diferenciación Conceptual:**
+- **Métricas de Software:** Medidas para evaluar calidad o rendimiento
+- **Software Analytics:** Análisis computacional sistemático de datos de ingeniería de software para proporcionar información significativa y capacitar la toma de decisiones
+
+**Aplicaciones del Software Analytics:**
+- Pruebas dirigidas (Targeted testing)
+- Refactorización estratégica (Targeted refactoring)
+- Planificación de releases
+- Comprensión del comportamiento del cliente
+- Evaluación de estabilidad del sistema
+- Determinación del valor de actividades de inspección
+
+### 4. Métricas de Producto
+
+**Complejidad del Software:**
+La búsqueda de una métrica única de complejidad se caracteriza como la búsqueda del "santo grial imposible". En su lugar, se propone:
+- Desarrollo de medidas para diferentes atributos internos del programa
+- Modularidad efectiva e independencia funcional como indicadores clave
+- Evaluación objetiva de la calidad en etapas tempranas del proceso
+
+**Principales Categorías de Métricas:**
+- Métricas basadas en LOCs (Líneas de Código)
+- Métricas orientadas a la función
+- Métricas de diseño
+- Métricas de código fuente
+- Métricas de testing
+- Eficiencia en la Remoción de Defectos (DRE)
+
+### 5. Implementación de Programas de Métricas
+
+**Consideraciones Prácticas:**
+- Definición de pocas métricas significativas
+- Aplicación de esquemas de medición consistentes y simples
+- Uso exclusivo para mejora de procesos, nunca para evaluación individual
+- Integración con datos históricos para análisis de tendencias
+- Enfoque en productividad y calidad como métricas principales
+
+**Beneficios de la Implementación:**
+- Identificación de tendencias (positivas o negativas)
+- Mejora en la precisión de estimaciones
+- Logro de mejoras reales a lo largo del tiempo
+- Provisión de indicaciones en tiempo real sobre la efectividad de los procesos
+
+Este marco de métricas y análisis proporciona a los ingenieros de software y gestores de proyectos herramientas cuantitativas para evaluar y mejorar continuamente tanto los procesos de desarrollo como los productos resultantes, estableciendo bases objetivas para la toma de decisiones estratégicas y tácticas en el ciclo de vida del software.

@@ -1,0 +1,64 @@
+### Parte 3 (Pág. 61–90)
+
+## Resumen de Modelos de Procesos de Desarrollo de Software (Páginas 61-90)
+
+### 1. Modelo Iterativo
+
+**Definición**: Estrategia de desarrollo que divide el ciclo de vida del software en ciclos repetitivos, donde cada iteración produce una versión funcional del sistema.
+
+**Características principales**:
+- **Planificación por riesgos**: Cada iteración comienza identificando y analizando riesgos
+- **Desarrollo incremental**: Se añaden funcionalidades progresivamente
+- **Retroalimentación continua**: Los usuarios proporcionan feedback después de cada versión
+
+**Aplicaciones**:
+- **Desarrollo de productos**: Los desarrolladores controlan las especificaciones
+- **Software personalizado**: Adaptación a requisitos cambiantes del negocio
+- **Enfoques modernos**: XP (Programación Extrema), Agile, RUP (Rational Unified Process)
+
+### 2. Modelo Timeboxing
+
+**Definición**: Modelo de desarrollo iterativo donde la unidad básica es el "time box" de duración fija, priorizando el cronograma sobre la funcionalidad.
+
+**Elementos clave**:
+
+**Estructura del Time Box**:
+- Duración fija e innegociable
+- Secuencia de etapas claramente definidas
+- Duración aproximadamente igual para cada etapa
+- Equipos dedicados por etapa
+
+**Mecanismo de Ejecución**:
+- **Pipeline de desarrollo**: Ejecución paralela de múltiples iteraciones
+- **Equipos especializados**: Cada etapa tiene su propio equipo
+- **Entregas continuas**: Intervalos de entrega reducidos mediante paralelismo
+
+**Ejemplo de Implementación**:
+- **3 etapas**: Especificación de requisitos, construcción, despliegue
+- **Equipos**: Análisis (2 personas), Construcción (4 personas), Despliegue (3 personas)
+- **Beneficio**: Reducción del tiempo promedio de entrega de T a T/n
+
+**Ventajas**:
+- Entrega más rápida de software funcional
+- Compromiso con cronogramas fijos
+- Aprovechamiento óptimo de recursos mediante paralelismo
+
+**Limitaciones**:
+- Incremento significativo en el tamaño del equipo
+- Requiere arquitectura y tecnologías estables
+- Necesita flexibilidad en la agrupación de funcionalidades
+
+### 3. Comparativa de Modelos
+
+**Criterios de Selección**:
+- **Naturaleza del proyecto**: Estabilidad de requisitos, complejidad técnica
+- **Restricciones temporales**: Urgencia en las entregas
+- **Recursos disponibles**: Tamaño y especialización del equipo
+- **Flexibilidad requerida**: Capacidad de adaptación a cambios
+
+**Consideraciones de Implementación**:
+- El modelo timeboxing permite comprimir tiempos mediante recursos adicionales
+- El modelo iterativo ofrece mayor adaptabilidad a cambios
+- La selección del modelo debe basarse en el contexto específico del proyecto
+
+Esta sección establece las bases para comprender cómo diferentes modelos de proceso pueden optimizar el desarrollo de software según las características particulares de cada proyecto y las restricciones organizacionales.

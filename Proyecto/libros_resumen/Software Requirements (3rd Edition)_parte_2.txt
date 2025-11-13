@@ -1,0 +1,114 @@
+### Parte 2 (Pág. 26–50)
+
+## Resumen Académico: "Software Requirements (3ra Edición)" - Páginas 26-50
+
+### Introducción al Problema de los Requisitos Software
+
+**Definición Central**: Los requisitos software constituyen la base fundamental para el éxito de proyectos de tecnología de la información, representando especificaciones que definen las necesidades y restricciones del sistema.
+
+#### Problemática Identificada
+- **Dificultades persistentes**: Las organizaciones enfrentan desafíos crónicos en comprensión, documentación y gestión de requisitos
+- **Causas principales**:
+  - Entrada insuficiente del usuario
+  - Requisitos incompletos y cambiantes
+  - Objetivos empresariales malinterpretados
+  - Falta de consenso en la definición de "requisito"
+
+### Evolución del Campo (Última Década)
+
+#### Tendencias Significativas
+1. **Profesionalización del análisis empresarial**
+   - Emergencia de certificaciones profesionales
+   - Organismos como International Institute of Business Analysis
+   - International Requirements Engineering Board
+
+2. **Maduración de herramientas**
+   - Bases de datos para gestión de requisitos
+   - Herramientas de prototipado, modelado y simulación
+
+3. **Métodos ágiles**
+   - Incremento en uso de metodologías ágiles
+   - Evolución de técnicas para manejo de requisitos en entornos ágiles
+
+4. **Modelado visual**
+   - Mayor utilización de modelos visuales para representar conocimiento de requisitos
+
+#### Factores de Permanencia
+- **Déficit educativo**: Subénfasis en ingeniería de requisitos en currículos universitarios
+- **Enfoque técnico predominante**: Tendencia a soluciones técnicas sobre desafíos de interacción humana
+
+### Marco Conceptual y Metodológico
+
+#### Ingeniería de Requisitos
+**Definición**: Disciplina que engloba tanto el desarrollo como la gestión de requisitos, constituyendo un desafío primordialmente de comunicación humana.
+
+#### Estructura del Libro
+**Organización en cinco partes**:
+
+**Parte I**: Fundamentos de requisitos software
+- Definiciones conceptuales
+- Prácticas recomendadas (capítulo 3)
+- Rol del analista empresarial (capítulo 4)
+
+**Parte II**: Desarrollo de requisitos
+- Definición de requisitos empresariales
+- Técnicas de elicitación
+- Documentación de requisitos funcionales y no funcionales
+- Modelado visual (capítulo 12)
+- Prototipado para reducción de riesgos (capítulo 15)
+
+**Parte III**: Enfoques específicos por tipo de proyecto
+- Proyectos ágiles
+- Proyectos de mejora y reemplazo
+- Soluciones empaquetadas
+- Sistemas embebidos y tiempo real
+
+**Parte IV**: Gestión de requisitos
+- Manejo de cambios
+- Trazabilidad de requisitos (capítulo 29)
+- Herramientas comerciales
+
+**Parte V**: Implementación práctica
+- Incorporación de técnicas
+- Gestión de riesgos
+- Guías de solución de problemas
+
+### Beneficios y Aplicabilidad
+
+#### Ventajas de Mejoras en Requisitos
+- Reducción de retrabajo y maximización de productividad
+- Entrega de sistemas de alta calidad que cumplen objetivos empresariales
+- Gestión efectiva de cambios de alcance
+- Incremento en satisfacción del cliente
+- Reducción de costos de mantenimiento y soporte
+
+#### Audiencia Objetivo
+- **Primaria**: Analistas empresariales e ingenieros de requisitos
+- **Secundaria**: Arquitectos, diseñadores, desarrolladores, testers
+- **Complementaria**: Marketing, gestión de productos, stakeholders
+
+### Enfoque Práctico y Casos de Estudio
+
+#### Metodología Aplicada
+- **Enfoque pragmático**: Técnicas probadas en diversos contextos
+- **Escalabilidad**: Adaptación a proyectos de diferentes tamaños y complejidades
+- **Recursos disponibles**: Plantillas, listas de verificación, procesos descargables
+
+#### Sistema de Casos de Estudio
+- **Chemical Tracking System**: Caso principal que ilustra aplicación de métodos
+- **Diálogos realistas**: Ejemplos conversacionales basados en experiencias reales
+- **Aplicabilidad transversal**: Relevancia independiente del dominio específico
+
+### Transición a la Práctica
+
+#### Estrategias de Implementación
+- **Mejora incremental**: Comenzar con pequeñas mejoras inmediatas
+- **Educación continua**: Capacitación de equipos, clientes y gerentes
+- **Aplicación progresiva**: Implementación gradual de prácticas
+
+#### Recursos de Apoyo
+- **Sitio web complementario**: Disponibilidad de plantillas y recursos
+- **Guías de acción**: "Próximos pasos" al final de cada capítulo
+- **Evaluación autónoma**: Apéndice de autoevaluación para identificar áreas de mejora
+
+Este resumen académico presenta el marco conceptual y metodológico esencial para la comprensión y aplicación efectiva de la ingeniería de requisitos software, estableciendo las bases para el desarrollo sistemático de sistemas que satisfagan efectivamente las necesidades empresariales y de usuario.

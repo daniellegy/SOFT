@@ -1,0 +1,92 @@
+### Parte 17 (Pág. 641–680)
+
+## Resumen de las Páginas 641-680: Pruebas de Software Orientado a Objetos y Validación
+
+### 1. Pruebas de Colaboración entre Clases
+
+#### 1.1 Generación de Casos de Prueba Aleatorios para Múltiples Clases
+Kirani y Tsai [Kir94] proponen una metodología sistemática para la generación de casos de prueba aleatorios que involucran múltiples clases:
+
+**Secuencia de pasos:**
+1. **Generación de secuencias aleatorias**: Para cada clase cliente, generar secuencias aleatorias de operaciones que envíen mensajes a clases servidor
+2. **Identificación de colaboradores**: Determinar la clase colaboradora y operación correspondiente para cada mensaje generado
+3. **Trazado de mensajes**: Para cada operación invocada en el objeto servidor, identificar los mensajes que transmite
+4. **Expansión de secuencias**: Incorporar operaciones de siguiente nivel invocadas por los mensajes
+
+**Ejemplo ilustrativo**: En un sistema bancario, un caso de prueba para la clase Bank podría ser:
+```
+Test case r3 = verifyAcct•verifyPIN•depositReq
+```
+Este caso requiere colaboración con ValidationInfo (verifyAcct, verifyPIN) y Account (depositReq).
+
+### 2. Diseño de Casos de Prueba Basados en Escenarios
+
+#### 2.1 Limitaciones de las Pruebas Basadas en Fallos
+- Errores en especificaciones incorrectas
+- Interacciones problemáticas entre subsistemas
+- Falta de conformidad con requisitos del cliente
+
+#### 2.2 Características de las Pruebas Basados en Escenarios
+- **Enfoque centrado en el usuario**: Captura lo que el usuario hace, no lo que el producto hace
+- **Basado en casos de uso**: Utiliza tareas del usuario y sus variantes como pruebas
+- **Complejidad**: Los casos de prueba son más complejos y realistas
+- **Ejercicio múltiple**: Prueba múltiples subsistemas simultáneamente
+
+### 3. Pruebas de Validación
+
+#### 3.1 Definición y Propósito
+La validación verifica que el software funcione de manera razonablemente esperada por el cliente, enfocándose en:
+- Acciones visibles para el usuario
+- Salidas reconocibles por el usuario
+- Conformidad con requisitos a nivel de sistema
+
+#### 3.2 Componentes del Proceso de Validación
+- **Plan de pruebas**: Define clases de pruebas a realizar
+- **Procedimientos de prueba**: Casos específicos que aseguran:
+  - Satisfacción de requisitos funcionales
+  - Logro de características comportamentales
+  - Exactitud y presentación adecuada del contenido
+  - Cumplimiento de requisitos de rendimiento
+  - Corrección de documentación
+  - Usabilidad y otros requisitos no funcionales
+
+#### 3.3 Revisión de Configuración
+Elemento crítico que asegura:
+- Desarrollo adecuado de todos los elementos de configuración
+- Catalogación apropiada
+- Detalle suficiente para actividades de soporte
+
+### 4. Patrones de Pruebas
+
+#### 4.1 Concepto y Utilidad
+Los patrones de pruebas describen problemas comunes de testing y soluciones correspondientes, facilitando:
+- Comunicación efectiva del equipo
+- Comprensión de fuerzas motivadoras
+- Diseño evolutivo de pruebas
+
+#### 4.2 Patrones Representativos
+
+**PairTesting**:
+- Técnica análoga a la programación en parejas
+- Dos testers colaboran en diseño y ejecución de pruebas
+- Aplicable a pruebas unitarias, de integración y validación
+
+**SeparateTestInterface**:
+- Soluciona la necesidad de probar clases internas
+- Crea interfaces de prueba para clases visibles internamente
+
+**ScenarioTesting**:
+- Ejercita el software desde la perspectiva del usuario
+- Detecta fallos en requisitos visibles para el usuario
+
+### 5. Consideraciones Finales
+
+#### 5.1 Integración de Enfoques
+- Las pruebas de colaboración entre clases combinan métodos aleatorios, de partición, basados en escenarios y comportamentales
+- La validación de software OO utiliza casos de uso y métodos de caja negra convencionales
+
+#### 5.2 Perspectiva de Desarrollo
+- **Pruebas de caja blanca**: "Testing en pequeño" (componentes individuales)
+- **Pruebas de caja negra**: "Testing en grande" (integración basada en requisitos)
+
+Esta sección enfatiza la importancia de abordar las pruebas de software orientado a objetos desde múltiples perspectivas, integrando técnicas tradicionales con enfoques específicos para la naturaleza colaborativa de los sistemas OO.

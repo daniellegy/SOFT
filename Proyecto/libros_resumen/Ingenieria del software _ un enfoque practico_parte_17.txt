@@ -1,0 +1,87 @@
+### Parte 17 (Pág. 641–680)
+
+# Resumen del Capítulo 26: Estimación para Proyectos de Software (Páginas 641-680)
+
+## 26.7 Modelos de Estimación Empíricos
+
+### 26.7.1 Modelos Basados en LOC y PF
+
+**Definición clave**: Los modelos empíricos utilizan datos históricos y fórmulas matemáticas para predecir el esfuerzo requerido en proyectos de software.
+
+**Modelos orientados a LOC**:
+- Modelo Walston-Felix: E = 5.2 × (KLOC)^0.91
+- Modelo Bailey-Basili: E = 5.5 + 0.73 × (KLOC)^1.16
+- Modelo Boehm simple: E = 3.2 × (KLOC)^1.05
+- Modelo Doty: E = 5.288 × (KLOC)^1.047 (para KLOC > 9)
+
+**Modelos orientados a PF**:
+- Modelo Albrecht y Gaffney: E = -91.4 + 0.355 PF
+- Modelo Kemerer: E = -37 + 0.96 PF
+- Modelo de regresión pequeño: E = -12.88 + 0.405 PF
+
+**Observación crítica**: Cada modelo produce resultados diferentes para los mismos valores de LOC o PF, lo que subraya la necesidad de calibrar los modelos según el entorno local.
+
+### 26.7.2 El Modelo COCOMO II
+
+**Concepto fundamental**: COCOMO II representa una jerarquía de modelos de estimación evolucionada del modelo COCOMO original de Barry Boehm.
+
+**Estructura jerárquica**:
+1. **Modelo de composición de aplicación**: Para etapas iniciales con prototipos de interfaces
+2. **Modelo de etapa temprana de diseño**: Una vez estabilizados los requisitos
+3. **Modelo de etapa postarquitectónica**: Durante la construcción del software
+
+**Puntos objeto**:
+- Medida indirecta del software basada en:
+  - Pantallas en la interfaz de usuario
+  - Reportes
+  - Componentes 3GL
+
+**Proceso de cálculo**:
+1. Clasificar objetos en niveles de complejidad (simple, medio, difícil)
+2. Aplicar ponderaciones según figura 26.6
+3. Calcular NOP = (puntos objeto) × [(100 - %reuso)/100]
+4. Determinar productividad (PROD) según experiencia y entorno (figura 26.7)
+5. Calcular esfuerzo estimado = NOP/PROD
+
+### 26.7.3 La Ecuación del Software
+
+**Modelo multivariable** propuesto por Putnam:
+E = [LOC × B^0.333]/P^3 × 1/t^4
+
+**Parámetros**:
+- E: esfuerzo en persona-meses/años
+- t: duración del proyecto
+- B: factor de habilidades especiales (0.16-0.39)
+- P: parámetro de productividad (2,000-28,000)
+
+**Ecuaciones derivadas**:
+- Tiempo mínimo: t_mín = 8.14 × (LOC/P)^0.43
+- Esfuerzo: E = 180 × B × t^3
+
+## 26.8 Estimación para Proyectos Orientados a Objetos
+
+**Proceso propuesto por Lorenz y Kidd**:
+1. Usar métodos convencionales de estimación
+2. Desarrollar casos de uso y determinar conteo
+3. Identificar clases clave del modelo de requisitos
+4. Calcular clases de apoyo usando multiplicadores de interfaz
+5. Multiplicar total de clases por unidades de trabajo por clase (15-20 días-persona)
+6. Verificar cruzadamente con estimación basada en casos de uso
+
+## 26.9 Técnicas de Estimación Especializadas
+
+### 26.9.1 Estimación para Desarrollo Ágil
+
+**Enfoque iterativo** para proyectos con plazos cortos y cambios continuos:
+
+**Proceso**:
+1. Analizar cada escenario de usuario por separado
+2. Descomponer en tareas de ingeniería de software
+3. Estimar esfuerzo por tarea (usando datos históricos o experiencia)
+4. Alternativamente, estimar volumen del escenario en LOC, PF u otras medidas
+
+**Características**: Informal pero disciplinado, adaptado al contexto de planificación por incrementos.
+
+## Conclusiones
+
+Los modelos presentados demuestran la evolución desde enfoques empíricos simples hacia modelos jerárquicos y especializados que consideran múltiples factores del proyecto, entorno de desarrollo y características del equipo. La calibración local y la adaptación a metodologías específicas (como desarrollo ágil u orientado a objetos) resultan esenciales para obtener estimaciones precisas y útiles para la gestión de proyectos de software.

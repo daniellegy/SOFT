@@ -1,0 +1,86 @@
+### Parte 22 (Pág. 841–880)
+
+## Resumen de Gestión de Riesgos en Ingeniería de Software (Páginas 841-880)
+
+### 1. Evaluación del Impacto del Riesgo
+
+**Definición clave**: El impacto del riesgo se evalúa considerando tres factores fundamentales:
+- **Naturaleza**: Problemas específicos que pueden ocurrir si el riesgo se materializa
+- **Alcance**: Severidad del impacto y distribución en el proyecto
+- **Momento**: Cuándo y por cuánto tiempo se sentirá el impacto
+
+**Proceso de evaluación**:
+1. Determinar la probabilidad promedio de ocurrencia para cada componente de riesgo
+2. Evaluar el impacto basándose en criterios establecidos
+3. Completar y analizar la tabla de riesgos
+
+### 2. Exposición al Riesgo (RE)
+
+**Fórmula fundamental**:
+```
+RE = P × C
+```
+Donde:
+- P = Probabilidad de ocurrencia del riesgo
+- C = Costo para el proyecto si el riesgo ocurre
+
+**Ejemplo aplicado**:
+- Riesgo identificado: Solo 70% de componentes reutilizables integrables
+- Probabilidad: 80%
+- Impacto: Desarrollo de 18 componentes adicionales = $25,200
+- RE = 0.80 × 25,200 ≈ $20,200
+
+### 3. Proyección y Análisis Iterativo
+
+**Proceso continuo**:
+- Reevaluación periódica de la tabla de riesgos
+- Actualización de probabilidades e impactos según nuevas circunstancias
+- Comparación del RE total con el costo del proyecto
+- **Criterio crítico**: Si RE total > 50% del costo del proyecto, cuestionar viabilidad
+
+### 4. Refinamiento de Riesgos
+
+**Formato CTC (Condición-Transición-Consecuencia)**:
+```
+Dado que <condición> entonces existe preocupación que (posiblemente) <consecuencia>
+```
+
+**Ejemplo de refinamiento**:
+- Condición general: Componentes reutilizables no conformes con estándares
+- Subcondiciones refinadas:
+  1. Componentes de terceros sin conocimiento de estándares internos
+  2. Estándares de interfaz no solidificados
+  3. Componentes en lenguajes no soportados
+
+### 5. Estrategia Integral de Gestión de Riesgos
+
+#### A. Mitigación de Riesgos
+**Enfoque proactivo** mediante planes específicos:
+- Identificación de causas raíz
+- Desarrollo de técnicas de continuidad
+- Establecimiento de estándares de productos de trabajo
+- Asignación de personal de respaldo
+
+#### B. Monitoreo de Riesgos
+**Actividades continuas**:
+- Seguimiento de factores indicadores
+- Evaluación de efectividad de medidas de mitigación
+- Verificación de documentación y transferencia de conocimiento
+
+#### C. Gestión y Planificación de Contingencias
+**Respuesta ante materialización del riesgo**:
+- Activación de recursos de respaldo
+- Reorganización temporal de recursos
+- Implementación de transferencia de conocimiento
+- Ajuste de cronogramas y alcances
+
+### 6. Análisis Costo-Beneficio en RMMM
+
+**Consideración económica crítica**:
+- Evaluación de costos adicionales vs. beneficios de mitigación
+- **Criterio de decisión**: Si RE < costo de mitigación, priorizar monitoreo sobre mitigación
+- Balance entre protección contra riesgos y optimización de recursos
+
+### Conclusión
+
+La gestión efectiva de riesgos requiere un enfoque sistemático que integre identificación, evaluación cuantitativa, refinamiento continuo y estrategias balanceadas de mitigación, monitoreo y gestión. El proceso debe ser iterativo y adaptativo, con decisiones fundamentadas en análisis costo-beneficio que aseguren la viabilidad del proyecto mientras se minimizan impactos negativos potenciales.

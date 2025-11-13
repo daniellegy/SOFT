@@ -1,0 +1,1556 @@
+### Parte 1 (Pág. 1–40)
+### Resumen Académico: "Ingeniería de Software" de Ian Sommerville (Páginas 1-40)
+
+#### **Introducción y Contexto General**
+El libro *Software Engineering* (10.ª edición) de Ian Sommerville se presenta como un texto fundamental en la disciplina, destacando la evolución y la relevancia crítica de la ingeniería de software en la sociedad contemporánea. El autor enfatiza que el software es un pilar esencial para infraestructuras como energía, comunicaciones y transporte, así como para innovaciones como la exploración espacial y la World Wide Web. Además, se subraya el papel crucial del software en la resolución de desafíos globales, como el cambio climático, la gestión de recursos y el terrorismo internacional.
+
+---
+
+#### **Definiciones y Conceptos Clave**
+1. **Ingeniería de Software**: Disciplina que aborda el desarrollo, operación y mantenimiento de sistemas software profesionales, con énfasis en la gestión de la complejidad, la integración de métodos ágiles y la garantía de seguridad y resiliencia en los sistemas.
+2. **Sistemas de Sistemas**: Conjuntos de sistemas software interconectados que operan de manera colaborativa, representando un nivel superior de complejidad en la ingeniería moderna.
+3. **Dependabilidad**: Atributo que engloba confiabilidad, seguridad y resiliencia en sistemas software, asegurando su correcto funcionamiento en entornos críticos.
+
+---
+
+#### **Principios Fundamentales del Libro**
+Sommerville establece dos principios rectores en su obra:
+1. **Enfoque Práctico**: Describe la ingeniería de software tal como se practica en la industria, evitando posiciones dogmáticas sobre metodologías específicas (ej. desarrollo ágil o métodos formales).
+2. **Basado en Experiencia**: Selecciona temas según su conocimiento directo, priorizando áreas como la dependabilidad de sistemas y la ingeniería de sistemas.
+
+---
+
+#### **Estructura y Organización del Libro**
+El texto se divide en cuatro partes, cada una diseñada para abordar aspectos específicos de la ingeniería de software:
+
+1. **Parte 1: Introducción a la Ingeniería de Software**
+   - Incluye 9 capítulos que cubren fundamentos, métodos ágiles (con énfasis en Scrum) y estudios de caso, como el de un entorno digital de aprendizaje.
+   - Se profundiza en sistemas legacy y se actualizan conceptos clave.
+
+2. **Parte 2: Sistemas Confiables**
+   - Reorganizada para abordar temas como seguridad, confiabilidad y resiliencia en capítulos independientes.
+   - Incluye un nuevo capítulo sobre **ingeniería de resiliencia**, que abarca ciberseguridad y diseño de sistemas resistentes.
+
+3. **Parte 3: Temas Avanzados**
+   - Incorpora capítulos sobre **ingeniería de sistemas** y **sistemas de sistemas**.
+   - Actualiza el contenido sobre sistemas orientados a servicios, incluyendo **servicios RESTful**.
+
+4. **Parte 4: Gestión de Proyectos y Configuración**
+   - Actualiza la gestión de configuración con herramientas de control de versiones distribuidas (ej. Git).
+   - Elimina capítulos impresos sobre mejora de procesos y orientación a aspectos, trasladándolos al material web.
+
+---
+
+#### **Procesos y Modelos Relevantes**
+1. **Desarrollo Ágil**: Se enfatiza su integración con métodos basados en planificación, reflejando prácticas industriales reales.
+2. **Modelos de Ciclo de Vida**: Aunque no se detallan en este extracto, se sugiere un enfoque híbrido que combine iteración y planificación.
+3. **Gestión de Configuración**: Se introduce el uso de herramientas modernas como Git para el control de versiones en entornos distribuidos.
+
+---
+
+#### **Material Complementario y Enfoque Pedagógico**
+- **Recursos Web**: El libro incluye material suplementario en línea, como videos explicativos, capítulos web y ejercicios interactivos.
+- **Videos**: Más de 40 videos creados por el autor, disponibles en YouTube, cubren temas clave y refuerzan el aprendizaje.
+- **Cursos Sugeridos**: El texto está diseñado para adaptarse a tres tipos de cursos:
+  1. **Introductorios**: Basados en la Parte 1.
+  2. **Intermedios**: Enfocados en temas específicos (ej. sistemas críticos).
+  3. **Avanzados**: Combinan capítulos del libro con lecturas adicionales.
+
+---
+
+#### **Conclusión**
+Las primeras páginas del libro establecen un marco sólido para comprender la ingeniería de software como disciplina en evolución, con un enfoque equilibrado entre teoría y práctica. La estructura modular y los recursos complementarios lo convierten en una herramienta versátil para estudiantes y profesionales. La actualización en esta edición refleja tendencias contemporáneas, como la resiliencia, los sistemas de sistemas y las metodologías ágiles, posicionándose como un referente en la educación y práctica de la ingeniería de software.
+
+--- 
+**Referencia**: Sommerville, I. (2016). *Software Engineering* (10.ª ed.). Pearson Education.
+
+
+### Parte 2 (Pág. 41–80)
+## Resumen de las Páginas 41-80: Procesos de Software
+
+### 1. Arquitectura de Entornos Digitales de Aprendizaje (Páginas 41-42)
+
+**Definición Clave**: El sistema iLearn representa un entorno digital de aprendizaje que ilustra principios arquitectónicos fundamentales en ingeniería de software.
+
+**Niveles de Integración de Servicios**:
+
+- **Servicios Integrados**: Ofrecen API que permiten comunicación directa servicio-a-servicio. Ejemplo: servicio de autenticación que puede ser invocado por otros servicios sin necesidad de reautenticación.
+
+- **Servicios Independientes**: Operan a través de interfaz de navegador sin integración directa. La compartición de información requiere acciones explícitas del usuario (copiar/pegar).
+
+**Componentes Arquitectónicos**:
+- Servicios de utilidad (autenticación, gestión de usuarios, almacenamiento)
+- Servicios de aplicación (procesamiento de texto, hojas de cálculo, simulaciones)
+- Servicios de configuración para adaptar el entorno según usuarios
+
+### 2. Fundamentos de la Ingeniería de Software (Páginas 42-44)
+
+**Definiciones Esenciales**:
+
+- **Ingeniería de Software**: Disciplina de ingeniería concernida con todos los aspectos de la producción de software.
+
+- **Software**: No solo programas, sino toda documentación electrónica necesaria para usuarios, QA y desarrolladores.
+
+**Atributos Esenciales del Producto Software**:
+- Mantenibilidad
+- Confiabilidad y seguridad
+- Eficiencia
+- Aceptabilidad
+
+**Aspectos Éticos y Profesionales**:
+- Responsabilidades hacia la profesión y sociedad
+- Códigos de conducta publicados por sociedades profesionales
+- Consideración de implicaciones éticas en el desarrollo
+
+### 3. Procesos de Software (Páginas 45-80)
+
+**Definición de Proceso de Software**: Conjunto de actividades relacionadas que conducen a la producción de un sistema software.
+
+**Cuatro Actividades Fundamentales**:
+
+1. **Especificación de Software**: Definición de funcionalidad y restricciones operativas
+2. **Desarrollo de Software**: Producción del software según especificación
+3. **Validación de Software**: Verificación de que el software cumple con los requerimientos del cliente
+4. **Evolución de Software**: Adaptación a necesidades cambiantes del cliente
+
+**Elementos del Proceso**:
+
+- **Productos/Deliverables**: Resultados de las actividades del proceso
+- **Roles**: Responsabilidades de las personas involucradas
+- **Condiciones**: Factores que influyen en la secuencia de actividades
+
+**Características de los Procesos**:
+- No existe un proceso universalmente aplicable
+- Dependen del tipo de software, requerimientos del cliente y habilidades del equipo
+- Incluyen actividades de soporte (gestión de configuración, planificación de proyectos)
+
+### Modelos y Enfoques Relevantes
+
+El texto establece las bases para entender que los procesos software deben ser:
+- Adaptables a diferentes contextos
+- Centrados en actividades fundamentales
+- Orientados a la calidad y mantenibilidad
+- Conscientes de aspectos éticos y profesionales
+
+Esta sección sienta las bases conceptuales para la comprensión de modelos de proceso específicos que se desarrollan posteriormente en el texto, enfatizando la naturaleza sistemática y disciplinada de la ingeniería de software.
+
+
+### Parte 3 (Pág. 81–120)
+### Resumen de Técnicas de Desarrollo Ágil (Páginas 81-120)
+
+#### 3.2.1 Historias de Usuario
+**Definición:** Las historias de usuario representan escenarios de uso que describen funcionalidades desde la perspectiva del usuario final. Se desarrollan mediante tarjetas de historia (*story cards*) que encapsulan necesidades específicas del cliente.
+
+**Proceso de Implementación:**
+1. **Colaboración:** El cliente trabaja directamente con el equipo de desarrollo para definir escenarios
+2. **Descomposición:** Las historias se dividen en tareas específicas mediante tarjetas de tareas (*task cards*)
+3. **Priorización:** El cliente determina el orden de implementación basado en el valor empresarial
+4. **Iteración:** Las funcionalidades se implementan en ciclos de aproximadamente dos semanas
+
+**Ventajas:**
+- Facilitan la comprensión de requisitos mediante narrativas accesibles
+- Promueven la participación activa de usuarios
+- Permiten adaptación flexible a cambios en requisitos
+
+**Limitaciones:**
+- Dificultad para garantizar completitud de los requisitos
+- Riesgo de omisión de detalles por familiaridad del usuario con el proceso
+- Desafíos en la representación fidedigna de actividades complejas
+
+#### 3.2.2 Refactorización
+**Concepto Fundamental:** La refactorización consiste en la mejora continua de la estructura del código sin alterar su comportamiento externo, contrarrestando la degradación natural del software durante el desarrollo incremental.
+
+**Ejemplos de Refactorización:**
+- Reorganización de jerarquías de clases
+- Eliminación de código duplicado
+- Normalización de nombres de atributos y métodos
+- Consolidación de código similar mediante métodos de biblioteca
+
+**Beneficios:**
+- Mantiene la legibilidad y mantenibilidad del código
+- Previene el deterioro estructural del software
+- Facilita la implementación de cambios futuros
+
+**Desafíos Prácticos:**
+- Presiones de desarrollo pueden posponer actividades de refactorización
+- Limitaciones en refactorización a nivel arquitectónico
+- Necesidad de herramientas especializadas para refactorización global
+
+#### 3.2.3 Desarrollo Guiado por Pruebas (Test-First Development)
+**Principio Central:** Escribir pruebas automatizadas antes de implementar el código correspondiente, definiendo implícitamente interfaces y especificaciones de comportamiento.
+
+**Características Esenciales:**
+1. **Automatización:** Uso de frameworks de prueba ejecutables
+2. **Desarrollo Incremental:** Las pruebas evolucionan junto con los escenarios
+3. **Participación del Usuario:** Involucramiento en desarrollo y validación de pruebas
+4. **Integración Continua:** Ejecución automática de pruebas durante el desarrollo
+
+**Proceso de Implementación:**
+- Las historias de usuario se descomponen en tareas
+- Cada tarea genera una o más pruebas unitarias
+- El desarrollo procede solo cuando todas las pruebas se ejecutan exitosamente
+
+**Ventajas:**
+- Clarifica requisitos y reduce ambigüedades antes de la implementación
+- Elimina el "retraso en pruebas" (*test-lag*)
+- Proporciona especificación ejecutable del comportamiento esperado
+- Facilita la detección temprana de problemas
+
+**Ejemplo Práctico:** Prueba de validación de dosis médicas que verifica:
+- Límites seguros de dosis única
+- Frecuencia de administración
+- Cálculos de dosis total diaria
+
+**Herramientas:** Frameworks como Junit para Java permiten la creación y ejecución automatizada de pruebas.
+
+#### Conclusión
+Estas técnicas ágiles representan un paradigma de desarrollo centrado en la adaptabilidad, calidad continua y colaboración estrecha con el cliente. Si bien presentan desafíos en términos de completitud y disciplina de implementación, ofrecen ventajas significativas en entornos donde los requisitos evolucionan constantemente.
+
+
+### Parte 4 (Pág. 121–160)
+## Resumen de las páginas 121-160: Especificación de Requisitos
+
+### 4.4 Especificación de Requisitos
+
+**Definición:** Proceso de documentación de requisitos de usuario y del sistema en un documento de requisitos.
+
+#### Características Ideales del Documento de Requisitos:
+- Claridad y ausencia de ambigüedad
+- Facilidad de comprensión
+- Completitud
+- Consistencia
+
+### Tipos de Requisitos
+
+#### Requisitos de Usuario
+- Descripción de requisitos funcionales y no funcionales
+- Comprensibles para usuarios sin conocimiento técnico
+- Especifican únicamente el comportamiento externo del sistema
+- **Notación recomendada:** Lenguaje natural complementado con diagramas y tablas simples
+
+#### Requisitos del Sistema
+- Versiones expandidas de los requisitos de usuario
+- Utilizados como punto de partida para el diseño del sistema
+- Deben ser una especificación completa y detallada
+- Pueden incluir información de diseño en casos específicos
+
+### Notaciones para Especificación de Requisitos del Sistema
+
+| **Notación** | **Descripción** |
+|--------------|-----------------|
+| Lenguaje natural | Requisitos escritos en oraciones numeradas |
+| Lenguaje natural estructurado | Requisitos en plantillas estandarizadas |
+| Notaciones gráficas | Modelos gráficos complementados con texto (ej. diagramas UML) |
+| Especificaciones matemáticas | Basadas en conceptos matemáticos (máquinas de estado finito, conjuntos) |
+
+### Directrices para Especificación en Lenguaje Natural
+
+1. **Formato estándar:** Establecer un formato consistente para todas las definiciones
+2. **Lenguaje consistente:** 
+   - "Shall" para requisitos obligatorios
+   - "Should" para requisitos deseables
+3. **Resaltado visual:** Uso de negrita, cursiva o color para elementos clave
+4. **Evitar jerga técnica:** Minimizar uso de terminología especializada
+5. **Incluir racional:** Explicar el porqué de cada requisito y su fuente
+
+### Consideraciones sobre Información de Diseño
+
+Aunque idealmente los requisitos no deben incluir detalles de diseño, existen excepciones:
+
+1. **Arquitectura inicial:** Necesaria para estructurar la especificación
+2. **Interoperabilidad:** Restricciones impuestas por sistemas existentes
+3. **Requisitos no funcionales:** Arquitecturas específicas para cumplir con confiabilidad, seguridad, etc.
+
+### Ejemplo Práctico: Sistema KidsTakePics
+
+El texto presenta un escenario detallado para la carga de fotos que incluye:
+- Flujo normal de eventos
+- Manejo de situaciones de error
+- Actividades concurrentes
+- Estado del sistema al finalizar
+
+Esta aproximación mediante escenarios facilita la discusión con stakeholders y ayuda a identificar requisitos específicos del sistema.
+
+
+### Parte 5 (Pág. 161–200)
+### Resumen de las Páginas 161-200: Arquitectura Dirigida por Modelos
+
+#### 5.5 Arquitectura Dirigida por Modelos (MDA)
+
+**Definición y Antecedentes**
+La Arquitectura Dirigida por Modelos (MDA) constituye un paradigma de desarrollo de software centrado en modelos, propuesto inicialmente por el Object Management Group (OMG). Se enmarca dentro de la Ingeniería Dirigida por Modelos (MDE), aunque se diferencia de esta última al concentrarse específicamente en las etapas de diseño e implementación, mientras que la MDE abarca todo el proceso de ingeniería de software.
+
+**Modelos Fundamentales en MDA**
+El enfoque MDA prescribe la elaboración de tres tipos de modelos abstractos:
+
+1. **Modelo Independiente de Computación (CIM)**
+   - Representa las abstracciones fundamentales del dominio sin considerar aspectos computacionales
+   - También denominado "modelo de dominio"
+   - Pueden existir múltiples CIMs representando diferentes perspectivas (ej: seguridad, registros médicos)
+
+2. **Modelo Independiente de Plataforma (PIM)**
+   - Describe la operación del sistema sin referencia a detalles de implementación
+   - Utiliza notación UML para representar estructura estática y comportamiento dinámico
+   - Captura la esencia del sistema independientemente de la tecnología
+
+3. **Modelo Específico de Plataforma (PSM)**
+   - Representa transformaciones del PIM adaptadas a plataformas específicas
+   - Puede existir jerarquía de PSMs con niveles progresivos de especificidad
+   - Permite la generación automática de código ejecutable
+
+**Proceso de Transformación**
+El núcleo de MDA radica en las transformaciones automáticas entre modelos:
+- Las herramientas software aplican reglas y patrones para convertir modelos entre niveles
+- La transformación final genera código ejecutable para la plataforma objetivo
+- En la práctica, se requiere intervención humana para mapeos conceptuales complejos
+
+**Limitaciones y Desafíos**
+La implementación completa de MDA enfrenta varias dificultades:
+
+1. **Problemas Técnicos**
+   - Traducción automática CIM→PIM permanece como desafío de investigación
+   - Necesidad de herramientas especializadas para entornos específicos
+   - Integración con sistemas legacy y servicios externos
+
+2. **Barreras de Adopción**
+   - Costos de implementación y mantenimiento de herramientas
+   - Tensión conceptual con métodos ágiles
+   - Beneficios limitados para sistemas de corta vida útil
+   - Dependencia de proveedores especializados
+
+**Aplicaciones y Casos de Éxito**
+MDA ha demostrado mayor efectividad en:
+- Sistemas productos que integran hardware y software
+- Dominios bien entendidos y formalizables (automoción, control aéreo)
+- Sistemas de larga vida útil donde la independencia de plataforma es crucial
+
+**UML Ejecutable (xUML)**
+Subconjunto de UML 2 que permite:
+- Definición de modelos gráficos con semántica precisa
+- Compilación directa a código ejecutable
+- Especificación de implementación de operaciones
+
+**Puntos Clave del Capítulo**
+- Los modelos proporcionan vistas abstractas que ignoran deliberadamente detalles del sistema
+- Los modelos de contexto definen límites del sistema y su relación con el entorno
+- Los diagramas de casos de uso y secuencia modelan interacciones usuario-sistema
+- Los modelos estructurales (diagramas de clases) definen la arquitectura estática
+- Los modelos comportamentales describen la dinámica del sistema en ejecución
+- Los diagramas de actividades modelan procesamiento de datos
+- Los diagramas de estados modelan comportamiento reactivo a eventos
+
+La adopción de MDA ha sido selectiva, mostrando mejores resultados en contextos específicos donde los beneficios de la independencia de plataforma y la automatización superan los costos de implementación y mantenimiento.
+
+
+### Parte 6 (Pág. 201–240)
+## Resumen de las páginas 201-240: Diseño Orientado a Objetos usando UML
+
+### 7.1.1 Contexto del Sistema e Interacciones
+
+**Definiciones Clave:**
+- **Modelo de contexto del sistema:** Modelo estructural que demuestra los otros sistemas en el entorno del sistema en desarrollo
+- **Modelo de interacción:** Modelo dinámico que muestra cómo el sistema interactúa con su entorno durante su uso
+- **Asociaciones:** Relaciones entre las entidades involucradas en el sistema
+
+**Conceptos Fundamentales:**
+El proceso de diseño comienza comprendiendo las relaciones entre el software y su entorno externo. Esto permite establecer los límites del sistema y decidir cómo distribuir la funcionalidad entre sistemas asociados.
+
+**Modelos Aplicados:**
+- **Diagrama de contexto:** Representa las entidades del sistema y sus asociaciones mediante diagramas de bloques
+- **Modelos de casos de uso:** Representan interacciones abstractas con el sistema, donde cada caso de uso representa una interacción específica
+
+**Ejemplo Práctico - Estación Meteorológica:**
+El contexto incluye sistemas de información meteorológica, sistema satelital y sistema de control. Los casos de uso identificados son: Reportar clima, Reportar estado, Reiniciar, Apagar, Reconfigurar, Modo ahorro de energía y Control remoto.
+
+### 7.1.2 Diseño Arquitectónico
+
+**Proceso de Diseño:**
+Una vez definidas las interacciones, se procede al diseño de la arquitectura del sistema, identificando los componentes principales y sus interacciones.
+
+**Patrones Arquitectónicos:**
+- **Modelo de escucha (Listener model):** Estilo arquitectónico común para sistemas distribuidos donde los subsistemas escuchan mensajes en una infraestructura común
+- **Patrón productor-consumidor:** Utilizado en el subsistema de recolección de datos
+
+**Arquitectura de la Estación Meteorológica:**
+- Subsistemas independientes que se comunican mediante transmisión de mensajes
+- Subsistemas principales: Recolección de datos, Comunicaciones, Gestor de configuración, Gestor de fallos, Gestor de energía e Instrumentos
+
+### 7.1.3 Identificación de Clases de Objetos
+
+**Métodos de Identificación:**
+1. **Análisis gramatical:** Objetos y atributos como sustantivos; operaciones como verbos
+2. **Entidades tangibles:** Elementos del dominio de aplicación como aeronaves, roles, eventos, interacciones
+3. **Análisis basado en escenarios:** Identificación de objetos requeridos mediante el análisis de escenarios de uso
+
+**Práctica Recomendada:**
+Utilizar múltiples fuentes de conocimiento para descubrir clases de objetos, combinando descripciones informales del sistema, conocimiento del dominio de aplicación y análisis de escenarios.
+
+**Clases de Objetos Identificadas:**
+1. **WeatherStation:** Proporciona la interfaz básica con el entorno
+2. **WeatherData:** Procesa el comando de reporte meteorológico
+3. **Objetos de dominio:** GroundThermometer, Anemometer, Barometer - relacionados directamente con instrumentos hardware
+
+**Características de Implementación:**
+- Los objetos de dominio reflejan entidades hardware tangibles
+- Operaciones autónomas de control de hardware
+- Combinación de objetos de aplicación y objetos de implementación para servicios generales
+
+Este enfoque sistemático permite un diseño robusto que integra adecuadamente las interacciones externas, la arquitectura del sistema y la identificación de objetos, siguiendo las mejores prácticas de la ingeniería de software orientada a objetos.
+
+
+### Parte 7 (Pág. 241–280)
+## Resumen de las Páginas 241-280: Pruebas de Desarrollo y Desarrollo Guiado por Pruebas
+
+### 8.1 Pruebas de Desarrollo
+
+#### 8.1.3 Pruebas de Interfaces
+
+**Definición Clave**: Las pruebas de interfaces se centran en verificar las interacciones entre componentes del software, particularmente en sistemas donde múltiples componentes operan a diferentes velocidades y comparten información.
+
+**Problemas Específicos en Interfaces**:
+- Acceso a información desactualizada
+- Defectos que solo se manifiestan bajo condiciones inusuales
+- Interacciones entre fallos en diferentes módulos
+- Suposiciones incorrectas sobre el comportamiento de componentes llamados
+
+**Directrices para Pruebas de Interfaces**:
+1. **Pruebas de valores extremos**: Diseñar pruebas con parámetros en los extremos de sus rangos
+2. **Pruebas con punteros nulos**: Verificar el comportamiento con parámetros de puntero nulo
+3. **Pruebas de fallos deliberados**: Provocar fallos en componentes para verificar supuestos
+4. **Pruebas de estrés en sistemas de paso de mensajes**: Generar más mensajes de los esperados en operación normal
+5. **Variación de orden de activación**: Cambiar la secuencia de activación de componentes que comparten memoria
+
+**Alternativa Complementaria**: Las inspecciones y revisiones pueden ser más efectivas que las pruebas para detectar errores de interfaz, permitiendo concentrarse en el comportamiento asumido de las interfaces.
+
+#### 8.1.4 Pruebas del Sistema
+
+**Definición**: Las pruebas del sistema implican integrar componentes para crear una versión del sistema y verificar que los componentes sean compatibles, interactúen correctamente y transfieran datos adecuadamente a través de sus interfaces.
+
+**Diferencias con Pruebas de Componentes**:
+- Integración de componentes reutilizables y sistemas preexistentes
+- Proceso colectivo que puede involucrar equipos de prueba separados
+
+**Comportamiento Emergente**:
+- **Planificado**: Funcionalidad que surge de la integración (ejemplo: autenticación con actualización de base de datos)
+- **No planificado**: Comportamiento no deseado que debe detectarse
+
+**Enfoques Efectivos**:
+- **Pruebas basadas en casos de uso**: Forzar interacciones entre componentes
+- **Uso de diagramas de secuencia**: Identificar operaciones y diseñar casos de prueba
+- **Pruebas incrementales**: Integrar un componente, probar el sistema, repetir
+
+**Políticas de Prueba Recomendadas**:
+1. Probar todas las funciones accesibles mediante menús
+2. Verificar combinaciones de funciones relacionadas
+3. Probar con entradas correctas e incorrectas donde haya entrada de usuario
+
+**Desafíos en Automatización**: Las pruebas automatizadas del sistema son más difíciles debido a la complejidad de predecir salidas en sistemas integrados.
+
+### 8.2 Desarrollo Guiado por Pruebas (TDD)
+
+**Definición**: Enfoque de desarrollo donde se intercalan pruebas y desarrollo de código de forma incremental.
+
+**Proceso Fundamental** (Figura 8.9):
+1. **Identificar incremento de funcionalidad**: Pequeño y implementable en pocas líneas de código
+2. **Escribir prueba automatizada** para la funcionalidad
+3. **Ejecutar todas las pruebas**: La nueva prueba debe fallar inicialmente
+4. **Implementar la funcionalidad** y refactorizar código existente
+5. **Re-ejecutar pruebas** hasta que todas sean exitosas
+6. **Repetir** para el siguiente incremento
+
+**Requisitos Esenciales**:
+- **Entorno de pruebas automatizadas**: Como JUnit para Java
+- **Ejecución rápida de pruebas**: Capacidad de ejecutar cientos de pruebas en segundos
+- **Integración incremental**: Fundamental en métodos ágiles con pruebas de regresión
+
+**Aplicabilidad**: Originalmente parte de métodos ágiles (XP), ahora aceptado en procesos tanto ágiles como basados en planificación.
+
+### Conceptos y Modelos Relevantes
+
+- **Integración incremental**: Estrategia fundamental para gestión de riesgos
+- **Pruebas de regresión**: Ejecución automática tras cada integración
+- **Diagramas de secuencia**: Herramienta para diseño de casos de prueba
+- **Comportamiento emergente**: Característica crítica en sistemas complejos
+- **Automatización de pruebas**: Requisito para implementación efectiva de TDD
+
+Este resumen destaca la importancia de las estrategias sistemáticas de prueba y la integración controlada como elementos esenciales para garantizar la calidad del software desarrollado.
+
+
+### Parte 8 (Pág. 281–320)
+### Resumen de las Páginas 281-320: Mantenimiento de Software y Evolución
+
+#### **Introducción**
+El mantenimiento de software es una fase crítica en el ciclo de vida del desarrollo, enfocada en garantizar la utilidad y adaptabilidad de los sistemas existentes. En esta sección, se abordan conceptos clave como la reingeniería, la refactorización y la gestión de sistemas legacy, destacando su relevancia para la sostenibilidad y evolución del software.
+
+---
+
+#### **1. Diferencias entre Reingeniería y Refactorización**
+- **Reingeniería**:  
+  Proceso aplicado tras un período de mantenimiento extenso, donde los costos incrementan. Utiliza herramientas automatizadas para transformar un sistema legacy en uno más mantenible. Su objetivo es modernizar la estructura y documentación del software.
+
+- **Refactorización**:  
+  Mejora continua durante el desarrollo y evolución, destinada a prevenir la degradación del código. Se realiza mediante cambios pequeños que preservan la funcionalidad, optimizando la legibilidad y modularidad.
+
+---
+
+#### **2. "Malos Olores" (Bad Smells) y Refactorización**
+Fowler et al. (1999) identifican situaciones estereotípicas que indican la necesidad de refactorización:
+1. **Código Duplicado**: Repetición de lógica en múltiples ubicaciones. Solución: Consolidar en métodos únicos.
+2. **Métodos Largos**: Fragmentar funcionalidades extensas en métodos más cortos y cohesivos.
+3. **Sentencias Switch/Case**: Evitar duplicación mediante polimorfismo en lenguajes orientados a objetos.
+4. **Agrupación de Datos (Data Clumping)**: Reemplazar grupos de datos recurrentes con objetos encapsulados.
+5. **Generalidad Especulativa**: Eliminar funcionalidades innecesarias añadidas "por si acaso".
+
+**Transformaciones de Refactorización**:
+- *Extraer Método*: Crear un nuevo método a partir de código duplicado.
+- *Consolidar Expresión Condicional*: Unificar secuencias de pruebas en una sola.
+- *Subir Método (Pull Up Method)*: Mover métodos similares de subclases a una superclase.
+
+---
+
+#### **3. Puntos Clave**
+- **Modelo de Desarrollo**: La evolución del software se representa mediante un modelo espiral iterativo.
+- **Costos de Mantenimiento**: En sistemas personalizados, superan los costos de desarrollo inicial.
+- **Proceso de Evolución**: Incluye análisis de impacto, planificación de lanzamientos e implementación de cambios.
+- **Sistemas Legacy**: Sistemas antiguos que siguen siendo útiles. Evaluar su valor empresarial y calidad para decidir entre mantenimiento, transformación o reemplazo.
+- **Tipos de Mantenimiento**:
+  1. *Correctivo*: Corrección de fallos.
+  2. *Adaptativo*: Modificaciones para nuevos entornos.
+  3. *Perfectivo*: Implementación de nuevos requisitos.
+- **Refactorización como Mantenimiento Preventivo**: Reduce costos a largo plazo y mejora la mantenibilidad.
+
+---
+
+#### **4. Consideraciones Adicionales**
+- **Refactorización de Diseño**: Cuando la degradación estructural es severa, se requiere identificar patrones de diseño (Capítulo 7) y reestructurar el código según estos.
+- **Herramientas de Soporte**: Entornos como Eclipse incluyen funcionalidades para automatizar la refactorización.
+- **Responsabilidad Profesional**: Los ingenieros deben desarrollar código mantenible, incluso si no se solicita explícitamente.
+
+---
+
+#### **5. Referencias y Lecturas Recomendadas**
+- **Feathers, M. (2004)**: *Working Effectively with Legacy Code*.
+- **Jones, C. (2006)**: "The Economics of Software Maintenance in the 21st Century".
+- **Bird, J. (2011)**: "You Can’t Be Agile in Maintenance?".
+- **Kumar, Y. y Dipti (2012)**: "Software Reengineering and Testing Considerations".
+
+---
+
+#### **Conclusión**
+El mantenimiento y la evolución del software son procesos fundamentales para extender la vida útil de los sistemas. La refactorización y reingeniería son estrategias complementarias para gestionar la complejidad y los costos, mientras que la evaluación de sistemas legacy permite tomar decisiones informadas sobre su futuro. La aplicación de buenas prácticas y herramientas adecuadas es esencial para garantizar la sostenibilidad del software.
+
+
+### Parte 9 (Pág. 321–360)
+## Resumen de Arquitecturas Tolerantes a Fallos (Páginas 321-326)
+
+### 11.3 Arquitecturas Tolerantes a Fallos
+
+#### 11.3.1 Sistemas de Protección
+
+**Definición:** Un sistema de protección es un sistema especializado asociado a otro sistema principal, generalmente de control, que monitorea independientemente el entorno y activa mecanismos de seguridad cuando detecta problemas no gestionados por el sistema controlado.
+
+**Características Fundamentales:**
+- Opera con sensores independientes del sistema principal
+- Incluye funcionalidad crítica mínima para llevar el sistema a un estado seguro
+- Posee actuadores redundantes y sistemas de respaldo
+- Ejemplo paradigmático: sistema de respaldo del Transbordador Espacial con funcionalidad "get you home"
+
+**Arquitectura (Figura 11.6):**
+- Monitoreo dual: equipo controlado y ambiente
+- Dos conjuntos de sensores (principal y protección)
+- Mecanismos de actuación independientes
+- Transición a estado seguro ante emergencias
+
+**Ventajas:**
+- Simplicidad del software de protección
+- Mayor capacidad de inversión en evitación y detección de fallos
+- Alta confiabilidad con probabilidad de fallo en demanda muy baja (≈ 0.001)
+
+#### 11.3.2 Arquitecturas de Auto-monitoreo
+
+**Concepto:** Sistemas que monitorean su propia operación mediante cómputos en canales separados y comparación de resultados.
+
+**Arquitectura Básica (Figura 11.7):**
+- Computaciones paralelas en canales separados
+- Comparador de salidas
+- Generación de excepción de fallo ante discrepancias
+
+**Requisitos para Efectividad:**
+1. **Diversidad de hardware:** Diferentes tipos de procesadores o fabricantes
+2. **Diversidad de software:** Implementaciones independientes para evitar errores comunes
+
+**Aplicación en Sistemas Críticos:**
+- **Sistema de Control de Vuelo Airbus 340:** Cinco computadoras auto-monitoreadas
+- Arquitectura con filtros hardware que detectan fallos
+- Capacidad de continuar operando con hasta cuatro fallos
+- Cero incidentes reportados en 15+ años de operación
+
+**Estrategias de Diversidad Airbus:**
+- Procesadores diferentes entre sistemas primarios y secundarios
+- Chipsets de diferentes fabricantes por canal
+- Software secundario con funcionalidad crítica reducida
+- Desarrollo con diferentes lenguajes de programación y equipos
+
+#### 11.3.3 Programación N-Versiones
+
+**Base Conceptual:** Extensión de la Redundancia Modular Triple (TMR) de hardware a sistemas software.
+
+**Arquitectura TMR (Figura 11.9):**
+- Tres o más unidades hardware idénticas
+- Sistema de votación para comparar salidas
+- Tolerancia a fallos de un componente
+- Reconfiguración automática ante fallos
+
+**Programación N-Versiones (Figura 11.10):**
+- Múltiples versiones software desarrolladas independientemente
+- Ejecución paralela en computadoras separadas
+- Sistema de votación para selección de resultados
+- Mínimo tres versiones para tolerar fallos simples
+
+**Aplicaciones:**
+- Sistemas de señalización ferroviaria
+- Sistemas de aviación
+- Sistemas de protección de reactores
+
+**Consideraciones Económicas:**
+- Alto costo de desarrollo por múltiples equipos
+- Uso restringido a sistemas donde es impracticable implementar sistemas de protección convencionales
+
+#### 11.3.4 Diversidad de Software
+
+**Principio Fundamental:** Implementaciones diversas de la misma especificación reducen probabilidad de fallos comunes.
+
+**Políticas de Diversidad:**
+1. **Métodos de diseño diferentes:** Orientación a objetos vs. orientación a funciones
+2. **Equipos de desarrollo independientes** sin comunicación durante el proceso
+3. **Lenguajes de programación diversos**
+4. **Proveedores de hardware diferentes**
+
+**Limitaciones:**
+- No garantiza diversidad absoluta
+- Reduce probabilidad de fallos comunes pero no los elimina completamente
+- Incrementa significativamente costos de desarrollo
+
+### Conclusión
+
+Las arquitecturas tolerantes a fallos representan estrategias fundamentales para sistemas críticos donde la confiabilidad es primordial. La evolución desde sistemas de protección simples hasta arquitecturas complejas de auto-monitoreo y programación N-versiones demuestra un enfoque escalonado hacia la tolerancia a fallos, siempre balanceando complejidad, costo y nivel de confiabilidad requerido.
+
+
+### Parte 10 (Pág. 361–400)
+## Resumen de las páginas 361-400: Procesos de Ingeniería de Seguridad y Casos de Seguridad
+
+### 12.3 Procesos de Ingeniería de Seguridad
+
+#### 12.3.4 Análisis Estático de Programas
+
+**Definición:** Los analizadores estáticos automáticos son herramientas de software que examinan el texto fuente de un programa y detectan posibles fallos y anomalías.
+
+**Características Fundamentales:**
+- Realizan parsing del texto del programa para reconocer diferentes tipos de sentencias
+- Detectan si las sentencias están bien formadas
+- Realizan inferencias sobre el flujo de control
+- Computan conjuntos de valores posibles para los datos del programa
+- Complementan las capacidades de detección de errores del compilador
+
+**Ventajas Comparativas:**
+- Más rápido y económico que las revisiones detalladas de código
+- Efectivo para descubrir ciertos tipos de fallos de programa
+- No requiere que los programadores aprendan notaciones especializadas
+
+**Niveles de Verificación en Analizadores Estáticos:**
+
+1. **Verificación de Errores Característicos**
+   - Detección de errores comunes en lenguajes como Java o C
+   - Análisis basado en patrones característicos de problemas
+   - Altamente costo-efectivo (90% de errores resultan de 10 tipos característicos)
+
+2. **Verificación de Errores Definidos por el Usuario**
+   - Los usuarios definen patrones de error a detectar
+   - Pueden relacionarse con el dominio de aplicación o conocimiento específico del sistema
+   - Permite a las organizaciones acumular conocimiento sobre errores comunes
+
+3. **Verificación de Aserciones**
+   - Enfoque más general y poderoso
+   - Los desarrolladores incluyen aserciones formales en el programa
+   - El analizador ejecuta simbólicamente el código y verifica las aserciones
+
+**Limitaciones y Consideraciones:**
+- Genera numerosos falsos positivos que requieren filtrado
+- No puede descubrir todas las clases de errores detectables en inspecciones
+- La reducción de falsos positivos requiere trabajo adicional del desarrollador
+
+### 12.4 Casos de Seguridad
+
+**Definición:** Un caso de seguridad es "un cuerpo documentado de evidencia que proporciona un argumento convincente y válido de que un sistema es adecuadamente seguro para una aplicación dada en un entorno dado" (Bishop y Bloomfield, 1998).
+
+**Propósito Fundamental:** Convencer a los reguladores de que se han realizado los mejores esfuerzos posibles para garantizar la seguridad del sistema.
+
+**Componentes del Caso de Seguridad:**
+
+1. **Descripción del Sistema**
+   - Visión general del sistema
+   - Descripción de componentes críticos
+
+2. **Requisitos de Seguridad**
+   - Requisitos de seguridad extraídos de la especificación de requisitos del sistema
+   - Detalles de otros requisitos relevantes del sistema
+
+3. **Análisis de Riesgos y Peligros**
+   - Documentación de peligros y riesgos identificados
+   - Medidas tomadas para reducir riesgos
+   - Análisis de peligros y registros de peligros
+
+4. **Análisis de Diseño**
+   - Conjunto de argumentos estructurados que justifican por qué el diseño es seguro
+
+5. **Verificación y Validación**
+   - Descripción de procedimientos de V&V
+   - Planes de prueba del sistema
+   - Resúmenes de resultados de pruebas
+   - Registros de análisis estáticos del código fuente
+
+6. **Informes de Revisión**
+   - Registros de todas las revisiones de diseño y seguridad
+
+7. **Competencias del Equipo**
+   - Evidencia de la competencia de todo el equipo involucrado en desarrollo y validación
+
+8. **Garantía de Calidad del Proceso**
+   - Registros de los procesos de garantía de calidad
+
+**Consideraciones Prácticas:**
+- Los casos de seguridad son documentos grandes y complejos
+- Requieren integración estrecha con el diseño e implementación del sistema
+- Es esencial la colaboración temprana con los reguladores
+- Los cambios en el sistema incrementan significativamente los costos del caso de seguridad
+- Existen variaciones según la industria y madurez del dominio
+
+**Caso de Seguridad de Software:** Como parte del caso de seguridad general, debe relacionar fallos de software con fallos del sistema y demostrar que estos fallos no ocurrirán o no se propagarán de manera que causen fallos peligrosos del sistema.
+
+
+### Parte 11 (Pág. 401–440)
+## Resumen de Páginas 401-440: Ingeniería de Seguridad en Sistemas Software
+
+### 13.4 Diseño de Sistemas Seguros
+
+#### Directrices Fundamentales para el Diseño Seguro
+
+**Directriz 7: Especificación del Formato de Entradas del Sistema**
+- **Definición clave**: Establecimiento formal de la estructura y formato esperado de todas las entradas del sistema
+- **Problemas abordados**: 
+  - Desbordamiento de búfer (buffer overflow)
+  - Envenenamiento SQL (SQL poisoning)
+  - Comportamiento no anticipado del sistema
+- **Implementación**: Validación de entradas basada en especificaciones predefinidas (ej: nombres solo alfabéticos, límites de longitud)
+
+**Directriz 8: Compartimentación de Activos**
+- **Concepto fundamental**: Principio de "necesidad de conocer" (need to know)
+- **Mecanismo**: Segmentación de información en compartimentos independientes
+- **Beneficios**:
+  - Contención de ataques comprometidos
+  - Limitación de pérdidas por ataques internos
+- **Consideraciones especiales**: Mecanismos de anulación segura para casos de emergencia con registro obligatorio en logs
+
+**Directriz 9: Diseño para Despliegue**
+- **Problema central**: Vulnerabilidades por configuración incorrecta durante el despliegue
+- **Estrategias recomendadas**:
+  1. Soporte para visualización y análisis de configuraciones
+  2. Minimización de privilegios por defecto
+  3. Localización de configuraciones relacionadas
+  4. Mecanismos sencillos para reparar vulnerabilidades
+
+**Directriz 10: Diseño para Recuperación**
+- **Premisa fundamental**: Asunción de fallos de seguridad inevitables
+- **Mecanismos de recuperación**:
+  - Sistemas de autenticación alternativos
+  - Protocolos de cambio de credenciales masivos
+  - Mecanismos challenge/response para recuperación
+- **Relación con resiliencia**: Componente esencial de sistemas resistentes
+
+### 13.4.4 Programación de Sistemas Seguros
+
+**Aspectos Críticos Identificados**:
+1. **Vulnerabilidades específicas del lenguaje**: Ejemplo de desbordamiento de búfer en C/C++ vs Java
+2. **Relación con confiabilidad**: Mejoras en fiabilidad mejoran seguridad
+
+**Directrices de Programación Confiable** (Figura 13.16):
+- Limitación de visibilidad de información
+- Validación exhaustiva de entradas
+- Manejo completo de excepciones
+- Minimización de construcciones propensas a errores
+- Capacidades de reinicio
+- Verificación de límites de arrays
+- Timeouts en componentes externos
+- Nomenclatura de constantes
+
+### 13.5 Pruebas y Garantía de Seguridad
+
+**Desafíos Fundamentales en Pruebas de Seguridad**:
+
+1. **Naturaleza de los requisitos de seguridad**:
+   - Requisitos "no deberá" (shall not) vs funcionales
+   - Imposibilidad de demostración completa de ausencia de vulnerabilidades
+   - Limitaciones en la anticipación de nuevos vectores de ataque
+
+2. **Naturaleza adaptativa de los atacantes**:
+   - Inteligencia y experimentación activa
+   - Comportamiento fuera de patrones normales de uso
+   - Ecosistema de intercambio de vulnerabilidades y malware
+
+**Conclusión**: La seguridad en ingeniería de software requiere un enfoque multidimensional que integre diseño seguro, programación confiable y pruebas exhaustivas, reconociendo las limitaciones inherentes en la garantía de seguridad absoluta.
+
+
+### Parte 12 (Pág. 441–480)
+## Resumen de Páginas 441-480: Reutilización de Software
+
+### 1. Conceptos Fundamentales
+
+**Reutilización de Conceptos (Concept Reuse)**
+- Definición: Reutilización de ideas, formas de trabajo o algoritmos en lugar de componentes software específicos
+- Representación: Se expresa mediante notación abstracta (modelos de sistema) sin detalles de implementación
+- Ejemplos: Patrones de diseño, productos de sistema configurables, generadores de programas
+- Proceso: Requiere actividad de instanciación para convertir conceptos abstractos en componentes ejecutables
+
+### 2. Beneficios de la Reutilización de Software
+
+**Figura 15.1 - Ventajas Principales:**
+- **Desarrollo Acelerado**: Reducción de tiempos de desarrollo y validación
+- **Uso Efectivo de Especialistas**: Captura del conocimiento experto en componentes reutilizables
+- **Confiabilidad Incrementada**: Software probado en sistemas operativos con fallos detectados y corregidos
+- **Costos de Desarrollo Reducidos**: Menor cantidad de código a desarrollar
+- **Reducción de Riesgo del Proceso**: Costos conocidos vs costos estimados
+- **Cumplimiento de Estándares**: Implementación consistente de interfaces y normas
+
+### 3. Problemas y Desafíos
+
+**Figura 15.2 - Limitaciones de la Reutilización:**
+- Costos de creación y mantenimiento de bibliotecas de componentes
+- Dificultad para encontrar, comprender y adaptar componentes
+- Incremento potencial de costos de mantenimiento
+- Falta de soporte de herramientas de desarrollo
+- Síndrome "No Inventado Aquí" (Not-invented-here syndrome)
+- Complejidad en la integración con procesos existentes
+
+### 4. Paisaje de la Reutilización (Reuse Landscape)
+
+**Figura 15.3 - Enfoques de Reutilización:**
+
+**15.4 - Técnicas Específicas:**
+- **Patrones de Diseño**: Abstracciones genéricas representadas mediante patrones
+- **Patrones Arquitectónicos**: Arquitecturas estándar para tipos comunes de aplicaciones
+- **Frameworks de Aplicación**: Colecciones de clases abstractas y concretas adaptables
+- **Líneas de Producto Software**: Arquitecturas comunes adaptables para diferentes clientes
+- **Integración de Sistemas de Aplicación**: Combinación de sistemas para funcionalidad extendida
+- **Sistemas ERP**: Sistemas a gran escala que encapsulan funcionalidad empresarial genérica
+- **Sistemas de Sistemas**: Integración de sistemas distribuidos
+- **Sistemas de Aplicación Configurables**: Sistemas específicos de dominio adaptables
+- **Encapsulamiento de Sistemas Legacy**: Definición de interfaces para sistemas heredados
+- **Ingeniería de Software Basada en Componentes**: Integración de componentes que cumplen estándares
+- **Ingeniería Dirigida por Modelos**: Generación de código desde modelos de dominio
+- **Sistemas Orientados a Servicios**: Desarrollo mediante servicios compartidos
+- **Desarrollo de Software Orientado a Aspectos**: Componentes compartidos integrados durante compilación
+- **Generadores de Programas**: Sistemas que incorporan conocimiento de dominio específico
+- **Bibliotecas de Programas**: Librerías de clases y funciones para abstracciones comunes
+
+### 5. Factores Críticos para la Planificación de la Reutilización
+
+**Consideraciones Estratégicas:**
+1. **Cronograma de Desarrollo**: Reutilización completa de sistemas para desarrollo rápido
+2. **Tiempo de Vida del Software**: Enfoque en mantenibilidad a largo plazo
+3. **Habilidades del Equipo**: Enfoque en áreas de experiencia del equipo
+4. **Criticidad y Requisitos No Funcionales**: Consideraciones de certificación y rendimiento
+5. **Dominio de Aplicación**: Uso de productos genéricos configurables
+6. **Plataforma Objetivo**: Compatibilidad con plataformas específicas
+
+### 6. Adaptación de Procesos de Desarrollo
+
+- **Refinamiento de Requisitos**: Etapa específica para modificar requisitos según software reutilizable disponible
+- **Actividades Explícitas**: Búsqueda y evaluación de componentes candidatos en etapas de diseño e implementación
+- **Consideraciones Gerenciales**: La reutilización frecuentemente depende más de decisiones gerenciales que técnicas
+
+Este resumen presenta un panorama completo de las estrategias, beneficios y desafíos de la reutilización de software, destacando la importancia de una planificación estratégica que considere múltiples dimensiones técnicas y organizacionales.
+
+
+### Parte 13 (Pág. 481–520)
+## Resumen de las Páginas 481-520: Procesos y Composición de Componentes en CBSE
+
+### 16.2 Procesos de CBSE
+
+#### Validación de Componentes
+La validación de componentes constituye una fase crítica en la Ingeniería de Software Basada en Componentes (CBSE). Este proceso implica:
+
+**Definición clave**: La validación de componentes es el proceso de verificar que un componente reutilizable se comporta según lo especificado y satisface los requisitos del sistema.
+
+**Proceso de validación**:
+- Desarrollo de casos de prueba específicos para el componente
+- Creación de un *test harness* para ejecutar las pruebas
+- Evaluación del comportamiento anunciado versus el comportamiento real
+
+**Problemas fundamentales en la validación**:
+1. **Especificaciones incompletas**: La documentación formal suele limitarse a la interfaz, sin detalles suficientes para pruebas exhaustivas
+2. **Código malicioso**: Riesgo potencial en componentes de fuentes no confiables
+3. **Funcionalidad innecesaria**: Componentes que incluyen características no requeridas que pueden:
+   - Ralentizar el sistema
+   - Producir resultados inesperados
+   - Causar fallos catastróficos
+
+#### Caso de Estudio: Fallo del Lanzador Ariane 5
+**Contexto**: Reutilización del software de referencia inercial del Ariane 4 en el Ariane 5.
+
+**Problema identificado**:
+- El componente incluía funcionalidad no requerida
+- Suposiciones embebidas sobre el entorno operativo no documentadas
+- Conversión de número de punto fijo a entero causó desbordamiento numérico
+
+**Conclusión fundamental**: Los componentes reutilizables suelen incorporar supuestos implícitos sobre su entorno original que pueden no ser válidos en nuevos contextos.
+
+### 16.3 Composición de Componentes
+
+#### Definición y Tipos
+**Definición clave**: La composición de componentes es el proceso de integrar componentes entre sí, utilizando código "pegamento" cuando es necesario, para crear sistemas o nuevos componentes.
+
+**Tipos de composición**:
+
+1. **Composición Secuencial**
+   - Los componentes se llaman en secuencia
+   - El output del componente A sirve como input del componente B
+   - Requiere código pegamento para transformación de datos
+   - Aplicable a componentes embebidos y de servicio
+
+2. **Composición Jerárquica**
+   - Un componente llama directamente a los servicios de otro
+   - La interfaz "proporciona" del componente llamado debe ser compatible con la interfaz "requiere" del componente llamante
+   - No aplicable a servicios web
+
+3. **Composición Aditiva**
+   - Combinación de componentes para crear nueva funcionalidad
+   - Las interfaces se combinan
+   - Los componentes son independientes y no se llaman entre sí
+
+#### Incompatibilidades en Interfaces
+**Tipos de incompatibilidad**:
+
+1. **Incompatibilidad de Parámetros**
+   - Mismo nombre de operación pero tipos/número de parámetros diferentes
+
+2. **Incompatibilidad de Operaciones**
+   - Nombres de operaciones diferentes entre interfaces
+
+3. **Incompletitud de Operaciones**
+   - La interfaz "proporciona" es subconjunto de la interfaz "requiere", o viceversa
+
+#### Solución: Componentes Adaptador
+**Definición**: Un adaptador es un componente que reconcilia diferencias entre interfaces, convirtiendo una interfaz en otra compatible.
+
+**Implementación de adaptadores**:
+- Conversión de resultados entre componentes
+- Actuación como proxy para reconciliar diferencias
+- Transformación de parámetros de entrada
+
+#### Ejemplo Práctico: Sistema de Servicios de Emergencia
+**Componentes**:
+- `addressFinder`: Localiza dirección a partir de número telefónico
+- `mapper`: Genera mapas a partir de códigos postales
+
+**Problema**: Incompatibilidad en formatos de datos entre componentes
+
+**Solución**: Implementación de `postCodeStripper` como adaptador
+
+**Secuencia de composición**:
+```pseudocode
+address = addressFinder.location(phonenumber);
+postCode = postCodeStripper.getPostCode(address);
+mapper.displayMap(postCode, 10000);
+```
+
+### Conclusiones Relevantes
+
+La composición efectiva de componentes requiere:
+- Validación rigurosa considerando el contexto de reutilización
+- Diseño de interfaces compatibles para nuevos componentes
+- Implementación de adaptadores cuando existen incompatibilidades
+- Documentación exhaustiva de supuestos ambientales
+- Consideración de funcionalidad innecesaria en componentes reutilizados
+
+Este enfoque sistemático permite maximizar los beneficios de la reutilización mientras se mitigan los riesgos asociados a la integración de componentes heterogéneos.
+
+
+### Parte 14 (Pág. 521–560)
+## Resumen de las Páginas 521-560: Ingeniería de Software Orientada a Servicios
+
+### 1. Introducción Conceptual
+
+**Definición Fundamental:**
+La ingeniería de software orientada a servicios (SOSE) constituye un paradigma de desarrollo de aplicaciones distribuidas mediante servicios web, caracterizado por:
+
+- **Servicio Web:** Componente software reutilizable, débilmente acoplado, que encapsula funcionalidad discreta accesible mediante protocolos estándar de Internet y XML
+- **Arquitectura Orientada a Servicios (SOA):** Patrón arquitectónico donde los componentes del sistema son servicios independientes ejecutándose en computadores distribuidos geográficamente
+
+### 2. Diferenciación Conceptual Crítica
+
+**Software como Servicio vs. Sistemas Orientados a Servicios:**
+- **Software como Servicio:** Ofrece funcionalidad software a usuarios finales remotamente a través de la web
+- **Sistemas Orientados a Servicios:** Implementan sistemas utilizando componentes servicio reutilizables accedidos por otros programas
+
+### 3. Beneficios de la Orientación a Servicios
+
+1. **Integración Multi-proveedor:** Capacidad de crear aplicaciones integrando servicios de diversos proveedores
+2. **Desacoplamiento Funcional:** Proveedor y usuario no requieren negociación previa sobre la funcionalidad del servicio
+3. **Vinculación Dinámica:** Las aplicaciones pueden posponer el enlace a servicios hasta el despliegue o ejecución
+4. **Composición Oportunista:** Creación innovadora de nuevos servicios mediante enlace de servicios existentes
+5. **Modelo de Pago por Uso:** Los usuarios pagan según el consumo real del servicio
+6. **Optimización de Recursos:** Aplicaciones más ligeras, especialmente relevante para dispositivos móviles
+
+### 4. Ejemplo de Aplicación: Sistema de Información para Automóvil
+
+**Arquitectura Descrita:**
+- **Componentes Locales:** Interfaz de usuario, localizador GPS, receptor, transmisor, radio
+- **Servicios Externos:** Servicio móvil de información, servicios de clima, tráfico, instalaciones locales, servicio de descubrimiento, servicio de traducción
+
+**Características Destacadas:**
+- Enlace dinámico a servicios locales según posición GPS
+- Adaptación automática al entorno mediante servicio de descubrimiento
+- Capacidad multilingüe mediante servicio de traducción
+
+### 5. Estándares y Protocolos
+
+**Bases Tecnológicas:**
+- Protocolos estándar de Internet
+- Protocolos basados en XML
+- Independencia de plataforma y lenguaje de implementación
+
+### 6. Implicaciones para la Ingeniería de Software
+
+**Impacto Estratégico:**
+La aproximación orientada a servicios representa un desarrollo tan significativo como la ingeniería de software orientada a objetos, siendo esencial para:
+- Sistemas en la nube (cloud computing)
+- Sistemas móviles
+- Mejora de la agilidad corporativa
+- Reducción de costos de TI
+- Mejora de la eficiencia operativa
+
+### 7. Perspectiva Futura
+
+El enfoque orientado a servicios promete transformar significativamente el desarrollo de software mediante:
+- Mejora sustancial de la capacidad de adaptación corporativa
+- Reducción del tiempo de comercialización de nuevos productos y servicios
+- Optimización de costos de infraestructura tecnológica
+- Incremento de la eficiencia operacional
+
+Este resumen académico presenta los conceptos fundamentales de la ingeniería de software orientada a servicios, destacando su relevancia contemporánea y potencial transformador en el desarrollo de sistemas distribuidos modernos.
+
+
+### Parte 15 (Pág. 561–600)
+## Resumen de las Páginas 561-600: Sistemas Sociotécnicos y Propiedades Emergentes
+
+### 1. Sistemas Sociotécnicos
+
+**Definición**: Sistemas que integran componentes técnicos (hardware, software) con componentes humanos y organizacionales, donde las interacciones sociales y técnicas son interdependientes.
+
+**Características Fundamentales**:
+- La interpretación de objetivos organizacionales puede variar con cambios en la gestión
+- Las consideraciones sociotécnicas son críticas para determinar el éxito del sistema
+- Requieren metodologías especializadas que consideren dimensiones sociales y culturales
+
+### 2. Propiedades Emergentes
+
+**Definición**: Propiedades del sistema como un todo que no pueden atribuirse a componentes individuales específicos, sino que emergen de la integración e interacción de los componentes del sistema.
+
+#### 2.1 Tipología de Propiedades Emergentes
+
+**Propiedades Emergentes Funcionales**:
+- Emergen después de la integración de componentes
+- Ejemplo: Una bicicleta adquiere la propiedad funcional de dispositivo de transporte solo cuando está completamente ensamblada
+
+**Propiedades Emergentes No Funcionales**:
+- Relacionadas con el comportamiento del sistema en su entorno operativo
+- Ejemplos: confiabilidad, rendimiento, seguridad, usabilidad
+- Son críticas para sistemas basados en computadora
+
+#### 2.2 Ejemplos Específicos de Propiedades Emergentes
+
+| Propiedad | Descripción |
+|-----------|-------------|
+| **Confiabilidad** | Depende de la confiabilidad de componentes pero las interacciones inesperadas pueden causar nuevos tipos de fallas |
+| **Reparabilidad** | Refleja la facilidad para diagnosticar y corregir problemas, dependiendo del acceso a componentes |
+| **Seguridad** | Capacidad para resistir ataques, compleja de medir debido a amenazas no anticipadas |
+| **Usabilidad** | Facilidad de uso que depende de componentes técnicos, operadores y entorno operativo |
+| **Volumen** | Espacio total ocupado, determinado por la disposición y conexión de componentes |
+
+### 3. Confiabilidad en Sistemas Sociotécnicos
+
+**Factores que Influyen**:
+- **Confiabilidad del hardware**: Probabilidad de falla de componentes físicos y tiempo de reparación
+- **Confiabilidad del software**: Probabilidad de producir salidas incorrectas (fallas transitorias)
+- **Confiabilidad del operador**: Probabilidad de error humano en la entrada de datos
+
+**Propagación de Fallas** (Figura 19.6):
+- Las fallas se propagan entre niveles (hardware → software → operación)
+- Una falla inicial puede desencadenar una cadena de problemas que conduzca al colapso del sistema
+- Las interacciones entre fallas son impredecibles y dependen del contexto
+
+### 4. No Determinismo
+
+**Definición**: Comportamiento del sistema que no es absolutamente predecible.
+
+**Causas en Sistemas Sociotécnicos**:
+- Inclusión de personas (comportamiento humano variable)
+- Cambios frecuentes en hardware, software y datos
+- Complejidad de las interacciones entre cambios
+
+**Beneficios del No Determinismo**:
+- Permite adaptabilidad del sistema a cambios ambientales
+- Facilita la capacidad de operadores para diagnosticar y recuperarse de problemas detectados
+
+### 5. Criterios de Éxito y Problemas Perversos (Wicked Problems)
+
+**Problemas Perversos** (Rittel y Webber, 1973):
+- Problemas extremadamente complejos sin especificación definitiva
+- Múltiples stakeholders con perspectivas diferentes
+- La verdadera naturaleza del problema emerge durante el desarrollo de la solución
+- Ejemplo: Planificación de emergencias para terremotos
+
+**Evaluación del Éxito**:
+- No se juzga contra criterios originales de desarrollo
+- Se basa en la efectividad del sistema al momento del despliegue
+- Debe considerar cambios en el entorno empresarial durante el desarrollo
+- Debe manejar objetivos múltiples y potencialmente conflictivos
+
+**Ejemplo Práctico**: Sistema Mentcare diseñado para:
+1. Mejorar la calidad de la atención en salud mental
+2. Mejorar la relación costo-efectividad del tratamiento
+
+### Conclusiones Relevantes
+
+Los sistemas sociotécnicos presentan desafíos únicos debido a su naturaleza compleja, propiedades emergentes y comportamiento no determinista. La evaluación del éxito requiere considerar no solo los objetivos técnicos originales, sino también la adaptabilidad del sistema a entornos organizacionales en constante cambio y la efectividad en resolver problemas complejos y multidimensionales.
+
+
+### Parte 16 (Pág. 601–640)
+### Resumen de las Páginas 601-640: Arquitectura de Sistemas de Sistemas
+
+#### 20.5 Arquitectura de Sistemas de Sistemas
+
+**Definición Clave:**  
+La arquitectura de sistemas de sistemas (SoS) constituye la actividad fundamental del proceso de ingeniería de SoS, enfocándose en la selección de sistemas constituyentes, su interoperabilidad y el diseño de mecanismos de interacción. Esta etapa determina aspectos críticos como gestión de datos, redundancia y comunicaciones.
+
+**Principios Fundamentales de Diseño Arquitectónico:**
+
+1. **Principios de Maier (1998):**
+   - *Diseño para valor incompleto:* Los SoS deben proporcionar utilidad incluso en estados parcialmente completos, mediante "formas intermedias estables".
+   - *Control realista:* Evitar el sobrecontrol que genere resistencia de los propietarios de sistemas constituyentes.
+   - *Enfoque en interfaces:* Diseñar interfaces flexibles que permitan la evolución de los componentes.
+   - *Incentivos de colaboración:* Establecer motivaciones financieras, de acceso o comunitarias para la participación continua.
+
+2. **Directrices de Sillitto (2010):**
+   - *Arquitectura nodo-red:* Modelar los SoS como sistemas sociotécnicos interconectados.
+   - *Especificación basada en servicios:* Utilizar arquitecturas orientadas a servicios para la interoperabilidad.
+   - *Gestión de vulnerabilidades:* Diseñar sistemas resilientes ante fallos inesperados.
+
+**Marcos Arquitectónicos:**
+- **MODAF y TOGAF:** Frameworks desarrollados para arquitecturas empresariales, aplicables a SoS organizacionales con autoridad de gobierno única.
+- **Método de Desarrollo de Arquitectura (ADM) de TOGAF:** Proceso iterativo que incluye fases de visión arquitectónica, arquitectura empresarial, de sistemas de información, tecnológica, y gestión de cambios.
+
+**Limitaciones de los Frameworks:**
+- Enfoque reduccionista que ignora aspectos sociotécnicos y políticos.
+- Alta complejidad en el mantenimiento de la consistencia de modelos.
+- Sobrecarga administrativa en la gestión de modelos arquitectónicos.
+
+#### 20.5.1 Patrones Arquitectónicos para Sistemas de Sistemas
+
+**Definición:** Los patrones arquitectónicos representan esquemas estilizados reutilizables que facilitan el diseño y documentación de arquitecturas SoS.
+
+**Patrón 1: Sistemas como Fuentes de Datos**
+- **Características:**
+  - Sistema principal que consulta datos de sistemas secundarios.
+  - Ausencia de interacción entre sistemas proveedores.
+  - Aplicable cuando existen mecanismos de gobierno establecidos.
+
+- **Ejemplo:** Sistema de licencias de vehículos en UK que consulta:
+  1. Sistema federado de vehículos asegurados
+  2. Sistema de certificados de aptitud vial (MOT)
+
+- **Variante con Capa Intermedia:**  
+  Implementación de interfaz unificadora para traducir consultas genéricas a formatos específicos de sistemas heterogéneos (ej: plataforma iLearn con sistemas administrativos escolares).
+
+**Consideraciones de Diseño:**
+- Los arquitectos deben adoptar una perspectiva holística que integre dimensiones técnicas y sociotécnicas.
+- La solución óptima puede involucrar modificaciones en políticas operativas más que desarrollos software adicionales.
+- Los patrones facilitan la comprensión de la organización SoS sin requerir conocimiento detallado del dominio.
+
+**Conclusión:**  
+El diseño arquitectónico de SoS requiere equilibrar consideraciones técnicas con factores organizativos y humanos, priorizando la flexibilidad en interfaces y la creación de incentivos adecuados para la colaboración entre sistemas autónomos.
+
+
+### Parte 17 (Pág. 641–680)
+## Resumen de Gestión de Proyectos de Software (Páginas 641-646)
+
+### Introducción a la Gestión de Software
+La ingeniería de software se distingue de otros tipos de programación por ser un **proceso gestionado** que opera bajo restricciones organizacionales de presupuesto, cronograma y estructura organizativa. Esta sección se enfoca en aspectos técnicos de gestión más que en temas estratégicos o de gestión de personal.
+
+### Estructura de Contenidos
+El material analizado comprende cuatro capítulos fundamentales:
+1. **Capítulo 22**: Gestión de proyectos de software
+2. **Capítulo 23**: Planificación de proyectos y estimación
+3. **Capítulo 24**: Gestión de calidad del software
+4. **Capítulo 25**: Gestión de configuración
+
+### Gestión de Proyectos de Software (Capítulo 22)
+
+#### Definición y Objetivos
+La **gestión de proyectos de software** es esencial para garantizar que el desarrollo cumpla con las restricciones organizacionales mientras entrega software de alta calidad. Los criterios de éxito incluyen:
+- Entrega en el tiempo acordado
+- Mantenimiento dentro del presupuesto
+- Cumplimiento de expectativas del cliente
+- Mantenimiento de un equipo de desarrollo cohesionado
+
+#### Desafíos Específicos del Software
+1. **Producto intangible**: No puede observarse el progreso directamente
+2. **Proyectos únicos**: Cada proyecto presenta características distintivas
+3. **Procesos variables**: Dependen de la organización y contexto específico
+
+#### Factores que Influyen en la Gestión
+1. **Tamaño de la empresa**
+2. **Tipo de cliente** (interno/externo)
+3. **Tamaño del software**
+4. **Tipo de software**
+5. **Cultura organizacional**
+6. **Procesos de desarrollo**
+
+#### Actividades Fundamentales de Gestión
+1. **Planificación del proyecto**
+2. **Gestión de riesgos**
+3. **Gestión de personas**
+4. **Reporte y comunicación**
+5. **Elaboración de propuestas**
+
+### Gestión de Riesgos
+
+#### Definición
+La **gestión de riesgos** implica anticipar eventos que puedan afectar el cronograma o calidad del software, y tomar acciones preventivas. Un riesgo se define como "algo que preferiríamos que no ocurriera".
+
+#### Clasificación de Riesgos
+- **Riesgos de proyecto**: Afectan el cronograma o recursos
+- **Riesgos de producto**: Impactan la calidad o rendimiento del software
+- **Riesgos de negocio**: Amenazan la organización o viabilidad del proyecto
+
+### Perspectiva Académica
+El texto enfatiza que, a pesar del auge de métodos ágiles, el desarrollo basado en planificación sigue siendo relevante. Se destaca la importancia de modelos de costos como **COCOMO** para la estimación algorítmica, reconociendo tanto sus beneficios como limitaciones.
+
+La gestión de configuración se presenta como crítica para sistemas grandes, incluyendo versionamiento, construcción de sistemas, gestión de cambios y gestión de releases, con especial atención a sistemas distribuidos como Git.
+
+Este marco conceptual establece las bases para comprender los procesos de gestión técnica en ingeniería de software, destacando la necesidad de aproximaciones sistemáticas y adaptativas según las características específicas de cada proyecto y organización.
+
+
+### Parte 18 (Pág. 681–720)
+## Resumen de Planificación de Proyectos y Técnicas de Estimación (Páginas 681-720)
+
+### 23.3 Planificación de Proyectos
+
+**Definición clave**: La planificación de proyectos implica la organización temporal de tareas y recursos para cumplir con los objetivos del desarrollo de software.
+
+**Conceptos fundamentales**:
+- **Especialización del personal**: El uso de especialistas puede generar problemas de programación cuando existen dependencias entre múltiples proyectos
+- **Dependencias entre tareas**: El retraso en una tarea afecta directamente a las tareas posteriores que dependen de ella
+- **Asignación de personal**: Los retrasos pueden causar problemas significativos en la asignación de recursos humanos, especialmente cuando el personal trabaja en múltiples proyectos simultáneamente
+
+**Procesos y herramientas**:
+- Se recomienda el uso de herramientas de planificación como Basecamp o Microsoft Project
+- Estas herramientas permiten crear diagramas de Gantt y gráficos de actividades automáticamente a partir de bases de datos de información del proyecto
+- Los gráficos de asignación de personal (Figura 23.7) muestran la distribución del trabajo entre los miembros del equipo a lo largo del tiempo
+
+### 23.4 Planificación Ágil
+
+**Definición**: Enfoque iterativo donde el software se desarrolla y entrega en incrementos, con funcionalidad decidida durante el desarrollo en lugar de planificarse por adelantado.
+
+**Modelos de planificación ágil**:
+1. **Planificación de release**: Planificación a varios meses vista que decide las características a incluir en una versión del sistema
+2. **Planificación de iteración**: Enfoque a corto plazo (2-4 semanas) que se centra en el siguiente incremento del sistema
+
+**El "Planning Game" (Figura 23.8)**:
+- **Base**: Utilización de user stories que cubren toda la funcionalidad del sistema
+- **Proceso colaborativo**: Desarrollo conjunto entre el equipo y el cliente
+- **Estimación relativa**: Comparación de historias en pares para determinar esfuerzo relativo
+- **Puntos de esfuerzo**: Asignación de puntos notionales (ej: 8 puntos para historias complejas, 2 para simples)
+
+**Conceptos clave**:
+- **Velocidad**: Número de puntos de esfuerzo implementados por el equipo por día
+- **Planificación de tareas**: Descomposición de stories en tareas de desarrollo (4-16 horas)
+- **Asignación voluntaria**: Los desarrolladores eligen sus tareas, promoviendo sentido de propiedad
+
+**Ventajas y limitaciones**:
+- **Ventajas**: Entrega constante de incrementos, flexibilidad ante cambios, mayor motivación del equipo
+- **Limitaciones**: Dependencia de la disponibilidad del cliente, dificultad en equipos grandes o distribuidos, posible afectación de planes del cliente debido a reducción de alcance
+
+### 23.5 Técnicas de Estimación
+
+**Definición**: Proceso de predecir el esfuerzo y costos requeridos para el desarrollo de software, caracterizado por alta incertidumbre en etapas iniciales.
+
+**Tipos de técnicas**:
+
+1. **Basadas en experiencia**:
+   - Estimación fundamentada en la experiencia previa del gestor
+   - Juicio informado sobre requerimientos de esfuerzo
+   - Enfoque colaborativo con múltiples estimadores
+
+2. **Modelado algorítmico de costos**:
+   - Enfoque formulaico basado en atributos del producto
+   - Considera tamaño, características del proceso y experiencia del personal
+
+**Características de la estimación**:
+- **Incertidumbre inicial**: Las estimaciones iniciales pueden variar entre 0.25x y 4x del esfuerzo real (Figura 23.9)
+- **Mejora progresiva**: La precisión aumenta a medida que avanza el proyecto
+- **Desafíos**: Rapidez de los cambios en desarrollo software, falta de proyectos comparables de referencia
+
+**Proceso de estimación basada en experiencia**:
+- Identificación de entregables y componentes
+- Documentación en hojas de cálculo
+- Estimación individual y cálculo del esfuerzo total
+- Iteración hacia estimaciones consensuadas mediante discusión grupal
+
+Este resumen presenta los fundamentos teóricos y prácticos de la planificación y estimación en ingeniería de software, destacando tanto los enfoques tradicionales como ágiles, y reconociendo las limitaciones inherentes a la naturaleza predictiva de estos procesos.
+
+
+### Parte 19 (Pág. 721–760)
+## Resumen de las páginas 721-760: Medición de Software
+
+### 1. Fundamentos de la Medición de Software
+
+**Definición clave**: La medición de software se refiere al proceso de cuantificar atributos internos del software para predecir características de calidad externas.
+
+**Requisitos para una medición efectiva**:
+1. **Medición precisa** de atributos internos mediante herramientas especializadas
+2. **Existencia de relación** entre atributos medibles y atributos de calidad externos
+3. **Validación de la relación** mediante modelos matemáticos (lineales, exponenciales, etc.)
+
+### 2. Software Analytics
+
+**Concepto emergente**: Aplicación de técnicas de minería de datos y aprendizaje automático para analizar repositorios de datos de productos y procesos software.
+
+**Enfoque**: Basado en correlaciones descubiertas a partir de grandes volúmenes de datos, en lugar de modelos predefinidos de relaciones de calidad.
+
+### 3. Barreras para la Implementación de Programas de Medición
+
+1. **Retorno de inversión incierto**
+2. **Ausencia de estándares** para métricas y procesos de medición
+3. **Costos de desarrollo** de herramientas especializadas
+4. **Variabilidad de procesos** en organizaciones no estandarizadas
+5. **Limitada aplicabilidad** de métricas tradicionales en desarrollo ágil y basado en reutilización
+6. **Contradicción con métodos ágiles** debido a sobrecarga adicional
+
+### 4. Ingeniería de Software Empírica
+
+**Definición**: Área de investigación que utiliza experimentos y recolección de datos de proyectos reales para formular y validar hipótesis sobre métodos y técnicas de ingeniería de software.
+
+**Limitación**: Dificultad para aplicar resultados genéricos a proyectos específicos debido a factores locales.
+
+### 5. Métricas de Producto
+
+**Definición**: Métricas predictoras que cuantifican atributos internos de sistemas software.
+
+#### Clasificación:
+
+**A. Métricas Dinámicas**
+- Recopiladas durante ejecución del programa
+- Relacionadas con eficiencia y confiabilidad
+- Ejemplos: número de reportes de errores, tiempo de ejecución
+
+**B. Métricas Estáticas**
+- Medidas sobre representaciones del sistema (diseño, código, documentación)
+- Relacionadas con complejidad, comprensibilidad y mantenibilidad
+
+### 6. Métricas Estáticas Principales
+
+| Métrica | Descripción | Relación con Calidad |
+|---------|-------------|---------------------|
+| **Fan-in/Fan-out** | Medida de acoplamiento entre funciones | Alta complejidad y efectos en cascada |
+| **Longitud de código** | Medida de tamaño del programa | Predictor de propensión a errores |
+| **Complejidad Ciclomática** | Complejidad de control del programa | Relacionada con comprensibilidad |
+| **Longitud de identificadores** | Longitud promedio de nombres | Mayor longitud → mejor comprensibilidad |
+| **Profundidad de anidamiento condicional** | Nivel de anidamiento de sentencias if | Mayor profundidad → mayor complejidad |
+| **Índice Fog** | Legibilidad de documentos | Mayor valor → menor comprensibilidad |
+
+### 7. Métricas Orientadas a Objetos (Suite CK)
+
+**Definición**: Conjunto de seis métricas propuestas por Chidamber y Kemerer para evaluación de software orientado a objetos.
+
+#### Métricas CK:
+
+1. **WMC (Métodos Ponderados por Clase)**
+   - Número de métodos ponderados por complejidad
+   - Mayor valor → mayor complejidad de clase
+
+2. **DIT (Profundidad del Árbol de Herencia)**
+   - Número de niveles en árbol de herencia
+   - Mayor profundidad → mayor complejidad de diseño
+
+3. **NOC (Número de Hijos)**
+   - Número de subclases inmediatas
+   - Indica grado de reutilización
+
+4. **CBO (Acoplamiento entre Clases)**
+   - Grado de dependencia entre clases
+   - Alto valor → mayor impacto de cambios
+
+5. **RFC (Respuesta para una Clase)**
+   - Número de métodos ejecutables en respuesta a mensaje
+   - Relacionado con complejidad y propensión a errores
+
+6. **LCOM (Falta de Cohesión en Métodos)**
+   - Medida de cohesión de métodos en clase
+   - Valor debatido en la comunidad
+
+### 8. Conclusiones Relevantes
+
+- Las relaciones entre métricas estáticas y atributos de calidad son **indirectas**
+- El **tamaño del programa** y la **complejidad de control** son los predictores más confiables
+- Existe **evidencia limitada** sobre la relación de métricas OO con atributos externos de calidad
+- Las herramientas UML modernas pueden **automatizar** la recolección de métricas CK
+
+Este resumen proporciona una visión estructurada de los conceptos fundamentales de medición de software, destacando tanto las oportunidades como las limitaciones actuales en la aplicación práctica de estas métricas en entornos industriales.
+
+
+### Parte 20 (Pág. 761–800)
+## Resumen del Glosario de Ingeniería de Software (Páginas 761-800)
+
+### Introducción
+El presente resumen analiza sistemáticamente los términos fundamentales comprendidos en el glosario de ingeniería de software, organizándolos según su relevancia conceptual y aplicación en el desarrollo de sistemas software.
+
+### Definiciones y Conceptos Fundamentales
+
+#### **Arquitecturas y Modelos de Sistemas**
+- **Arquitectura Cliente-Servidor**: Modelo arquitectónico distribuido donde la funcionalidad se ofrece como conjunto de servicios proporcionados por servidores, accedidos por clientes mediante variantes como arquitecturas de tres capas.
+- **Sistema Distribuido**: Sistema software cuyos subsistemas o componentes ejecutan en diferentes procesadores.
+- **Sistema Embebido**: Sistema software integrado en dispositivos hardware (ej: teléfonos móviles), generalmente sistemas de tiempo real que requieren respuesta oportuna a eventos del entorno.
+
+#### **Desarrollo y Metodologías**
+- **Desarrollo Brownfield**: Desarrollo de software que debe integrarse con múltiples sistemas existentes en el entorno.
+- **Desarrollo Incremental**: Enfoque de desarrollo donde el software se entrega e implementa en incrementos sucesivos.
+- **Programación Extrema (XP)**: Método ágil que incluye prácticas como requisitos basados en escenarios, desarrollo "test-first" y programación en parejas.
+- **DSDM (Dynamic System Development Method)**: Considerado uno de los primeros métodos ágiles de desarrollo.
+
+#### **Gestión de Configuración y Calidad**
+- **Gestión de Configuración**: Proceso que gestiona cambios en productos software evolutivos, incluyendo gestión de versiones, construcción de sistemas, gestión de cambios y gestión de releases.
+- **Elemento de Configuración**: Unidad legible por máquina (documento o archivo de código fuente) sujeta a cambios controlados.
+- **CMMI (Capability Maturity Model Integration)**: Enfoque integrado de modelado de madurez de capacidad de procesos, basado en prácticas de ingeniería de software y gestión de calidad integrada.
+
+#### **Componentes y Modelado**
+- **Componente**: Unidad de software desplegable e independiente, completamente definida y accedida mediante interfaces.
+- **Ingeniería de Software Basada en Componentes (CBSE)**: Desarrollo de software mediante composición de componentes independientes y desplegables consistentes con un modelo de componentes.
+- **Diagrama de Clases**: Tipo de diagrama UML que muestra clases de objetos en un sistema y sus relaciones.
+
+### Procesos y Herramientas Especializadas
+
+#### **Herramientas CASE**
+- **CASE (Computer-Aided Software Engineering)**: Término histórico para desarrollo de software usando soporte de herramientas automatizadas.
+- **Herramienta CASE**: Software que soporta actividades del proceso de desarrollo (editores de diseño, depuradores).
+- **Banco de Trabajo CASE**: Conjunto integrado de herramientas CASE que soportan actividades principales del proceso.
+
+#### **Gestión de Versiones**
+- **Git**: Herramienta distribuida de gestión de versiones y construcción de sistemas donde desarrolladores copian completamente el repositorio del proyecto.
+- **GitHub**: Servidor que mantiene numerosos repositorios Git, tanto privados como públicos.
+
+### Sistemas Críticos y Confiabilidad
+
+#### **Conceptos de Dependabilidad**
+- **Sistema Crítico**: Sistema cuyas fallas pueden resultar en pérdidas económicas, humanas o ambientales significativas.
+- **Confidabilidad (Dependability)**: Propiedad agregada que considera seguridad, confiabilidad, disponibilidad, seguridad y resiliencia del sistema.
+- **Caso de Confidabilidad**: Documento estructurado que respalda afirmaciones sobre la confidabilidad de un sistema.
+
+#### **Manejo de Fallos**
+- **Tolerancia a Fallos**: Capacidad de un sistema para continuar ejecutándose tras ocurrir fallos.
+- **Arquitecturas Tolerantes a Fallos**: Arquitecturas diseñadas para permitir recuperación de fallos software, basadas en componentes redundantes y diversos.
+- **Detección de Fallos**: Uso de procesos y verificación en tiempo de ejecución para detectar y eliminar fallos antes de que resulten en fallas del sistema.
+
+### Modelos y Notaciones Especializadas
+
+#### **Modelado de Procesos**
+- **BPMN (Business Process Modeling Notation)**: Notación para definir flujos de trabajo que describen procesos de negocio y composición de servicios.
+- **Modelo de Dominio**: Definición de abstracciones de dominio que sirve como base de conocimiento sobre un área problemática.
+
+#### **Estimación y Métricas**
+- **COCOMO II (Constructive Cost Modeling)**: Modelo algorítmico de estimación de costos, última instanciación del modelo COCOMO original.
+- **Métrica de Control**: Métrica software que permite a gestores tomar decisiones de planificación basadas en información del proceso o producto software.
+
+### Consideraciones Éticas y Profesionales
+- **Código de Ética y Práctica Profesional**: Conjunto de directrices que establecen el comportamiento ético y profesional esperado para ingenieros de software, definido bajo ocho encabezados principales.
+
+### Conclusión
+El glosario analizado proporciona una base terminológica esencial para la comprensión integral de la ingeniería de software moderna, abarcando desde conceptos fundamentales de arquitectura y desarrollo hasta consideraciones avanzadas de confiabilidad y ética profesional. Esta taxonomía especializada facilita la comunicación precisa y el entendimiento común entre profesionales del área.
+
+
+### Parte 21 (Pág. 801–811)
+## Resumen de las páginas 801-811 del libro "Software Engineering"
+
+### 1. **Pruebas de Software (Software Testing)**
+**Definición**: Proceso sistemático de ejecutar un programa con el objetivo de descubrir defectos y validar que cumple con los requisitos especificados.
+
+**Tipos de pruebas**:
+- **Pruebas de desarrollo**: 
+  - *Pruebas de unidad*: Verificación de componentes individuales.
+  - *Pruebas de componentes*: Incluyen análisis de errores de temporización.
+  - *Pruebas de sistema*: Validación del sistema completo (ej: estaciones meteorológicas).
+- **Pruebas de aceptación**:
+  - *Pruebas alfa y beta*: Realizadas por usuarios finales.
+- **Pruebas de seguridad**: 
+  - *Penetración*: Identificación de vulnerabilidades.
+  - *Análisis basado en herramientas*: Automatización de pruebas.
+
+**Enfoques relevantes**:
+- **Desarrollo guiado por pruebas (TDD)**: Ciclo "prueba-código-refactorización".
+- **Pruebas estadísticas**: Relacionadas con confiabilidad y modelos probabilísticos.
+
+### 2. **Modelado con UML (Unified Modeling Language)**
+**Conceptos clave**:
+- **Diagramas de comportamiento**: 
+  - *Diagramas de estado*: Modelan transiciones entre estados.
+  - *Diagramas de actividad*: Representan flujos de trabajo.
+- **Diagramas estructurales**:
+  - *Diagramas de clases*: Estructura estática del sistema.
+  - *Diagramas de despliegue*: Arquitectura física.
+- **Modelado de interacciones**:
+  - *Casos de uso*: Requisitos funcionales desde perspectiva del usuario.
+  - *Diagramas de secuencia*: Interacciones temporales entre objetos.
+
+### 3. **Servicios Web y Arquitecturas**
+**Definición**: Componentes software reutilizables que facilitan la interoperabilidad entre sistemas.
+
+**Estándares y tecnologías**:
+- **WSDL (Web Service Definition Language)**: Describe interfaces de servicios.
+- **SOAP/XML**: Protocolos de comunicación.
+- **RESTful**: Arquitectura basada en recursos y operaciones HTTP.
+- **WS-BPEL**: Orquestación de flujos de trabajo empresariales.
+
+**Arquitecturas asociadas**:
+- **Arquitectura orientada a servicios (SOA)**: Integración mediante servicios loosely coupled.
+- **Sistemas de sistemas (SoS)**: Enfocados en complejidad técnica e integración.
+
+### 4. **Ingeniería de Seguridad y Confiabilidad**
+**Principios clave**:
+- **Tolerancia a fallos**:
+  - *Redundancia modular triple (TMR)*: Técnica de hardware/software.
+  - *Chequeos de validez*: Detección temprana de errores.
+- **Gestión de amenazas**:
+  - *Análisis de vulnerabilidades*: Identificación de puntos débiles.
+  - *Logs de usuario*: Registro de acciones para auditoría.
+
+**Métodos formales**:
+- *Verificación formal*: Demostración matemática de corrección.
+- *Model checking*: Verificación automática de propiedades.
+
+### 5. **Gestión de Configuración y Versiones**
+**Procesos fundamentales**:
+- **Control de versiones (VC)**: 
+  - Gestión de cambios incremental.
+  - Sistemas como Git/SVN.
+- **Gestión de líneas base**: Establecimiento de puntos estables en el desarrollo.
+
+### 6. **Referencias Académicas y Autores Clave**
+Se citan contribuciones seminales de:
+- **Beck** (TDD, metodologías ágiles).
+- **Boehm** (modelos de proceso y estimación).
+- **Gamma et al.** (patrones de diseño).
+- **Humphrey** (mejora de procesos).
+
+---
+
+**Conclusión**: Estas páginas sintetizan aspectos críticos de las etapas de verificación, modelado arquitectónico y paradigmas de desarrollo modernos, enfatizando la importancia de métodos sistemáticos para garantizar calidad, seguridad y mantenibilidad del software.

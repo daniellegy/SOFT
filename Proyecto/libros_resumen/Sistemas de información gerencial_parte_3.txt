@@ -1,0 +1,90 @@
+### Parte 3 (Pág. 81–120)
+
+# Resumen Académico: Procesos de Negocios y Sistemas de Información (Páginas 81-120)
+
+## 2.1 Procesos de Negocios y su Relación con los Sistemas de Información
+
+### Definición de Procesos de Negocios
+Los **procesos de negocios** constituyen el conjunto organizado y coordinado de actividades necesarias para crear un producto o servicio valioso. Estos procesos se caracterizan por:
+
+- Flujos de material, información y conocimiento entre participantes
+- Formas únicas de coordinar trabajo, información y conocimiento
+- Elecciones gerenciales sobre coordinación del trabajo
+
+### Importancia Estratégica
+El desempeño organizacional depende críticamente del diseño y coordinación de los procesos de negocios, los cuales pueden ser:
+- **Fuente de ventaja competitiva** cuando permiten innovación y mejor desempeño
+- **Desventaja competitiva** cuando se basan en formas obsoletas de trabajo
+
+### Clasificación de Procesos de Negocios
+
+#### Procesos Funcionales Específicos
+**Tabla 2.1 - Ejemplos de Procesos de Negocios por Área Funcional:**
+
+| Área Funcional | Procesos de Negocios |
+|----------------|----------------------|
+| Manufactura y producción | Ensamblar producto, verificar calidad, producir listas de materiales |
+| Ventas y marketing | Identificar clientes, crear conciencia del producto, vender producto |
+| Finanzas y contabilidad | Pagar acreedores, crear estados financieros, administrar cuentas |
+| Recursos humanos | Contratar empleados, evaluar desempeño, inscribir en beneficios |
+
+#### Procesos Transfuncionales
+Procesos que cruzan múltiples áreas funcionales, como el **proceso de cumplimiento de pedidos** (Figura 2.1), que requiere coordinación entre:
+- Ventas (recibir pedido)
+- Contabilidad (verificar crédito, generar factura)
+- Manufactura (ensamblar producto)
+- Logística (enviar producto)
+
+### Impacto de los Sistemas de Información en los Procesos de Negocios
+
+Los sistemas de información mejoran los procesos de negocios mediante:
+
+1. **Automatización** de pasos manuales
+2. **Cambio del flujo de información** para acceso más amplio
+3. **Sustitución de secuencias secuenciales** por tareas simultáneas
+4. **Eliminación de retrasos** en la toma de decisiones
+5. **Habilitación de nuevos modelos de negocio**
+
+## 2.2 Servicio de Sistemas de Información a Grupos Gerenciales
+
+### Sistemas por Nivel Gerencial
+
+#### Sistemas de Procesamiento de Transacciones (TPS)
+- **Propósito**: Registrar transacciones diarias rutinarias
+- **Usuarios**: Gerencia operacional
+- **Funciones**: Seguimiento de ventas, nóminas, inventarios, créditos
+- **Características**: Información actualizada, precisa y fácilmente disponible
+- **Ejemplos**: Sistemas de pedidos de venta, reservaciones, registro de empleados
+
+### Evolución de los Sistemas Funcionales
+
+- **Sistemas funcionales independientes** están siendo reemplazados
+- **Sistemas multifuncionales integrados** emergen como estándar
+- **Integración** de actividades de procesos de negocios y unidades organizacionales
+
+## Caso de Estudio: Kluwer
+
+### Contexto
+La empresa enfrentaba desafíos de:
+- Tecnología estática obsoleta
+- Fuerza laboral geográficamente dispersa
+
+### Solución Implementada
+- **Cambio cultural organizacional**
+- **Modificación de procesos** de conocimiento y colaboración
+- **Implementación de Yammer** como plataforma de colaboración
+
+### Resultados
+- Compartición más efectiva del conocimiento institucional
+- Mayor innovación y eficiencia organizacional
+- Transformación en la forma de realizar el trabajo
+
+## Conclusiones Clave
+
+1. Los procesos de negocios son fundamentales para el desempeño organizacional
+2. La coordinación interdepartamental es crucial para procesos complejos
+3. Los sistemas de información transforman procesos mediante automatización y reingeniería
+4. La tecnología debe acompañarse de cambios organizacionales y culturales
+5. El análisis de procesos de negocios permite comprender y mejorar el funcionamiento empresarial
+
+Este análisis subraya la interdependencia crítica entre procesos de negocios bien diseñados y sistemas de información efectivos para lograr ventajas competitivas sostenibles.

@@ -1,0 +1,73 @@
+### Parte 13 (Pág. 481–520)
+
+## Resumen del Capítulo 11: Administración del Conocimiento (Páginas 481-484)
+
+### Introducción a las Técnicas Inteligentes
+
+Las organizaciones contemporáneas emplean diversas técnicas inteligentes para la gestión del conocimiento, entre las cuales destacan:
+
+- **Sistemas expertos**: Capturan conocimiento tácito en dominios específicos
+- **Razonamiento basado en casos y lógica difusa**: Para capturar conocimiento tácito
+- **Redes neuronales y minería de datos**: Para descubrimiento de conocimiento
+- **Algoritmos genéticos**: Generan soluciones a problemas complejos
+- **Agentes inteligentes**: Automatizan tareas rutinarias
+
+Estas técnicas se fundamentan en la **Inteligencia Artificial (IA)**, definida como sistemas basados en computadora que emulan el comportamiento humano, incluyendo aprendizaje de idiomas, realización de tareas físicas y toma de decisiones.
+
+### Sistemas Expertos
+
+#### Definición y Características
+Los sistemas expertos son técnicas inteligentes que capturan conocimiento tácito en dominios específicos y limitados de experiencia humana. Se caracterizan por:
+
+- Capturar conocimiento de empleados calificados mediante conjuntos de reglas
+- Agregar conocimiento a la memoria organizacional
+- Realizar tareas limitadas que profesionales pueden completar en minutos u horas
+- Ser útiles en decisiones discretas y altamente estructuradas
+
+#### Limitaciones
+- Carecen de la amplitud de conocimiento y comprensión de principios fundamentales de expertos humanos
+- Solo resuelven problemas con resultados alternativos conocidos y limitados
+- Son menos útiles para problemas no estructurados
+
+#### Componentes y Funcionamiento
+
+**Base de Conocimiento:**
+- Conjunto de reglas obtenidas mediante entrevistas a expertos o documentación de reglas de negocio
+- Contiene desde 200 hasta varios miles de reglas interconectadas
+- Las reglas están más interconectadas y anidadas que en programas tradicionales
+
+**Motor de Inferencia:**
+Estrategia para buscar en la base de conocimiento mediante dos enfoques:
+
+1. **Encadenamiento hacia adelante**: Comienza con información del usuario y busca reglas hasta llegar a una conclusión
+2. **Encadenamiento hacia atrás**: Comienza con una hipótesis y realiza preguntas al usuario hasta comprobar o refutar la hipótesis
+
+#### Ejemplo de Implementación: Con-Way Transportation
+- Sistema experto "Line-haul" para planificación de rutas de envío
+- Captura reglas de negocio para asignar conductores, camiones y remolques
+- Utiliza miles de reglas y 100,000 líneas de código C++
+- Optimiza el 95% de los envíos diarios
+- Retorno de inversión de $3 millones en menos de dos años
+
+### Sistemas de Trabajo del Conocimiento
+
+La tabla 11.2 presenta ejemplos específicos:
+
+| Sistema | Función en la Organización |
+|---------|---------------------------|
+| CAD/CAM | Proporciona control preciso sobre diseño y manufactura industrial |
+| Sistemas de realidad virtual | Ofrece simulaciones precisas para diseñadores, arquitectos y profesionales médicos |
+| Estaciones de trabajo de inversión | Equipos de alta gama para análisis instantáneo de operaciones bursátiles |
+
+### Consideraciones de Implementación
+
+- Requieren esfuerzos extensos y costosos de desarrollo
+- El entorno cambiante exige actualizaciones constantes
+- Los costos de mantenimiento pueden igualar los de desarrollo en pocos años
+- En algunos casos, contratar o capacitar más expertos puede ser más económico
+
+### Transición hacia Inteligencia Organizacional
+
+Mientras los sistemas expertos capturan conocimiento individual, las organizaciones requieren técnicas para capturar **conocimiento colectivo** acumulado a través de los años. El **razonamiento basado en casos (CBR)** emerge como solución para almacenar y utilizar esta experiencia organizacional acumulada.
+
+Este resumen proporciona una base comprensiva de los conceptos fundamentales presentados en las páginas analizadas, estableciendo las bases para el desarrollo posterior de técnicas más avanzadas de gestión del conocimiento organizacional.

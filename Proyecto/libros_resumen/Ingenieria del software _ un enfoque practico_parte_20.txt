@@ -1,0 +1,61 @@
+### Parte 20 (Pág. 761–800)
+
+## Resumen del Apéndice 1: Introducción a UML (Páginas 761-800)
+
+### Introducción
+El Apéndice 1 presenta los fundamentos de Unified Modeling Language (UML) como herramienta esencial para el modelado de sistemas de software. Se enfoca en diagramas de implementación, casos de uso y diagramas de secuencia, destacando su aplicación práctica en el desarrollo de software.
+
+### Diagramas de Implementación
+
+**Definición:** Los diagramas de implementación UML se centran en la estructura física del sistema de software, mostrando la distribución entre plataformas de hardware y entornos de ejecución.
+
+**Componentes Clave:**
+- **Nodos de dispositivo:** Representan componentes hardware, denotados con `<<dispositivo>>`
+- **Artefactos:** Archivos que contienen software ejecutable en dispositivos
+- **Rutas de comunicación:** Líneas que conectan componentes, etiquetadas con protocolos y tipos de red
+- **Nodos de entorno de ejecución:** Sistemas que albergan otro software, marcados con `<<entorno de ejecución>>`
+
+**Ejemplo Aplicado:** Sistema de renderizado gráfico web con tres componentes:
+1. Cliente web (navegador)
+2. Servidor web (Apache/Linux)
+3. Motor de renderizado
+
+### Diagramas de Caso de Uso
+
+**Concepto Fundamental:** Los casos de uso describen la interacción usuario-sistema para lograr metas específicas, mientras los diagramas proporcionan una visión global de la funcionalidad.
+
+**Elementos Estructurales:**
+- **Actores:** Figuras de palitos que representan categorías de usuarios
+- **Casos de uso:** Óvalos que representan funcionalidades específicas
+- **Relaciones "incluye":** Flechas punteadas que indican inclusión de casos de uso
+
+**Ejemplo:** Sistema de gestión de música digital con casos de uso como:
+- Descargar archivos MP3
+- Capturar música en streaming
+- Quemar listas en CD
+- Cargar listas en dispositivos portátiles
+- Convertir formatos de audio
+
+**Importancia:** La descripción textual detallada de cada caso de uso es más valiosa que el diagrama global para comprender los objetivos del sistema.
+
+### Diagramas de Secuencia
+
+**Definición:** Muestran comunicaciones dinámicas entre objetos durante la ejecución de tareas, enfocándose en el orden temporal de mensajes.
+
+**Componentes Estructurales:**
+- **Objetos:** Cajas en la parte superior con notación `nombre: Tipo`
+- **Líneas de vida:** Líneas punteadas verticales bajo cada objeto
+- **Barras de activación:** Barras blancas que indican ejecución de métodos
+- **Mensajes:** Flechas horizontales etiquetadas con nombres de métodos
+- **Retornos:** Flechas punteadas opcionales que muestran valores de retorno
+
+**Características de Modelado:**
+- El eje vertical representa el tiempo (incrementa hacia abajo)
+- Se pueden omitir flechas de retorno para métodos void
+- Los marcos de interacción permiten representar estructuras de control
+- Se recomienda diagramas separados para diferentes flujos condicionales
+
+**Ejemplo:** Sistema de dibujo que muestra la secuencia para resaltar figuras al hacer clic, incluyendo llamadas a métodos como `getFigureAt()`, `highlight()`, y `setColor()`.
+
+### Conclusión
+Los diagramas UML presentados constituyen herramientas fundamentales para el modelado de sistemas software, proporcionando diferentes perspectivas: estructural (implementación), funcional (casos de uso) y dinámica (secuencia). Su aplicación sistemática permite una especificación clara y completa de los requisitos y comportamiento del sistema, facilitando el desarrollo de software de calidad.

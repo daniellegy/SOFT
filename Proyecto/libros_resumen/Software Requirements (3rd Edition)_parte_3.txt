@@ -1,0 +1,89 @@
+### Parte 3 (Pág. 51–75)
+
+## Resumen de Páginas 51-75: "Software Requirements" (3ra Edición)
+
+### I. Gestión de Requisitos: Definición y Propósito
+
+La **gestión de requisitos** constituye una disciplina fundamental que comprende:
+- Definición de relaciones y dependencias entre requisitos
+- Trazabilidad de requisitos individuales hacia diseños, código fuente y pruebas correspondientes
+- Seguimiento del estado de requisitos y actividades de cambio durante el proyecto
+
+**Objetivo principal**: Anticipar y acomodar cambios esperados para minimizar su impacto disruptivo, no impedir la evolución natural del proyecto.
+
+### II. Desarrollo vs. Gestión de Requisitos
+
+La Figura 1-5 establece la frontera conceptual entre:
+- **Desarrollo de requisitos**: Prácticas específicas de elicitación, análisis, especificación y validación
+- **Gestión de requisitos**: Control y administración de requisitos establecidos
+
+### III. Importancia Crítica de los Requisitos
+
+Según Frederick Brooks (1987): 
+"La parte más difícil de construir un sistema software es decidir precisamente qué construir. Ninguna otra parte del trabajo conceptual es tan difícil como establecer los requisitos técnicos detallados."
+
+**Beneficios clave**:
+- Comprensión de necesidades de stakeholders como inversión de alto impacto
+- Base para satisfacción de expectativas
+- Criterio para determinar finalización del proyecto
+- Fundamentación para decisiones de compensación (trade-offs)
+
+### IV. Enfoques de Desarrollo
+
+**Desarrollo ágil**: 
+- Especificación incremental de requisitos funcionales
+- Implementación por porciones con retroalimentación continua
+- Planificación basada en priorización reflexiva
+- Iteración conceptual preferible sobre iteración de código
+
+### V. Impacto Económico de Defectos en Requisitos
+
+**Problema principal**: Retrabajo (rework)
+- Consume 30-50% del costo total de desarrollo
+- Errores en requisitos representan 70-85% del costo de retrabajo
+
+**Escala de costos progresivos** (Boehm, 1981):
+- Corrección durante especificación: $1 (escala relativa)
+- Corrección durante diseño: $2-3 + costo base
+- Corrección durante operación: $100+ (amplificación 21x en casos documentados)
+
+### VI. Riesgos Principales en Gestión de Requisitos
+
+#### A. Participación Insuficiente del Usuario
+- Comprensión inadecuada de necesidades reales
+- Requisitos tardíos que generan retrabajo
+- Soluciones implementadas pero no utilizadas
+
+#### B. Planificación Inexacta
+- Estimaciones optimistas basadas en requisitos vagos
+- Factores contribuyentes: cambios frecuentes, requisitos faltantes, comunicación deficiente
+
+#### C. Expansión Continua de Requisitos (Scope Creep)
+- Evolución no controlada de requisitos
+- Estrategias de mitigación:
+  - Declaración clara de objetivos empresariales
+  - Buffers de contingencia en cronogramas
+  - Gestión ágil mediante backlog y priorización
+
+#### D. Ambiguidad en Requisitos
+- Interpretaciones múltiples de misma declaración
+- Expectativas divergentes entre stakeholders
+- Técnicas de detección:
+  - Inspección colaborativa multidisciplinaria
+  - Talleres de discusión grupal
+  - Escritura temprana de pruebas
+  - Prototipado
+
+#### E. Sobreingeniería (Gold Plating)
+- Adición de funcionalidad no solicitada
+- Justificación mediante trazabilidad a origen empresarial
+- Enfoque en maximización de valor entregado
+
+#### F. Stakeholders No Considerados
+- Identificación temprana de todas las clases de usuario
+- Inclusión de personal de mantenimiento y soporte
+- Representación adecuada de perspectivas diversas
+
+### VII. Conclusión
+
+La inversión en prácticas robustas de requisitos representa una estrategia de alto rendimiento para reducir costos de retrabajo, mejorar la predictibilidad de proyectos y garantizar la entrega de valor real a stakeholders. La prevención temprana de defectos mediante especificación clara y validación continua constituye el fundamento del éxito en ingeniería de software.

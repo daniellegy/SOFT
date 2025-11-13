@@ -1,0 +1,77 @@
+### Parte 6 (Pág. 201–240)
+
+## Resumen de las páginas 201-240: Ingeniería de Requisitos y Técnicas de Recopilación Colaborativa
+
+### 7.2.5 Requisitos No Funcionales (RNF)
+
+**Definición:** Los requisitos no funcionales constituyen atributos de calidad, rendimiento, seguridad o restricciones generales sobre un sistema. Representan características esenciales que, aunque frecuentemente difíciles de articular por los stakeholders, resultan indispensables para la utilidad y usabilidad del software.
+
+**Proceso de Identificación en Dos Fases:**
+
+1. **Fase de Establecimiento de Directrices:**
+   - Definición de directrices de ingeniería de software
+   - Establecimiento de estilos arquitectónicos y patrones de diseño
+   - Desarrollo de lista de RNF (usabilidad, testeabilidad, seguridad, mantenibilidad)
+   - Creación de matriz de relaciones para evaluar complementariedad, superposición, conflicto o independencia entre directrices
+
+2. **Fase de Priorización:**
+   - Creación de conjunto homogéneo de RNF
+   - Aplicación de reglas de decisión para determinar implementación o rechazo de directrices
+
+### 7.2.6 Trazabilidad
+
+**Concepto Fundamental:** La trazabilidad se refiere a los vínculos documentados entre productos de trabajo de ingeniería de software (requisitos, casos de prueba, elementos de diseño).
+
+**Matriz de Trazabilidad:**
+- Filas etiquetadas con nombres de requisitos
+- Columnas etiquetadas con productos de trabajo de ingeniería
+- Celdas marcadas para indicar presencia de relaciones
+- **Propósito:** Garantizar que todos los requisitos sean considerados en los productos de trabajo
+- **Desafío:** Mantenimiento de la matriz ante el crecimiento en número de requisitos
+
+### 7.3 Recopilación de Requisitos
+
+**Enfoque Integrado:** Combina elementos de resolución de problemas, elaboración, negociación y especificación mediante colaboración entre stakeholders.
+
+### 7.3.1 Recopilación Colaborativa de Requisitos
+
+**Directrices Fundamentales:**
+- Reuniones presenciales o virtuales con participación de ingenieros y stakeholders
+- Establecimiento de reglas de preparación y participación
+- Agenda balanceada entre formalidad y flexibilidad
+- Facilitador para control de la reunión
+- Mecanismo de definición (pizarras, herramientas electrónicas)
+
+**Proceso Detallado:**
+
+**Preparación:**
+- Generación de solicitud de producto (1-2 páginas)
+- Selección de participantes representativos
+- Distribución previa de documentación
+
+**Ejercicio de Listado:**
+- **Objetos:** Elementos del entorno, producidos o utilizados por el sistema
+- **Servicios:** Procesos que manipulan o interactúan con objetos
+- **Restricciones:** Costo, tamaño, reglas de negocio
+- **Criterios de Rendimiento:** Velocidad, precisión, seguridad
+
+**Ejemplo SafeHome:**
+- *Objetos:* Panel de control, detectores, sensores, alarma
+- *Servicios:* Configuración, monitoreo, marcación telefónica
+- *Restricciones:* Reconocimiento de fallos, interfaz amigable
+- *Rendimiento:* Reconocimiento de eventos en 1 segundo
+
+**Proceso de Consolidación:**
+- Combinación de listas individuales
+- Eliminación de redundancias
+- Adición de nuevas ideas
+- Prohibición de crítica inicial
+- Desarrollo de listas consensuadas
+
+**Mini-especificaciones:**
+- Descripciones detalladas de objetos y servicios
+- Ejemplo: Especificación técnica del panel de control SafeHome
+- Revisión colaborativa y refinamiento iterativo
+- Mantenimiento de lista de issues pendientes
+
+**Resultado Final:** Conjunto consensuado de objetos, servicios, restricciones y criterios de rendimiento que constituyen la base para el desarrollo del sistema, complementado con mini-especificaciones y casos de uso detallados.

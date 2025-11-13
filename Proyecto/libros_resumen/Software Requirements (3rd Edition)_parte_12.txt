@@ -1,0 +1,62 @@
+### Parte 12 (Pág. 276–300)
+
+## Resumen de Páginas 276-300: "Software Requirements (3rd Edition)"
+
+### I. Diagramas UML en el Análisis de Requisitos (Pág. 276)
+
+**Definición Clave**: El Lenguaje de Modelado Unificado (UML) constituye el estándar para modelado orientado a objetos, principalmente utilizado en diseño, aunque ciertos diagramas resultan útiles en el nivel de abstracción del análisis de requisitos.
+
+**Diagramas UML Relevantes para Análisis de Requisitos**:
+1. **Diagramas de Clase**: Representan clases de objetos del dominio de aplicación, sus atributos, comportamientos, propiedades y relaciones
+2. **Diagramas de Casos de Uso**: Muestran relaciones entre actores externos y casos de uso
+3. **Diagramas de Actividad**: Representan flujos en casos de uso, roles que ejecutan acciones (diagramas de carriles) o procesos de negocio
+4. **Diagramas de Estado**: Modelan los diferentes estados de un sistema u objeto de datos y las transiciones permitidas
+
+### II. Modelado en Proyectos Ágiles (Pág. 276-277)
+
+**Concepto Fundamental**: Todos los proyectos deben emplear modelos de requisitos, independientemente de su enfoque de desarrollo. La diferencia radica en el momento de creación y nivel de detalle.
+
+**Características del Modelado Ágil**:
+- Creación incremental de modelos según las iteraciones
+- Formatos menos persistentes (pizarras, fotografías)
+- Actualización continua conforme se implementan historias de usuario
+- Enfoque en modelos necesarios, en el momento necesario, con el detalle necesario
+
+**Principio Esencial**: Las historias de usuario no siempre capturan suficiente detalle y precisión, por lo que los modelos complementarios resultan esenciales incluso en contextos ágiles.
+
+### III. Especificación de Requisitos de Datos (Pág. 278-280)
+
+#### A. Diccionario de Datos
+
+**Definición**: Repositorio compartido que define significado, composición, tipo de datos, longitud, formato y valores permitidos para elementos de datos de la aplicación.
+
+**Propósito**: Evitar inconsistencias en nombres de variables, longitudes y criterios de validación entre desarrolladores.
+
+#### B. Modelado de Relaciones de Datos
+
+**Modelo Principal**: Diagrama Entidad-Relación (ERD)
+
+**Aplicaciones del ERD**:
+- **Análisis**: Representa grupos lógicos de información del dominio del problema
+- **Diseño**: Define estructura lógica o física de la base de datos
+
+**Componentes del ERD**:
+1. **Entidades**: Elementos físicos o agregaciones de datos importantes para el negocio
+   - Representadas como sustantivos singulares en rectángulos
+   - Ejemplos: Chemical Request, Vendor Catalog, Chemical Stockroom Inventory
+
+2. **Atributos**: Características que describen cada entidad
+   - Definidos precisamente en el diccionario de datos
+
+3. **Relaciones**: Conexiones lógicas entre pares de entidades
+   - Nombradas para describir la naturaleza de la conexión
+   - Representadas con diamantes en notación Chen
+
+**Práctica Recomendada**: Nombrar relaciones de manera que sean gramaticalmente lógicas en ambas direcciones (ej: "placing" en lugar de "is placed by").
+
+### IV. Consideraciones Finales (Pág. 277)
+
+- Ninguna técnica de modelado individual es suficiente para representar todos los aspectos del sistema
+- Existe superposición entre modelos, por lo que no es necesario crear todos los tipos de diagramas
+- Los modelos de análisis proporcionan comprensión y comunicación que supera lo que pueden ofrecer los requisitos textuales
+- El enfoque debe estar en crear modelos que complementen los requisitos textuales según las necesidades específicas del proyecto

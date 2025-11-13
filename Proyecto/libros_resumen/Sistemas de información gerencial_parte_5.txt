@@ -1,0 +1,74 @@
+### Parte 5 (Pág. 161–200)
+
+## Resumen Académico: Aspectos Éticos y Sociales en Sistemas de Información (Páginas 161-200)
+
+### I. Contexto Problemático: Piratería de Contenido Digital
+
+**Definición Central**: La piratería de contenido se refiere a la distribución no autorizada de material digital protegido por derechos de autor, representando una amenaza significativa para las industrias creativas.
+
+**Datos Relevantes**:
+- Caso de estudio: Game of Thrones (2012) con 3.7-4.2 millones de visualizaciones piratas adicionales
+- Irdeto detectó 14 mil millones de instancias de contenido pirata en 2012 vs. 5,400 millones en 2009
+- Impacto económico estimado: $58 mil millones anuales en pérdidas para EE.UU.
+
+### II. Mecanismos y Tecnologías de Piratería
+
+**Infraestructura tecnológica**:
+- **Redes P2P (Peer-to-Peer)**: Especialmente BitTorrent, que fragmenta archivos grandes
+- **Cyberlockers**: Almacenamiento en la nube para distribución ilegal
+- **Streaming ilegal**: Incluyendo transmisiones deportivas en vivo
+- **Financiación**: 86% de sitios P2P dependen de publicidad online
+
+### III. Estrategias Antipiratería
+
+**Soluciones Tecnológicas**:
+- Ajustes algorítmicos en motores de búsqueda
+- **Crawlers automatizados** para detección proactiva
+- **Tecnología de reconocimiento de contenido**
+- Sistemas de alerta a usuarios con sanciones progresivas
+
+**Soluciones de Mercado**:
+- Servicios legales de streaming (Netflix, Spotify, iTunes)
+- Modelos de suscripción accesibles
+- Contenido de alta calidad a precios competitivos
+
+### IV. Marco Conceptual Ético-Legal
+
+**Definición Clave**: 
+**Ética** = "Principios del bien y del mal que los individuos, al actuar como agentes con libre moral, utilizan para guiar sus comportamientos"
+
+**Dimensiones del Problema**:
+1. **Tecnológica**: Internet como arma de doble filo
+2. **Legal**: Entorno global con jurisdicciones complejas
+3. **Económica**: Impacto en empleos e ingresos fiscales
+4. **Social**: Conflicto entre protección intelectual y acceso libre
+
+### V. Modelo de Análisis Ético en SI
+
+**Componentes del Sistema**:
+- **Organización**: Desarrollo de políticas antipiratería
+- **Administración**: Monitoreo de ventas y actividad ilegal
+- **Tecnología**: Implementación de soluciones técnicas
+- **Soluciones de Negocio**: Desarrollo de productos digitales económicos
+
+### VI. Implicaciones Gerenciales
+
+**Desafíos Identificados**:
+- Necesidad de sensibilidad hacia impactos positivos y negativos de los SI
+- Resolución de dilemas éticos relacionados con tecnología
+- Cumplimiento legal en entorno regulatorio más estricto
+- Balance entre protección intelectual y acceso a la información
+
+**Marco Legal Relevante**:
+- Lineamientos federales de sentencias (EE.UU., 1987)
+- Tendencia hacia cooperación corporativa con fiscales
+- Mayor responsabilidad personal de gerentes y empleados
+
+### VII. Conclusión
+
+La tecnología de información genera tensiones éticas fundamentales entre:
+- Derechos de propietarios de propiedad intelectual
+- Expectativas de acceso libre y compartido en Internet
+- Responsabilidades gerenciales en implementación de SI
+
+La solución requiere enfoque multidimensional que combine medidas tecnológicas, estrategias de mercado innovadoras, marcos legales efectivos y conciencia ética organizacional.

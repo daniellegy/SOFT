@@ -1,0 +1,103 @@
+### Parte 13 (Pág. 481–520)
+
+## Resumen de las Páginas 481-520: Procesos y Composición de Componentes en CBSE
+
+### 16.2 Procesos de CBSE
+
+#### Validación de Componentes
+La validación de componentes constituye una fase crítica en la Ingeniería de Software Basada en Componentes (CBSE). Este proceso implica:
+
+**Definición clave**: La validación de componentes es el proceso de verificar que un componente reutilizable se comporta según lo especificado y satisface los requisitos del sistema.
+
+**Proceso de validación**:
+- Desarrollo de casos de prueba específicos para el componente
+- Creación de un *test harness* para ejecutar las pruebas
+- Evaluación del comportamiento anunciado versus el comportamiento real
+
+**Problemas fundamentales en la validación**:
+1. **Especificaciones incompletas**: La documentación formal suele limitarse a la interfaz, sin detalles suficientes para pruebas exhaustivas
+2. **Código malicioso**: Riesgo potencial en componentes de fuentes no confiables
+3. **Funcionalidad innecesaria**: Componentes que incluyen características no requeridas que pueden:
+   - Ralentizar el sistema
+   - Producir resultados inesperados
+   - Causar fallos catastróficos
+
+#### Caso de Estudio: Fallo del Lanzador Ariane 5
+**Contexto**: Reutilización del software de referencia inercial del Ariane 4 en el Ariane 5.
+
+**Problema identificado**:
+- El componente incluía funcionalidad no requerida
+- Suposiciones embebidas sobre el entorno operativo no documentadas
+- Conversión de número de punto fijo a entero causó desbordamiento numérico
+
+**Conclusión fundamental**: Los componentes reutilizables suelen incorporar supuestos implícitos sobre su entorno original que pueden no ser válidos en nuevos contextos.
+
+### 16.3 Composición de Componentes
+
+#### Definición y Tipos
+**Definición clave**: La composición de componentes es el proceso de integrar componentes entre sí, utilizando código "pegamento" cuando es necesario, para crear sistemas o nuevos componentes.
+
+**Tipos de composición**:
+
+1. **Composición Secuencial**
+   - Los componentes se llaman en secuencia
+   - El output del componente A sirve como input del componente B
+   - Requiere código pegamento para transformación de datos
+   - Aplicable a componentes embebidos y de servicio
+
+2. **Composición Jerárquica**
+   - Un componente llama directamente a los servicios de otro
+   - La interfaz "proporciona" del componente llamado debe ser compatible con la interfaz "requiere" del componente llamante
+   - No aplicable a servicios web
+
+3. **Composición Aditiva**
+   - Combinación de componentes para crear nueva funcionalidad
+   - Las interfaces se combinan
+   - Los componentes son independientes y no se llaman entre sí
+
+#### Incompatibilidades en Interfaces
+**Tipos de incompatibilidad**:
+
+1. **Incompatibilidad de Parámetros**
+   - Mismo nombre de operación pero tipos/número de parámetros diferentes
+
+2. **Incompatibilidad de Operaciones**
+   - Nombres de operaciones diferentes entre interfaces
+
+3. **Incompletitud de Operaciones**
+   - La interfaz "proporciona" es subconjunto de la interfaz "requiere", o viceversa
+
+#### Solución: Componentes Adaptador
+**Definición**: Un adaptador es un componente que reconcilia diferencias entre interfaces, convirtiendo una interfaz en otra compatible.
+
+**Implementación de adaptadores**:
+- Conversión de resultados entre componentes
+- Actuación como proxy para reconciliar diferencias
+- Transformación de parámetros de entrada
+
+#### Ejemplo Práctico: Sistema de Servicios de Emergencia
+**Componentes**:
+- `addressFinder`: Localiza dirección a partir de número telefónico
+- `mapper`: Genera mapas a partir de códigos postales
+
+**Problema**: Incompatibilidad en formatos de datos entre componentes
+
+**Solución**: Implementación de `postCodeStripper` como adaptador
+
+**Secuencia de composición**:
+```pseudocode
+address = addressFinder.location(phonenumber);
+postCode = postCodeStripper.getPostCode(address);
+mapper.displayMap(postCode, 10000);
+```
+
+### Conclusiones Relevantes
+
+La composición efectiva de componentes requiere:
+- Validación rigurosa considerando el contexto de reutilización
+- Diseño de interfaces compatibles para nuevos componentes
+- Implementación de adaptadores cuando existen incompatibilidades
+- Documentación exhaustiva de supuestos ambientales
+- Consideración de funcionalidad innecesaria en componentes reutilizados
+
+Este enfoque sistemático permite maximizar los beneficios de la reutilización mientras se mitigan los riesgos asociados a la integración de componentes heterogéneos.

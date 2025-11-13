@@ -1,0 +1,66 @@
+### Parte 17 (Pág. 481–510)
+
+## Resumen de las Páginas 481-485: Fundamentos de Pruebas de Software
+
+### 1. Definiciones Fundamentales
+
+**Error**: Se define de dos maneras:
+- Discrepancia entre un valor calculado, observado o medido y el valor verdadero, especificado o teóricamente correcto
+- Acción humana que resulta en software que contiene un defecto o falla
+
+**Falla (Fault)**: Condición que causa que un sistema falle en el desempeño de su función requerida. Sinónimo del término común "bug". En software, todas las fallas son "fallas de diseño" - no existe desgaste en software.
+
+**Fracaso (Failure)**: Incapacidad de un sistema o componente para realizar una función requerida según sus especificaciones. Ocurre cuando el comportamiento del software difiere del comportamiento especificado.
+
+### 2. Relaciones entre Conceptos
+
+- La presencia de un error implica que debe haber ocurrido un fracaso
+- La observación de un fracaso implica que debe existir una falla en el sistema
+- La presencia de una falla **no** garantiza que ocurra un fracaso
+- Las fallas son condición necesaria pero **no suficiente** para que ocurran fracasos
+
+### 3. Implicaciones para el Proceso de Pruebas
+
+- Las pruebas solo pueden revelar la **presencia** de fallas, **no su ausencia**
+- La no observación de fracasos durante las pruebas no permite afirmar que no existen fallas en el sistema
+- Esto convierte a "cuándo detener las pruebas" en uno de los problemas más difíciles en testing
+
+### 4. Oráculos de Prueba
+
+**Definición**: Mecanismo, diferente del programa mismo, que puede usarse para verificar la corrección de la salida del programa para los casos de prueba.
+
+**Características**:
+- Necesarios para realizar pruebas efectivas
+- Idealmente deberían ser automatizados y siempre dar respuestas correctas
+- Frecuentemente son seres humanos, lo que introduce posibilidad de errores
+- Utilizan las especificaciones del programa para determinar el comportamiento "correcto"
+
+**Problemas con los Oráculos**:
+- Las especificaciones pueden contener errores, imprecisiones o ambigüedades
+- Esto genera situaciones donde diferentes partes pueden discrepar sobre qué constituye un fracaso
+
+### 5. Casos de Prueba y Criterios de Selección
+
+**Caso de Prueba**: Entrada específica utilizada para probar el software.
+
+**Propiedades Deseables**:
+- Maximizar el número de errores detectados
+- Minimizar el número de casos de prueba (minimizar costo)
+
+**Pruebas Exhaustivas**: Incluir todas las posibles entradas al programa. Es **impráctica e inviable** incluso para programas pequeños debido al tamaño extremo del dominio de entrada.
+
+### 6. Criterios de Selección de Pruebas
+
+**Definición**: Para un programa P y sus especificaciones S, un criterio de selección de pruebas especifica las condiciones que debe satisfacer un conjunto de casos de prueba T.
+
+**Propiedades Fundamentales**:
+
+**Confiabilidad (Reliability)**: Un criterio es confiable si todos los conjuntos de casos de prueba que satisfacen el criterio detectan los mismos errores.
+
+**Validez (Validity)**: Un criterio es válido si para cualquier error en el programa existe algún conjunto que satisface el criterio y revelará el error.
+
+**Teorema Fundamental**: Si un criterio de prueba es válido y confiable, y un conjunto que satisface el criterio tiene éxito (no revela fallas), entonces el programa no contiene errores.
+
+**Limitación Práctica**: No existe algoritmo que pueda determinar un criterio válido para un programa arbitrario, por lo que frecuentemente se usan criterios que no son completamente válidos o confiables.
+
+Este marco conceptual establece las bases fundamentales para comprender la naturaleza, limitaciones y desafíos del proceso de pruebas de software, destacando especialmente la imposibilidad teórica de probar la ausencia total de errores mediante testing convencional.

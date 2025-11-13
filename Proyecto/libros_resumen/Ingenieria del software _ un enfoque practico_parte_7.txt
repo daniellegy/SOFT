@@ -1,0 +1,81 @@
+### Parte 7 (Pág. 241–280)
+
+## Resumen del Capítulo 9: Diseño de la Arquitectura (Páginas 241-280)
+
+### 9.1 Fundamentos de la Descripción Arquitectónica
+
+**Definición Clave**: La descripción arquitectónica (DA) se define como "un conjunto de productos para documentar una arquitectura" según el estándar IEEE-Std-1471-2000.
+
+#### Perspectivas y Puntos de Vista
+- **Perspectiva**: Representación del sistema completo desde el punto de vista de un conjunto de preocupaciones relacionadas de un participante
+- **Punto de Vista**: Especificación de convenciones para construir y usar una perspectiva
+- **Analogía arquitectónica**: Similar a los planos de construcción que muestran diferentes vistas (estética, estructura, infraestructura) según las necesidades de cada participante
+
+#### Decisiones Arquitectónicas
+Cada decisión arquitectónica debe documentarse mediante un formato estructurado que incluve:
+- Aspecto del diseño abordado
+- Resolución adoptada
+- Categoría de diseño
+- Suposiciones y restricciones
+- Alternativas consideradas
+- Argumentación de la elección
+- Implicaciones en el diseño
+- Decisiones y preocupaciones relacionadas
+- Productos finales afectados
+- Notas adicionales
+
+### 9.2 Géneros Arquitectónicos
+
+**Definición**: Categorías específicas dentro del dominio general del software que dictan el enfoque específico para la estructura a construir.
+
+#### Clasificación de Géneros (Boo08):
+1. **Inteligencia artificial**: Sistemas que simulan cognición humana
+2. **Comerciales y no lucrativos**: Sistemas operativos empresariales
+3. **Comunicaciones**: Infraestructura para transferencia y manejo de datos
+4. **Contenido de autor**: Creación/manipulación de artefactos multimedia
+5. **Dispositivos**: Interacción con el mundo físico
+6. **Entretenimiento y deportes**: Gestión de eventos públicos
+7. **Financieros**: Infraestructura para manejo de capital
+8. **Juegos**: Experiencias de entretenimiento individual/grupal
+9. **Gobierno**: Soporte a instituciones políticas
+10. **Industrial**: Simulación/control de procesos físicos
+11. **Legal**: Soporte a la industria jurídica
+12. **Médicos**: Diagnóstico, cura e investigación médica
+13. **Militares**: Sistemas C4I y armamento
+14. **Sistemas operativos**: Servicios básicos sobre hardware
+15. **Plataformas**: Servicios avanzados sobre SO
+16. **Científicos**: Investigación científica aplicada
+17. **Herramientas**: Desarrollo de otros sistemas
+18. **Transporte**: Control de vehículos diversos
+19. **Utilidades**: Servicios específicos para otro software
+
+#### Ejemplo Específico: Sistemas de Juegos
+- Requieren: cómputo intensivo, gráficas avanzadas, fuentes multimedia continuas, interactividad en tiempo real
+- Arquitectura de Software de Inmerpresencia (ASI): Modelo para procesamiento distribuido, asíncrono y paralelo de flujos de datos
+
+### 9.3 Estilos Arquitectónicos
+
+**Concepto**: Patrones arquitectónicos predecibles que definen la estructura del sistema, análogos a los estilos en arquitectura tradicional.
+
+#### Características Fundamentales:
+- Proporcionan un lenguaje común para describir sistemas
+- Facilitan la comprensión y comunicación entre stakeholders
+- Establecen patrones estructurales consistentes
+- Permiten la reutilización de soluciones probadas
+
+### Procesos y Modelos Relevantes
+
+1. **Proceso de Documentación Arquitectónica**: Basado en múltiples perspectivas que abordan preocupaciones específicas de diferentes participantes
+
+2. **Modelo de Toma de Decisiones**: Enfoque estructurado para evaluar alternativas y justificar elecciones arquitectónicas
+
+3. **Marco Conceptual IEEE**: Establece vocabulario común, lineamientos de representación y mejores prácticas
+
+### Implicaciones Prácticas
+
+- La arquitectura debe guiar todos los aspectos del diseño subsiguiente
+- Errores arquitectónicos tienen efectos negativos a largo plazo
+- La revisión cuidadosa de la arquitectura es fundamental
+- La documentación adecuada facilita el mantenimiento y evolución del sistema
+
+Este capítulo establece las bases conceptuales y prácticas para el diseño arquitectónico, enfatizando la importancia de múltiples perspectivas, la documentación estructurada de decisiones y la adecuación del estilo arquitectónico al género específico de aplicación.

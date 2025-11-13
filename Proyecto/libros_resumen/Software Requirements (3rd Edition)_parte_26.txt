@@ -1,0 +1,83 @@
+### Parte 26 (Pág. 626–650)
+
+## Resumen de las Páginas 626-650: Documentos de Requisitos y Glosario
+
+### 1. Documentos de Muestra de Requisitos
+
+#### 1.1 Interfaces de Comunicación
+- **CI-1**: El sistema COS enviará correo electrónico o mensaje de texto para confirmar aceptación de pedidos, precios e instrucciones de entrega
+- **CI-2**: El sistema COS notificará problemas con pedidos de comida o entregas
+
+#### 1.2 Atributos de Calidad
+
+**Requisitos de Usabilidad**
+- **USE-1**: Recuperación de pedidos anteriores con una sola interacción
+- **USE-2**: 95% de nuevos usuarios podrán realizar pedidos exitosamente en el primer intento
+
+**Requisitos de Rendimiento**
+- **PER-1**: Capacidad para 400 usuarios totales y 100 concurrentes en horario pico (9:00-10:00 A.M.)
+- **PER-2**: 95% de páginas web descargadas en ≤4 segundos con conexión ≥20 Mbps
+- **PER-3**: Mensajes de confirmación mostrados en promedio ≤3 segundos, máximo 6 segundos
+
+**Requisitos de Seguridad**
+- **SEC-1**: Transacciones financieras cifradas según BR-33
+- **SEC-2**: Autenticación requerida para todas las operaciones excepto visualización de menús
+- **SEC-3**: Acceso restringido a Gestores de Menú autorizados
+- **SEC-4**: Visualización limitada a pedidos propios
+
+**Requisitos de Seguridad (Safety)**
+- **SAF-1**: Visualización de ingredientes con destacado de alérgenos comunes (>0.5% población)
+
+**Requisitos de Disponibilidad**
+- **AVL-1**: Disponibilidad ≥98% (5:00 A.M.-medianoche) y ≥90% (medianoche-5:00 A.M.)
+
+**Requisitos de Robustez**
+- **ROB-1**: Recuperación de pedidos incompletos ante interrupciones de conexión
+
+### 2. Modelos de Análisis
+
+#### 2.1 Diagrama de Transición de Estados
+- Representación gráfica de estados posibles de pedidos de comida
+- Especificación de transiciones permitidas entre estados
+
+### 3. Reglas de Negocio
+
+#### 3.1 Tipología y Ejemplos
+**Fact (Hecho)**
+- **BR-1**: Ventanas de entrega de 15 minutos comenzando en cada cuarto de hora
+
+**Constraint (Restricción)**
+- **BR-2**: Entregas entre 11:00 A.M.-2:00 P.M.
+- **BR-3**: Todas las comidas de un pedido entregadas en misma ubicación
+- **BR-4**: Mismo método de pago para todo el pedido
+- **BR-24**: Solo Gestores de Menú autorizados pueden modificar menús
+
+**Computation (Cálculo)**
+- **BR-12**: Cálculo de precio como suma de ítems × cantidad + impuestos + cargo de entrega
+
+### 4. Glosario de Términos Clave
+
+#### 4.1 Conceptos Fundamentales
+- **Criterios de Aceptación**: Condiciones que debe satisfacer el producto para ser aceptado
+- **Línea Base de Requisitos**: Conjunto acordado y aprobado que define el contenido de una versión
+- **Backlog del Producto**: Lista priorizada de trabajo pendiente en proyectos ágiles
+
+#### 4.2 Roles y Responsabilidades
+- **Analista de Negocio (BA)**: Responsable de elicitar, analizar, especificar, validar y gestionar requisitos
+- **Cliente**: Individuo u organización que deriva beneficio del producto
+
+#### 4.3 Modelos de Análisis
+- **Diagrama de Actividad**: Representa flujo de proceso entre actividades
+- **Diagrama de Clases**: Muestra clases del dominio del problema con interfaces y relaciones
+- **Diagrama de Contexto**: Representa sistema en alto nivel de abstracción
+- **Matriz CRUD**: Correlaciona acciones del sistema con entidades de datos
+
+#### 4.4 Reglas y Restricciones
+- **Regla de Negocio**: Política, guía, estándar o fórmula que define o restringe aspectos del negocio
+- **Restricción**: Limitación en opciones disponibles para desarrollo y construcción del producto
+
+### 5. Metodologías y Enfoques
+- **Desarrollo Ágil**: Caracterizado por colaboración continua, documentación limitada en historias de usuario y entregas frecuentes
+- **Big Data**: Conjuntos de datos caracterizados por gran volumen, alta velocidad y/o alta complejidad
+
+Este apéndice proporciona ejemplos prácticos de documentación de requisitos y define terminología esencial para la ingeniería de requisitos, estableciendo estándares para especificaciones completas y consistentes.

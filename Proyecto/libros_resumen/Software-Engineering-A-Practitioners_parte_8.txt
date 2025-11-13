@@ -1,0 +1,88 @@
+### Parte 8 (Pág. 281–320)
+
+## Resumen de Conceptos Fundamentales de Diseño de Software (Páginas 281-287)
+
+### Introducción al Proceso de Diseño
+
+El proceso de diseño de software implica la aplicación sistemática de conceptos fundamentales que permiten transformar los requisitos en una especificación detallada para la construcción. El conjunto de tareas genéricas incluye:
+
+- Diseño de estructuras de datos basado en el modelo de información
+- Selección de patrones arquitectónicos apropiados
+- Partición del sistema en subsistemas cohesivos
+- Creación de clases de diseño y componentes
+- Diseño de interfaces externas y de usuario
+- Especificación de algoritmos a nivel de componentes
+- Desarrollo del modelo de despliegue
+
+### Conceptos Fundamentales de Diseño
+
+#### 9.3.1 Abstracción
+
+**Definición**: La abstracción permite representar soluciones a diferentes niveles de detalle, desde una visión conceptual amplia hasta especificaciones implementables.
+
+**Tipos de abstracción**:
+- **Abstracción procedimental**: Secuencia de instrucciones con función específica cuyo nombre implica su propósito sin revelar detalles internos
+- **Abstracción de datos**: Colección nombrada de datos que describe un objeto, incluyendo sus atributos característicos
+
+#### 9.3.2 Arquitectura de Software
+
+**Definición**: "La estructura global del software y las formas en que dicha estructura provee integridad conceptual para un sistema" (Shaw y Garlan, 2015).
+
+**Componentes arquitectónicos**:
+- Estructura de componentes del programa
+- Mecanismos de interacción entre componentes
+- Organización de datos utilizados
+
+**Propiedades arquitectónicas**:
+- **Estructurales**: Definen componentes y sus interacciones
+- **Extra-funcionales**: Abordan rendimiento, capacidad, confiabilidad, seguridad y adaptabilidad
+- **Familias de sistemas**: Patrones repetibles en sistemas similares
+
+**Modelos de representación arquitectónica**:
+- **Estructurales**: Componentes organizados
+- **Framework**: Patrones de diseño reutilizables
+- **Dinámicos**: Aspectos comportamentales
+- **Procesos**: Diseño de procesos de negocio
+- **Funcionales**: Jerarquía funcional del sistema
+
+#### 9.3.3 Patrones de Diseño
+
+**Definición**: "Una pepita de conocimiento nombrada que transmite la esencia de una solución probada para un problema recurrente dentro de un contexto específico" (Appleton, 2000).
+
+**Propósito de los patrones**:
+- Determinar aplicabilidad al trabajo actual
+- Facilitar reutilización para ahorrar tiempo de diseño
+- Servir como guía para desarrollar patrones similares
+
+#### 9.3.4 Separación de Preocupaciones
+
+**Concepto**: Cualquier problema complejo puede manejarse más fácilmente si se subdivide en partes que pueden resolverse y optimizarse independientemente.
+
+**Implicaciones**:
+- Estrategia de divide y vencerás
+- Reducción de la complejidad percibida
+- Base para la modularidad del software
+
+#### 9.3.5 Modularidad
+
+**Definición**: División del software en componentes separadamente nombrados y direccionables (módulos) que se integran para satisfacer los requisitos.
+
+**Principios fundamentales**:
+- La modularidad hace que el software sea "intelectualmente manejable"
+- El software monolítico es difícil de comprender y mantener
+
+**Relación costo-modularidad**:
+- El costo de desarrollo por módulo disminuye al aumentar el número de módulos
+- El costo de integración aumenta con el número de módulos
+- Existe un punto óptimo (M) que minimiza el costo total de desarrollo
+
+**Beneficios de la modularización**:
+- Planificación más fácil del desarrollo
+- Definición clara de incrementos de software
+- Facilidad para acomodar cambios
+- Eficiencia en pruebas y depuración
+- Mantenimiento a largo plazo sin serios efectos secundarios
+
+### Conclusión
+
+Estos conceptos fundamentales proporcionan la base teórica y práctica para aplicar métodos de diseño más sofisticados, estableciendo criterios uniformes que definen la calidad técnica de un diseño de software y permitiendo a los desarrolladores crear soluciones que realmente satisfagan las necesidades especificadas, en lugar de simplemente producir programas que funcionen.

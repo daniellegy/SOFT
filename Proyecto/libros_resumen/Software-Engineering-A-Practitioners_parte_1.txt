@@ -1,0 +1,131 @@
+### Parte 1 (Pág. 1–40)
+
+## Resumen Académico: "Software Engineering: A Practitioner's Approach" (Páginas 1-40)
+
+### I. Naturaleza Fundamental del Software y la Ingeniería de Software
+
+#### 1.1 Definiciones Clave
+**Software**: Se define como: (1) instrucciones que permiten a programas manipular información, (2) estructuras de datos que facilitan la manipulación adecuada de información, y (3) documentación que describe operación y uso de programas.
+
+**Ingeniería de Software**: Disciplina que aplica principios de ingeniería al desarrollo de software, enfocándose en métodos, herramientas y procedimientos sistemáticos para construir software de calidad.
+
+#### 1.2 Dominios de Aplicación de Software
+- **Sistemas**: Software de tiempo real y embebido
+- **Aplicaciones de Negocio**: Sistemas de información empresarial
+- **Software Científico y de Ingeniería**: Cálculos numéricos y simulaciones
+- **Productos Empotrados**: Controladores y sistemas integrados
+- **Software de Personal**: Aplicaciones de productividad personal
+- **Software Basado en Web**: Aplicaciones y servicios web
+- **Inteligencia Artificial**: Sistemas expertos y aprendizaje automático
+
+#### 1.3 El Proceso de Software
+**Marco del Proceso**: Conjunto de actividades fundamentales:
+- **Comunicación**: Recopilación de requisitos
+- **Planificación**: Estimación y programación
+- **Modelado**: Análisis y diseño
+- **Construcción**: Codificación y pruebas
+- **Despliegue**: Entrega y mantenimiento
+
+**Actividades Paraguas**:
+- Seguimiento y control de proyectos
+- Aseguramiento de calidad
+- Gestión de riesgos
+- Gestión de configuración
+
+### II. Modelos de Proceso Prescriptivos
+
+#### 2.1 Modelo en Cascada (Waterfall)
+- Enfoque secuencial lineal
+- Fases definidas: requisitos, diseño, implementación, verificación, mantenimiento
+- Adecuado para proyectos con requisitos bien entendidos
+
+#### 2.2 Modelo de Prototipado
+- Desarrollo iterativo de prototipos
+- Permite refinamiento progresivo de requisitos
+- Útil cuando los requisitos no están completamente definidos
+
+#### 2.3 Modelo Evolutivo
+- Desarrollo incremental
+- Entrega de versiones funcionales sucesivas
+- Combina elementos de cascada y prototipado
+
+#### 2.4 Proceso Unificado
+- Framework iterativo e incremental
+- Enfocado en arquitectura
+- Utiliza UML para modelado
+
+### III. Agilidad en el Proceso de Software
+
+#### 3.1 Principios de Agilidad
+- Individuos e interacciones sobre procesos y herramientas
+- Software funcionando sobre documentación extensiva
+- Colaboración con el cliente sobre negociación contractual
+- Respuesta al cambio sobre seguir un plan
+
+#### 3.2 Scrum
+**Roles Principales**:
+- **Product Owner**: Representa stakeholders
+- **Scrum Master**: Facilita el proceso
+- **Team**: Equipo de desarrollo
+
+**Artefactos y Eventos**:
+- **Product Backlog**: Lista priorizada de requisitos
+- **Sprint**: Iteración de desarrollo (2-4 semanas)
+- **Daily Scrum**: Reunión diaria de sincronización
+- **Sprint Review**: Demostración de incremento
+- **Sprint Retrospective**: Mejora del proceso
+
+#### 3.3 Otros Frameworks Ágiles
+**Extreme Programming (XP)**:
+- Programación en parejas
+- Desarrollo guiado por pruebas (TDD)
+- Integración continua
+- Refactorización continua
+
+**Kanban**:
+- Visualización del flujo de trabajo
+- Limitación del trabajo en progreso
+- Mejora continua del flujo
+
+**DevOps**:
+- Integración de desarrollo y operaciones
+- Automatización de despliegue
+- Entrega continua
+
+### IV. Modelo de Proceso Recomendado
+
+#### 4.1 Fases del Proceso Recomendado
+1. **Definición de Requisitos**
+2. **Diseño Arquitectónico Preliminar**
+3. **Estimación de Recursos**
+4. **Construcción del Primer Prototipo**
+5. **Evaluación del Prototipo**
+6. **Decisión Go/No-Go**
+7. **Evolución del Prototipo**
+8. **Liberación del Prototipo**
+9. **Mantenimiento del Software**
+
+### V. Aspectos Humanos en Ingeniería de Software
+
+#### 5.1 Características del Ingeniero de Software
+- Competencia técnica
+- Habilidades de comunicación
+- Capacidad de trabajo en equipo
+- Adaptabilidad al cambio
+
+#### 5.2 Psicología de la Ingeniería de Software
+- Factores cognitivos en el desarrollo
+- Importancia de la motivación
+- Gestión de la complejidad cognitiva
+
+#### 5.3 Estructuras de Equipos
+- Equipos jerárquicos
+- Equipos democráticos
+- Equipos híbridos
+- Equipos globales distribuidos
+
+### Conclusiones Relevantes
+
+La ingeniería de software se presenta como una disciplina madura que combina principios de ingeniería con prácticas adaptativas. La evolución desde modelos prescriptivos hacia enfoques ágiles refleja la necesidad de responder eficientemente a requisitos cambiantes mientras se mantiene la calidad del producto. La integración de aspectos humanos y técnicos resulta fundamental para el éxito de proyectos de software modernos.
+
+Este resumen proporciona una base sólida para comprender los fundamentos de la ingeniería de software según la perspectiva de Pressman y Maxim, estableciendo el marco conceptual necesario para el estudio de temas más avanzados en el resto del texto.

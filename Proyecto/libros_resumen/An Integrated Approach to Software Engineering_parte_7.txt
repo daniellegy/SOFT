@@ -1,0 +1,74 @@
+### Parte 7 (Pág. 181–210)
+
+## Resumen de Arquitectura de Software: Vistas y Componentes (Páginas 181-210)
+
+### Introducción a las Vistas de Arquitectura
+
+La arquitectura de software se representa mediante múltiples vistas que capturan diferentes aspectos del sistema, análogamente a como en arquitectura civil se utilizan planos distintos para diferentes sistemas (eléctrico, estructural, etc.). La Figura 4.1 ilustra las principales categorías de vistas:
+
+**Vistas Principales:**
+- **Vistas de Componentes y Conectores (C&C):** Estructuras en tiempo de ejecución
+- **Vistas de Módulos:** Estructuras de código
+- **Vistas de Asignación:** Relaciones software-entorno
+
+### Selección de Vistas Arquitectónicas
+
+La elección de vistas necesarias depende fundamentalmente de:
+- **Naturaleza del proyecto:** Complejidad y criticidad
+- **Propiedades a analizar:** Rendimiento, desarrollo, mantenimiento
+- **Recursos disponibles:** Equipos de desarrollo, infraestructura
+
+**Ejemplos de aplicación:**
+- Para análisis de rendimiento: Se requieren vistas C&C y de asignación
+- Para planificación del desarrollo: Vista de módulos para asignación de equipos
+- Proyectos complejos: Múltiples vistas para análisis multidimensional
+
+### Vista de Componentes y Conectores (C&C)
+
+#### 4.3.1 Componentes
+
+**Definición:** Unidades de computación o almacenes de datos con presencia durante la ejecución del sistema.
+
+**Características esenciales:**
+- **Nombre:** Identificador único que representa la función del componente
+- **Tipo:** Categoría genérica que define computación e interfaces (ej: cliente, servidor, filtro)
+- **Puertos/Interfaces:** Puntos de comunicación con otros componentes
+
+**Representación en diagramas:**
+- Se recomienda notación diferenciada por tipo de componente
+- Componentes del mismo tipo usan símbolos idénticos, diferenciados por nombre
+- Necesidad de clave explicativa debido a la falta de estandarización
+
+#### 4.3.2 Conectores
+
+**Definición:** Mecanismos de interacción entre componentes que definen cómo se comunican durante la ejecución.
+
+**Tipología:**
+- **Simples:** Llamadas a procedimiento, mecanismos del sistema operativo
+- **Complejos:** Llamadas a procedimiento remoto (RPC), puertos TCP/IP, HTTP
+- **N-arios:** Comunicación múltiple (ej: bus de difusión)
+
+**Especificación de conectores:**
+- **Nombre:** Describe la naturaleza de la interacción
+- **Tipo:** Define propiedades como aridad y tipos de interfaces soportadas
+- **Protocolo:** Secuencia de eventos, agrupación de datos, condiciones de error
+
+**Consideraciones de implementación:**
+- Los conectores pueden requerir infraestructura compleja (ej: CORBA, ORB)
+- Es preferible utilizar conectores disponibles en la plataforma objetivo
+- La implementación puede estar distribuida y requerir software adicional
+
+### Representación Gráfica y Estructura
+
+La vista C&C se representa como un grafo donde:
+- **Nodos:** Componentes
+- **Aristas:** Conectores
+
+**Buenas prácticas de documentación:**
+- Uso de símbolos diferenciados para tipos de componentes y conectores
+- Inclusión de claves explicativas para la interpretación
+- Especificación clara de protocolos e interfaces
+
+### Conclusión
+
+La vista de Componentes y Conectores constituye la vista primaria en arquitectura de software, proporcionando la base para el análisis de propiedades de ejecución y sirviendo como punto de referencia para otras vistas arquitectónicas. Su correcta especificación es fundamental para la implementación exitosa del sistema y el análisis de sus propiedades de calidad.

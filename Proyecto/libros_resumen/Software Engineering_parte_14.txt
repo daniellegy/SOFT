@@ -1,0 +1,64 @@
+### Parte 14 (Pág. 521–560)
+
+## Resumen de las Páginas 521-560: Ingeniería de Software Orientada a Servicios
+
+### 1. Introducción Conceptual
+
+**Definición Fundamental:**
+La ingeniería de software orientada a servicios (SOSE) constituye un paradigma de desarrollo de aplicaciones distribuidas mediante servicios web, caracterizado por:
+
+- **Servicio Web:** Componente software reutilizable, débilmente acoplado, que encapsula funcionalidad discreta accesible mediante protocolos estándar de Internet y XML
+- **Arquitectura Orientada a Servicios (SOA):** Patrón arquitectónico donde los componentes del sistema son servicios independientes ejecutándose en computadores distribuidos geográficamente
+
+### 2. Diferenciación Conceptual Crítica
+
+**Software como Servicio vs. Sistemas Orientados a Servicios:**
+- **Software como Servicio:** Ofrece funcionalidad software a usuarios finales remotamente a través de la web
+- **Sistemas Orientados a Servicios:** Implementan sistemas utilizando componentes servicio reutilizables accedidos por otros programas
+
+### 3. Beneficios de la Orientación a Servicios
+
+1. **Integración Multi-proveedor:** Capacidad de crear aplicaciones integrando servicios de diversos proveedores
+2. **Desacoplamiento Funcional:** Proveedor y usuario no requieren negociación previa sobre la funcionalidad del servicio
+3. **Vinculación Dinámica:** Las aplicaciones pueden posponer el enlace a servicios hasta el despliegue o ejecución
+4. **Composición Oportunista:** Creación innovadora de nuevos servicios mediante enlace de servicios existentes
+5. **Modelo de Pago por Uso:** Los usuarios pagan según el consumo real del servicio
+6. **Optimización de Recursos:** Aplicaciones más ligeras, especialmente relevante para dispositivos móviles
+
+### 4. Ejemplo de Aplicación: Sistema de Información para Automóvil
+
+**Arquitectura Descrita:**
+- **Componentes Locales:** Interfaz de usuario, localizador GPS, receptor, transmisor, radio
+- **Servicios Externos:** Servicio móvil de información, servicios de clima, tráfico, instalaciones locales, servicio de descubrimiento, servicio de traducción
+
+**Características Destacadas:**
+- Enlace dinámico a servicios locales según posición GPS
+- Adaptación automática al entorno mediante servicio de descubrimiento
+- Capacidad multilingüe mediante servicio de traducción
+
+### 5. Estándares y Protocolos
+
+**Bases Tecnológicas:**
+- Protocolos estándar de Internet
+- Protocolos basados en XML
+- Independencia de plataforma y lenguaje de implementación
+
+### 6. Implicaciones para la Ingeniería de Software
+
+**Impacto Estratégico:**
+La aproximación orientada a servicios representa un desarrollo tan significativo como la ingeniería de software orientada a objetos, siendo esencial para:
+- Sistemas en la nube (cloud computing)
+- Sistemas móviles
+- Mejora de la agilidad corporativa
+- Reducción de costos de TI
+- Mejora de la eficiencia operativa
+
+### 7. Perspectiva Futura
+
+El enfoque orientado a servicios promete transformar significativamente el desarrollo de software mediante:
+- Mejora sustancial de la capacidad de adaptación corporativa
+- Reducción del tiempo de comercialización de nuevos productos y servicios
+- Optimización de costos de infraestructura tecnológica
+- Incremento de la eficiencia operacional
+
+Este resumen académico presenta los conceptos fundamentales de la ingeniería de software orientada a servicios, destacando su relevancia contemporánea y potencial transformador en el desarrollo de sistemas distribuidos modernos.

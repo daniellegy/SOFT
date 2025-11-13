@@ -1,0 +1,81 @@
+### Parte 3 (Pág. 81–120)
+
+## Resumen del Capítulo 2: Modelos del Proceso (Páginas 81-120)
+
+### 2.6 Modelos de Proceso Especializados
+
+#### 2.6.1 Proceso Personal del Software (PPS)
+
+**Definición:** El Proceso Personal del Software (PPS) es un enfoque disciplinado basado en medición que delega en el practicante el control de la calidad de todos los productos del trabajo de software.
+
+**Actividades Estructurales del PPS:**
+1. **Planeación:** Aislamiento de requerimientos, estimación de tamaño, recursos y defectos, identificación de tareas y creación del programa del proyecto
+2. **Diseño de Alto Nivel:** Desarrollo de especificaciones externas, diseño de componentes y elaboración de prototipos cuando existe incertidumbre
+3. **Revisión del Diseño de Alto Nivel:** Aplicación de métodos de verificación formal para descubrir errores en el diseño
+4. **Desarrollo:** Mejora y revisión del diseño, generación de código, revisión, compilación y pruebas
+5. **Post Mórtem:** Determinación de la eficacia del proceso mediante análisis estadístico de mediciones
+
+**Características Clave:**
+- Énfasis en la detección temprana de errores
+- Requiere registro y análisis sistemático de tipos de errores
+- Enfoque basado en medición que representa un cambio cultural significativo
+- Demanda alto nivel de compromiso y capacitación extensiva
+
+#### 2.6.2 Proceso del Equipo de Software (PES)
+
+**Definición:** Extensión del PPS propuesta por Watts Humphrey para equipos de profesionales, orientado a construir equipos "autodirigidos" para producir software de alta calidad.
+
+**Objetivos del PES:**
+- Formar equipos autodirigidos que planifiquen y den seguimiento a su trabajo
+- Mostrar a gerentes cómo dirigir y motivar equipos
+- Acelerar la mejora del proceso de software hacia el nivel 5 del CMM
+- Proporcionar guía para organizaciones maduras
+- Facilitar enseñanza universitaria de aptitudes de equipo
+
+**Características de Equipos Autodirigidos:**
+- Comprensión consistente de metas y objetivos
+- Definición clara de roles y responsabilidades
+- Seguimiento cuantitativo de datos del proyecto
+- Evaluación continua de riesgos
+- Definición de estándares locales aplicables
+
+**Actividades Estructurales del PES:**
+- Inicio del proyecto
+- Diseño de alto nivel
+- Implementación
+- Integración y pruebas
+- Post mórtem
+
+**Elementos de Implementación:**
+- Utilización de scripts que definen actividades específicas del proceso
+- Formatos y estándares que guían a los miembros del equipo
+- Enfoque riguroso que requiere compromiso total y capacitación completa
+
+### 2.7 Tecnología del Proceso
+
+**Definición:** Herramientas que ayudan a las organizaciones de software a analizar su proceso actual, organizar tareas de trabajo, controlar el avance y administrar la calidad técnica.
+
+**Funcionalidades:**
+- Construcción de modelos automatizados de la estructura del proceso
+- Análisis de flujo de trabajo normal y estructuras alternativas
+- Asignación, vigilancia y control de actividades de ingeniería de software
+- Coordinación del uso de otras herramientas de ingeniería de software
+
+**Herramientas Representativas:**
+- **Igrafx Process Tools:** Mapeo, medición y modelado de procesos
+- **Adeptia BPM Server:** Administración, automatización y optimización de procesos de negocio
+- **SpeedDev Suite:** Enfoque en administración de comunicación y modelado
+
+### 2.8 Producto y Proceso
+
+**Perspectiva Histórica:** Margaret Davis señala la dualidad cíclica en la atención de la comunidad del software entre aspectos del producto y del proceso.
+
+**Evolución Observada:**
+- Lenguajes de programación estructurada (producto)
+- Métodos de análisis estructurados (proceso)
+- Encapsulamiento de datos (producto)
+- Modelo de madurez de capacidad (proceso)
+- Métodos orientados a objetos (producto)
+- Desarrollo ágil de software (proceso)
+
+**Conclusión Fundamental:** Existe una interdependencia crítica entre producto y proceso, donde un proceso deficiente inevitablemente afecta al producto final, pero la dependencia excesiva del proceso también representa un riesgo significativo.

@@ -1,0 +1,92 @@
+### Parte 18 (Pág. 681–720)
+
+## Resumen de las Páginas 681-720: Administración del Riesgo en Ingeniería del Software
+
+### 1. Refinamiento del Riesgo (Sección 28.5)
+
+**Definición Clave:** El refinamiento del riesgo es el proceso mediante el cual un riesgo inicialmente formulado de manera general se descompone en riesgos más específicos y detallados para facilitar su gestión.
+
+**Proceso de Refinamiento:**
+- Se utiliza el formato **Condición-Transición-Consecuencia (CTC)**
+- Estructura: "Dado que <condición> entonces hay preocupación porque (posiblemente) <consecuencia>"
+- Permite descomponer riesgos generales en subcondiciones más manejables
+
+**Ejemplo Práctico:**
+Riesgo de reutilización de componentes se desglosa en:
+- Subcondición 1: Componentes desarrollados por terceros sin conocimiento de estándares internos
+- Subcondición 2: Estándares de diseño de interfaces no consolidados
+- Subcondición 3: Componentes implementados en lenguajes no soportados
+
+### 2. Mitigación, Monitoreo y Manejo de Riesgo (Sección 28.6)
+
+**Estrategia Integral de Gestión de Riesgos:**
+1. **Evitación del riesgo** mediante mitigación proactiva
+2. **Monitoreo continuo** de factores de riesgo
+3. **Manejo reactivo** con planes de contingencia
+
+**Proceso de Mitigación:**
+- Desarrollo de estrategias específicas para reducir probabilidad e impacto
+- Ejemplo: Mitigación de rotación de personal mediante:
+  - Análisis de causas fundamentales
+  - Desarrollo de técnicas de continuidad
+  - Estructuración de equipos para dispersión del conocimiento
+  - Establecimiento de estándares de documentación
+  - Revisiones por pares sistemáticas
+  - Asignación de personal de respaldo
+
+**Monitoreo de Riesgos:**
+- Seguimiento de indicadores clave (actitud del equipo, relaciones interpersonales, compensación, mercado laboral)
+- Evaluación de efectividad de medidas de mitigación
+- Verificación de la sostenibilidad de productos operativos
+
+**Manejo y Planificación de Contingencia:**
+- Activación cuando las medidas de mitigación fallan
+- Implementación de transferencia de conocimiento
+- Reasignación temporal de recursos
+- Ajuste de calendarios del proyecto
+
+### 3. Análisis Costo-Beneficio en Gestión de Riesgos
+
+**Consideraciones Económicas:**
+- Evaluación de relación costo-beneficio de medidas MMMR
+- Aplicación del principio de Pareto (80-20): 20% de riesgos explican 80% de exposición total
+- Priorización basada en exposición al riesgo (ER = probabilidad × impacto)
+
+### 4. Plan de Mitigación, Monitoreo y Manejo de Riesgo (MMMR) (Sección 28.7)
+
+**Estructura del Plan MMMR:**
+- Documento integral que registra todo el trabajo de análisis de riesgos
+- Puede integrarse al plan general del proyecto o mantenerse como documento separado
+
+**Alternativa: Hojas de Información de Riesgo (HIR)**
+- Documentación individual de cada riesgo
+- Gestión mediante sistemas de base de datos
+- Permite seguimiento sistemático y actualización continua
+
+### 5. Herramientas de Software para Gestión de Riesgos
+
+**Funcionalidades Principales:**
+- Identificación de riesgos genéricos mediante listas predefinidas
+- Técnicas de entrevista y listas de verificación para riesgos específicos
+- Asignación de probabilidad e impacto
+- Soporte para estrategias de mitigación
+- Generación de reportes diversos
+
+**Herramientas Representativas:**
+- @risk (Palisade Corporation): Análisis mediante simulación Monte Carlo
+- Riskman (ABS Consulting): Sistema experto de evaluación
+- Risk Radar (SPMN): Identificación y manejo de riesgos
+- Risk+ (Deltek): Integración con Microsoft Project
+- X:PRIMER (GrafP Technologies): Predicción web de fallos potenciales
+
+### Conclusiones
+
+La gestión efectiva del riesgo requiere un enfoque sistemático que combine:
+- Refinamiento progresivo de riesgos mediante descomposición estructurada
+- Estrategias proactivas de mitigación basadas en análisis costo-beneficio
+- Monitoreo continuo de indicadores clave
+- Planificación contingente realista
+- Documentación adecuada mediante planes MMMR o HIRs
+- Apoyo de herramientas especializadas para optimizar el proceso
+
+Este enfoque integral permite a los equipos de software anticipar, prevenir y responder eficazmente a las amenazas que pueden comprometer el éxito del proyecto.

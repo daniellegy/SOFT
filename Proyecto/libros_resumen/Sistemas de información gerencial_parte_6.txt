@@ -1,0 +1,90 @@
+### Parte 6 (Pág. 201–240)
+
+# Resumen: Aspectos Éticos y Sociales en Sistemas de Información (Páginas 201-240)
+
+## Capítulo 4: Aspectos Éticos y Sociales en los Sistemas de Información
+
+### Caso de Estudio: Facebook y la Privacidad
+
+**Definiciones Clave:**
+- **Información personal privada**: Datos personales que constituyen el activo principal de plataformas como Facebook
+- **Dilema ético**: Conflicto entre el modelo de negocio basado en datos personales y el derecho a la privacidad
+
+**Conceptos Fundamentales:**
+- La viabilidad empresarial de Facebook depende de su capacidad para monetizar la información personal
+- Existe una tensión fundamental entre la rentabilidad empresarial y la protección de la privacidad
+
+**Procesos Identificados:**
+- Monetización de datos personales como estrategia de negocio
+- Programas publicitarios basados en información privada
+- Mecanismos de búsqueda que potencialmente comprometen configuraciones de privacidad
+
+### Preguntas de Análisis del Caso
+
+**4-11 Análisis Ético:**
+- Dilema central: Equilibrio entre rentabilidad empresarial y derechos de privacidad
+- Conflicto entre intereses comerciales y responsabilidad social
+
+**4-12 Relación Privacidad-Modelo de Negocio:**
+- La información personal constituye el activo principal
+- Modelo de negocio intrínsecamente vinculado al uso de datos privados
+
+**4-13 Debilidades en Políticas de Privacidad:**
+- Factores gerenciales: Priorización de ingresos sobre protección
+- Factores organizacionales: Estructura orientada a la monetización de datos
+- Factores tecnológicos: Diseño de sistemas que facilitan el acceso a información personal
+
+**4-14 Viabilidad de Modelo Alternativo:**
+- Cuestionamiento sobre la sostenibilidad sin invasión de privacidad
+- Exploración de medidas correctivas para equilibrar rentabilidad y ética
+
+## Parte 2: Infraestructura de la Tecnología de la Información
+
+### Capítulo 5: Infraestructura de TI y Tecnologías Emergentes
+
+**Definición de Infraestructura de TI:**
+Conjunto integrado de hardware, software, servicios y recursos tecnológicos que sustentan los sistemas de información organizacionales.
+
+**Objetivos de Aprendizaje:**
+1. Comprender la evolución y componentes de la infraestructura de TI
+2. Identificar tendencias en plataformas de hardware y software
+3. Analizar desafíos gerenciales y soluciones
+
+### Caso de Estudio: Portugal Telecom
+
+**Conceptos Técnicos:**
+- **PUE (Effectiveness in Energy Use)**: Métrica de eficiencia energética en centros de datos
+- **Valor óptimo**: 1.0 (máxima eficiencia)
+- **Promedio industrial**: 1.88
+- **PT Covilhã**: 1.25 (considerado el más eficiente del mundo)
+
+**Modelos de Servicio en la Nube:**
+- **IaaS (Infrastructure as a Service)**: Infraestructura como servicio
+- **PaaS (Platform as a Service)**: Plataforma como servicio  
+- **SaaS (Software as a Service)**: Software como servicio
+
+**Características del Centro de Datos Covilhã:**
+- Capacidad proyectada: 56,000 servidores
+- Disponibilidad: 99.98% anual
+- Enfriamiento natural mediante aire de montaña (99% del tiempo)
+- Integración de energías renovables (paneles solares)
+- Diseño sustentable con mínimo impacto ambiental
+
+**Estrategia de Negocio:**
+- Solo 1/6 de la capacidad para necesidades nacionales
+- Expansión global mediante servicios en la nube (SmartCloudPT)
+- Foco en mercados emergentes (Brasil, África)
+
+### Marco Conceptual
+
+**Evolución de la Infraestructura:**
+- Transición de monopolios estatales a competencia global
+- Integración de nuevas tecnologías (móviles, Internet, TV digital)
+
+**Tendencias Tecnológicas:**
+- Computación en la nube
+- Eficiencia energética en centros de datos
+- Virtualización y servicios escalables
+- Movilidad y acceso remoto
+
+Este resumen académico presenta los conceptos fundamentales, modelos relevantes y procesos estratégicos que caracterizan la gestión contemporánea de sistemas de información, destacando tanto los aspectos ético-sociales como los tecnológico-infraestructurales.

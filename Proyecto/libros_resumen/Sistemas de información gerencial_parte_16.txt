@@ -1,0 +1,83 @@
+### Parte 16 (Pág. 601–640)
+
+## Resumen de las Páginas 601-640: Administración de Proyectos de Sistemas de Información
+
+### 1. Gestión del Cambio Organizacional y Resistencia del Usuario
+
+**Definición Clave:**
+- **Contraimplementación**: Estrategia deliberada para frustrar la implementación de sistemas de información en una organización.
+
+**Procesos de Gestión:**
+- **Estrategias para superar la resistencia**:
+  - Participación activa del usuario
+  - Programas de educación y capacitación
+  - Políticas gerenciales y edictos
+  - Mejora de incentivos
+  - Optimización de interfaces de usuario
+  - Resolución proactiva de problemas organizacionales
+
+### 2. Diseño Organizacional y Análisis de Impacto
+
+**Conceptos Fundamentales:**
+- **Ergonomía**: Interacción entre personas y máquinas en el entorno laboral, considerando diseño de empleos, salud e interfaces de usuario.
+- **Análisis del Impacto Organizacional**: Evaluación sistemática de cómo un sistema propuesto afecta la estructura organizacional, procesos de toma de decisiones y operaciones.
+
+**Modelo de Diseño:**
+- **Diseño Sociotécnico**: Metodología que integra soluciones técnicas y sociales mediante:
+  - Análisis paralelo de soluciones técnicas y sociales
+  - Evaluación comparativa de alternativas
+  - Selección de diseños que optimicen objetivos técnicos y humanos
+
+### 3. Herramientas de Gestión de Proyectos
+
+**Herramientas Especializadas:**
+- **Software de Administración de Proyectos**:
+  - Microsoft Project (líder del mercado)
+  - EasyProjects y Vertabase (soluciones basadas en web)
+  - Project Workbench y OpenProj (alternativas de código abierto)
+
+**Funcionalidades Principales:**
+- Definición y asignación de recursos
+- Establecimiento de cronogramas
+- Seguimiento del progreso
+- Generación de diagramas PERT y gráficos de Gantt
+- Análisis de ruta crítica
+
+**Evolución Tecnológica:**
+- Tendencia hacia Software como Servicio (SaaS)
+- Mayor accesibilidad para organizaciones pequeñas
+- Incorporación de características colaborativas inspiradas en redes sociales
+
+### 4. Gestión de Carteras de Proyectos
+
+**Definición:**
+- **Administración de Carteras de Proyectos**: Gestión integral de múltiples proyectos y sus interdependencias para optimizar el logro de objetivos estratégicos.
+
+**Capacidades:**
+- Comparación de propuestas contra presupuestos
+- Análisis de capacidad de recursos
+- Determinación de mezcla y secuenciación óptima de proyectos
+
+### 5. Marco Conceptual de la Administración de Proyectos
+
+**Variables Críticas:**
+- Alcance
+- Tiempo
+- Costo
+- Calidad
+- Riesgo
+
+**Métodos de Evaluación:**
+- **Indicadores Clave de Desempeño (KPI)**
+- **Análisis de Cartera**
+- **Modelos de Puntuación**
+- **Modelos de Ajuste de Precios con Opciones Reales (ROPM)**
+
+**Criterios de Valoración:**
+- **Beneficios Tangibles**: Cuantificables directamente
+- **Beneficios Intangibles**: No cuantificables inmediatamente pero con potencial de valor futuro
+- **Métodos de Presupuesto de Capital**: Para evaluar rendimiento sobre inversión
+
+### Conclusión
+
+La administración efectiva de proyectos de sistemas de información requiere un enfoque integral que combine herramientas técnicas sofisticadas con una comprensión profunda de los factores humanos y organizacionales. La implementación exitosa depende de la capacidad para gestionar tanto los aspectos técnicos como los desafíos organizacionales, utilizando metodologías como el diseño sociotécnico y herramientas especializadas de gestión que faciliten la alineación con los objetivos estratégicos de la organización.

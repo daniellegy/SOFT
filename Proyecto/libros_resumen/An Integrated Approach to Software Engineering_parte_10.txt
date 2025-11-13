@@ -1,0 +1,64 @@
+### Parte 10 (Pág. 271–300)
+
+## Resumen de las páginas 271-300: Conceptos de Diseño Orientado a Funciones
+
+### 6.2 Conceptos a Nivel de Módulo
+
+#### 6.2.1 Acoplamiento (Coupling)
+
+**Definición**: El acoplamiento entre módulos es la fuerza de interconexión entre módulos o una medida de interdependencia entre ellos. Representa cuánto debemos conocer sobre el módulo A para entender el módulo B.
+
+**Factores que afectan el acoplamiento**:
+
+1. **Complejidad de la interfaz**: Se reduce manteniendo interfaces simples y pequeñas
+2. **Tipo de conexión**: Las conexiones directas y obvias reducen el acoplamiento
+3. **Tipo de comunicación**: 
+   - Comunicación de datos: menor acoplamiento
+   - Comunicación de control: acoplamiento moderado
+   - Comunicación híbrida: mayor acoplamiento
+
+**Tipos de acoplamiento**:
+- **Módulos altamente acoplados**: Unidos por interconexiones fuertes
+- **Módulos débilmente acoplados**: Interconexiones débiles
+- **Módulos independientes**: Sin interconexiones
+
+#### 6.2.2 Cohesión
+
+**Definición**: La cohesión de un módulo representa qué tan estrechamente vinculados están los elementos internos del módulo entre sí. Indica si los diferentes elementos de un módulo pertenecen juntos en el mismo módulo.
+
+**Niveles de cohesión** (de menor a mayor):
+
+1. **Coincidental**: No existe relación significativa entre los elementos
+2. **Lógica**: Elementos realizan funciones de la misma clase lógica
+3. **Temporal**: Elementos relacionados en tiempo y ejecutados juntos
+4. **Procedural**: Elementos pertenecen a una unidad procedural común
+5. **Comunicacional**: Elementos relacionados por referencia a los mismos datos de entrada/salida
+6. **Secuencial**: La salida de un elemento forma la entrada de otro
+7. **Funcional**: Todos los elementos están relacionados con realizar una sola función
+
+**Relación entre cohesión y acoplamiento**: Generalmente, a mayor cohesión de cada módulo en el sistema, menor es el acoplamiento entre módulos.
+
+### Técnica para Determinar Cohesión Funcional
+
+Para verificar si un módulo tiene cohesión funcional:
+1. Escribir una oración que describa completa y precisamente la función del módulo
+2. Aplicar las siguientes pruebas:
+   - Si la oración es compuesta o tiene más de un verbo: probable cohesión secuencial o comunicacional
+   - Si contiene palabras temporales ("primero", "siguiente"): cohesión secuencial o temporal
+   - Si el predicado no contiene un objeto específico: cohesión lógica
+   - Palabras como "inicializar" o "limpiar" implican cohesión temporal
+
+### 6.3 Notación de Diseño y Especificación
+
+Durante la fase de diseño existen dos elementos de interés:
+- El diseño del sistema (producción como actividad básica)
+- La especificación del diseño
+
+### Conclusiones Clave
+
+1. El acoplamiento se determina principalmente durante el diseño del sistema y no puede reducirse durante la implementación
+2. La cohesión funcional representa el nivel ideal de diseño modular
+3. Existe una relación inversa entre cohesión y acoplamiento: sistemas bien diseñados maximizan la cohesión y minimizan el acoplamiento
+4. La evaluación de la cohesión requiere juicio de diseño más que fórmulas matemáticas
+
+Estos conceptos fundamentales proporcionan las bases para evaluar y mejorar la calidad del diseño de software orientado a funciones, facilitando sistemas más mantenibles, comprensibles y modificables.

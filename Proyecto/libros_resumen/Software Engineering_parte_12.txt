@@ -1,0 +1,70 @@
+### Parte 12 (Pág. 441–480)
+
+## Resumen de Páginas 441-480: Reutilización de Software
+
+### 1. Conceptos Fundamentales
+
+**Reutilización de Conceptos (Concept Reuse)**
+- Definición: Reutilización de ideas, formas de trabajo o algoritmos en lugar de componentes software específicos
+- Representación: Se expresa mediante notación abstracta (modelos de sistema) sin detalles de implementación
+- Ejemplos: Patrones de diseño, productos de sistema configurables, generadores de programas
+- Proceso: Requiere actividad de instanciación para convertir conceptos abstractos en componentes ejecutables
+
+### 2. Beneficios de la Reutilización de Software
+
+**Figura 15.1 - Ventajas Principales:**
+- **Desarrollo Acelerado**: Reducción de tiempos de desarrollo y validación
+- **Uso Efectivo de Especialistas**: Captura del conocimiento experto en componentes reutilizables
+- **Confiabilidad Incrementada**: Software probado en sistemas operativos con fallos detectados y corregidos
+- **Costos de Desarrollo Reducidos**: Menor cantidad de código a desarrollar
+- **Reducción de Riesgo del Proceso**: Costos conocidos vs costos estimados
+- **Cumplimiento de Estándares**: Implementación consistente de interfaces y normas
+
+### 3. Problemas y Desafíos
+
+**Figura 15.2 - Limitaciones de la Reutilización:**
+- Costos de creación y mantenimiento de bibliotecas de componentes
+- Dificultad para encontrar, comprender y adaptar componentes
+- Incremento potencial de costos de mantenimiento
+- Falta de soporte de herramientas de desarrollo
+- Síndrome "No Inventado Aquí" (Not-invented-here syndrome)
+- Complejidad en la integración con procesos existentes
+
+### 4. Paisaje de la Reutilización (Reuse Landscape)
+
+**Figura 15.3 - Enfoques de Reutilización:**
+
+**15.4 - Técnicas Específicas:**
+- **Patrones de Diseño**: Abstracciones genéricas representadas mediante patrones
+- **Patrones Arquitectónicos**: Arquitecturas estándar para tipos comunes de aplicaciones
+- **Frameworks de Aplicación**: Colecciones de clases abstractas y concretas adaptables
+- **Líneas de Producto Software**: Arquitecturas comunes adaptables para diferentes clientes
+- **Integración de Sistemas de Aplicación**: Combinación de sistemas para funcionalidad extendida
+- **Sistemas ERP**: Sistemas a gran escala que encapsulan funcionalidad empresarial genérica
+- **Sistemas de Sistemas**: Integración de sistemas distribuidos
+- **Sistemas de Aplicación Configurables**: Sistemas específicos de dominio adaptables
+- **Encapsulamiento de Sistemas Legacy**: Definición de interfaces para sistemas heredados
+- **Ingeniería de Software Basada en Componentes**: Integración de componentes que cumplen estándares
+- **Ingeniería Dirigida por Modelos**: Generación de código desde modelos de dominio
+- **Sistemas Orientados a Servicios**: Desarrollo mediante servicios compartidos
+- **Desarrollo de Software Orientado a Aspectos**: Componentes compartidos integrados durante compilación
+- **Generadores de Programas**: Sistemas que incorporan conocimiento de dominio específico
+- **Bibliotecas de Programas**: Librerías de clases y funciones para abstracciones comunes
+
+### 5. Factores Críticos para la Planificación de la Reutilización
+
+**Consideraciones Estratégicas:**
+1. **Cronograma de Desarrollo**: Reutilización completa de sistemas para desarrollo rápido
+2. **Tiempo de Vida del Software**: Enfoque en mantenibilidad a largo plazo
+3. **Habilidades del Equipo**: Enfoque en áreas de experiencia del equipo
+4. **Criticidad y Requisitos No Funcionales**: Consideraciones de certificación y rendimiento
+5. **Dominio de Aplicación**: Uso de productos genéricos configurables
+6. **Plataforma Objetivo**: Compatibilidad con plataformas específicas
+
+### 6. Adaptación de Procesos de Desarrollo
+
+- **Refinamiento de Requisitos**: Etapa específica para modificar requisitos según software reutilizable disponible
+- **Actividades Explícitas**: Búsqueda y evaluación de componentes candidatos en etapas de diseño e implementación
+- **Consideraciones Gerenciales**: La reutilización frecuentemente depende más de decisiones gerenciales que técnicas
+
+Este resumen presenta un panorama completo de las estrategias, beneficios y desafíos de la reutilización de software, destacando la importancia de una planificación estratégica que considere múltiples dimensiones técnicas y organizacionales.

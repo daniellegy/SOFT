@@ -1,0 +1,83 @@
+### Parte 8 (Pág. 281–320)
+
+## Resumen del Capítulo 10: Diseño en el Nivel de Componentes (Páginas 281-320)
+
+### Introducción
+El diseño en el nivel de componentes constituye una fase crítica en el proceso de ingeniería de software, donde se especifican los detalles de implementación de los componentes individuales que conforman el sistema. Este capítulo aborda metodologías sistemáticas para el diseño de componentes en sistemas convencionales y aplicaciones web.
+
+### Proceso de Diseño de Componentes
+
+#### **Paso 4: Descripción de Fuentes Persistentes de Datos**
+- **Definición**: Especificación de bases de datos y archivos que trascienden componentes individuales
+- **Características**:
+  - Inicialmente definidos en el diseño arquitectónico
+  - Requieren elaboración progresiva durante el diseño detallado
+  - Incluyen estructura y organización de almacenamiento persistente
+
+#### **Paso 5: Desarrollo de Representaciones de Comportamiento**
+- **Herramienta principal**: Diagramas de estado UML
+- **Propósito**: Modelar el comportamiento dinámico de clases de diseño
+- **Elementos clave**:
+  - **Eventos**: `Nombre-del-evento (lista-de-parámetros) [guardar-condición] / expresión de acción`
+  - **Estados**: Representados con rectángulos de esquinas redondeadas
+  - **Transiciones**: Movimientos entre estados desencadenados por eventos
+  - **Acciones**: `entrada/`, `salida/`, `hacer/`, `incluir/`
+
+**Ejemplo ilustrativo**: La figura 10.9 muestra el diagrama de estado para la clase `ImprimirTrabajo`, donde se evidencia la dependencia de aprobaciones de costo y programación para alcanzar el estado `EnviarTrabajo`.
+
+#### **Paso 6: Elaboración de Diagramas de Despliegue**
+- **Función**: Especificar ubicación de paquetes de componentes
+- **Tipos**:
+  - **Descriptor**: Representación arquitectónica general
+  - **Instancia**: Especificación detallada de hardware, sistema operativo y ubicación de componentes
+
+#### **Paso 7: Rediseño Iterativo**
+- **Principio fundamental**: El diseño es un proceso iterativo
+- **Enfoque**:
+  - Desarrollo de alternativas de diseño
+  - Evaluación sistemática usando principios del capítulo 8
+  - Mejora continua mediante múltiples iteraciones
+
+### Diseño de Componentes para WebApps
+
+#### **10.4.1 Definición de Componentes Web**
+**Componente WebApp**: 
+1. Función cohesiva bien definida que manipula contenido o procesa datos
+2. Paquete cohesivo de contenido y funciones que brinda capacidades al usuario
+
+#### **10.4.2 Diseño de Contenido a Nivel de Componente**
+- **Enfoque**: Organización de objetos de contenido para presentación al usuario
+- **Ejemplo práctico**: Sistema de vigilancia `CasaSeguraAsegurada.com`
+  - **Componentes identificados**:
+    - Plano de casa con íconos de sensores y cámaras
+    - Conjunto de imágenes instantáneas (`TomadeVideoN`)
+    - Ventana de video específica
+  - **Componente compuesto**: `ImágenesInstantáneas` que agrupa múltiples `TomadeVideoN`
+
+**Consideraciones de diseño**:
+- Adaptación de formalidad según complejidad de la WebApp
+- Organización progresiva según aumento de tamaño y complejidad
+- Modelado estructural para contenido dinámico
+
+#### **10.4.3 Diseño de Funciones a Nivel de Componente**
+- **Capacidades típicas**:
+  - Generación dinámica de contenido y navegación
+  - Procesamiento computacional del dominio de negocio
+  - Consultas y acceso avanzado a bases de datos
+  - Interfaces con sistemas corporativos externos
+
+- **Metodología**:
+  - Desarrollo paralelo con arquitectura de información
+  - Integración de modelo de requerimientos y arquitectura inicial
+  - Consideración de interacción usuario-aplicación
+
+**Ejemplo funcional**: Operaciones `recorrer()` y `zoom()` en la clase `Cámara` para el sistema de vigilancia, implementadas como módulos específicos.
+
+### Conclusiones
+El diseño en el nivel de componentes requiere un enfoque sistemático que combine:
+- Especificación detallada de comportamiento mediante diagramas de estado
+- Organización efectiva de contenido y funciones
+- Consideración de aspectos de implementación mediante diagramas de despliegue
+- Iteración continua y evaluación de alternativas
+
+La metodología presentada proporciona un marco estructurado para transformar especificaciones de alto nivel en componentes implementables, garantizando coherencia, completitud y calidad en el diseño final del software.

@@ -1,0 +1,96 @@
+### Parte 24 (Pág. 576–600)
+
+## Resumen de Gestión de Riesgos en Ingeniería de Requisitos (Páginas 576-600)
+
+### Introducción
+El capítulo 32 aborda la integración entre la gestión de requisitos de software y la gestión de riesgos, estableciendo que la identificación y mitigación proactiva de riesgos es fundamental para el éxito de los proyectos de desarrollo de software.
+
+### Definiciones Clave
+- **Gestión de riesgos**: Proceso sistemático de identificación, análisis y respuesta a factores que pueden comprometer el éxito del proyecto
+- **Enunciado de riesgo**: Debe formularse en formato condición-consecuencia para una comunicación efectiva
+
+### Riesgos en el Desarrollo de Requisitos
+
+#### 1. Riesgos en la Elicitación de Requisitos
+
+**Visión del Producto y Alcance del Proyecto**
+- **Riesgo**: Scope creep por falta de entendimiento compartido entre stakeholders
+- **Mitigación**: Documento de visión y alcance temprano que contenga requisitos de negocio
+
+**Tiempo en Desarrollo de Requisitos**
+- **Riesgo**: Presión por cronogramas ajustados que lleva a omitir actividades críticas
+- **Mitigación**: Registro de esfuerzo real para mejorar planificación futura
+
+**Compromiso del Cliente**
+- **Riesgo**: Brecha de expectativas por participación insuficiente del cliente
+- **Mitigación**: Identificación temprana de stakeholders y clases de usuario
+
+**Especificaciones Incompletas o Incorrectas**
+- **Riesgo**: Soluciones que no satisfacen necesidades reales
+- **Mitigación**: Escenarios de uso, prototipos y criterios de aceptación definidos por clientes
+
+**Productos Innovadores**
+- **Riesgo**: Mala estimación de respuesta del mercado
+- **Mitigación**: Investigación de mercado y grupos focales para retroalimentación temprana
+
+#### 2. Riesgos en el Análisis de Requisitos
+
+**Priorización de Requisitos**
+- **Riesgo**: Falta de asignación clara a releases o iteraciones específicas
+- **Mitigación**: Evaluación constante de prioridades contra backlog existente
+
+**Características Técnicamente Difíciles**
+- **Riesgo**: Requisitos que exceden tiempo de implementación estimado
+- **Mitigación**: Prototipado de requisitos novedosos o riesgosos
+
+**Tecnologías No Familiares**
+- **Riesgo**: Subestimación de curva de aprendizaje
+- **Mitigación**: Identificación temprana y tiempo asignado para experimentación
+
+#### 3. Riesgos en la Especificación de Requisitos
+
+**Comprensión de Requisitos**
+- **Riesgo**: Interpretaciones diferentes entre desarrolladores y clientes
+- **Mitigación**: Revisiones por pares y creación de modelos desde múltiples perspectivas
+
+**Presión Temporal**
+- **Riesgo**: Avance con temas pendientes sin resolver
+- **Mitigación**: Marcado claro de TBDs con responsables y fechas de resolución
+
+**Terminología Ambigua**
+- **Riesgo**: Diferentes interpretaciones de términos técnicos y de negocio
+- **Mitigación**: Glosario compartido y revisiones de requisitos
+
+#### 4. Riesgos en la Validación de Requisitos
+
+**Requisitos No Validados**
+- **Riesgo**: Rework costoso por defectos no detectados tempranamente
+- **Mitigación**: Revisiones incrementales e informales con participación de clientes
+
+**Competencia en Inspecciones**
+- **Riesgo**: Participantes sin entrenamiento adecuado pasan por alto defectos graves
+- **Mitigación**: Capacitación específica en técnicas de inspección
+
+### Gestión de Cambios y Riesgos Asociados
+
+**Cambio de Requisitos**
+- **Riesgo**: Scope creep descontrolado
+- **Mitigación**: Proceso de cambio formal con análisis de impacto y control board
+
+**Requisitos No Implementados**
+- **Riesgo**: Omisión de requisitos durante diseño, construcción o testing
+- **Mitigación**: Trazabilidad de requisitos a lo largo del ciclo de vida
+
+**Expansión de Alcance**
+- **Riesgo**: Esfuerzo subestimado por requisitos vagamente especificados
+- **Mitigación**: Entrega incremental con funcionalidad prioritaria en releases tempranas
+
+### Conclusión Estratégica
+
+La gestión de riesgos constituye una herramienta fundamental para la dirección de proyectos, permitiendo:
+- Documentación sistemática de condiciones de riesgo
+- Estimación de probabilidad e impacto basada en experiencia
+- Toma de decisiones fundamentada sobre continuidad del proyecto
+- Comunicación efectiva de amenazas potenciales a stakeholders
+
+La integración de prácticas de gestión de riesgos con procesos de ingeniería de requisitos representa una estrategia proactiva esencial para la entrega exitosa de proyectos de software.

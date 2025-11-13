@@ -1,0 +1,72 @@
+### Parte 14 (Pág. 521–560)
+
+## Resumen del Capítulo 12: Mejora en la Toma de Decisiones (Páginas 521-560)
+
+### Estudio de Caso: Administración de la Copa América
+
+#### Contexto Tecnológico
+El caso analiza la transformación tecnológica en la 34ª Copa América (2013), donde Oracle Team USA implementó sistemas avanzados de gestión de datos. Los barcos AC72 representaron una evolución radical:
+- **Catamaranes de doble casco** de 72 pies con capacidad de alcanzar 50 mph
+- **Sistemas de elevación** que permitían despegue completo del agua
+- **250 sensores** monitoreando 4,000 variables a 10 muestras/segundo
+- **Generación de datos**: 90 millones de puntos de datos por hora
+
+#### Arquitectura del Sistema de Información
+1. **Infraestructura de Captura de Datos**
+   - Sensores distribuidos en alas, casco y timón
+   - Mediciones en tiempo real de presión, ángulos, cargas y tensiones
+
+2. **Procesamiento y Gestión**
+   - Servidor embarcado con Oracle Database 11g
+   - Transmisión inalámbrica a barco de apoyo y centro de datos en Austin
+   - Aplicación de fórmulas de predicción de velocidad
+
+3. **Interfaz de Usuario**
+   - Computadoras portátiles en muñeca de tripulación
+   - Datos personalizados por responsabilidades específicas
+   - Gafas con display para capitán y táctico
+
+#### Dilema en la Toma de Decisiones
+Se evidenció una tensión fundamental entre:
+- **Enfoque basado en datos**: Modelos de software que recomendaban navegación a 45° respecto al viento
+- **Enfoque experiencial**: Observación directa que sugería 50° como ángulo óptimo
+
+#### Resolución del Conflicto
+- Implementación de soluciones híbridas: ajustes técnicos menores + modificación de estrategia de navegación
+- Transición de navegación por instrumentos a combinación con observación directa
+- Reconocimiento de limitaciones en los modelos predictivos
+
+### Sistemas de Información Geográfica (GIS)
+
+#### Definición y Características
+Los GIS son **sistemas de información especializados** que:
+- Visualizan problemas mediante representación cartográfica
+- Vinculan datos de ubicación con elementos geográficos (puntos, líneas, áreas)
+- Incorporan capacidades de modelado para simulación de escenarios
+
+#### Aplicaciones Empresariales
+1. **Sector Retail** (Starbucks):
+   - Optimización de ubicación de nuevas tiendas
+   - Análisis relación ventas/inversión
+   - Maximización de volumen de ventas por ubicación
+
+2. **Sector Bancario** (First Citizens Bank):
+   - Identificación de ubicaciones óptimas para sucursales y ATMs
+   - Segmentación de mercados para retención y adquisición de clientes
+   - Personalización de objetivos por sucursal
+
+3. **Servicios Públicos**:
+   - Gestión de apagones y priorización de mantenimiento
+   - Optimización de rutas de entrega (caso UPS)
+
+### Conclusiones Clave
+
+1. **Integración Tecnología-Experiencia**: El éxito en la toma de decisiones requiere equilibrio entre análisis de datos y conocimiento experiencial
+
+2. **Limitaciones de los Modelos Predictivos**: Los sistemas de soporte deben reconocer sus propias limitaciones y complementarse con juicio humano
+
+3. **Personalización de Información**: La efectividad de los sistemas gerenciales depende de la adaptación de la información a roles específicos
+
+4. **Análisis Espacial como Herramienta Estratégica**: Los GIS proporcionan capacidades únicas para optimización de recursos basada en ubicación
+
+Este análisis demuestra la evolución de los sistemas de soporte a decisiones hacia arquitecturas integradas que combinan procesamiento masivo de datos con interfaces personalizadas, manteniendo la intervención humana como componente crítico en el proceso decisorio.

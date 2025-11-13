@@ -1,0 +1,99 @@
+### Parte 11 (Pág. 401–440)
+
+## Resumen del Capítulo 16: Aseguramiento de la Calidad del Software (Páginas 401-404)
+
+### 1. Conceptos Fundamentales
+
+**Aseguramiento de la Calidad del Software (ACS)**: Actividad sombrilla que se aplica a lo largo de todo el proceso de desarrollo de software, constituyendo un patrón planeado y sistemático de acciones para garantizar alta calidad. Engloba seis componentes esenciales:
+- Proceso de ACS estructurado
+- Tareas específicas de aseguramiento y control de calidad
+- Prácticas efectivas de ingeniería de software
+- Control de productos del trabajo y cambios
+- Cumplimiento de estándares de desarrollo
+- Mecanismos de medición y reporte
+
+### 2. Evolución Histórica
+
+El concepto de calidad ha evolucionado significativamente:
+- **Era pre-industrial**: Responsabilidad exclusiva del artesano
+- **1916**: Primera función formal en Laboratorios Bell
+- **Década de 1940**: Enfoques basados en medición y mejora continua (Deming)
+- **Décadas 1950-1960**: En computación, responsabilidad del programador
+- **Década de 1970**: Introducción de estándares en contratos militares
+
+### 3. Elementos Clave del ACS
+
+El ACS comprende ocho elementos fundamentales:
+
+**3.1 Estándares**
+- Adopción voluntaria u obligatoria de estándares (IEEE, ISO)
+- Verificación del cumplimiento en productos del trabajo
+
+**3.2 Revisiones y Auditorías**
+- **Revisiones técnicas**: Detección de errores por ingenieros
+- **Auditorías**: Verificación del seguimiento de lineamientos de calidad
+
+**3.3 Pruebas**
+- Función de control de calidad para detección de errores
+- Planificación y ejecución eficiente
+
+**3.4 Colección y Análisis de Errores**
+- Medición sistemática para mejora continua
+- Comprensión de patrones de error
+
+**3.5 Administración del Cambio**
+- Control de modificaciones para evitar confusión
+- Implementación de prácticas adecuadas
+
+**3.6 Educación**
+- Mejora de prácticas mediante programas educativos
+- Liderazgo en mejora de procesos
+
+**3.7 Administración de Proveedores**
+Tres categorías de software externo:
+- Paquetes comerciales
+- Shells personalizados
+- Software contratado específicamente
+
+**3.8 Seguridad y Gestión de Riesgos**
+- Protección contra ciberdelitos y vulnerabilidades
+- Evaluación de impacto de fallas
+- Mitigación proactiva de riesgos
+
+### 4. Responsabilidades y Estructura Organizacional
+
+**4.1 Entidades Responsables**
+- Ingenieros de software
+- Gerentes de proyecto
+- Clientes
+- Proveedores
+- Grupo de ACS
+
+**4.2 Función del Grupo ACS**
+Actúa como representante del cliente interno, enfocándose en:
+- Cumplimiento de factores de calidad
+- Adherencia a estándares establecidos
+- Efectividad de disciplinas técnicas
+
+### 5. Tareas y Metodología del ACS
+
+**5.1 Planificación Estratégica**
+- Desarrollo del plan de ACS como parte de la preparación del proyecto
+- Revisión participativa con todos los involucrados
+- Identificación de evaluaciones, auditorías y estándares aplicables
+
+**5.2 Enfoque Dual**
+- **Ingenieros de software**: Aplicación de métodos técnicos, revisiones y pruebas
+- **Grupo ACS**: Planificación, supervisión, registro, análisis y reportes
+
+### 6. Recursos y Referencias
+
+El texto referencia múltiples recursos internacionales para gestión de calidad, incluyendo:
+- American Society for Quality (ASQ)
+- Software Engineering Institute (SEI)
+- International Organization for Standardization (ISO)
+- Modelos Six Sigma y Total Quality Management (TQM)
+
+### Conclusión
+
+El ACS representa un enfoque sistemático y multifacético para garantizar la calidad del software, integrando elementos técnicos, organizacionales y de proceso. Su implementación efectiva requiere la colaboración coordinada de todos los participantes del proyecto y la aplicación consistente de estándares y mejores prácticas a lo largo del ciclo de desarrollo.

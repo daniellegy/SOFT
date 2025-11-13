@@ -1,0 +1,54 @@
+### Parte 4 (Pág. 91–120)
+
+## Resumen de Páginas 91-120: Procesos de Software y Especificación de Requisitos
+
+### I. Procesos de Desarrollo de Software (Páginas 91-92)
+
+#### Ejercicios de Aplicación de Modelos de Proceso
+El texto presenta una serie de ejercicios prácticos que exploran la selección y diseño de procesos de software:
+
+**Selección de Modelos de Desarrollo:**
+- **Proyecto de procesamiento de datos simple:** Modelo en cascada por su predictibilidad
+- **Sistema de entrada de datos para usuarios novatos:** Modelo iterativo con énfasis en prototipado de interfaz
+- **Sistema de comparación de huellas dactilares:** Modelo evolutivo dada la incertidumbre técnica
+- **Sistema de hoja de cálculo con características básicas y avanzadas:** Modelo basado en componentes
+
+**Modelo Timeboxing:**
+- Analiza el impacto de etapas de duración desigual en la utilización de recursos
+- Propone estrategias de planificación para maximizar eficiencia
+- Examina consecuencias de desviaciones temporales en iteraciones
+
+### II. Especificación de Requisitos de Software (Páginas 94-97)
+
+#### 3.1 Conceptos Fundamentales de Requisitos
+
+**Definición Clave (IEEE):**
+- "Condición o capacidad necesaria para resolver un problema o alcanzar un objetivo"
+- "Condición o capacidad que debe poseer un sistema para satisfacer un contrato o especificación"
+
+**Naturaleza del Problema:**
+- Los requisitos iniciales son inherentemente **informales e imprecisos**
+- Surgen de necesidades en la mente de múltiples stakeholders
+- Presentan problemas de **completitud y consistencia**
+
+#### 3.1.1 Necesidad de la Especificación de Requisitos de Software (SRS)
+
+**Propósito Principal:**
+- Establecer base de acuerdo entre cliente y desarrollador
+- Servir como referencia para validación del producto final
+- Reducir la brecha de comunicación entre dominio del problema y solución técnica
+
+**Impacto en Calidad:**
+- Estudios citados (Boehm) indican que **25% de errores** se originan en fases de requisitos y diseño temprano
+- Proyecto A-7: 80 errores detectados en documento de requisitos
+- Otros casos reportan 250-500 errores en SRS previamente aprobados
+
+**Beneficios Clave:**
+1. **Base contractual** para desarrollo
+2. **Mecanismo de validación** del producto final
+3. **Reducción de costos** mediante detección temprana de errores
+4. **Mejora de calidad** del producto final
+
+### III. Conclusión
+
+La especificación de requisitos representa una actividad crítica donde la naturaleza informal de las necesidades iniciales debe transformarse en un documento formal y preciso. La calidad del SRS impacta directamente en el éxito del proyecto, afectando costos, cronogramas y satisfacción del cliente. Los errores en esta fase tienen consecuencias significativas en etapas posteriores del ciclo de desarrollo.

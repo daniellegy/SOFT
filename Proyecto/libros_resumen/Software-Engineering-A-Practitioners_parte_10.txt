@@ -1,0 +1,94 @@
+### Parte 10 (Pág. 361–400)
+
+### Resumen de las Páginas 361–400: Diseño a Nivel de Componente
+
+#### Introducción
+El diseño a nivel de componente es una fase elaborativa en la ingeniería de software que transforma los modelos de requisitos y arquitectura en una representación detallada para guiar la construcción (codificación y pruebas). Este proceso se enfoca en la especificación de interfaces, atributos, operaciones y comportamientos de los componentes, aplicando principios de diseño como la cohesión y el acoplamiento.
+
+---
+
+#### Conceptos Clave
+1. **Acoplamiento (Coupling)**:  
+   - Definición: Grado de interdependencia entre componentes.  
+   - Principio: Minimizar el acoplamiento para reducir la complejidad y facilitar el mantenimiento.  
+   - Ejemplo: En el diálogo inicial, se evita que un sensor almacene información externa (números de teléfono) para reducir dependencias.
+
+2. **Cohesión (Cohesion)**:  
+   - Definición: Grado en que las responsabilidades de un componente están relacionadas.  
+   - Objetivo: Asegurar que cada operación o interfaz se enfoque en una función específica.
+
+3. **Interfaz UML**:  
+   - Definición: Grupo de operaciones externamente visibles (públicas) sin atributos ni estructura interna.  
+   - Función: Actúa como una clase abstracta que facilita conexiones controladas entre clases de diseño.
+
+---
+
+#### Proceso de Diseño a Nivel de Componente
+El proceso se estructura en seis pasos para sistemas orientados a objetos:
+
+**Paso 1: Identificar Clases de Diseño del Dominio del Problema**  
+- Se elaboran las clases de análisis y componentes arquitectónicos basados en los modelos de requisitos y arquitectura.
+
+**Paso 2: Identificar Clases de Diseño del Dominio de Infraestructura**  
+- Incluye componentes no descritos en el modelo de requisitos, como:  
+  - Componentes de interfaz gráfica (GUI).  
+  - Componentes del sistema operativo.  
+  - Componentes de gestión de objetos y datos.
+
+**Paso 3: Elaborar Clases de Diseño No Reutilizables**  
+- Detallar interfaces, atributos y operaciones necesarias para implementar la clase.  
+- Subpasos:  
+  - **3a. Especificar Detalles de Mensajes**:  
+    - Uso de diagramas de colaboración para definir la estructura de mensajes entre objetos.  
+    - Sintaxis de mensajes:  
+      ```  
+      [condición_guardia] expresión_secuencia (valor_retorno) := nombre_mensaje (lista_argumentos)  
+      ```  
+    - Ejemplo: La Figura 11.6 ilustra la colaboración entre `ProductionJob`, `WorkOrder` y `JobQueue`.  
+  - **3b. Identificar Interfaces Apropiadas**:  
+    - Las interfaces deben ser cohesivas (ejemplo: refactorización de `initiateJob` en la Figura 11.7).  
+  - **3c. Elaborar Atributos y Estructuras de Datos**:  
+    - Sintaxis UML para atributos:  
+      ```  
+      nombre : tipo-expresión = valor-inicial {cadena-propiedades}  
+      ```  
+    - Ejemplo: `paperType-weight: string = "A" {contiene 1 de 4 valores: A, B, C, D}`.  
+  - **3d. Describir el Flujo de Procesamiento en Operaciones**:  
+    - Uso de pseudocódigo o diagramas de actividad UML (Figura 11.8 para `computePaperCost()`).  
+    - Aplicación del refinamiento paso a paso para garantizar cohesión.
+
+**Paso 4: Describir Fuentes de Datos Persistentes**  
+- Especificar bases de datos y archivos, inicialmente definidos en el diseño arquitectónico.  
+- Detallar su estructura y organización durante la elaboración.
+
+**Paso 5: Desarrollar Representaciones de Comportamiento**  
+- Uso de diagramas de estado UML para modelar el comportamiento dinámico de las clases.  
+- Sintaxis para transiciones entre estados:  
+  ```  
+  nombre-evento (lista-parámetros) [condición-guardia] / expresión-acción  
+  ```  
+- Elementos clave:  
+  - Acciones de entrada (`entry/`) y salida (`exit/`).  
+  - Actividades en un estado (`do/`).  
+  - Inclusión de subcomportamientos (`include/`).  
+- Ejemplo: La Figura 11.9 muestra un fragmento de diagrama de estados para `PrintJob`, donde las transiciones dependen de aprobaciones del cliente.
+
+**Paso 6: Elaborar la Implementación**  
+- (Nota: El texto se interrumpe en la página 369, pero se infiere que este paso completa la especificación de componentes para su implementación).
+
+---
+
+#### Modelos y Herramientas Relevantes
+1. **Diagramas de Colaboración**:  
+   - Ilustran la interacción entre objetos y el paso de mensajes.  
+2. **Diagramas de Actividad UML**:  
+   - Especifican el flujo de procesamiento en operaciones complejas.  
+3. **Diagramas de Estado UML**:  
+   - Modelan el comportamiento dinámico de los objetos en respuesta a eventos.  
+4. **Lenguaje de Restricciones de Objetos (OCL)**:  
+   - Usado para definir condiciones guardia en mensajes y transiciones de estado.
+
+---
+
+#### Conclusiones
+El diseño a nivel de componente requiere una elaboración iterativa y detallada de clases, interfaces y comportamientos, priorizando la cohesión y el bajo acoplamiento. La aplicación de modelos UML y heurísticas de diseño asegura que los componentes sean robustos, mantenibles y alineados con los requisitos del sistema.

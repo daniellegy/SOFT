@@ -1,0 +1,60 @@
+### Parte 7 (Pág. 151–175)
+
+## Resumen de Páginas 151-175: Técnicas de Elicitación de Requisitos
+
+### 1. Naturaleza Fundamental de la Elicitación
+La elicitación de requisitos constituye el núcleo del desarrollo de requisitos, definiéndose como un **proceso colaborativo y analítico** para identificar necesidades y restricciones de los stakeholders. Se diferencia radicalmente de la simple "recopilación de requisitos" por su carácter:
+
+- **Cíclico e iterativo** (Figura 7-1): Combina elicitación, análisis y especificación en ciclos repetitivos
+- **Exploratorio**: Descubre requisitos empresariales, de usuario, funcionales y no funcionales
+- **Comunicacional intensivo**: Considerado el aspecto más crítico y propenso a errores del desarrollo
+
+### 2. Principios Clave de la Elicitación Efectiva
+- **Enfoque en necesidades reales** versus deseos expresados
+- **Énfasis en tareas del usuario** en lugar de interfaces prematuramente especificadas
+- **Uso de vocabulario del dominio empresarial** evitando jerga técnica
+- **Documentación de términos** en glosarios compartidos
+- **Separación conceptual** entre brainstorming y análisis de viabilidad/prioridades
+
+### 3. Técnicas de Elicitación Principales
+
+#### A. Entrevistas
+**Definición**: Interacción directa con stakeholders individuales o grupos pequeños.
+
+**Aplicaciones óptimas**:
+- Proyectos ágiles con participación directa de usuarios
+- Dominios de aplicación nuevos para el analista
+- Stakeholders ejecutivos con disponibilidad limitada
+- Temáticas sensibles que requieren confidencialidad
+
+**Mejores prácticas**:
+- **Establecimiento de rapport**: Presentaciones claras y agenda definida
+- **Preparación de preguntas guía y modelos "straw man"**
+- **Escucha activa** con técnicas de parafraseo y retroalimentación verbal
+- **Sugerencia creativa** de alternativas por parte del analista
+- **Mantenimiento del enfoque** en el alcance definido
+
+#### B. Talleres de Requisitos
+**Definición** (Gottesdiener, 2002): "Reunión estructurada donde stakeholders seleccionados colaboran para definir, crear y refinar entregables que representen requisitos de usuario".
+
+**Características distintivas**:
+- Participación múltiple de stakeholders (usuarios, desarrolladores, testers)
+- Roles formales definidos (facilitador, escriba)
+- Enfoque colaborativo para alcanzar consenso
+- Efectividad superior al trabajo individual para ciertos contextos
+
+### 4. Proceso de Elicitación (Figura 7-2)
+El proceso para una sesión individual incluye:
+1. **Planificación** de actividades de elicitación
+2. **Ejecución** de técnicas seleccionadas
+3. **Organización** de resultados y hallazgos
+4. **Identificación** de requisitos faltantes
+5. **Iteración** basada en lagunas identificadas
+
+### 5. Consideraciones Estratégicas
+- **Compromiso temprano** de stakeholders para priorización de necesidades
+- **Evitación de diseño prematuro** hasta comprensión completa del problema
+- **Combinación estratégica** de técnicas facilitadas e independientes
+- **Reconocimiento de la diversidad** de preferencias entre stakeholders
+
+La elicitación efectiva requiere adaptabilidad metodológica y comprensión profunda de que diferentes stakeholders pueden requerir aproximaciones distintas para revelar requisitos completos y precisos.

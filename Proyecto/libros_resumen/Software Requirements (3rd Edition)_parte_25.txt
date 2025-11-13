@@ -1,0 +1,110 @@
+### Parte 25 (Pág. 601–625)
+
+## Resumen del Apéndice B: Guía para la Resolución de Problemas de Requisitos (Páginas 601-625)
+
+### Introducción
+El apéndice B de "Software Requirements (3rd Edition)" constituye una guía sistemática para el diagnóstico y tratamiento de problemáticas recurrentes en la gestión de requisitos. La estructura se organiza mediante una taxonomía de síntomas, causas raíz y soluciones potenciales, facilitando un enfoque metodológico para la mejora de procesos.
+
+### Marco Conceptual Fundamental
+
+**Síntomas**: Manifestaciones observables de deficiencias en los procesos de requisitos
+**Causas Raíz**: Factores subyacentes que generan los problemas identificados
+**Soluciones**: Acciones correctivas basadas en mejores prácticas de ingeniería de requisitos
+
+### Categorías de Problemáticas Identificadas
+
+#### 1. Problemas de Priorización y Alcance
+**Síntomas Clave**:
+- Conflictos en prioridades entre stakeholders
+- Reducción abrupta del alcance en fases tardías
+- Optimismo irreal sobre productividad del desarrollo
+
+**Causas Fundamentales**:
+- Falta de alineación con la visión del producto
+- Objetivos empresariales no definidos o cambiantes
+- Ausencia de criterios claros para la toma de decisiones
+
+**Soluciones Propuestas**:
+- Establecer y comunicar objetivos empresariales claros
+- Definir prioridades tempranas basadas en visión y alcance
+- Implementar desarrollo incremental con entregas escalonadas
+- Identificar y empoderar tomadores de decisiones de requisitos
+
+#### 2. Problemas de Especificación y Claridad
+**Síntomas Clave**:
+- Requisitos vagos y ambiguos
+- Información faltante que los desarrolladores deben investigar
+- Malentendidos que generan retrabajo
+
+**Causas Fundamentales**:
+- Falta de comprensión sobre el nivel de detalle necesario
+- Tiempo insuficiente dedicado a la elicitación
+- Reglas de negocio no identificadas o comunicadas
+
+**Soluciones Propuestas**:
+- Capacitar analistas en escritura de requisitos de calidad
+- Implementar revisiones tempranas por desarrolladores y clientes
+- Desarrollar modelos de requisitos para identificar información faltante
+- Documentar glosarios y diccionarios de datos
+- Utilizar prototipos para refinar requisitos progresivamente
+
+#### 3. Problemas de Viabilidad y Conflictos
+**Síntomas Clave**:
+- Requisitos técnicamente no factibles
+- Conflictos entre requisitos de diferentes fuentes
+- Dificultad para alcanzar consenso entre stakeholders
+
+**Causas Fundamentales**:
+- Análisis de viabilidad insuficiente
+- Falta de visión compartida del producto
+- Procesos de negocio interpretados diferentemente
+
+**Soluciones Propuestas**:
+- Realizar análisis de viabilidad sistemático
+- Desarrollar prototipos de concepto
+- Identificar clases de usuarios favorecidas para resolver conflictos
+- Enfocarse en intereses empresariales compartidos
+
+#### 4. Problemas de Gestión de Especificaciones
+**Síntomas Clave**:
+- Requisitos no documentados
+- Documentación que no refleja accurate el sistema
+- Múltiples versiones conflictivas de requisitos
+
+**Causas Fundamentales**:
+- Percepción de que la documentación ralentiza el proyecto
+- Prácticas deficientes de control de versiones
+- Procesos de cambio no formalizados
+
+**Soluciones Propuestas**:
+- Definir y seguir procesos de desarrollo de requisitos
+- Implementar control de cambios formal con junta de control
+- Designar responsables de gestión de requisitos
+- Utilizar herramientas de gestión de requisitos
+
+#### 5. Problemas de Validación
+**Síntomas Clave**:
+- Producto no cumple objetivos empresariales
+- Expectativas de usuarios no satisfechas
+- Atributos de calidad no alcanzados
+
+**Causas Fundamentales**:
+- Participación inadecuada de clientes
+- Representantes incorrectos de usuarios
+- Requisitos no funcionales no especificados
+
+**Soluciones Propuestas**:
+- Involucrar campeones de producto durante todo el proyecto
+- Desarrollar casos de uso para comprender tareas de negocio
+- Implementar revisiones de requisitos con clientes
+- Especificar atributos de calidad usando Planguage
+
+### Modelos y Técnicas Relevantes
+
+**Planguage**: Lenguaje estructurado para especificación precisa de atributos de calidad
+**Modelado de Procesos**: Desarrollo de modelos "as-is" y "to-be" para clarificar funcionalidad futura
+**Prototipado**: Creación de pruebas de concepto y prototipos evaluables por usuarios
+**Gestión de Configuración**: Implementación de control de versiones para documentos de requisitos
+
+### Conclusión
+La guía presenta un enfoque sistemático para abordar deficiencias en procesos de requisitos, enfatizando la importancia de la claridad, la validación continua y la gestión proactiva. Las soluciones propuestas se basan en principios de ingeniería de software establecidos y prácticas comprobadas, proporcionando un marco robusto para la mejora de la calidad de requisitos en proyectos de desarrollo de software.

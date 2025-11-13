@@ -1,0 +1,59 @@
+### Parte 17 (Pág. 641–680)
+
+## Resumen de Gestión de Proyectos de Software (Páginas 641-646)
+
+### Introducción a la Gestión de Software
+La ingeniería de software se distingue de otros tipos de programación por ser un **proceso gestionado** que opera bajo restricciones organizacionales de presupuesto, cronograma y estructura organizativa. Esta sección se enfoca en aspectos técnicos de gestión más que en temas estratégicos o de gestión de personal.
+
+### Estructura de Contenidos
+El material analizado comprende cuatro capítulos fundamentales:
+1. **Capítulo 22**: Gestión de proyectos de software
+2. **Capítulo 23**: Planificación de proyectos y estimación
+3. **Capítulo 24**: Gestión de calidad del software
+4. **Capítulo 25**: Gestión de configuración
+
+### Gestión de Proyectos de Software (Capítulo 22)
+
+#### Definición y Objetivos
+La **gestión de proyectos de software** es esencial para garantizar que el desarrollo cumpla con las restricciones organizacionales mientras entrega software de alta calidad. Los criterios de éxito incluyen:
+- Entrega en el tiempo acordado
+- Mantenimiento dentro del presupuesto
+- Cumplimiento de expectativas del cliente
+- Mantenimiento de un equipo de desarrollo cohesionado
+
+#### Desafíos Específicos del Software
+1. **Producto intangible**: No puede observarse el progreso directamente
+2. **Proyectos únicos**: Cada proyecto presenta características distintivas
+3. **Procesos variables**: Dependen de la organización y contexto específico
+
+#### Factores que Influyen en la Gestión
+1. **Tamaño de la empresa**
+2. **Tipo de cliente** (interno/externo)
+3. **Tamaño del software**
+4. **Tipo de software**
+5. **Cultura organizacional**
+6. **Procesos de desarrollo**
+
+#### Actividades Fundamentales de Gestión
+1. **Planificación del proyecto**
+2. **Gestión de riesgos**
+3. **Gestión de personas**
+4. **Reporte y comunicación**
+5. **Elaboración de propuestas**
+
+### Gestión de Riesgos
+
+#### Definición
+La **gestión de riesgos** implica anticipar eventos que puedan afectar el cronograma o calidad del software, y tomar acciones preventivas. Un riesgo se define como "algo que preferiríamos que no ocurriera".
+
+#### Clasificación de Riesgos
+- **Riesgos de proyecto**: Afectan el cronograma o recursos
+- **Riesgos de producto**: Impactan la calidad o rendimiento del software
+- **Riesgos de negocio**: Amenazan la organización o viabilidad del proyecto
+
+### Perspectiva Académica
+El texto enfatiza que, a pesar del auge de métodos ágiles, el desarrollo basado en planificación sigue siendo relevante. Se destaca la importancia de modelos de costos como **COCOMO** para la estimación algorítmica, reconociendo tanto sus beneficios como limitaciones.
+
+La gestión de configuración se presenta como crítica para sistemas grandes, incluyendo versionamiento, construcción de sistemas, gestión de cambios y gestión de releases, con especial atención a sistemas distribuidos como Git.
+
+Este marco conceptual establece las bases para comprender los procesos de gestión técnica en ingeniería de software, destacando la necesidad de aproximaciones sistemáticas y adaptativas según las características específicas de cada proyecto y organización.

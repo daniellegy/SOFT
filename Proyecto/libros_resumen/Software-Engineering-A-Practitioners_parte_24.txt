@@ -1,0 +1,102 @@
+### Parte 24 (Pág. 921–960)
+
+## Resumen de Páginas 921-960: Tendencias en Ingeniería de Software
+
+### 1. Características Críticas de los Sistemas Modernos (Página 921)
+
+**Definiciones Fundamentales:**
+- **Sistemas Heterogéneos Distribuidos:** Sistemas embebidos cuyos componentes en tiempo real se interconectan mediante buses internos, redes inalámbricas o Internet
+- **Criticidad:** Característica que posiciona al software como componente pivotal en sistemas empresariales críticos y de seguridad
+- **Variabilidad de Mantenimiento:** Disparidad en los ciclos de vida del software según su dominio de aplicación (3-5 años en dispositivos digitales vs 20+ años en aviónica)
+
+**Desafíos Identificados:**
+- Gestión de sistemas autónomos complejos
+- Aplicación limitada de principios de seguridad software
+- Adaptación del diseño a diferentes horizontes temporales de mantenimiento
+
+### 2. Desarrollo Colaborativo (Páginas 921-922)
+
+**Concepto Central:**
+La ingeniería de software se conceptualiza como tecnología de información que requiere:
+- Diseminación oportuna de información
+- Procesos efectivos de comunicación y toma de decisiones
+- Coordinación de comunidades distribuidas globalmente
+
+**Aplicaciones Prácticas:**
+- Desarrollo open-source con miles de colaboradores
+- Crowdsourcing para generación de casos de prueba
+- Coordinación de grandes comunidades de testing
+
+### 3. Ingeniería de Requisitos (Páginas 922-923)
+
+**Procesos Fundamentales:**
+- Elicitación, elaboración, negociación, especificación y validación
+
+**Enfoques Metodológicos:**
+- **Informales:** Basados en escenarios de usuario y casos de uso
+- **Formales:** Utilización de modelos verificables y notación matemática
+- **Emergentes:** Procesamiento de lenguaje natural, patrones de RE, bases de datos especializadas
+
+**Subprocesos de Mejora Propuestos:**
+1. Adquisición y compartición mejorada de conocimiento del dominio
+2. Énfasis en iteración durante la definición de requisitos
+3. Herramientas de comunicación y coordinación más efectivas
+
+**Evolución Conceptual:**
+Transición desde especificaciones estáticas hacia "requisitos impulsados por valor" derivados de incrementos software tempranos.
+
+### 4. Desarrollo Guiado por Modelos (Página 923)
+
+**Definición Clave:**
+**Desarrollo Guiado por Modelos (MDSD):** Enfoque que acopla lenguajes de modelado específicos del dominio con motores de transformación y generadores.
+
+**Componentes Esenciales:**
+- **DSML (Lenguajes de Modelado Específicos del Dominio):** Representan estructura, comportamiento y requisitos dentro de dominios aplicativos particulares
+- **Meta-modelos:** Definen relaciones entre conceptos del dominio y especifican semántica y restricciones
+
+**Ventaja Comparativa:**
+Los DSML superan a lenguajes generales como UML al estar sintonizados con conceptos de diseño inherentes al dominio de aplicación.
+
+### 5. Ingeniería de Software Basada en Búsqueda (Página 924)
+
+**Concepto Fundamental:**
+**SBSE (Search-Based Software Engineering):** Aplicación de técnicas metaheurísticas de búsqueda (algoritmos genéticos) a problemas de ingeniería de software.
+
+**Aplicaciones Específicas:**
+- **Mejora Genética:** Incremento de funcionalidades en líneas de productos software existentes
+- **Refactorización Automatizada:** Generación y reparación de secuencias de recomendaciones
+- **Diseño de Casos de Prueba:** Evaluación de correcciones post-fallo
+- **Auto-reparación:** Potencial desarrollo de sistemas auto-reparables
+
+### 6. Desarrollo Guiado por Pruebas (Páginas 924-926)
+
+**Definición Operacional:**
+**TDD (Test-Driven Development):** Enfoque que enfatiza el diseño de casos de prueba previo a la creación de código fuente.
+
+**Proceso Iterativo (Figura 29.3):**
+1. Creación de test para segmento de código
+2. Desarrollo de código para satisfacer el test
+3. Ejecución de test
+4. Refactorización si se detectan errores
+5. Repetición hasta completar todos los requisitos
+
+**Características Distintivas:**
+- Desarrollo en incrementos mínimos (una subfunción por vez)
+- Suite de regresión ejecutada con cada cambio
+- Detección temprana de efectos secundarios
+
+### 7. Tendencias en Herramientas (Página 926)
+
+**Clasificación de Herramientas:**
+- **Comerciales:** Enfocadas en mejora de actividades específicas del proceso software
+- **Open-source:** Concentradas en actividades de programación y construcción
+- **Académicas:** Desarrollo investigativo con aplicabilidad limitada
+
+**Entornos de Ingeniería de Software (SEE):**
+- Integración de herramientas alrededor de repositorios centralizados
+- Soporte para colaboración en sistemas complejos
+- Limitaciones actuales en extensibilidad y especialización
+
+### Conclusión General
+
+Las páginas analizadas presentan un panorama evolutivo de la ingeniería de software contemporánea, caracterizado por la creciente complejidad de sistemas, la necesidad de colaboración distribuida efectiva, y el surgimiento de enfoques metodológicos innovadores que buscan equilibrar formalismo con adaptabilidad ante requisitos emergentes y dinámicos.

@@ -1,0 +1,68 @@
+### Parte 18 (Pág. 681–720)
+
+## Resumen de Planificación de Proyectos y Técnicas de Estimación (Páginas 681-720)
+
+### 23.3 Planificación de Proyectos
+
+**Definición clave**: La planificación de proyectos implica la organización temporal de tareas y recursos para cumplir con los objetivos del desarrollo de software.
+
+**Conceptos fundamentales**:
+- **Especialización del personal**: El uso de especialistas puede generar problemas de programación cuando existen dependencias entre múltiples proyectos
+- **Dependencias entre tareas**: El retraso en una tarea afecta directamente a las tareas posteriores que dependen de ella
+- **Asignación de personal**: Los retrasos pueden causar problemas significativos en la asignación de recursos humanos, especialmente cuando el personal trabaja en múltiples proyectos simultáneamente
+
+**Procesos y herramientas**:
+- Se recomienda el uso de herramientas de planificación como Basecamp o Microsoft Project
+- Estas herramientas permiten crear diagramas de Gantt y gráficos de actividades automáticamente a partir de bases de datos de información del proyecto
+- Los gráficos de asignación de personal (Figura 23.7) muestran la distribución del trabajo entre los miembros del equipo a lo largo del tiempo
+
+### 23.4 Planificación Ágil
+
+**Definición**: Enfoque iterativo donde el software se desarrolla y entrega en incrementos, con funcionalidad decidida durante el desarrollo en lugar de planificarse por adelantado.
+
+**Modelos de planificación ágil**:
+1. **Planificación de release**: Planificación a varios meses vista que decide las características a incluir en una versión del sistema
+2. **Planificación de iteración**: Enfoque a corto plazo (2-4 semanas) que se centra en el siguiente incremento del sistema
+
+**El "Planning Game" (Figura 23.8)**:
+- **Base**: Utilización de user stories que cubren toda la funcionalidad del sistema
+- **Proceso colaborativo**: Desarrollo conjunto entre el equipo y el cliente
+- **Estimación relativa**: Comparación de historias en pares para determinar esfuerzo relativo
+- **Puntos de esfuerzo**: Asignación de puntos notionales (ej: 8 puntos para historias complejas, 2 para simples)
+
+**Conceptos clave**:
+- **Velocidad**: Número de puntos de esfuerzo implementados por el equipo por día
+- **Planificación de tareas**: Descomposición de stories en tareas de desarrollo (4-16 horas)
+- **Asignación voluntaria**: Los desarrolladores eligen sus tareas, promoviendo sentido de propiedad
+
+**Ventajas y limitaciones**:
+- **Ventajas**: Entrega constante de incrementos, flexibilidad ante cambios, mayor motivación del equipo
+- **Limitaciones**: Dependencia de la disponibilidad del cliente, dificultad en equipos grandes o distribuidos, posible afectación de planes del cliente debido a reducción de alcance
+
+### 23.5 Técnicas de Estimación
+
+**Definición**: Proceso de predecir el esfuerzo y costos requeridos para el desarrollo de software, caracterizado por alta incertidumbre en etapas iniciales.
+
+**Tipos de técnicas**:
+
+1. **Basadas en experiencia**:
+   - Estimación fundamentada en la experiencia previa del gestor
+   - Juicio informado sobre requerimientos de esfuerzo
+   - Enfoque colaborativo con múltiples estimadores
+
+2. **Modelado algorítmico de costos**:
+   - Enfoque formulaico basado en atributos del producto
+   - Considera tamaño, características del proceso y experiencia del personal
+
+**Características de la estimación**:
+- **Incertidumbre inicial**: Las estimaciones iniciales pueden variar entre 0.25x y 4x del esfuerzo real (Figura 23.9)
+- **Mejora progresiva**: La precisión aumenta a medida que avanza el proyecto
+- **Desafíos**: Rapidez de los cambios en desarrollo software, falta de proyectos comparables de referencia
+
+**Proceso de estimación basada en experiencia**:
+- Identificación de entregables y componentes
+- Documentación en hojas de cálculo
+- Estimación individual y cálculo del esfuerzo total
+- Iteración hacia estimaciones consensuadas mediante discusión grupal
+
+Este resumen presenta los fundamentos teóricos y prácticos de la planificación y estimación en ingeniería de software, destacando tanto los enfoques tradicionales como ágiles, y reconociendo las limitaciones inherentes a la naturaleza predictiva de estos procesos.

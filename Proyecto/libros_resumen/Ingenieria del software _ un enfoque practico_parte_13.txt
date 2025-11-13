@@ -1,0 +1,83 @@
+### Parte 13 (Pág. 481–520)
+
+# Resumen: Prueba de Aplicaciones Orientadas a Objetos (Capítulo 19, páginas 481-520)
+
+## 1. Introducción a las Pruebas Orientadas a Objetos
+
+Las pruebas en el desarrollo orientado a objetos (OO) presentan diferencias fundamentales con respecto al enfoque convencional. La estrategia OO se caracteriza por un enfoque iterativo donde se "diseña un poco, codifica un poco, prueba un poco", según la cita de Robert Binder destacada en el texto.
+
+## 2. Prueba de Clase Múltiple
+
+### 2.1 Método de Pruebas Aleatorias
+Kirani y Tsai proponen una secuencia sistemática para generar casos de prueba aleatorios de clase múltiple:
+
+1. **Generación de secuencias**: Para cada clase cliente, se generan secuencias aleatorias de operaciones
+2. **Identificación de colaboradores**: Se determinan las clases servidor y operaciones invocadas
+3. **Rastreo de mensajes**: Se identifican los mensajes transmitidos por cada operación del servidor
+4. **Expansión de secuencias**: Se incorporan los siguientes niveles de operaciones invocadas
+
+**Ejemplo ilustrativo**: En el sistema bancario, un caso de prueba para la clase Bank podría ser:
+```
+verifyAcct•verifyPIN•depositReq
+```
+Que se expande considerando colaboraciones:
+```
+verifyAcct [Bank:validAcctValidationInfo]•verifyPIN [Bank:validPinValidationInfo]•depositReq [Bank:depositaccount]
+```
+
+### 2.2 Método de Partición
+- **Partición por interfaces**: Divide pruebas según las clases que envían mensajes (ej: ATM vs Cashier)
+- **Partición por estado**: Refina las particiones basándose en el estado del objeto
+
+## 3. Pruebas Derivadas de Modelos de Comportamiento
+
+### 3.1 Uso de Diagramas de Estado
+Los diagramas de estado representan el comportamiento dinámico de una clase y permiten derivar secuencias de prueba que ejerciten transiciones entre estados.
+
+**Ejemplo con clase Account**:
+- Estados: Empty acct → Setup acct → Working acct → Nonworking acct → Dead acct
+- Caso de prueba mínimo: `open•setupAccnt•deposit(initial)•withdraw(final)•close`
+- Casos de prueba expandidos incluyen operaciones adicionales como `balance`, `credit`, `accntInfo`
+
+### 3.2 Enfoque "Ancho Primero"
+- Cada caso de prueba ejercita una sola transición
+- Al probar nuevas transiciones, solo se usan transiciones previamente probadas
+- Garantiza un recorrido sistemático del modelo de estado
+
+## 4. Estrategias de Integración
+
+### 4.1 Prueba Basada en Hebra
+- Integra clases que colaboran para responder a una entrada o evento específico
+- Enfocada en flujos de funcionalidad completos
+
+### 4.2 Prueba Basada en Uso
+- Construye el sistema en capas
+- Comienza con clases que no utilizan clases servidor
+- Añade progresivamente clases dependientes
+
+## 5. Técnicas de Diseño de Pruebas
+
+### 5.1 Métodos Principales
+- **Prueba basada en fallo**: Identifica posibles puntos de fallo
+- **Prueba aleatoria**: Genera secuencias aleatorias de operaciones
+- **Prueba de partición**: Divide el espacio de pruebas en categorías
+- **Prueba basada en escenario**: Utiliza casos de uso como base
+
+### 5.2 Validación del Sistema
+- Enfoque de caja negra
+- Dominio de pruebas basadas en escenario
+- Los casos de uso son el impulsor primario
+
+## 6. Consideraciones Fundamentales
+
+### 6.1 Diferencias con Pruebas Convencionales
+- La unidad de prueba fundamental es la clase, no el módulo procedimental
+- Las pruebas comienzan durante el modelado mediante revisiones técnicas
+- Los modelos CRC, objeto-relación y objeto-comportamiento constituyen pruebas tempranas
+
+### 6.2 Características Específicas OO
+- Acoplamiento semántico entre modelos y código
+- Necesidad de re-probar subclases incluso cuando la superclase ya fue probada
+- Importancia del estado de la clase en el diseño de pruebas
+
+Este capítulo establece que, aunque el objetivo general de las pruebas OO (encontrar errores con mínimo esfuerzo) es idéntico al convencional, las estrategias y tácticas difieren significativamente, requiriendo aproximaciones específicas para el paradigma orientado a objetos.

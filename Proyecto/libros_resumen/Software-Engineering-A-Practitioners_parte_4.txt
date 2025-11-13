@@ -1,0 +1,93 @@
+### Parte 4 (Pág. 121–160)
+
+## Resumen de Páginas 121-160: Modelos de Proceso y Definición de Requisitos
+
+### 1. Modelos de Proceso Incrementales y Evolutivos
+
+#### 1.1 Modelos Incrementales
+- **Definición**: Modelos que desarrollan software mediante iteraciones sucesivas donde los clientes participan temprana y frecuentemente
+- **Ventajas**: Reducen el riesgo de rechazo del producto final y facilitan la adaptabilidad del proceso
+- **Consideraciones críticas**:
+  - Los prototipos deben diseñarse para reutilización futura
+  - Requiere gestión disciplinada de cambios para evitar "scope creep"
+
+#### 1.2 Modelos Ágiles (Scrum y Kanban)
+- **Características fundamentales**:
+  - Prototipos diseñados para extensión en incrementos futuros
+  - Participación continua de stakeholders
+  - Documentación ligera que evoluciona con el software
+  - Pruebas planificadas y ejecutadas tempranamente
+  - Gestión visual del flujo de trabajo (Kanban)
+
+- **Limitaciones**: Adecuados principalmente para equipos pequeños y proyectos que pueden particionarse en componentes independientes
+
+#### 1.3 Modelo Espiral
+- **Definición**: Modelo evolutivo que incorpora evaluación formal de riesgos
+- **Aplicación**: Diseñado para equipos y proyectos grandes
+- **Elementos distintivos**:
+  - Evaluación formal de riesgos integrada en cada iteración
+  - Prototipos extensibles en cada ciclo
+  - Documentación evolutiva
+  - Requiere gestión formal de proyectos
+
+### 2. Comparativa de Modelos
+
+#### 2.1 Modelos Ágiles vs. Espiral
+| **Característica** | **Modelos Ágiles** | **Modelo Espiral** |
+|-------------------|-------------------|-------------------|
+| **Escala** | Proyectos pequeños-medianos | Proyectos grandes |
+| **Documentación** | Mínima y evolutiva | Formal y anticipada |
+| **Gestión de Riesgos** | Informal | Formal e integrada |
+| **Flexibilidad** | Alta adaptabilidad | Cambios limitados hasta completar prototipo |
+| **Mejora de Proceso** | Continua | Al final del proyecto |
+
+### 3. Ingeniería de Requisitos
+
+#### 3.1 Definición y Importancia
+- **Definición**: Proceso de comprensión del problema, necesidades del negocio y restricciones técnicas
+- **Consecuencias del fracaso**: Retrabajo costoso, sobrecostos, baja calidad y satisfacción del cliente
+
+#### 3.2 Mejores Prácticas Ágiles (Ambler)
+1. Participación activa de stakeholders
+2. Modelos simples (notas adhesivas, bocetos rápidos)
+3. Explicación clara de técnicas de representación
+4. Adopción de terminología del stakeholder
+5. Enfoque "breadth-first" (visión general antes de detalles)
+6. Refinamiento "just-in-time" de requisitos
+7. Priorización de historias de usuario
+8. Documentación mínima y útil
+9. Cuestionamiento de documentos no esenciales
+10. Soporte gerencial para disponibilidad de recursos
+
+#### 3.3 Realidades Fundamentales
+- Imposibilidad de describir sistemas completos sin software funcional
+- Dificultad para especificar requisitos de calidad sin ver el sistema en acción
+- Necesidad de iteración en la definición de requisitos
+
+### 4. Diseño Arquitectónico Preliminar
+
+#### 4.1 Elementos Clave del Diseño Ágil
+1. **Enfoque en atributos de calidad**: Incorporación en prototipos
+2. **Equilibrio características-infraestructura**: Combinación de funcionalidades visibles y habilitadores
+3. **Arquitectura evolutiva**: Facilita mantenibilidad y evolución del código
+4. **Gestión de dependencias**: Sincronización continua entre requisitos funcionales y arquitectónicos
+
+#### 4.2 Gestión del Conocimiento Arquitectónico
+- Documentación de decisiones de diseño y su justificación
+- Reutilización de soluciones arquitectónicas exitosas
+- Retrospectivas después de cada incremento
+
+### 5. Estimación de Recursos
+
+#### 5.1 Desafíos en Proyectos Evolutivos
+- **Incertidumbre inicial**: Alcance no completamente definido
+- **Evolución continua**: Cambios durante el desarrollo
+- **Balance temporal**: Estimaciones tempranas vs. tardías
+
+#### 5.2 Estrategia Recomendada
+- Estimación inicial basada en conocimiento disponible
+- Revisión periódica según nuevos requisitos e incrementos entregados
+- Evaluación continua de viabilidad de entrega en tiempo y costo
+
+### Conclusión
+La selección del modelo de proceso debe considerar el tamaño del proyecto, nivel de riesgo y capacidad de adaptación requerida. La combinación de elementos espirales con agilidad integrada representa un enfoque balanceado para muchos proyectos de software modernos, permitiendo tanto la gestión formal de riesgos como la adaptabilidad necesaria en entornos de requisitos evolutivos.

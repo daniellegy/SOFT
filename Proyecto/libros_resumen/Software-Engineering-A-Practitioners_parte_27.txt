@@ -1,0 +1,113 @@
+### Parte 27 (Pág. 1041–1073)
+
+## Resumen Académico: Ingeniería de Software - Práctica Profesional (Páginas 1041-1073)
+
+### I. Fundamentos de Calidad y Procesos
+
+**Definiciones Clave:**
+- **Calidad del Software:** Conformidad con requisitos explícitos e implícitos (Garvin), medible mediante factores de McCall (corrección, confiabilidad, eficiencia) y modelos de calidad (ISO 9126)
+- **Proceso de Software:** Marco estructurado que engloba actividades, acciones y tareas para desarrollo y evolución del software
+
+**Modelos de Proceso Relevantes:**
+1. **Modelos Prescriptivos:** Cascada, Prototipado, Espiral, Proceso Unificado
+2. **Modelos Ágiles:** Scrum, XP (Programación Extrema)
+3. **Patrones de Proceso:** Plantillas que definen flujos de trabajo repetibles
+
+### II. Gestión de Calidad y Revisión Técnica
+
+**Procesos de Garantía de Calidad:**
+- **Revisiones Técnicas:** Mecanismos formales e informales para evaluación de productos de trabajo
+  - *Inspecciones:* Revisiones estructuradas con roles definidos (moderador, lector, registrador)
+  - *Revisiones Informales:* Desk checks, revisiones casuales
+- **Métricas de Revisión:** Esfuerzo de preparación, esfuerzo de revisión, esfuerzo de rework
+
+**Gestión de Riesgos de Calidad:**
+- **Estrategias:** Proactivas (prevención) vs Reactivas (mitigación)
+- **Plan RMMM:** Mitigación, Monitoreo y Gestión de Riesgos
+- **Proyección de Riesgos:** Tablas de riesgo, estimación de impacto/probabilidad
+
+### III. Ingeniería de Requisitos y Modelado
+
+**Proceso de Ingeniería de Requisitos:**
+1. **Incepción:** Identificación inicial de requisitos
+2. **Elaboración:** Refinamiento y detallado
+3. **Negociación:** Resolución de conflictos y priorización
+4. **Especificación:** Documentación formal
+5. **Validación:** Verificación de completitud y consistencia
+
+**Modelado de Requisitos:**
+- **Basado en Escenarios:** Casos de uso, diagramas de actividad
+- **Basado en Clases:** Modelos CRC, diagramas de clases
+- **Comportamental:** Diagramas de estado, secuencia
+- **Funcional:** Diagramas de flujo de datos, especificaciones de procesamiento
+
+### IV. Diseño Arquitectónico y de Componentes
+
+**Principios de Diseño:**
+- **Abstracción:** Ocultamiento de detalles de implementación
+- **Refinamiento Paso a Paso:** Descomposición progresiva
+- **Modularidad:** División en componentes cohesivos
+- **Ocultamiento de Información:** Encapsulamiento de detalles
+
+**Patrones Arquitectónicos:**
+- **Pipe-and-Filter:** Procesamiento secuencial de datos
+- **Arquitecturas RPC:** Llamadas a procedimientos remotos
+- **REST:** Transferencia de Estado Representacional para WebApps
+
+**Métricas de Diseño:**
+- **Métricas CK:** Acoplamiento entre clases (CBO), Respuesta para clase (RFC)
+- **Principios de Reutilización:** REP (Principio de Equivalencia de Reutilización)
+
+### V. Gestión de Proyectos y Planificación
+
+**Dimensiones de Gestión:**
+- **Gente:** Estructura de equipos, capacidades individuales
+- **Producto:** Alcance, características, requisitos
+- **Proceso:** Metodologías, estándares, procedimientos
+
+**Planificación de Proyectos:**
+- **Estimación:** Basada en problemas, procesos y modelos paramétricos
+- **Programación:** Diagramas de Gantt, redes de tareas, curvas PNR
+- **Asignación de Recursos:** Humanos, ambientales, reutilizables
+
+**Principio W5HH:** Marco para definición de objetivos y seguimiento
+
+### VI. Pruebas y Validación
+
+**Estrategias de Prueba:**
+- **Pruebas de Regresión:** Verificación tras modificaciones
+- **Pruebas de Rendimiento:** Evaluación de tiempos de respuesta y capacidad
+- **Pruebas de Seguridad:** Identificación de vulnerabilidades
+- **Pruebas de Usabilidad:** Evaluación de experiencia de usuario
+
+**Técnicas Especializadas:**
+- **Pruebas de Playability:** Para aplicaciones interactivas y juegos
+- **Pruebas en Tiempo Real:** Para sistemas con restricciones temporales
+- **Pruebas Semánticas:** Validación de significado y contexto
+
+### VII. Mantenimiento y Reingeniería
+
+**Tipos de Mantenimiento:**
+- **Correctivo:** Reparación de defectos
+- **Adaptativo:** Ajuste a cambios ambientales
+- **Perfectivo:** Mejora de funcionalidad
+- **Preventivo:** Mejora proactiva
+
+**Procesos de Evolución:**
+- **Reingeniería:** Restructuración para mejorar mantenibilidad
+- **Refactoring:** Mejora interna sin alterar comportamiento externo
+- **Ingeniería Inversa:** Recuperación de diseño a partir de código
+
+### VIII. Métricas y Mediciones
+
+**Clasificación de Métricas:**
+- **Métricas de Proceso:** Eficiencia, productividad, calidad del proceso
+- **Métricas de Producto:** Tamaño, complejidad, calidad del código
+- **Métricas de Proyecto:** Esfuerzo, costo, cronograma
+
+**Aplicación de Métricas:**
+- **Métricas Públicas:** Visibles a toda la organización
+- **Métricas Privadas:** Uso interno del equipo
+- **Enfoque Basado en Métricas:** Toma de decisiones cuantitativa
+
+Este resumen sintetiza los conceptos fundamentales, procesos y modelos presentados en las páginas analizadas, proporcionando una visión estructurada de las mejores prácticas en ingeniería de software desde perspectivas de calidad, proceso y gestión.

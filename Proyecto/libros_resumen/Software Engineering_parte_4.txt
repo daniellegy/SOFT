@@ -1,0 +1,64 @@
+### Parte 4 (Pág. 121–160)
+
+## Resumen de las páginas 121-160: Especificación de Requisitos
+
+### 4.4 Especificación de Requisitos
+
+**Definición:** Proceso de documentación de requisitos de usuario y del sistema en un documento de requisitos.
+
+#### Características Ideales del Documento de Requisitos:
+- Claridad y ausencia de ambigüedad
+- Facilidad de comprensión
+- Completitud
+- Consistencia
+
+### Tipos de Requisitos
+
+#### Requisitos de Usuario
+- Descripción de requisitos funcionales y no funcionales
+- Comprensibles para usuarios sin conocimiento técnico
+- Especifican únicamente el comportamiento externo del sistema
+- **Notación recomendada:** Lenguaje natural complementado con diagramas y tablas simples
+
+#### Requisitos del Sistema
+- Versiones expandidas de los requisitos de usuario
+- Utilizados como punto de partida para el diseño del sistema
+- Deben ser una especificación completa y detallada
+- Pueden incluir información de diseño en casos específicos
+
+### Notaciones para Especificación de Requisitos del Sistema
+
+| **Notación** | **Descripción** |
+|--------------|-----------------|
+| Lenguaje natural | Requisitos escritos en oraciones numeradas |
+| Lenguaje natural estructurado | Requisitos en plantillas estandarizadas |
+| Notaciones gráficas | Modelos gráficos complementados con texto (ej. diagramas UML) |
+| Especificaciones matemáticas | Basadas en conceptos matemáticos (máquinas de estado finito, conjuntos) |
+
+### Directrices para Especificación en Lenguaje Natural
+
+1. **Formato estándar:** Establecer un formato consistente para todas las definiciones
+2. **Lenguaje consistente:** 
+   - "Shall" para requisitos obligatorios
+   - "Should" para requisitos deseables
+3. **Resaltado visual:** Uso de negrita, cursiva o color para elementos clave
+4. **Evitar jerga técnica:** Minimizar uso de terminología especializada
+5. **Incluir racional:** Explicar el porqué de cada requisito y su fuente
+
+### Consideraciones sobre Información de Diseño
+
+Aunque idealmente los requisitos no deben incluir detalles de diseño, existen excepciones:
+
+1. **Arquitectura inicial:** Necesaria para estructurar la especificación
+2. **Interoperabilidad:** Restricciones impuestas por sistemas existentes
+3. **Requisitos no funcionales:** Arquitecturas específicas para cumplir con confiabilidad, seguridad, etc.
+
+### Ejemplo Práctico: Sistema KidsTakePics
+
+El texto presenta un escenario detallado para la carga de fotos que incluye:
+- Flujo normal de eventos
+- Manejo de situaciones de error
+- Actividades concurrentes
+- Estado del sistema al finalizar
+
+Esta aproximación mediante escenarios facilita la discusión con stakeholders y ayuda a identificar requisitos específicos del sistema.

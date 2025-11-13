@@ -1,0 +1,85 @@
+### Parte 6 (Pág. 201–240)
+
+**Resumen Académico: Modelado de Requerimientos mediante Patrones (Páginas 201-240)**
+
+**Introducción**
+El capítulo aborda los patrones como mecanismo fundamental para capturar conocimiento del dominio en ingeniería de requerimientos, permitiendo su reutilización sistemática en problemas análogos.
+
+---
+
+### **7.4 Patrones para el Modelado de Requerimientos**
+
+**Definición Clave:**  
+*Patrón de Software*: Mecanismo que encapsula conocimiento de dominio en formato reutilizable, documentando explícitamente el problema general, solución prescrita, supuestos, restricciones, ventajas/desventajas y ejemplos prácticos.
+
+**Características Fundamentales:**
+- Se *descubren* durante la ingeniería de requerimientos, no se crean.
+- Se almacenan en repositorios con herramientas de búsqueda para facilitar su integración en modelos.
+- Su aplicación puede darse dentro del mismo dominio o por analogía en dominios distintos.
+
+---
+
+### **7.4.1 Descubrimiento de Patrones de Análisis**
+
+**Concepto Central:**  
+*Patrón de Análisis Semántico (PAS)*: Conjunto coherente de casos de uso que describen una aplicación general. Se identifica mediante:
+- **Elementos del Modelo**: Escenarios (casos de uso), datos, clases, flujos y comportamientos.
+- **Base de Descubrimiento**: Casos de uso como elemento fundamental.
+
+**Ejemplo Ilustrativo:**  
+Sistema de vigilancia para automóvil (cámara y sensor de proximidad) revela un PAS genérico: *"Vigilancia y control de sensores/actuadores en sistemas físicos"*. Esto deriva en el patrón **Actuador-Sensor**.
+
+---
+
+### **7.4.2 Ejemplo: Patrón Actuador-Sensor**
+
+**Propósito:**  
+Estructurar clases de sensores y actuadores en sistemas embebidos, especificando atributos, operaciones y comportamientos.
+
+**Estructura (Diagrama de Clases UML):**
+- **Clases Abstractas**: 
+  - `Actuador`
+  - `SensorPasivo` (mecanismo *pull*: solicitud explícita)
+  - `SensorActivo` (mecanismo *push*: emisión automática)
+- **Tipos Concretos**: Booleanos, Enteros, Reales y Complejos.
+
+**Restricciones Clave:**
+1. Sensores pasivos: Métodos para lectura de valores.
+2. Sensores activos: Emisión de actualizaciones y *latidos de vida* (heartbeats).
+3. Actuadores: Métodos para invocar respuestas basadas en `CálculoDeComponente`.
+4. Autovalidación: Verificación de estado operativo y valores dentro de especificaciones.
+
+**Comportamiento (Diagrama de Secuencia UML):**
+- Flujo típico:  
+  `PanelDeControl` → Consulta estado → `Sensor/Actuador` → `CálculoDeComponente` → Respuesta/`ManejadorDeFallas`.
+- Interacción física: Mensajes `EstablecerValorFísico`/`ObtenerValorFísico`.
+
+**Participantes del Patrón:**
+- `SensorPasivo`: Interfaz base para sensores pasivos.
+- `SensorBooleanoPasivo`: Implementación concreto para valores booleanos.
+- *[Lista truncada en el texto original]*
+
+---
+
+### **Herramientas de Software para Modelado UML**
+
+**Objetivo:**  
+Soporte integral para diagramas UML en modelado de análisis y diseño.
+
+**Funcionalidades:**
+1. Generación de diagramas basados en escenario, clase y comportamiento.
+2. Verificación de consistencia y corrección.
+3. Vinculación con diseño y generación de código.
+4. Gestión de bases de datos para modelos complejos.
+
+**Herramientas Representativas:**
+- ArgoUML (código abierto)
+- Enterprise Architect (Sparx Systems)
+- Rational Rose (IBM)
+- Visio (Microsoft)
+- *[Lista completa en sección 7.4]*
+
+---
+
+**Conclusión**  
+Los patrones de requerimientos, ejemplificados por *Actuador-Sensor*, proveen un marco reutilizable para modelar sistemas heterogéneos. Su integración con herramientas UML estandariza el proceso de análisis, asegurando consistencia y facilitando la transición hacia etapas de diseño.

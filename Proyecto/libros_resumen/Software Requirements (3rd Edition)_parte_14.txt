@@ -1,0 +1,68 @@
+### Parte 14 (Pág. 326–350)
+
+## Resumen de Páginas 326-350: Atributos de Calidad y Prototipado en Ingeniería de Requisitos
+
+### **I. Manejo de Atributos de Calidad en Proyectos Ágiles (Págs. 326-327)**
+
+#### **Definición Fundamental**
+Los **atributos de calidad** representan requisitos no funcionales que definen propiedades del sistema como rendimiento, seguridad, usabilidad y fiabilidad. Su especificación temprana es crucial para decisiones arquitectónicas adecuadas.
+
+#### **Conceptos Clave**
+1. **Especificación Temprana**: Los atributos de calidad deben priorizarse junto con las historias de usuario desde las fases iniciales del proyecto.
+2. **Características de Implementación**:
+   - No se implementan de forma discreta como las historias de usuario
+   - Pueden abarcar múltiples historias e iteraciones
+   - No siempre son fácilmente divisibles en incrementos pequeños
+
+#### **Procesos Recomendados**
+- **Formulación como Historias**: Ejemplo: "Como técnico de help desk, quiero que la base de conocimiento responda consultas en menos de 5 segundos"
+- **Pruebas de Aceptación Cuantificables**: Deben establecer criterios medibles usando técnicas como **Planguage**
+- **Evaluación Continua**: Cada iteración debe verificar el cumplimiento de requisitos no funcionales pertinentes
+
+### **II. Reducción de Riesgos mediante Prototipado (Págs. 328-330)**
+
+#### **Definición de Prototipo**
+Un **prototipo de software** es una implementación parcial, posible o preliminar de un producto propuesto, que sirve para:
+- Clarificar, completar y validar requisitos
+- Explorar alternativas de diseño
+- Crear subconjuntos que evolucionen hacia el producto final
+
+#### **Taxonomía de Prototipos**
+La clasificación se establece según tres dimensiones:
+
+1. **Alcance**:
+   - **Mock-up**: Enfocado en experiencia de usuario
+   - **Proof-of-concept**: Valida viabilidad técnica
+
+2. **Uso Futuro**:
+   - **Desechables**: Se descartan después de obtener retroalimentación
+   - **Evolutivos**: Crecen iterativamente hacia el producto final
+
+3. **Forma**:
+   - **Papel**: Esbozos simples en papel o pizarra
+   - **Electrónicos**: Software funcional de partes de la solución
+
+#### **Proceso de Prototipado**
+- **Enfoque en Incertidumbres**: Prototipar áreas de alto riesgo o requisitos poco claros
+- **Comunicación Clara**: Definir explícitamente el propósito, aprendizaje esperado y destino final del prototipo
+- **Validación Temprana**: Los prototipos facilitan la identificación de problemas en requisitos a bajo costo
+
+### **III. Modelos y Técnicas Relevantes**
+
+#### **Planguage**
+Lenguaje estructurado para especificación de requisitos que permite:
+- Definir escalas de medición precisas
+- Establecer múltiples niveles de satisfacción (Goal, Stretch, Wish)
+- Reducir ambigüedad mediante parámetros cuantificables
+
+#### **IKIWISI ("I'll Know It When I See It")**
+Fenómeno donde los usuarios tienen dificultad para articular necesidades hasta ver una implementación concreta, resuelto mediante prototipado iterativo.
+
+### **Conclusiones Académicas**
+La integración sistemática de atributos de calidad y técnicas de prototipado representa una metodología robusta para:
+- Mitigar riesgos de expectativas no alineadas
+- Validar requisitos complejos mediante representaciones tangibles
+- Optimizar decisiones arquitectónicas basadas en criterios de calidad cuantificables
+- Facilitar la comunicación entre stakeholders técnicos y no técnicos
+
+La documentación precisa mediante lenguajes estructurados y la selección estratégica de tipos de prototipos según objetivos específicos constituyen mejores prácticas en ingeniería de requisitos moderna.

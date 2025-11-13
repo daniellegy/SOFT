@@ -1,0 +1,69 @@
+### Parte 18 (Pág. 426–450)
+
+## Resumen de las páginas 426-450: Proyectos de Mejora y Reemplazo
+
+### Definiciones Fundamentales
+
+**Proyecto de mejora:** Iniciativa que añade nuevas capacidades a un sistema existente, incluyendo corrección de defectos, incorporación de reportes y modificación de funcionalidad para cumplir con reglas de negocio actualizadas.
+
+**Proyecto de reemplazo (reingeniería):** Sustitución de una aplicación existente por un sistema personalizado, una solución comercial (COTS) o un híbrido, motivada por mejoras de rendimiento, reducción de costos, adopción de tecnologías modernas o cumplimiento normativo.
+
+### Desafíos Esperados
+
+Los proyectos de mejora y reemplazo enfrentan retos específicos:
+
+- **Degradación potencial del rendimiento** respecto al sistema actual
+- **Documentación inexistente o desactualizada** de requisitos existentes
+- **Resistencia al cambio** por parte de usuarios familiarizados
+- **Riesgo de omitir funcionalidad crítica** para algunos grupos de interés
+- **Solicitudes de funcionalidad innecesaria** que exceden los objetivos del negocio
+- **Validación de justificación empresarial** para el reemplazo
+
+### Técnicas de Ingeniería de Requisitos para Sistemas Existentes
+
+La Tabla 21-1 presenta técnicas específicas para estos proyectos:
+
+| **Técnica** | **Aplicación Relevante** |
+|-------------|--------------------------|
+| **Árbol de características** | Visualizar cambios y funcionalidad eliminada |
+| **Identificación de clases de usuario** | Evaluar grupos afectados y nuevos usuarios |
+| **Análisis de procesos de negocio** | Comprender impacto del cambio y definir nuevos procesos |
+| **Documentación de reglas de negocio** | Extraer reglas embebidas en código y manejar volatilidad |
+| **Casos de uso/historias de usuario** | Priorizar funcionalidad y entender expectativas |
+| **Diagramas de contexto** | Identificar entidades externas e interfaces modificadas |
+| **Mapas de ecosistema** | Detectar sistemas afectados e interfaces obsoletas |
+| **Mapas de diálogo** | Integrar nuevas pantallas en interfaz existente |
+| **Modelos de datos** | Verificar suficiencia del modelo y planificar migración |
+| **Atributos de calidad** | Garantizar cumplimiento de expectativas de calidad |
+| **Tablas de reportes** | Convertir reportes existentes y definir nuevos |
+| **Prototipado** | Involucrar usuarios y validar mejoras significativas |
+| **Inspección de especificaciones** | Identificar enlaces rotos y requisitos obsoletos |
+
+### Procesos y Modelos Clave
+
+**Priorización Basada en Objetivos de Negocio**
+- Trazabilidad de requisitos hacia objetivos empresariales
+- Evitar el "dorado" (gold-plating) mediante justificación empresarial
+- Evaluación conjunta de mejoras versus corrección de defectos
+- Identificación de funcionalidad existente innecesaria
+
+**Análisis de Brechas (Gap Analysis)**
+- Comparación sistemática entre sistema existente y sistema deseado
+- Identificación de:
+  - Requisitos existentes a reimplementar
+  - Nuevos requisitos no abordados
+  - Solicitudes de cambio no implementadas
+- Priorización unificada de requisitos existentes y nuevos
+
+### Consideraciones Estratégicas
+
+**Oportunidad de Experimentación:** Los proyectos de mejora permiten implementar nuevas técnicas de requisitos en entornos de bajo riesgo, facilitando la curva de aprendizaje para proyectos futuros.
+
+**Gestión del Alcance:** Control estricto del crecimiento no planificado del alcance, especialmente en proyectos de reemplazo donde la funcionalidad nueva puede comprometer el éxito del proyecto.
+
+**Validación de Funcionalidad Existente:** Evaluación crítica de la necesidad de reimplementar características actuales mediante:
+- Encuestas de uso real
+- Datos de acceso a funcionalidades
+- Alineación con objetivos empresariales actuales y futuros
+
+Este capítulo enfatiza que, aunque los proyectos de mejora y reemplazo presentan desafíos únicos, las prácticas fundamentales de ingeniería de requisitos siguen siendo aplicables y críticas para el éxito, requiriendo adaptaciones específicas para estos contextos particulares.

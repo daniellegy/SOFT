@@ -1,0 +1,77 @@
+### Parte 7 (Pág. 241–280)
+
+## Resumen de las Páginas 241-280: Pruebas de Desarrollo y Desarrollo Guiado por Pruebas
+
+### 8.1 Pruebas de Desarrollo
+
+#### 8.1.3 Pruebas de Interfaces
+
+**Definición Clave**: Las pruebas de interfaces se centran en verificar las interacciones entre componentes del software, particularmente en sistemas donde múltiples componentes operan a diferentes velocidades y comparten información.
+
+**Problemas Específicos en Interfaces**:
+- Acceso a información desactualizada
+- Defectos que solo se manifiestan bajo condiciones inusuales
+- Interacciones entre fallos en diferentes módulos
+- Suposiciones incorrectas sobre el comportamiento de componentes llamados
+
+**Directrices para Pruebas de Interfaces**:
+1. **Pruebas de valores extremos**: Diseñar pruebas con parámetros en los extremos de sus rangos
+2. **Pruebas con punteros nulos**: Verificar el comportamiento con parámetros de puntero nulo
+3. **Pruebas de fallos deliberados**: Provocar fallos en componentes para verificar supuestos
+4. **Pruebas de estrés en sistemas de paso de mensajes**: Generar más mensajes de los esperados en operación normal
+5. **Variación de orden de activación**: Cambiar la secuencia de activación de componentes que comparten memoria
+
+**Alternativa Complementaria**: Las inspecciones y revisiones pueden ser más efectivas que las pruebas para detectar errores de interfaz, permitiendo concentrarse en el comportamiento asumido de las interfaces.
+
+#### 8.1.4 Pruebas del Sistema
+
+**Definición**: Las pruebas del sistema implican integrar componentes para crear una versión del sistema y verificar que los componentes sean compatibles, interactúen correctamente y transfieran datos adecuadamente a través de sus interfaces.
+
+**Diferencias con Pruebas de Componentes**:
+- Integración de componentes reutilizables y sistemas preexistentes
+- Proceso colectivo que puede involucrar equipos de prueba separados
+
+**Comportamiento Emergente**:
+- **Planificado**: Funcionalidad que surge de la integración (ejemplo: autenticación con actualización de base de datos)
+- **No planificado**: Comportamiento no deseado que debe detectarse
+
+**Enfoques Efectivos**:
+- **Pruebas basadas en casos de uso**: Forzar interacciones entre componentes
+- **Uso de diagramas de secuencia**: Identificar operaciones y diseñar casos de prueba
+- **Pruebas incrementales**: Integrar un componente, probar el sistema, repetir
+
+**Políticas de Prueba Recomendadas**:
+1. Probar todas las funciones accesibles mediante menús
+2. Verificar combinaciones de funciones relacionadas
+3. Probar con entradas correctas e incorrectas donde haya entrada de usuario
+
+**Desafíos en Automatización**: Las pruebas automatizadas del sistema son más difíciles debido a la complejidad de predecir salidas en sistemas integrados.
+
+### 8.2 Desarrollo Guiado por Pruebas (TDD)
+
+**Definición**: Enfoque de desarrollo donde se intercalan pruebas y desarrollo de código de forma incremental.
+
+**Proceso Fundamental** (Figura 8.9):
+1. **Identificar incremento de funcionalidad**: Pequeño y implementable en pocas líneas de código
+2. **Escribir prueba automatizada** para la funcionalidad
+3. **Ejecutar todas las pruebas**: La nueva prueba debe fallar inicialmente
+4. **Implementar la funcionalidad** y refactorizar código existente
+5. **Re-ejecutar pruebas** hasta que todas sean exitosas
+6. **Repetir** para el siguiente incremento
+
+**Requisitos Esenciales**:
+- **Entorno de pruebas automatizadas**: Como JUnit para Java
+- **Ejecución rápida de pruebas**: Capacidad de ejecutar cientos de pruebas en segundos
+- **Integración incremental**: Fundamental en métodos ágiles con pruebas de regresión
+
+**Aplicabilidad**: Originalmente parte de métodos ágiles (XP), ahora aceptado en procesos tanto ágiles como basados en planificación.
+
+### Conceptos y Modelos Relevantes
+
+- **Integración incremental**: Estrategia fundamental para gestión de riesgos
+- **Pruebas de regresión**: Ejecución automática tras cada integración
+- **Diagramas de secuencia**: Herramienta para diseño de casos de prueba
+- **Comportamiento emergente**: Característica crítica en sistemas complejos
+- **Automatización de pruebas**: Requisito para implementación efectiva de TDD
+
+Este resumen destaca la importancia de las estrategias sistemáticas de prueba y la integración controlada como elementos esenciales para garantizar la calidad del software desarrollado.

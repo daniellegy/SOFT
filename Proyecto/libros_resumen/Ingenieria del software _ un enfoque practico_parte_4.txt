@@ -1,0 +1,59 @@
+### Parte 4 (Pág. 121–160)
+
+## Resumen de las páginas 121-160: Principios de Planeación y Modelado en Ingeniería de Software
+
+### 4.3.2 Principios de Planeación del Proyecto
+
+El texto establece diez principios fundamentales para la planeación efectiva de proyectos de software:
+
+1. **Entender el alcance del proyecto**: Define el destino del equipo de desarrollo
+2. **Involucrar a los participantes**: Los stakeholders definen prioridades y restricciones
+3. **Reconocer la naturaleza iterativa**: La planeación debe ajustarse continuamente
+4. **Estimar con base en información conocida**: Las estimaciones dependen de la calidad de la información disponible
+5. **Considerar riesgos**: Incluir planes de contingencia y ajustar programaciones
+6. **Ser realista**: Considerar limitaciones humanas y factores ambientales
+7. **Ajustar la granularidad**: Definir el nivel de detalle apropiado según el horizonte temporal
+8. **Definir mecanismos de calidad**: Establecer explícitamente revisiones técnicas y prácticas de calidad
+9. **Gestionar el cambio**: Establecer procedimientos para evaluar y implementar cambios
+10. **Seguimiento y ajuste continuo**: Evaluar progreso diariamente y realizar ajustes necesarios
+
+**Definición clave**: La **granularidad** se refiere al nivel de detalle adoptado en la planeación, variando de baja granularidad (tareas amplias para plazos largos) a alta granularidad (detalles específicos para periodos cortos).
+
+### 4.3.3 Principios de Modelado
+
+#### Conceptos Fundamentales
+
+**Modelos de requerimientos** (análisis): Representan requisitos del cliente en tres dominios:
+- Información
+- Funcional  
+- Comportamiento
+
+**Modelos de diseño**: Especifican características para la construcción efectiva:
+- Arquitectura
+- Interfaz de usuario
+- Detalle a nivel de componente
+
+#### Principios de Modelado Ágil (Ambler y Jeffries)
+
+1. **Prioridad al software**: El objetivo principal es desarrollar software, no crear modelos
+2. **Viajar ligero**: Crear solo modelos necesarios que faciliten la construcción
+3. **Simplicidad**: Producir los modelos más simples que describan el problema
+4. **Adaptabilidad**: Construir modelos susceptibles al cambio
+5. **Propósito explícito**: Cada modelo debe tener una razón de ser clara
+6. **Adaptación al sistema**: Personalizar modelos según la aplicación específica
+7. **Utilidad sobre perfección**: Evitar iteraciones infinitas por perfeccionismo
+8. **Contenido sobre sintaxis**: La comunicación efectiva prima sobre la notación perfecta
+9. **Confiar en el instinto**: La experiencia práctica guía la evaluación de modelos
+10. **Retroalimentación temprana**: Revisar modelos continuamente para correcciones
+
+#### Principios Operacionales de Modelado de Requerimientos
+
+1. **Representar el dominio de información**: Incluir datos de entrada, salida y almacenamiento
+2. **Definir funciones**: Representar las transformaciones que ocurren dentro del sistema
+3. **Representar comportamiento**: Capturar cómo responde el sistema a eventos externos
+4. **Particionar modelos**: Dividir representaciones para revelar detalles progresivamente
+5. **Enfoque esencial vs. implementación**: Separar lo que el sistema hace de cómo lo hace
+
+### Conclusiones Relevantes
+
+El texto enfatiza que el modelado debe ser un medio para un fin (desarrollar software efectivo), no un fin en sí mismo. La flexibilidad, adaptabilidad y comunicación efectiva son características esenciales de los modelos útiles en ingeniería de software. La planeación y el modelado deben evolucionar iterativamente, manteniendo siempre el foco en la entrega de valor al cliente.

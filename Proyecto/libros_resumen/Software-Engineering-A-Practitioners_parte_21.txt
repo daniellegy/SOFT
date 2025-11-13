@@ -1,0 +1,73 @@
+### Parte 21 (Pág. 801–840)
+
+### Resumen de las Páginas 801–840: Técnicas de Estimación en Ingeniería de Software
+
+#### 1. **Estimación Basada en Líneas de Código (LOC)**
+- **Definición**: Técnica de estimación que utiliza la descomposición funcional del software para calcular el número esperado de líneas de código (LOC).  
+- **Proceso**:  
+  1. Descomposición de funciones principales del software.  
+  2. Asignación de estimaciones LOC para cada función (optimista, más probable, pesimista).  
+  3. Cálculo del valor esperado mediante la fórmula:  
+     \[
+     E = \frac{O + 4M + P}{6}
+     \]
+     donde \(O\), \(M\) y \(P\) representan las estimaciones optimista, más probable y pesimista, respectivamente.  
+  4. Suma de los valores esperados para obtener el total de LOC del proyecto.  
+- **Ejemplo**:  
+  - Sistema CAD mecánico con 33,200 LOC estimadas.  
+  - Productividad histórica: 620 LOC/pm.  
+  - Costo total: $431,000 y esfuerzo estimado: 54 meses-persona.  
+
+#### 2. **Estimación Basada en Puntos de Función (FP)**
+- **Definición**: Métrica que cuantifica la funcionalidad entregada al usuario, independiente de la tecnología utilizada.  
+- **Proceso**:  
+  1. Identificación de componentes del dominio de información: entradas, salidas, consultas, archivos e interfaces externas.  
+  2. Aplicación de factores de complejidad (valores entre 0 y 5) para ajustar la estimación.  
+  3. Cálculo de FP mediante la fórmula:  
+     \[
+     FP_{\text{estimado}} = \text{total de conteos} \times [0.65 + 0.01 \times \Sigma(F_i)]
+     \]
+     donde \(\Sigma(F_i)\) es la suma de los factores de complejidad.  
+- **Ejemplo**:  
+  - Total de conteos: 320.  
+  - \(\Sigma(F_i) = 52\), factor de ajuste: 1.17.  
+  - FP estimados: 375.  
+  - Costo total: $461,000 y esfuerzo: 58 meses-persona.  
+
+#### 3. **Estimación Basada en Procesos**
+- **Definición**: Técnica que descompone el proyecto en actividades del proceso software (ej.: comunicación, planificación, análisis, diseño, construcción).  
+- **Proceso**:  
+  1. Asignación de esfuerzo (meses-persona) a cada actividad del proceso para cada función del software.  
+  2. Cálculo de costos aplicando tasas laborales promedio.  
+  3. Enfoque en actividades de ingeniería front-end (análisis y diseño), que suelen consumir ~53% del esfuerzo total.  
+- **Ejemplo**:  
+  - Esfuerzo total: 46 meses-persona.  
+  - Costo total: $368,000.  
+
+#### 4. **Estimación Basada en Puntos de Casos de Uso (UCP)**
+- **Definición**: Métrica derivada de casos de uso para estimar el tamaño del proyecto, considerando actores, complejidad y factores no funcionales.  
+- **Proceso**:  
+  1. **Clasificación de casos de uso**:  
+     - Simple (5 puntos), Promedio (10 puntos), Complejo (15 puntos).  
+     - Cálculo del **UUCW** (Unadjusted Use Case Weight).  
+  2. **Clasificación de actores**:  
+     - Simple (1 punto), Promedio (2 puntos), Complejo (3 puntos).  
+     - Cálculo del **UAW** (Unadjusted Actor Weight).  
+  3. **Ajuste por factores de complejidad**:  
+     - **TCF** (Technical Complexity Factor): 13 factores técnicos.  
+     - **ECF** (Environment Complexity Factor): 8 factores ambientales.  
+  4. **Fórmula final**:  
+     \[
+     UCP = (UUCW + UAW) \times TCF \times ECF
+     \]
+- **Ejemplo**:  
+  - UUCW = 470, UAW = 44 (ejemplo parcial).  
+  - UCP utilizado para refinar estimaciones de esfuerzo y costo.  
+
+#### **Conclusiones Clave**
+- Las técnicas de estimación (LOC, FP, procesos, UCP) proporcionan perspectivas complementarias.  
+- La precisión mejora con datos históricos y taxonomías de proyectos.  
+- La validación cruzada de resultados mediante múltiples métodos es esencial para mitigar riesgos.  
+- La descomposición funcional y el análisis de casos de uso son fundamentales para estimaciones iniciales robustas.  
+
+Este resumen destaca la importancia de integrar métricas cuantitativas y cualitativas en la planificación de proyectos software, asegurando estimaciones realistas y gestionables.

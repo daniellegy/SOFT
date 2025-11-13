@@ -1,0 +1,69 @@
+### Parte 18 (Pág. 511–540)
+
+## Resumen de las Páginas 511-540: Técnicas de Pruebas Estructurales
+
+### 10.3 Pruebas de Caja Blanca (White-Box Testing)
+
+#### **Criterios Basados en Flujo de Datos**
+
+**Definiciones Fundamentales:**
+- **def (definición):** Nodo donde una variable recibe un valor
+- **c-use (uso computacional):** Uso de una variable en una expresión
+- **p-use (uso predictivo):** Uso de una variable en una condición
+- **dcu (conjunto de usos computacionales):** Nodos donde una definición se usa computacionalmente
+- **dpu (conjunto de usos predictivos):** Arcos donde una definición se usa predictivamente
+
+**Criterios de Cobertura:**
+
+1. **All-Edges (Cobertura de Ramas):**
+   - Requiere que cada arista del grafo sea recorrida
+   - Ejemplo: Paths (1;2;4;5;6;7;8;9) y (1;3;4;5;7;9)
+   - Consideración de **paths no factibles**: caminos que no pueden ejecutarse con ningún dato de prueba
+
+2. **All-Defs (Todas las Definiciones):**
+   - Cada definición de variable debe tener al menos un uso (c-use o p-use)
+   - Requiere paths adicionales para cubrir redefiniciones
+   - Ejemplo: (1;2;4;5;6;5;6;7;8;9) y (1;3;4;5;6;7;9)
+
+3. **All-Uses (Todos los Usos):**
+   - Cubre todos los p-uses y c-uses de todas las definiciones
+   - En el ejemplo presentado, los paths de all-defs satisfacen también all-uses
+
+#### **10.3.4 Pruebas de Mutación (Mutation Testing)**
+
+**Concepto Fundamental:**
+Técnica estructural que genera múltiples **mutantes** del programa mediante cambios simples, evaluando la capacidad del conjunto de pruebas para distinguirlos del programa original.
+
+**Hipótesis de Base:**
+1. **Hipótesis del Programador Competente:** Los programadores producen programas "cercanos" al correcto
+2. **Efecto de Acoplamiento:** Los casos de prueba que detectan errores simples también detectan errores complejos
+
+**Operadores de Mutación:**
+- Cambios sintácticos unitarios en el programa
+- Ejemplos:
+  - Reemplazo de operadores aritméticos
+  - Cambio de referencias a arrays
+  - Sustitución de constantes
+  - Modificación de etiquetas goto
+  - Reemplazo de variables por valores especiales
+
+**Proceso de Pruebas de Mutación:**
+
+1. **Generación de Mutantes:** Aplicación de operadores de mutación (N mutantes totales)
+2. **Ejecución y Evaluación:**
+   - **Mutantes Distinguidos (Dead):** D mutantes que producen salidas diferentes
+   - **Mutantes Equivalentes (E):** Mutantes que siempre producen la misma salida que el original
+3. **Cálculo del Puntaje de Mutación:** MS = D/(N - E)
+4. **Criterio de Finalización:** MS = 1
+
+**Desafíos Identificados:**
+- **Determinación de Equivalencia:** Problema indecidible que requiere análisis manual
+- **Generación de Casos de Prueba:** Complejidad para diseñar tests que distingan mutantes específicos
+- **Costo Computacional:** Ejecución múltiple de mutantes
+
+**Propiedades de un Caso de Prueba Efectivo:**
+1. Debe forzar la ejecución hasta la instrucción mutada
+2. Debe generar estados diferentes después de la ejecución de la instrucción mutada
+3. Debe propagar las diferencias hasta la salida del programa
+
+Esta sección establece las bases teóricas y prácticas para la aplicación sistemática de criterios estructurales en la ingeniería de software, destacando tanto sus ventajas como limitaciones computacionales y prácticas.

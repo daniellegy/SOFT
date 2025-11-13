@@ -1,0 +1,81 @@
+### Parte 15 (Pág. 561–600)
+
+**Resumen de las páginas 561-600: Métricas de Producto en Ingeniería del Software**
+
+---
+
+### **Introducción**
+El capítulo aborda las métricas de producto como herramientas fundamentales para evaluar atributos del software, enfatizando su correcta caracterización, validación y aplicación según principios establecidos. Se destacan modelos como MPM (Meta/Pregunta/Métrica) y métricas específicas para modelos de requerimientos y diseño.
+
+---
+
+### **23.1 Principios de Caracterización y Validación de Métricas**
+**Definición clave**: Las métricas deben cumplir criterios rigurosos para ser útiles en la toma de decisiones.  
+**Principios fundamentales**:
+1. **Propiedades matemáticas deseables**:  
+   - Valores en rangos significativos (ej: 0-1).  
+   - Evitar escalas ordinales en métricas racionales.  
+2. **Correlación con atributos**:  
+   - Aumentar con características positivas y disminuir con las negativas.  
+3. **Validación empírica**:  
+   - Requiere pruebas en múltiples contextos antes de su adopción.  
+   - Independencia de factores externos (lenguaje, dominio).  
+
+**Actividades críticas** (según Roche):  
+- Automatización de recolección y análisis.  
+- Uso de técnicas estadísticas para correlacionar atributos internos (ej: complejidad) con externos (ej: defectos).  
+- Establecimiento de lineamientos interpretativos.
+
+---
+
+### **23.1.4 Paradigma MPM (Meta/Pregunta/Métrica)**
+**Definición**: Técnica para identificar métricas alineadas a objetivos específicos.  
+**Fases**:
+1. **Establecer una meta de medición**:  
+   - Usando una plantilla:  
+     *"Analizar {actividad/atributo} para {objetivo} respecto a {aspecto} desde {perspectiva} en {contexto}."*  
+   - Ejemplo aplicado a *CasaSegura*: Evaluar componentes arquitectónicos para mejorar la extensibilidad.  
+2. **Definir preguntas clave**:  
+   - Ej: ¿La arquitectura compartmentaliza funciones y datos? (P1).  
+   - ¿La complejidad facilita modificaciones? (P2).  
+3. **Derivar métricas cuantitativas**:  
+   - Cohesión de componentes para P1, métricas de complejidad para P2.
+
+---
+
+### **23.1.5 Atributos de Métricas Efectivas**
+Según Ejiogu, las métricas deben ser:  
+1. **Simples y calculables**: Fáciles de derivar y aplicar.  
+2. **Empíricas e intuitivas**: Consistentes con nociones de calidad (ej: cohesión).  
+3. **Objetivas y congruentes**: Resultados reproducibles por terceros.  
+4. **Consistentes en unidades**: Evitar combinaciones no intuitivas (ej: personas × variables).  
+5. **Independientes del lenguaje**: Basadas en modelos (requerimientos, diseño).  
+6. **Mecanismo de retroalimentación**: Guían hacia la mejora de calidad.  
+
+**Nota**: Métricas como *Puntos de Función (PF)* pueden no cumplir todos los atributos (ej: objetividad), pero siguen siendo útiles.
+
+---
+
+### **23.2 Métricas para el Modelo de Requerimientos**
+**Propósito**: Evaluar la calidad del modelo de análisis y predecir complejidad.  
+**Métrica clave**: **Puntos de Función (PF)**.  
+- **Aplicaciones**:  
+  - Estimación de costo, esfuerzo y errores.  
+  - Predicción de componentes y líneas de código.  
+- **Base**: Relaciones empíricas derivadas de medidas contables (ej: entradas, salidas).
+
+---
+
+### **Conclusiones**
+- Las métricas deben seleccionarse bajo principios de validez y pragmatismo.  
+- MPM asegura alineación con metas específicas del proyecto.  
+- Herramientas como PF, aunque imperfectas, aportan valor en la planificación y control de calidad.  
+- La adopción de métricas depende de su simplicidad y capacidad para prevenir retrabajo.
+
+---
+
+**Referencias clave**:  
+- Basili y Weiss (MPM).  
+- Roche (automatización).  
+- Ejiogu (atributos de métricas).  
+- Van Solingen y Berghout (metas de medición).

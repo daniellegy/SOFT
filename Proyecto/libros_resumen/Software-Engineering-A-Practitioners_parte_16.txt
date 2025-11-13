@@ -1,0 +1,52 @@
+### Parte 16 (Pág. 601–640)
+
+### Resumen Académico: Pruebas de Componentes y Diseño de Casos de Prueba (Páginas 601–640)
+
+#### 1. **Pruebas de Componentes y el Rol del *Scaffolding***
+- **Definición clave**: Las pruebas de componentes (o pruebas unitarias) se realizan para verificar la funcionalidad de módulos individuales del software. 
+- **Scaffolding**: Marco de pruebas que incluye:
+  - **Drivers**: Programas principales simulados que envían datos de prueba al componente.
+  - **Stubs**: Módulos sustitutos que emulan el comportamiento de subordinados invocados por el componente bajo prueba.
+- **Propósito**: Facilitar la ejecución de pruebas en componentes no autónomos, aunque representan un "sobrecosto" de desarrollo, ya que no forman parte del producto final.
+
+#### 2. **Eficiencia en las Pruebas**
+- **Pruebas exhaustivas**: Son inviables en sistemas grandes debido a la explosión combinatoria de casos (ejemplo: un programa con ~10^14 rutas requeriría miles de años para probarse).
+- **Enfoque práctico**: Priorizar pruebas en módulos críticos o propensos a errores, utilizando métricas de complejidad para identificar focos de atención.
+
+#### 3. **Diseño de Casos de Prueba**
+- **Fases de prueba unitaria** (Figura 19.4):
+  1. **Interfaz del módulo**: Validar el flujo de entrada/salida de datos.
+  2. **Estructuras de datos locales**: Asegurar la integridad de los datos temporales.
+  3. **Rutas independientes**: Ejecutar todas las sentencias al menos una vez.
+  4. **Condiciones límite**: Probar valores en los límites de operación (ejemplo: arrays en su última posición).
+  5. **Manejo de errores**: Verificar rutas de excepción y terminación controlada.
+- **Errores comunes en manejo de errores**: Descripciones incomprensibles, incongruencias entre errores detectados y reales, o procesamiento incorrecto de excepciones.
+
+#### 4. **Casos de Prueba Basados en Requisitos y Casos de Uso**
+- **Requisitos funcionales**: Los casos de uso derivados de la ingeniería de requisitos guían la creación de pruebas sistemáticas.
+- **Requisitos no funcionales**: Se basan en criterios de aceptación del cliente (ejemplo: usabilidad o seguridad), requiriendo técnicas especializadas como pruebas de integración o seguridad.
+- **Pruebas negativas**: Evalúan que el componente *no realice* acciones no permitidas (ejemplo: accesos no autorizados), vinculadas a "anti-requisitos".
+
+#### 5. **Trazabilidad de Pruebas**
+- **Importancia**: Cada caso de prueba debe ser trazable a requisitos funcionales, no funcionales o anti-requisitos para garantizar cobertura y auditabilidad.
+- **Riesgos**: La falta de trazabilidad puede derivar en cobertura incompleta o inconsistencias en regresión.
+
+#### 6. **Pruebas de Caja Blanca (*White-Box Testing*)**
+- **Definición**: Técnica estructural que utiliza el diseño interno del componente para diseñar casos de prueba.
+- **Objetivos**:
+  - Ejercitar todas las rutas independientes.
+  - Cubrir decisiones lógicas (verdaderas/falsas).
+  - Probar bucles en sus límites y operaciones internas.
+  - Validar estructuras de datos.
+- **Técnica específica**: **Pruebas de Rutas Básicas (*Basis Path Testing*)**:
+  - **Complejidad ciclomática**: Métrica de McCabe para derivar un conjunto básico de rutas de ejecución.
+  - **Gráficos de flujo**: Notación para representar la estructura de control y trazar rutas (Figura 19.5).
+
+#### Conceptos Clave Destacados:
+- **Scaffolding**: Drivers y stubs como soporte para pruebas unitarias.
+- **Pruebas exhaustivas vs. selectivas**: Enfoque pragmático ante la imposibilidad de cobertura total.
+- **Condiciones límite**: Puntos críticos donde los errores son más probables.
+- **Trazabilidad**: Vinculación entre casos de prueba y requisitos para auditoría.
+- **Pruebas de caja blanca**: Enfoque estructural con énfasis en rutas y complejidad.
+
+Este resumen sintetiza los principios fundamentales para diseñar y ejecutar pruebas de componentes, destacando la importancia del equilibrio entre rigor técnico y viabilidad práctica.

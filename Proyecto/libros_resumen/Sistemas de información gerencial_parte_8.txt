@@ -1,0 +1,80 @@
+### Parte 8 (Pág. 281–320)
+
+### Resumen Académico: Fundamentos de Inteligencia de Negocios (Páginas 281-320)
+
+#### **Caso de Estudio: American Water**
+
+**Contexto Organizacional**
+American Water, empresa fundada en 1886, constituye el mayor proveedor de servicios hídricos de Estados Unidos. Previo a su transformación digital, operaba mediante sistemas descentralizados con procesos manuales que generaban:
+- Fragmentación de datos entre subsidiarias regionales
+- Redundancia e inconsistencia en datos maestros
+- Dificultades para la generación de reportes consolidados
+- Incumplimiento de requisitos regulatorios para OPI (80% procesos manuales)
+
+**Proceso de Transformación**
+1. **Implementación de Sistema ERP** (SAP)
+   - Unificación de plataformas dispersas
+   - Migración y estandarización de datos
+   - Definición de políticas de gobierno de datos
+
+2. **Gestión de Calidad de Datos**
+   - Limpieza de datos: identificación y corrección de registros incompletos, incorrectos o irrelevantes
+   - Estandarización de formatos (ej: direcciones)
+   - Definición de criterios para datos "activos"
+
+3. **Implementación de Inteligencia de Negocios**
+   - Almacén de datos integrado con múltiples fuentes
+   - Reducción de 200 a 100 reportes esenciales
+   - Adopción de SAP Business Objects Web Intelligence
+
+#### **Conceptos Fundamentales de Administración de Datos**
+
+**Problemas de Entornos Tradicionales de Archivos**
+- Redundancia e inconsistencia de datos
+- Dependencia programa-datos
+- Inflexibilidad operativa
+- Vulnerabilidades de seguridad
+- Limitada compartición de datos
+
+**Sistemas de Gestión de Bases de Datos (DBMS)**
+*Capacidades Principales:*
+- Definición de estructura y contenido de bases de datos
+- Diccionario de datos (metadatos)
+- Lenguaje de manipulación de datos (SQL)
+
+**Modelos de Bases de Datos**
+1. **Bases de Datos Relacionales**
+   - Organización en tablas bidimensionales (relaciones)
+   - Entidades, atributos y claves primarias
+   - Integridad referencial
+   - Flexibilidad mediante combinación de tablas
+
+2. **Bases de Datos No Relacionales**
+   - Manejo de datos no estructurados
+   - Alternativas en entornos de computación en nube
+
+**Diseño de Bases de Datos**
+- **Diseño Lógico**: Modelado desde perspectiva de negocio
+- **Diseño Físico**: Implementación técnica
+- **Normalización**: Creación de estructuras estables y adaptativas
+- **Diagrama Entidad-Relación**: Representación gráfica de relaciones
+
+#### **Herramientas de Acceso a Información**
+
+**Tecnologías de Soporte a la Toma de Decisiones**
+- Sistemas de procesamiento analítico en línea (OLAP)
+- Almacenes de datos corporativos
+- Herramientas de consulta y reporting
+- Tableros de control interactivos
+
+#### **Conclusiones Clave**
+
+1. La calidad de datos requiere gestión continua, análoga al tratamiento de agua en plantas especializadas
+2. La participación de usuarios de negocio es crucial para definir estándares y reglas de datos
+3. La centralización mediante ERP y almacenes de datos permite:
+   - Estandarización de procesos
+   - Visión unificada del negocio
+   - Mejora en la toma de decisiones gerenciales
+   - Cumplimiento regulatorio
+
+*Referencia: Laudon, K. C., & Laudon, J. P. (2015). Sistemas de información gerencial. Pearson Educación.*

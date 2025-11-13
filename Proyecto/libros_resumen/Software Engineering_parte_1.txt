@@ -1,0 +1,66 @@
+### Parte 1 (Pág. 1–40)
+
+### Resumen Académico: "Ingeniería de Software" de Ian Sommerville (Páginas 1-40)
+
+#### **Introducción y Contexto General**
+El libro *Software Engineering* (10.ª edición) de Ian Sommerville se presenta como un texto fundamental en la disciplina, destacando la evolución y la relevancia crítica de la ingeniería de software en la sociedad contemporánea. El autor enfatiza que el software es un pilar esencial para infraestructuras como energía, comunicaciones y transporte, así como para innovaciones como la exploración espacial y la World Wide Web. Además, se subraya el papel crucial del software en la resolución de desafíos globales, como el cambio climático, la gestión de recursos y el terrorismo internacional.
+
+---
+
+#### **Definiciones y Conceptos Clave**
+1. **Ingeniería de Software**: Disciplina que aborda el desarrollo, operación y mantenimiento de sistemas software profesionales, con énfasis en la gestión de la complejidad, la integración de métodos ágiles y la garantía de seguridad y resiliencia en los sistemas.
+2. **Sistemas de Sistemas**: Conjuntos de sistemas software interconectados que operan de manera colaborativa, representando un nivel superior de complejidad en la ingeniería moderna.
+3. **Dependabilidad**: Atributo que engloba confiabilidad, seguridad y resiliencia en sistemas software, asegurando su correcto funcionamiento en entornos críticos.
+
+---
+
+#### **Principios Fundamentales del Libro**
+Sommerville establece dos principios rectores en su obra:
+1. **Enfoque Práctico**: Describe la ingeniería de software tal como se practica en la industria, evitando posiciones dogmáticas sobre metodologías específicas (ej. desarrollo ágil o métodos formales).
+2. **Basado en Experiencia**: Selecciona temas según su conocimiento directo, priorizando áreas como la dependabilidad de sistemas y la ingeniería de sistemas.
+
+---
+
+#### **Estructura y Organización del Libro**
+El texto se divide en cuatro partes, cada una diseñada para abordar aspectos específicos de la ingeniería de software:
+
+1. **Parte 1: Introducción a la Ingeniería de Software**
+   - Incluye 9 capítulos que cubren fundamentos, métodos ágiles (con énfasis en Scrum) y estudios de caso, como el de un entorno digital de aprendizaje.
+   - Se profundiza en sistemas legacy y se actualizan conceptos clave.
+
+2. **Parte 2: Sistemas Confiables**
+   - Reorganizada para abordar temas como seguridad, confiabilidad y resiliencia en capítulos independientes.
+   - Incluye un nuevo capítulo sobre **ingeniería de resiliencia**, que abarca ciberseguridad y diseño de sistemas resistentes.
+
+3. **Parte 3: Temas Avanzados**
+   - Incorpora capítulos sobre **ingeniería de sistemas** y **sistemas de sistemas**.
+   - Actualiza el contenido sobre sistemas orientados a servicios, incluyendo **servicios RESTful**.
+
+4. **Parte 4: Gestión de Proyectos y Configuración**
+   - Actualiza la gestión de configuración con herramientas de control de versiones distribuidas (ej. Git).
+   - Elimina capítulos impresos sobre mejora de procesos y orientación a aspectos, trasladándolos al material web.
+
+---
+
+#### **Procesos y Modelos Relevantes**
+1. **Desarrollo Ágil**: Se enfatiza su integración con métodos basados en planificación, reflejando prácticas industriales reales.
+2. **Modelos de Ciclo de Vida**: Aunque no se detallan en este extracto, se sugiere un enfoque híbrido que combine iteración y planificación.
+3. **Gestión de Configuración**: Se introduce el uso de herramientas modernas como Git para el control de versiones en entornos distribuidos.
+
+---
+
+#### **Material Complementario y Enfoque Pedagógico**
+- **Recursos Web**: El libro incluye material suplementario en línea, como videos explicativos, capítulos web y ejercicios interactivos.
+- **Videos**: Más de 40 videos creados por el autor, disponibles en YouTube, cubren temas clave y refuerzan el aprendizaje.
+- **Cursos Sugeridos**: El texto está diseñado para adaptarse a tres tipos de cursos:
+  1. **Introductorios**: Basados en la Parte 1.
+  2. **Intermedios**: Enfocados en temas específicos (ej. sistemas críticos).
+  3. **Avanzados**: Combinan capítulos del libro con lecturas adicionales.
+
+---
+
+#### **Conclusión**
+Las primeras páginas del libro establecen un marco sólido para comprender la ingeniería de software como disciplina en evolución, con un enfoque equilibrado entre teoría y práctica. La estructura modular y los recursos complementarios lo convierten en una herramienta versátil para estudiantes y profesionales. La actualización en esta edición refleja tendencias contemporáneas, como la resiliencia, los sistemas de sistemas y las metodologías ágiles, posicionándose como un referente en la educación y práctica de la ingeniería de software.
+
+--- 
+**Referencia**: Sommerville, I. (2016). *Software Engineering* (10.ª ed.). Pearson Education.

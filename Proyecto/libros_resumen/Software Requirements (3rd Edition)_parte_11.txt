@@ -1,0 +1,66 @@
+### Parte 11 (Pág. 251–275)
+
+## Resumen de Páginas 251-275: Escritura de Requisitos Excelentes y Modelado Visual
+
+### I. Características de Requisitos Excelentes
+
+**Definición clave**: Un requisito excelente debe ser **verificable**, es decir, debe poder comprobarse mediante pruebas, inspección, análisis o demostración.
+
+#### Problemas Comunes en la Formulación de Requisitos
+
+1. **Ambigüedad temporal**: Ejemplificado con el requisito del "Background Task Manager" que especificaba mensajes de estado "cada 60 segundos" sin clarificar si era mínimo o máximo.
+
+2. **Terminología imprecisa**: Uso de términos como "si es posible", "debería" o "fácilmente" que carecen de precisión medible.
+
+3. **Falta de especificidad**: Requisitos que omiten condiciones, comportamientos esperados o criterios de validación.
+
+#### Estrategias de Mejora
+
+- **Descomposición**: Dividir requisitos complejos en requisitos hijos más específicos
+- **Eliminación de ambigüedades**: Reemplazar términos vagos con especificaciones cuantificables
+- **Separación de preocupaciones**: Distinguir entre requisitos funcionales y decisiones de diseño
+
+### II. Proceso de Refinamiento de Requisitos
+
+#### Técnicas de Evaluación
+- **Interpretación extrema**: Probar el requisito con interpretaciones límite para identificar ambigüedades
+- **Verificabilidad**: Cada requisito debe poder traducirse en casos de prueba específicos
+- **Trazabilidad individual**: Cada requisito hijo debe ser rastreable por separado
+
+#### Manejo de Incertidumbres
+- **Uso de TBD (To Be Determined)**: Marcar aspectos pendientes de resolución
+- **Investigación sistemática**: Cada TBD debe resolverse mediante investigación específica
+
+### III. Modelado Visual de Requisitos
+
+#### Fundamentos Conceptuales
+
+**Principio fundamental**: "Ninguna vista única de los requisitos proporciona una comprensión completa" (Alan Davis, 1995). Se requiere una combinación de representaciones textuales y visuales.
+
+#### Beneficios del Modelado Visual
+- **Comunicación eficiente**: Los diagramas transmiten ciertos tipos de información más eficazmente que el texto
+- **Detección de inconsistencias**: Diferentes representaciones revelan ambigüedades y omisiones
+- **Superación de barreras**: Las imágenes ayudan a superar barreras de lenguaje y vocabulario
+
+#### Tipos de Representaciones
+1. **Modelos de análisis visual**
+2. **Prototipos de interfaz de usuario**
+3. **Casos de prueba de aceptación**
+4. **Árboles y tablas de decisión**
+5. **Expresiones matemáticas**
+6. **Listas y tablas de requisitos funcionales**
+
+### IV. Procesos Recomendados
+
+#### Evaluación Colaborativa
+- **Discusiones multidisciplinarias**: Involucrar clientes, desarrolladores y testers
+- **Inspección de requisitos**: Reunir 3-6 stakeholders para revisar la especificación de requisitos de software (SRS)
+- **Detección sistemática**: Buscar conflictos, requisitos faltantes y secciones incompletas
+
+#### Mejora Continua
+- **Reescritura iterativa**: Revisar y mejorar requisitos que no cumplan con los criterios de excelencia
+- **Documentación de correcciones**: Asegurar que los defectos detectados se corrijan en el SRS y productos derivados
+
+### V. Conclusión
+
+La combinación de requisitos textuales bien estructurados y modelos visuales apropiados constituye la aproximación más efectiva para capturar completamente los requisitos del sistema. La participación de diferentes roles en la creación de diversas representaciones permite identificar inconsistencias y omisiones que serían difíciles de detectar desde una única perspectiva.

@@ -1,0 +1,72 @@
+### Parte 16 (Pág. 601–640)
+
+## Resumen Académico: Conceptos de Administración de Proyectos y Métricas de Proceso (Páginas 601-640)
+
+### I. Ejercicios de Evaluación en Gestión de Proyectos (Págs. 601-602)
+
+**A. Problemática Central**
+- Desarrollo de lineamientos para empoderamiento del personal técnico
+- Análisis del modelo People-CMM del SEI
+- Identificación de roles: cliente vs. usuario final
+- Impacto de decisiones ejecutivas en equipos de desarrollo
+- Aplicación del modelo MOI (Motivación, Organización, Ideas)
+
+**B. Casos Prácticos de Estructuración de Equipos**
+1. **Proyecto convencional con requerimientos documentados**: Equipo jerárquico con modelo de proceso secuencial
+2. **Producto innovador bajo presión competitiva**: Equipo agile con modelo iterativo/incremental
+3. **Versión sucesiva de producto establecido**: Equipo híbrido con modelo espiral
+4. **Investigación y desarrollo con objetivos comerciales**: Equipo especializado con modelo de prototipado evolutivo
+
+### II. Marco Teórico y Bibliográfico (Págs. 602-603)
+
+**A. Fuentes Fundamentales**
+- Project Management Institute (PMBOK)
+- Obras seminales: DeMarco, Lister, Weinberg, Brooks
+- Tratados sobre gestión de calidad: serie de Weinberg (1992-1996)
+- Estudios de patrones organizacionales: DeMarco et al. (2008)
+
+**B. Dimensiones de Gestión**
+1. **Administración de personas**: Cockburn (2002), Humphrey (1997)
+2. **Liderazgo técnico**: Cantor (2001), Constantine (2001)
+3. **Equipos globales**: Carmel (1999), Karolak (1998)
+4. **Gestión ejecutiva**: Drucker (1999), Christensen (1997)
+
+### III. Métricas de Proceso y Proyecto (Pág. 603)
+
+**A. Definiciones Fundamentales**
+- **Métrica**: Medida cuantitativa que permite evaluación objetiva
+- **Medición**: Proceso de recolección sistemática de datos
+- **Eficiencia en Remoción de Defectos (DRE)**: Indicador clave de calidad
+
+**B. Clasificación de Métricas**
+1. **Por orientación**:
+   - Basadas en LOC (Líneas de Código)
+   - Orientadas a función (Puntos de Función)
+   - Orientadas a objeto
+   - Basadas en casos de uso
+   - Específicas para WebApps
+
+2. **Por ámbito**:
+   - Métricas de proceso
+   - Métricas de proyecto
+   - Métricas de producto
+
+**C. Principios de Implementación**
+- Establecimiento de programas de medición estructurados
+- Creación de líneas base para comparación
+- Normalización mediante métricas de tamaño/función
+- Separación entre métricas públicas (proyecto) y privadas (equipo)
+
+**D. Beneficios y Precauciones**
+- **Ventajas**: Identificación de tendencias, mejora en estimaciones, evaluación objetiva
+- **Precaución crítica**: Las métricas no deben utilizarse para evaluación/recompensa individual
+
+### IV. Conclusión
+
+Este segmento establece los fundamentos teórico-prácticos para la gestión moderna de proyectos software, integrando:
+- Marco conceptual para estructuración de equipos
+- Herramientas métricas para evaluación objetiva
+- Perspectiva humanística en gestión técnica
+- Enfoque sistémico que conecta procesos, proyectos y productos
+
+La implementación efectiva requiere balance entre rigor métrico y flexibilidad organizacional, con especial atención al factor humano como elemento determinante del éxito projectual.

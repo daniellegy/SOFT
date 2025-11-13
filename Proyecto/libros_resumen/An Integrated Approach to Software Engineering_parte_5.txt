@@ -1,0 +1,96 @@
+### Parte 5 (Pág. 121–150)
+
+## Resumen de las Páginas 121-150: Análisis y Especificación de Requisitos de Software
+
+### Introducción al Modelado Orientado a Objetos
+
+El texto presenta un enfoque sistemático para el análisis de requisitos mediante modelado orientado a objetos, utilizando como ejemplo ilustrativo un sistema de farmacia (Drugstore) y posteriormente un sistema de restaurante.
+
+### Modelo de Farmacia: Ejemplo Práctico
+
+**Estructura de Clases Identificadas:**
+- **Drug-Store**: Clase principal que agrega Medicine y Chemist
+- **Chemist**: Atributos (Name, Registration No., Address) y servicio ChemistSales()
+- **Medicine**: Clase base con atributos (Name, Quantity, Expiry-date) y servicios (Expired(), OutOfStock())
+- **Off-the-shelf**: Especialización de Medicine con atributo qty-on-shelf
+- **Prescription**: Especialización con atributos especializados (Refrigeration Needs, Warnings)
+- **Sale**: Asociada con Medicine mediante relación 1:M
+
+### Proceso de Análisis de Requisitos
+
+#### 1. Identificación de Objetos y Clases
+**Definición**: Un objeto durante el análisis representa una encapsulación de atributos que proporciona servicios exclusivos, representando entidades del dominio del problema.
+
+**Criterios de Identificación:**
+- Sustantivos en la descripción del problema
+- Entidades que requieren almacenamiento de información
+- Elementos que proporcionan servicios necesarios
+- Objetos con múltiples atributos (evitar objetos con un solo atributo)
+
+#### 2. Identificación de Estructuras
+**Estructuras de Clasificación** (Generalización-Especialización):
+- Identificar clases generales y sus especializaciones
+- Las especializaciones deben ser significativas para el dominio
+
+**Estructuras de Ensamblaje** (Relaciones Todo-Parte):
+- Considerar objetos como ensamblajes y identificar componentes
+- Modelar partes solo si el sistema necesita rastrearlas
+
+#### 3. Identificación de Atributos
+**Características:**
+- Repositorios de datos para objetos
+- Accesibles solo mediante funciones de servicio
+- Dependen del contexto del problema
+- Posicionamiento según estructuras (atributos comunes en superclases)
+
+#### 4. Identificación de Asociaciones
+**Tipos de Conexiones:**
+- 1:1 (uno a uno)
+- 1:M (uno a muchos)
+- M:M (muchos a muchos)
+- Conexiones multi-vía (menos comunes)
+
+**Consideraciones:**
+- Las asociaciones pueden tener atributos propios
+- No forzar atributos en objetos si no pertenecen naturalmente
+
+#### 5. Definición de Servicios
+**Categorías:**
+- **Servicios Ocur**: Creación, destrucción y mantenimiento de instancias
+- **Servicios Específicos**: Dependen de la funcionalidad del sistema
+
+**Método de Identificación:**
+- Definir estados del sistema
+- Listar eventos externos y respuestas requeridas
+- Identificar servicios necesarios por clase
+
+### Ejemplo Práctico: Sistema de Restaurante
+
+**Clases Iniciales Identificadas:**
+- Restaurant, Bill, Menu, CustomerOrder, SupplyOrder, Supply Handling
+
+**Estructura Final:**
+- **Restaurant**: Agregación de Menu y Supply handling
+- **Menu**: Agregación de MenuItems
+- **SupplyOrder**: Agregación de SupplyItems
+
+**Atributos Específicos:**
+- **MenuItem**: Number, Name, Price, Supplies used
+- **SupplyItem**: Item name, Unit price
+
+### Gestión de Complejidad en Modelos Grandes
+
+**Estrategia Propuesta:**
+- Uso de **capas de sujeto** (subject layers)
+- Partición del diagrama de clases en sujetos relacionados
+- Cada sujeto contiene clases relacionadas
+
+### Conclusiones Clave
+
+El proceso de análisis presentado enfatiza la importancia de:
+1. La identificación natural de objetos basada en el dominio del problema
+2. La estabilidad de los objetos frente a cambios en interfaces y funciones
+3. La necesidad de que las estructuras reflejen jerarquías naturales del dominio
+4. La importancia de considerar solo entidades relevantes para los objetivos del sistema
+
+Este enfoque proporciona una metodología sistemática para transformar descripciones de problemas en modelos orientados a objetos estructurados, facilitando la especificación precisa de requisitos de software.

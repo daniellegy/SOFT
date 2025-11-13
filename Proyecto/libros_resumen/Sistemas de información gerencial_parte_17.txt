@@ -1,0 +1,65 @@
+### Parte 17 (Pág. 641–680)
+
+## Resumen del Capítulo 15: Administración de Sistemas Globales (Páginas 641-680)
+
+### I. Caso de Estudio: Unilever y SAP HANA
+
+#### A. Contexto Organizacional
+Unilever representa un caso paradigmático de corporación multinacional que enfrenta desafíos complejos en la gestión de sistemas de información globales. La empresa implementó la plataforma SAP HANA como solución tecnológica central para optimizar sus operaciones transnacionales.
+
+#### B. Problemas Gerenciales Identificados
+1. **Gestión de inventarios descentralizada**: Asignación secuencial de existencias sin mecanismos para priorización estratégica
+2. **Limitaciones en administración de promociones comerciales**: Falta de herramientas para asignación óptima de inventarios entre clientes
+3. **Procesos analíticos lentos**: Cálculo extensivo de costos de productos que impedía decisiones ágiles en la cadena de suministro
+4. **Cumplimiento regulatorio complejo**: Dificultades para rastrear 10,000 productos con 2,000 componentes químicos bajo regulaciones REACH
+
+#### C. Solución Implementada: SAP HANA
+- **Tecnología en memoria**: Procesamiento acelerado de transacciones y análisis
+- **Herramientas de administración de promoción comercial**: Simulación instantánea de escenarios de asignación
+- **Consolidación de plataformas ERP**: Unificación de sistemas dispersos
+- **Aceleradores de bases de datos**: Reducción del 80% en tiempo de rastreo de materias primas
+
+### II. Conceptos Clave de Sistemas Globales
+
+#### A. Factores Críticos de Implementación
+1. **Factores Gerenciales**: Coordinación de operaciones transnacionales, estandarización de procesos
+2. **Factores Organizacionales**: Estructura corporativa multinacional, cultura organizacional global
+3. **Factores Tecnológicos**: Plataformas unificadas, capacidad de procesamiento en tiempo real
+
+#### B. Beneficios de Sistemas Globales Integrados
+- Mejora en eficiencia operacional
+- Toma de decisiones gerenciales basada en datos actualizados
+- Cumplimiento regulatorio y objetivos de sostenibilidad
+- Escalabilidad para crecimiento empresarial
+
+### III. Marco Conceptual para Sistemas Globales
+
+#### A. Modelo de Alineación Estratégica
+- **Alineación tecnología-negocio**: SAP HANA como habilitador de la estrategia "Compass" de Unilever
+- **Integración cadena de valor global**: Coordinación de actividades primarias y de soporte
+
+#### B. Proceso de Implementación
+1. **Evaluación de riesgos de adopción**
+2. **Consolidación progresiva de plataformas**
+3. **Migración controlada de sistemas legacy**
+4. **Capacitación y gestión del cambio organizacional**
+
+### IV. Referencias Académicas Relevantes
+
+La bibliografía citada establece el marco teórico para la administración de sistemas globales, incluyendo trabajos fundamentales de:
+- Ives y Jarvenpaa (1991) sobre aplicaciones de tecnología global
+- King y Sethi (1999) en organización de sistemas transnacionales
+- Kirsch (2004) sobre dinámicas de control en implementaciones globales
+- Krishna, Sahay y Walsham (2004) en aspectos interculturales
+
+### V. Cuestiones Estratégicas
+
+#### A. Preguntas de Análisis Crítico
+1. **Alineación estratégica**: Cómo los sistemas globales soportan objetivos de negocio
+2. **Eficacia de soluciones**: Evaluación de implementaciones tecnológicas
+3. **Mejora operacional**: Impacto en procesos de negocio y toma de decisiones
+4. **Influencia del entorno global**: Factores externos que condicionan elecciones tecnológicas
+
+### VI. Conclusiones
+
+La administración de sistemas globales requiere un enfoque integrado que considere dimensiones gerenciales, organizacionales y tecnológicas. El caso Unilever demuestra cómo la implementación estratégica de tecnologías como SAP HANA puede resolver problemas complejos de operaciones globales mientras habilita objetivos de sostenibilidad y crecimiento. La efectividad de estos sistemas depende críticamente de su alineación con la estrategia corporativa y la capacidad de adaptación al entorno empresarial global en constante evolución.

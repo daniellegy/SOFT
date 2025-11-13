@@ -1,0 +1,77 @@
+### Parte 6 (Pág. 126–150)
+
+## Resumen de Páginas 126-150: "Software Requirements (3rd Edition)"
+
+### 1. Diagrama de Contexto
+**Definición**: Representación gráfica que delimita el sistema como una entidad única y muestra sus interacciones con entidades externas.
+
+**Características clave**:
+- El sistema se representa como un círculo único sin visibilidad interna
+- Las entidades externas incluyen: clases de usuarios, organizaciones, otros sistemas y dispositivos hardware
+- Las flechas representan flujos de datos o elementos físicos
+- Ejemplo ilustrado: Sistema de Seguimiento de Productos Químicos excluye proveedores porque las operaciones de compra/pago están fuera de su alcance
+
+### 2. Mapa del Ecosistema
+**Definición**: Representación visual de todos los sistemas interconectados con el sistema de interés.
+
+**Diferencias con el diagrama de contexto**:
+- Muestra sistemas con relaciones indirectas (no solo interfaces directas)
+- Identifica sistemas que podrían requerir modificaciones para el nuevo sistema
+- Permite determinar el límite de alcance mediante el análisis de flujos de datos
+
+**Elementos estructurales**:
+- Cajas representan sistemas (caja en negrita para el sistema principal)
+- Líneas muestran interfaces entre sistemas
+- Flechas etiquetadas indican flujos de datos principales
+
+### 3. Árbol de Características
+**Definición**: Representación jerárquica visual de las características del producto organizadas en grupos lógicos.
+
+**Estructura jerárquica**:
+- **Nivel 1 (L1)**: Características principales
+- **Nivel 2 (L2)**: Subcaracterísticas de L1
+- **Nivel 3 (L3)**: Subcaracterísticas de L2
+
+**Aplicaciones**:
+- Definición de alcance para releases o iteraciones
+- Planificación incremental de implementación
+- Creación de roadmap de características mediante tablas o marcado visual
+
+### 4. Lista de Eventos
+**Definición**: Inventario de eventos externos que pueden desencadenar comportamiento en el sistema.
+
+**Tipos de eventos**:
+- Eventos de negocio iniciados por usuarios
+- Eventos temporales (activados por tiempo)
+- Eventos de señal de componentes externos
+
+**Función en la gestión de alcance**:
+- Asignación de eventos a releases específicos
+- Complementariedad con diagramas de contexto y mapas de ecosistema
+- Verificación de integridad mediante cruce con otros modelos
+
+### 5. Gestión del Alcance
+**Principios fundamentales**:
+- El alcance es una estructura flexible, no restrictiva
+- Los objetivos de negocio son el criterio principal para decisiones de alcance
+- El cambio de alcance debe realizarse conscientemente con comprensión de compensaciones
+
+**Proceso de evaluación de nuevas requerimientos**:
+1. Determinación de si está dentro o fuera del alcance definido
+2. Análisis de prioridad relativa para requerimientos dentro del alcance
+3. Evaluación de expansión de alcance para requerimientos valiosos fuera del alcance
+
+**Criterios de decisión**:
+- Contribución cuantificable a objetivos de negocio
+- Análisis costo-beneficio basado en datos
+- Impacto en presupuesto, recursos y cronograma
+
+### 6. Evaluación de Impacto de Cambios
+**Consideraciones críticas**:
+- Renegociación de presupuesto, recursos y cronograma
+- Utilización de buffers de contingencia
+- Replanificación cuando se aprueban cambios de requerimientos
+
+**Enfoque sistemático**: La gestión efectiva del alcance requiere documentación actualizada bajo control de cambios y seguimiento de requerimientos rechazados o diferidos.
+
+Esta sección establece las bases metodológicas para la definición y gestión sistemática del alcance en proyectos de ingeniería de software, enfatizando la importancia de modelos visuales y criterios objetivos para la toma de decisiones.

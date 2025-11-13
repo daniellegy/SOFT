@@ -1,0 +1,71 @@
+### Parte 3 (Pág. 81–120)
+
+### Resumen de Técnicas de Desarrollo Ágil (Páginas 81-120)
+
+#### 3.2.1 Historias de Usuario
+**Definición:** Las historias de usuario representan escenarios de uso que describen funcionalidades desde la perspectiva del usuario final. Se desarrollan mediante tarjetas de historia (*story cards*) que encapsulan necesidades específicas del cliente.
+
+**Proceso de Implementación:**
+1. **Colaboración:** El cliente trabaja directamente con el equipo de desarrollo para definir escenarios
+2. **Descomposición:** Las historias se dividen en tareas específicas mediante tarjetas de tareas (*task cards*)
+3. **Priorización:** El cliente determina el orden de implementación basado en el valor empresarial
+4. **Iteración:** Las funcionalidades se implementan en ciclos de aproximadamente dos semanas
+
+**Ventajas:**
+- Facilitan la comprensión de requisitos mediante narrativas accesibles
+- Promueven la participación activa de usuarios
+- Permiten adaptación flexible a cambios en requisitos
+
+**Limitaciones:**
+- Dificultad para garantizar completitud de los requisitos
+- Riesgo de omisión de detalles por familiaridad del usuario con el proceso
+- Desafíos en la representación fidedigna de actividades complejas
+
+#### 3.2.2 Refactorización
+**Concepto Fundamental:** La refactorización consiste en la mejora continua de la estructura del código sin alterar su comportamiento externo, contrarrestando la degradación natural del software durante el desarrollo incremental.
+
+**Ejemplos de Refactorización:**
+- Reorganización de jerarquías de clases
+- Eliminación de código duplicado
+- Normalización de nombres de atributos y métodos
+- Consolidación de código similar mediante métodos de biblioteca
+
+**Beneficios:**
+- Mantiene la legibilidad y mantenibilidad del código
+- Previene el deterioro estructural del software
+- Facilita la implementación de cambios futuros
+
+**Desafíos Prácticos:**
+- Presiones de desarrollo pueden posponer actividades de refactorización
+- Limitaciones en refactorización a nivel arquitectónico
+- Necesidad de herramientas especializadas para refactorización global
+
+#### 3.2.3 Desarrollo Guiado por Pruebas (Test-First Development)
+**Principio Central:** Escribir pruebas automatizadas antes de implementar el código correspondiente, definiendo implícitamente interfaces y especificaciones de comportamiento.
+
+**Características Esenciales:**
+1. **Automatización:** Uso de frameworks de prueba ejecutables
+2. **Desarrollo Incremental:** Las pruebas evolucionan junto con los escenarios
+3. **Participación del Usuario:** Involucramiento en desarrollo y validación de pruebas
+4. **Integración Continua:** Ejecución automática de pruebas durante el desarrollo
+
+**Proceso de Implementación:**
+- Las historias de usuario se descomponen en tareas
+- Cada tarea genera una o más pruebas unitarias
+- El desarrollo procede solo cuando todas las pruebas se ejecutan exitosamente
+
+**Ventajas:**
+- Clarifica requisitos y reduce ambigüedades antes de la implementación
+- Elimina el "retraso en pruebas" (*test-lag*)
+- Proporciona especificación ejecutable del comportamiento esperado
+- Facilita la detección temprana de problemas
+
+**Ejemplo Práctico:** Prueba de validación de dosis médicas que verifica:
+- Límites seguros de dosis única
+- Frecuencia de administración
+- Cálculos de dosis total diaria
+
+**Herramientas:** Frameworks como Junit para Java permiten la creación y ejecución automatizada de pruebas.
+
+#### Conclusión
+Estas técnicas ágiles representan un paradigma de desarrollo centrado en la adaptabilidad, calidad continua y colaboración estrecha con el cliente. Si bien presentan desafíos en términos de completitud y disciplina de implementación, ofrecen ventajas significativas en entornos donde los requisitos evolucionan constantemente.

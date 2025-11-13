@@ -1,0 +1,60 @@
+### Parte 18 (Pág. 681–720)
+
+### Resumen de las Páginas 681–720: Pruebas de Usabilidad y Gestión de Configuración en Ingeniería de Software
+
+#### 1. **Pruebas de Jugabilidad (Playability Testing)**  
+- **Definición**: La jugabilidad se refiere al grado en que un juego o simulación es divertido y usable para el usuario/jugador. Inicialmente concebida para videojuegos, esta métrica se extiende a entornos de realidad virtual/aumentada con fines educativos o de entretenimiento.  
+- **Factores que afectan la jugabilidad**: Calidad de la usabilidad, narrativa, estrategia, mecánicas, realismo, gráficos y sonido.  
+- **Proceso de prueba**:  
+  - **Revisión por expertos**: Útil pero insuficiente si no representa al usuario final.  
+  - **Pruebas con usuarios representativos**: Observación directa del uso sin interrupciones, seguida de encuestas para recopilar feedback.  
+  - **Análisis de bloqueos**: Identificación de puntos donde el usuario no sabe cómo proceder, evaluando la accesibilidad del entorno virtual.  
+
+#### 2. **Pruebas de Documentación y Ayuda**  
+- **Importancia**: Los errores en la documentación o sistemas de ayuda pueden ser tan críticos como los errores en el código, afectando la aceptación del software.  
+- **Fases de prueba**:  
+  - **Revisión técnica**: Evaluación editorial de claridad y coherencia.  
+  - **Prueba en vivo**: Uso de la documentación junto con el programa, aplicando técnicas como:  
+    - Partición de equivalencia y análisis de valores límite.  
+    - Pruebas basadas en grafos para modelar el flujo de uso.  
+    - Pruebas basadas en modelos (MBT) para verificar coincidencia entre comportamiento documentado y real.  
+- **Criterios de evaluación**:  
+  - Precisión en descripciones de interacciones y ejemplos.  
+  - Consistencia terminológica y de diseño.  
+  - Facilidad para localizar información y resolver problemas.  
+  - Validación de hipervínculos y navegación en documentación digital.  
+- **Recomendación**: Las pruebas deben ser realizadas por terceros independientes (usuarios seleccionados) para garantizar objetividad.  
+
+#### 3. **Resumen de Pruebas para Aplicaciones Móviles (MobileApp Testing)**  
+- **Objetivo**: Ejercitar todas las dimensiones de calidad del software móvil para identificar errores o fallos potenciales.  
+- **Dimensiones clave**: Contenido, funcionalidad, estructura, usabilidad, contexto, navegación, rendimiento, gestión de energía, compatibilidad, interoperabilidad, capacidad y seguridad.  
+- **Estrategia de pruebas**:  
+  - **Enfoque incremental**: Desde unidades individuales (contenido, funcionalidad) hasta pruebas integrales del sistema.  
+  - **Derivación de casos de prueba**: Basados en casos de uso y perspectivas del usuario.  
+- **Tipos de pruebas destacados**:  
+  - **Pruebas de contenido**: Enfocadas en errores de presentación y rendimiento bajo restricciones del dispositivo.  
+  - **Pruebas de interfaz**: Validación de mecanismos de interacción y adaptación al contexto (dispositivo, usuario, ubicación).  
+  - **Pruebas de navegación**: Ejecución de escenarios de uso contra el diseño de navegación.  
+  - **Pruebas de rendimiento**: Evaluación de tiempo de respuesta y confiabilidad bajo carga.  
+  - **Pruebas de seguridad**: Explotación de vulnerabilidades en el entorno del dispositivo o servicios web.  
+- **Consideraciones adicionales**: Consumo de energía, velocidad de procesamiento, limitaciones de memoria y recuperación ante fallos.  
+
+#### 4. **Gestión de Configuración de Software (Software Configuration Management - SCM)**  
+- **Definición**: Disciplina para identificar, organizar y controlar modificaciones durante el desarrollo de software, con el fin de minimizar confusiones y errores mientras se maximiza la productividad.  
+- **Conceptos clave**:  
+  - **Líneas base (Baselines)**: Puntos de referencia que definen versiones estables del software.  
+  - **Objetos de configuración**: Elementos gestionados (código, documentación, etc.).  
+  - **Control de cambios (Change Control)**: Proceso formal para gestionar modificaciones.  
+  - **Auditorías de configuración**: Verificación del cumplimiento de estándares y requisitos.  
+  - **Integración continua (Continuous Integration)**: Práctica para fusionar cambios de código frecuentemente.  
+- **Aplicación en contextos ágiles y móviles**: Adaptación de procesos para entornos dinámicos, incluyendo gestión de contenido (Content Management).  
+
+#### 5. **Puntos de Reflexión (Problems and Points to Ponder)**  
+- Cuestiones prácticas sobre pruebas en dispositivos reales, estrategias de testing centradas en el usuario, y consideraciones específicas para aplicaciones sensibles (ej.: farmacias en línea para adultos mayores).  
+- Énfasis en la necesidad de equilibrar pruebas exhaustivas con limitaciones prácticas, como la selección de configuraciones representativas.  
+
+### Conclusión  
+Las páginas resumidas abordan dos pilares críticos en ingeniería de software:  
+1. **Pruebas de usabilidad y documentación**, que garantizan la calidad experiencial y funcional del software.  
+2. **Gestión de configuración**, que proporciona el marco para controlar cambios y mantener la integridad del proyecto.  
+Ambos aspectos son esenciales para el éxito de aplicaciones modernas, especialmente en entornos móviles y ágiles donde la iteración y la adaptabilidad son prioritarias.

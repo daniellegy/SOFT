@@ -1,0 +1,96 @@
+### Parte 21 (Pág. 801–810)
+
+## Resumen de las páginas 801-810 del libro "Ingeniería del Software: Un Enfoque Práctico"
+
+### I. Conceptos Fundamentales de Diseño de Software
+
+**Definiciones Clave:**
+- **Diseño de software**: Proceso de definir la arquitectura, componentes, interfaces y otras características de un sistema para satisfacer los requerimientos especificados
+- **Calidad del diseño**: Características que garantizan que el diseño cumple con los atributos de calidad esperados
+
+**Principios de Diseño:**
+1. **Abstracción**: Permite manejar la complejidad mediante niveles de detalle progresivo
+2. **Modularidad**: División del sistema en componentes con responsabilidades bien definidas
+3. **Ocultamiento de información**: Cada módulo oculta detalles de implementación internos
+4. **Independencia funcional**: Módulos con funciones cohesivas y acoplamiento mínimo
+
+### II. Diseño Orientado a Objetos
+
+**Características:**
+- **Clases de diseño**: Entidades que encapsulan datos y operaciones
+- **Encapsulamiento**: Mecanismo que agrupa datos y métodos relacionados
+- **Componentes OO**: Elementos reutilizables que implementan funcionalidades específicas
+
+**Proceso de Diseño:**
+1. Identificación de clases y componentes
+2. Definición de interfaces
+3. Establecimiento de relaciones y colaboraciones
+4. Especificación de detalles de implementación
+
+### III. Diseño Basado en Patrones
+
+**Conceptos Fundamentales:**
+- **Patrón de diseño**: Solución reutilizable a problemas comunes en el diseño
+- **Contexto**: Situación donde el patrón aplica
+- **Forma de pensar**: Enfoque sistemático para identificar y aplicar patrones
+
+**Tipos de Patrones:**
+- **Patrones arquitectónicos**: Soluciones de alto nivel para la estructura del sistema
+- **Patrones de diseño**: Soluciones a problemas específicos de diseño
+- **Errores comunes**: Aplicación incorrecta o inapropiada de patrones
+
+### IV. Diseño de WebApps
+
+**Atributos de Calidad:**
+- **Disponibilidad**: Capacidad de estar operativo cuando se requiere
+- **Escalabilidad**: Adaptación a cambios en la carga de trabajo
+- **Seguridad**: Protección contra accesos no autorizados
+- **Estética**: Aspectos visuales atractivos y funcionales
+
+**Arquitectura MVC (Modelo-Vista-Controlador):**
+- **Modelo**: Representa los datos y la lógica de negocio
+- **Vista**: Presentación de la información al usuario
+- **Controlador**: Maneja la interacción del usuario y coordina modelo y vista
+
+**Diseño de Navegación:**
+- **Semántica de navegación**: Significado y propósito de los enlaces
+- **Sintaxis de navegación**: Mecanismos para moverse por la aplicación
+- **Estructuras**: Lineales, jerárquicas, de malla y compuestas
+
+### V. Métricas y Estimación
+
+**Métricas de Producto:**
+- **Densidad del error**: Número de errores por unidad de medida
+- **Índice de madurez de software (IMS)**: Indicador de la estabilidad del producto
+
+**Técnicas de Estimación:**
+- **Enfoque de descomposición**: División del problema en partes más pequeñas
+- **Modelo COCOMO II**: Modelo empírico para estimar esfuerzo y costo
+- **Estimación basada en casos de uso**: Utilización de escenarios para calcular recursos
+
+### VI. Herramientas y Tecnologías Emergentes
+
+**Herramientas de Soporte:**
+- Herramientas para administración de contenido
+- Sistemas de control de versiones
+- Herramientas de gestión del cambio
+- Entornos de ingeniería de software (EIS)
+
+**Tendencias:**
+- **Desarrollo colaborativo**: Trabajo en equipo distribuido
+- **Ingeniería de requerimientos emergentes**: Adaptación a cambios en los requisitos
+- **Tecnologías de la información**: Evolución continua de plataformas y frameworks
+
+### VII. Procesos y Calidad
+
+**Control de Calidad:**
+- **Revisiones técnicas**: Evaluaciones formales del producto
+- **Eficiencia de remoción de defectos (ERD)**: Medida de la efectividad en la eliminación de errores
+- **Costos de calidad**: Inversión en actividades de aseguramiento de calidad
+
+**Procesos Ágiles:**
+- **Espíritu ágil**: Valores y principios del desarrollo ágil
+- **Estructuras de equipo**: Organización flexible y adaptativa
+- **Herramientas para procesos ágiles**: Soporte tecnológico para metodologías ágiles
+
+Este resumen presenta de manera estructurada los conceptos fundamentales, procesos y modelos relevantes tratados en las páginas analizadas, manteniendo un tono académico y enfoque práctico característico de la ingeniería de software.

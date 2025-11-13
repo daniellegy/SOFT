@@ -1,0 +1,95 @@
+### Parte 4 (Pág. 76–100)
+
+## Resumen de Prácticas en Ingeniería de Requisitos (Páginas 76-100)
+
+### Introducción Conceptual
+
+El texto presenta un marco metodológico para la ingeniería de requisitos, destacando la necesidad de contar con un conjunto estructurado de prácticas en lugar de aproximaciones ad hoc. Se enfatiza que la aplicación mecánica de metodologías estandarizadas resulta insuficiente, requiriéndose la selección contextualizada de prácticas validadas.
+
+### Definiciones Fundamentales
+
+**Práctica Recomendada (Good Practice):** Técnica cuya ejecución efectiva se correlaciona con proyectos exitosos, identificada mediante consenso de expertos que analizan experiencias organizacionales diversas.
+
+### Marco de Procesos de Desarrollo de Requisitos
+
+#### Proceso Iterativo (Figura 3-1)
+El desarrollo de requisitos constituye un proceso iterativo compuesto por cuatro actividades interrelacionadas:
+- **Elicitación:** Recopilación de necesidades mediante entrevistas, observación y otras técnicas
+- **Análisis:** Procesamiento y estructuración de la información recopiada
+- **Especificación:** Documentación formal de requisitos
+- **Validación:** Verificación de exactitud y completitud con stakeholders
+
+#### Marco Representativo (Figura 3-2)
+Propone un proceso de 12 pasos organizados en dos fases:
+- **Fase Inicial (Pasos 1-7):** Actividades fundacionales ejecutadas al inicio del proyecto
+- **Fase Iterativa (Pasos 8-12):** Actividades cíclicas por cada release o iteración
+
+### Taxonomía de Prácticas Recomendadas (Tabla 3-1)
+
+#### 1. Elicitación
+- Definición de visión y alcance
+- Identificación de clases de usuarios
+- Grupos focales y entrevistas
+- Observación de usuarios
+- Análisis documental y de reportes de problemas
+
+#### 2. Análisis
+- Modelado del ambiente de aplicación
+- Creación de prototipos
+- Análisis de factibilidad
+- Priorización de requisitos
+- Modelado de requisitos e interfaces
+
+#### 3. Especificación
+- Adopción de plantillas documentales
+- Etiquetado único de requisitos
+- Registro de reglas de negocio
+- Especificación de requisitos no funcionales
+
+#### 4. Validación
+- Revisiones de requisitos
+- Pruebas de requisitos
+- Definición de criterios de aceptación
+- Simulación de requisitos
+
+#### 5. Gestión de Requisitos
+- Control de cambios y análisis de impacto
+- Establecimiento de líneas base
+- Matriz de trazabilidad
+- Herramientas de gestión de requisitos
+
+#### 6. Gestión del Conocimiento
+- Capacitación de analistas de negocio
+- Educación de stakeholders
+- Glosario compartido
+- Definición de procesos de ingeniería de requisitos
+
+#### 7. Gestión de Proyectos
+- Selección de ciclo de vida apropiado
+- Estimación de esfuerzo
+- Identificación de tomadores de decisiones
+- Gestión de riesgos de requisitos
+
+### Distribución Temporal del Esfuerzo (Figura 3-3)
+
+El texto contrasta tres modelos de distribución temporal:
+- **Cascada Pura:** Esfuerzo concentrado al inicio del proyecto
+- **Desarrollo Iterativo:** Esfuerzo distribuido con énfasis en iteraciones iniciales
+- **Lanzamientos por Fases:** Esfuerzo continuo y progresivo
+
+### Consideraciones de Implementación
+
+**Roles Responsables:** La asignación de responsabilidades varía según el proyecto, pudiendo involucrar:
+- Analistas de Negocio (BA)
+- Dueños de Producto (en enfoques ágiles)
+- Gerentes de Proyecto
+
+**Factores Críticos de Éxito:**
+- Adaptación contextual de prácticas
+- Educación continua de stakeholders
+- Selección basada en características del proyecto
+- Combinación flexible de técnicas según dominios específicos
+
+### Conclusión
+
+El capítulo establece que la efectividad en ingeniería de requisitos requiere un enfoque sistemático pero flexible, donde la selección y adaptación inteligente de prácticas—más que la adhesión dogmática a metodologías—determina el éxito en la captura y gestión de requisitos software.

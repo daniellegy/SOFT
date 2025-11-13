@@ -1,0 +1,90 @@
+### Parte 6 (Pág. 151–180)
+
+## Resumen de Páginas 151-180: Especificación Funcional con Casos de Uso y Validación de Requisitos
+
+### 3.4 Especificación Funcional con Casos de Uso
+
+#### 3.4.1 Conceptos Fundamentales
+
+**Caso de Uso**: Representación de la interacción entre actores y el sistema para alcanzar un objetivo específico. Se caracteriza por:
+- **Actor primario**: Entidad que inicia la interacción
+- **Alcance**: Contexto organizacional del caso de uso
+- **Precondiciones**: Condiciones necesarias antes de la ejecución
+- **Escenario principal de éxito**: Secuencia básica de pasos para alcanzar el objetivo
+
+#### 3.4.2 Niveles de Abstracción en el Desarrollo de Casos de Uso
+
+El desarrollo evolutivo de casos de uso se estructura en cuatro niveles naturales:
+
+1. **Actores y Objetivos**
+   - Enumeración de casos de uso y actores asociados
+   - Definición del alcance del sistema
+   - Evaluación de completitud funcional
+
+2. **Escenarios Principales de Éxito**
+   - Especificación del comportamiento del sistema
+   - Verificación de intereses de stakeholders
+   - Validación del comportamiento deseado
+
+3. **Condiciones de Falla**
+   - Identificación de posibles fallos en cada paso
+   - Enumeración exhaustiva de situaciones especiales
+   - Base para reglas de negocio adicionales
+
+4. **Manejo de Fallas**
+   - Especificación de comportamiento ante condiciones de error
+   - Identificación de nuevos actores y reglas de negocio
+   - Nivel más complejo de desarrollo
+
+#### 3.4.3 Proceso de Desarrollo Iterativo
+
+El análisis mediante casos de uso sigue un enfoque iterativo:
+1. Identificación inicial de actores y objetivos
+2. Desarrollo de escenarios principales
+3. Enumeración de condiciones de falla
+4. Especificación del manejo de fallas
+
+### 3.5 Validación de Requisitos
+
+#### 3.5.1 Importancia y Objetivos
+
+La validación busca garantizar que el documento SRS (Software Requirements Specification):
+- Refleje fielmente los requisitos reales
+- Sea de calidad adecuada
+- Minimice costos de corrección mediante detección temprana de errores
+
+#### 3.5.2 Clasificación de Errores en Requisitos
+
+Los errores se clasifican en cuatro categorías principales:
+
+1. **Omisión (26-32%)**: Requisito no incluido en el SRS
+2. **Inconsistencia (13-38%)**: Contradicciones internas o con el entorno
+3. **Hecho Incorrecto (10-49%)**: Información errónea en el SRS
+4. **Ambigüedad (5-26%)**: Requisitos con múltiples interpretaciones
+
+#### 3.5.3 Métodos de Validación
+
+**Revisión de Requisitos**: Inspección grupal del SRS que incluye:
+- Autor del documento de requisitos
+- Representantes del cliente y usuarios
+- Miembros del equipo de diseño
+- Responsables de mantenimiento
+- Ingenieros de calidad de software
+
+#### 3.5.4 Objetivos de la Revisión
+
+La revisión se enfoca en:
+- Detección de errores de los cuatro tipos mencionados
+- Evaluación de calidad del documento (legibilidad, testeabilidad)
+- Verificación de completitud y consistencia
+- Validación de adecuación a necesidades del cliente
+
+### Conclusiones Relevantes
+
+El enfoque presentado enfatiza:
+- La naturaleza iterativa del desarrollo de casos de uso
+- La importancia de la validación temprana para reducir costos
+- La necesidad de participación activa de stakeholders
+- La complementariedad entre especificación funcional (casos de uso) y validación sistemática
+
+Este marco metodológico proporciona una base sólida para el desarrollo de requisitos de software de calidad, equilibrando especificación funcional detallada con procesos rigurosos de validación.

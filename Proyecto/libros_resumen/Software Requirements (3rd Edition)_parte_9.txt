@@ -1,0 +1,76 @@
+### Parte 9 (Pág. 201–225)
+
+## Resumen de las páginas 201-225: "Playing by the rules" del libro "Software Requirements (3rd Edition)"
+
+### 1. Definición y naturaleza de las reglas de negocio
+
+**Definición clave:** Las reglas de negocio constituyen directrices que definen u obligan aspectos específicos del funcionamiento empresarial, estableciendo restricciones, vocabulario común y criterios para la ejecución de procesos.
+
+**Perspectivas fundamentales:**
+- **Perspectiva empresarial:** "Guía que establece una obligación concerniente a conducta, acción, práctica o procedimiento dentro de una actividad o ámbito particular"
+- **Perspectiva de sistemas de información:** "Declaración que define o restringe algún aspecto del negocio, destinada a afirmar la estructura empresarial o controlar/influir el comportamiento del negocio"
+
+### 2. Diferenciación conceptual
+
+Las reglas de negocio se distinguen de otros elementos empresariales:
+- **Requisitos de negocio:** Establecen resultados deseables u objetivos de alto nivel
+- **Procesos de negocio:** Describen series de actividades que transforman entradas en salidas
+- **Reglas de negocio:** Influencian procesos estableciendo vocabulario, imponiendo restricciones, activando acciones y gobernando cálculos
+
+### 3. Taxonomía de reglas de negocio
+
+El texto presenta una clasificación estructurada en cinco categorías principales:
+
+#### 3.1. Hechos (Facts)
+- Declaraciones verdaderas sobre el negocio en un momento específico
+- Describen asociaciones entre términos empresariales importantes
+- **Ejemplos:**
+  - "Todo contenedor químico tiene un identificador de código de barras único"
+  - "Todo pedido tiene un cargo de envío"
+  - "Los libros más altos de 16 pulgadas se almacenan en la sección Oversize"
+
+#### 3.2. Restricciones (Constraints)
+- Declaraciones que limitan acciones permitidas al sistema o usuarios
+- Orígenes diversos: políticas organizacionales, regulaciones gubernamentales, estándares industriales
+- **Ejemplos:**
+  - Políticas organizacionales: "Un solicitante de préstamo menor de 18 años debe tener un padre o tutor legal como cosignatario"
+  - Regulaciones gubernamentales: "Las declaraciones de impuestos federales deben tener matasellos antes de la medianoche del primer día hábil después del 14 de abril"
+  - Estándares industriales: "Las aplicaciones web no pueden contener etiquetas HTML obsoletas según el estándar HTML 5"
+
+#### 3.3. Habilitadores de acción (Action Enablers)
+- Reglas que activan actividades cuando condiciones específicas se cumplen
+- Estructura típica: "Si <condición>, entonces <acción>"
+- Pueden implementarse mediante procesos manuales o funcionalidad de software
+- **Ejemplo:** "Si se recibe una factura de un proveedor no registrado, el sistema enviará al proveedor versiones editables del formulario de ingreso"
+
+### 4. Importancia de la documentación y gestión
+
+**Problemas de reglas no documentadas:**
+- Dependencia de conocimiento individual ("folclore corporativo")
+- Interpretaciones conflictivas entre diferentes aplicaciones
+- Inconsistencia en la implementación
+- Pérdida de conocimiento cuando expertos abandonan la organización
+
+**Solución recomendada:**
+- Repositorio centralizado de reglas de negocio
+- Trazabilidad entre reglas y código implementado
+- Facilitación de reutilización de código entre proyectos
+
+### 5. Herramientas de documentación
+
+**Matriz de roles y permisos:**
+- Documenta restricciones relacionadas con privilegios de usuario
+- Organiza funciones del sistema por operaciones
+- Identifica permisos mediante marcación cruzada (X) en celdas
+
+**Tablas de decisión:**
+- Documentan reglas habilitadoras de acción con lógica compleja
+- Proporcionan representación concisa de múltiples condiciones
+
+### 6. Consideraciones prácticas
+
+- **Enfoque:** Concentrarse en reglas dentro del alcance del proyecto
+- **Priorización:** Conectar hechos con diagramas de contexto, eventos del sistema, objetos de datos o requisitos de usuario específicos
+- **Clasificación:** La consistencia en el registro es más importante que debates exhaustivos sobre categorización exacta
+
+Esta sección enfatiza la importancia crítica de identificar, documentar y gestionar sistemáticamente las reglas de negocio como activos empresariales valiosos, estableciendo fundamentos para el desarrollo coherente de requisitos de software.

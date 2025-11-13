@@ -1,0 +1,61 @@
+### Parte 16 (Pág. 376–400)
+
+## Resumen de Validación de Requisitos (Páginas 376-400)
+
+### Introducción Conceptual
+La validación de requisitos constituye una fase crítica en el ciclo de desarrollo de software, donde se verifica que los requisitos definidos satisfacen las necesidades del negocio y son técnicamente viables. Este proceso se enfoca en identificar discrepancias, ambigüedades y omisiones antes de la implementación.
+
+### Definiciones Fundamentales
+
+**Pruebas Conceptuales**: 
+- Representaciones abstractas de escenarios de prueba derivados directamente de los requisitos de usuario
+- Independientes de la implementación técnica
+- Se elaboran durante las fases iniciales del desarrollo
+
+**Criterios de Aceptación**:
+- Condiciones mínimas para considerar un sistema listo para producción
+- Basados en el acrónimo SMART (Específicos, Medibles, Alcanzables, Relevantes y Sensibles al Tiempo)
+- Determinados colaborativamente con los stakeholders
+
+### Procesos de Validación
+
+#### 1. Desarrollo Concurrente de Requisitos y Pruebas
+- **Relación Sinérgica**: Los equipos de desarrollo y pruebas trabajan desde una base común de requisitos de usuario
+- **Detección Temprana**: Las inconsistencias entre interpretaciones se identifican mediante la comparación de requisitos funcionales, modelos y pruebas
+- **Derivación Paralela**: Los analistas desarrollan requisitos funcionales mientras los testers elaboran pruebas conceptuales
+
+#### 2. Técnica de Mapeo y Trazabilidad
+- **Mapeo de Diálogos**: Representación visual de la arquitectura de interfaz mediante cajas (pantallas) y flechas (rutas de navegación)
+- **Trazabilidad de Pruebas**: Ejecución conceptual de pruebas sobre modelos de diálogo para validar cobertura y completitud
+- **Análisis de Brechas**: Identificación de requisitos faltantes o comportamientos no permitidos mediante el rastreo de rutas no cubiertas
+
+### Modelos y Artefactos
+
+#### Modelo de Integración Requisitos-Pruebas
+```
+Requisitos de Usuario → [Requisitos Funcionales + Modelos de Análisis + Pruebas Conceptuales]
+```
+
+#### Ejemplo de Prueba Conceptual (Sistema de Seguimiento Químico)
+- **Caso de Uso**: "Ver un Pedido Almacenado"
+- **Escenarios de Prueba**:
+  - Usuario ingresa número de pedido existente que colocó → Muestra detalles
+  - Usuario ingresa número de pedido inexistente → Mensaje de error
+  - Usuario ingresa número de pedido existente que no colocó → Mensaje de restricción
+
+### Beneficios de la Validación Temprana
+
+1. **Reducción de Costos**: Detección de errores en fase de requisitos versus implementación
+2. **Clarificación de Ambiguidades**: Las pruebas revelan interpretaciones contradictorias
+3. **Validación de Completitud**: Cobertura integral de flujos normales, alternativos y excepciones
+4. **Alineación con Objetivos de Negocio**: Los criterios de aceptación mantienen el enfoque en resolver problemas empresariales
+
+### Dimensiones de Criterios de Aceptación
+
+1. **Funcionalidad Crítica**: Capacidades esenciales que deben operar correctamente
+2. **Métricas de Calidad**: Atributos no funcionales mínimamente requeridos
+3. **Gestión de Defectos**: Umbrales máximos de issues pendientes aceptables
+4. **Compatibilidad Operativa**: Adecuación al entorno de producción objetivo
+
+### Conclusión
+La validación sistemática de requisitos mediante técnicas de prueba conceptual y definición de criterios de aceptación representa una práctica fundamental en ingeniería de software moderna. Esta aproximación permite transformar requisitos ambiguos en especificaciones verificables, reduciendo significativamente el riesgo de desarrollar soluciones que no satisfagan las necesidades reales del negocio.

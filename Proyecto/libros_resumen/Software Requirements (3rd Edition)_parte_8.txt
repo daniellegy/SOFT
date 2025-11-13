@@ -1,0 +1,61 @@
+### Parte 8 (Pág. 176–200)
+
+## Resumen de Páginas 176-200: "Understanding User Requirements"
+
+### Introducción Conceptual
+Las páginas analizadas establecen los fundamentos metodológicos para la comprensión de requisitos de usuario, contrastando dos enfoques principales: el **enfoque centrado en el producto** versus el **enfoque centrado en el usuario y uso**. Se demuestra mediante el caso de estudio del Sistema de Seguimiento de Productos Químicos (CTS) que la perspectiva user-centric resulta más efectiva para revelar funcionalidades necesarias y evitar implementaciones superfluas.
+
+### Definiciones Clave
+
+**Requisitos de Usuario**: Nivel intermedio en la jerarquía de requisitos que conecta los objetivos empresariales con los requisitos funcionales. Representan lo que los usuarios necesitan lograr con el sistema.
+
+**Caso de Uso (Use Case)**: 
+- Secuencia de interacciones entre sistema y actor externo que produce un resultado de valor
+- Convención nominativa: verbo + objeto (ej: "Solicitar Producto Químico")
+- Permite identificar precondiciones, postcondiciones y condiciones de error
+
+**Historia de Usuario (User Story)**:
+- Descripción concisa de funcionalidad desde la perspectiva del usuario
+- Estructura canónica: "Como <tipo de usuario>, quiero <objetivo> para que <razón>"
+- Identifica explícitamente clase de usuario y justificación del requerimiento
+
+### Procesos Metodológicos
+
+#### Elicitación mediante Casos de Uso
+1. **Identificación de casos prioritarios** mediante talleres colaborativos
+2. **Documentación estructurada** mediante plantillas que capturan:
+   - Reglas de negocio
+   - Variantes de flujo principal
+   - Condiciones excepcionales
+3. **Derivación de requisitos funcionales** y casos de prueba
+
+#### Elaboración mediante Historias de Usuario
+1. **Conversaciones just-in-time** entre desarrolladores y representantes de usuarios
+2. **Refinamiento iterativo** de épicos a historias implementables
+3. **Especificación mediante criterios de aceptación** que definen condiciones de satisfacción
+
+### Modelos y Artefactos
+
+**Tabla Comparativa Casos de Uso** (Tabla 8-1):
+Ilustra aplicabilidad transversal en sistemas empresariales, kioscos, contables y comercio electrónico.
+
+**Correspondencia Casos de Uso/Historias de Usuario** (Tabla 8-2):
+Establece equivalencia conceptual entre ambas representaciones con diferente granularidad.
+
+**Modelo de Flujo de Trabajo** (Figura 8-1):
+Diferencia la trayectoria de especificación:
+- Casos de uso → Especificación detallada → Requisitos funcionales → Pruebas
+- Historias de usuario → Conversaciones → Criterios aceptación → Pruebas
+
+### Limitaciones y Ámbito de Aplicación
+
+Ambas técnicas presentan restricciones significativas para:
+- **Sistemas por lotes** y de cómputo intensivo
+- **Sistemas embebidos** y tiempo real
+- **Aplicaciones analíticas** y de almacenamiento de datos
+
+Para estos dominios se recomienda **análisis de eventos externos** como técnica complementaria.
+
+### Conclusión Académica
+
+La selección entre casos de uso e historias de usuario constituye una decisión metodológica que depende del contexto del proyecto, ciclo de desarrollo y naturaleza de la interacción usuario-sistema. Ambas técnicas comparten el objetivo fundamental de transitar desde especificaciones abstractas hacia implementaciones verificables, aunque difieren en su aproximación a la granularidad y momento de especificación detallada.

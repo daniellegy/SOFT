@@ -1,0 +1,81 @@
+### Parte 13 (Pág. 361–390)
+
+## Resumen de las Páginas 361-390: Metodología de Diseño Orientado a Objetos
+
+### 7.5 Metodología de Diseño
+
+#### 7.5.3 Definición de Clases y Operaciones Internas
+
+**Definiciones Clave:**
+- **Clases de Contenedor (Container Classes):** Clases identificadas durante la implementación para almacenar resultados intermedios o modelar aspectos específicos de objetos.
+- **Clases del Dominio del Problema:** Clases identificadas durante el análisis que representan entidades del dominio del problema.
+
+**Proceso de Implementación:**
+1. **Evaluación Crítica de Clases:** Se analiza cada clase para determinar su necesidad en la implementación final.
+2. **Implementación de Operaciones:** Se desarrollan algoritmos aproximados para implementar operaciones.
+3. **Identificación de Nuevas Clases:** Durante la implementación pueden surgir nuevas clases de soporte para estructuras de datos complejas.
+
+#### 7.5.4 Optimización y Empaquetado
+
+**Estrategias de Optimización:**
+
+1. **Adición de Asociaciones Redundantes**
+   - **Propósito:** Mejorar la eficiencia de operaciones frecuentes
+   - **Criterio:** Evaluar la relación entre objetos accedidos y objetos seleccionados (hit ratio)
+   - **Ejemplo:** Implementación de índices para búsquedas específicas
+
+2. **Almacenamiento de Atributos Derivados**
+   - **Definición:** Atributos cuyo valor puede calcularse a partir de otros atributos
+   - **Consideraciones:**
+     - Frecuencia de uso
+     - Complejidad computacional
+     - Mantenimiento de consistencia con atributos base
+
+3. **Uso de Tipos Genéricos**
+   - **Ventaja:** Reducción del tamaño del código
+   - **Implementación:** Definición de clases genéricas que se instancian para tipos específicos
+
+4. **Ajuste de Herencia**
+   - **Generalización de Operaciones:** Identificar operaciones comunes para "empujar" hacia clases base
+   - **Creación de Clases Abstractas:** Definir superclases significativas que capturen comportamiento común
+   - **Criterio:** La jerarquía debe ser "natural" y significativa
+
+**Principios de Diseño:**
+- Priorizar comprensibilidad y modularidad sobre eficiencia y compacidad
+- Minimizar desviaciones de la estructura lógica del análisis
+
+#### 7.5.5 Ejemplos de Aplicación
+
+**Problema de Conteo de Palabras**
+
+**Modelo de Clases Inicial:**
+- **File:** Representa el archivo de entrada
+- **Word:** Representa palabras individuales
+- **Counter:** Maneja el conteo de palabras únicas
+- **History:** Mecanismo para verificar unicidad de palabras
+
+**Modelado Dinámico:**
+- Escenario de procesamiento por lotes
+- Flujo secuencial: entrada → procesamiento → salida
+
+**Modelo Funcional:**
+- Refuerza la necesidad del objeto History
+- Identifica operaciones necesarias: increment(), isunique(), addToHistory()
+
+**Decisiones de Implementación:**
+- Sustitución de History por Btree (árbol binario de búsqueda)
+- Especificación de operaciones de comparación para la clase Word
+
+### Consideraciones Metodológicas Finales
+
+**Naturaleza de las Metodologías:**
+- Guías orientativas, no reglas estrictas
+- Requieren juicio de ingeniería en cada paso
+- El diseño resultante debe considerarse sujeto a modificaciones
+
+**Especificación del Diseño:**
+- Documentación completa de clases y métodos
+- Especificación de interfaces
+- Uso de estructuras de clases del lenguaje de implementación (ej: C++)
+
+Esta sección enfatiza la transición desde el análisis orientado a objetos hacia una implementación práctica, considerando tanto aspectos de diseño lógico como consideraciones de eficiencia y optimización.

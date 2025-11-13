@@ -1,0 +1,57 @@
+### Parte 22 (Pág. 526–550)
+
+## Resumen de las Páginas 526-550: Trazabilidad de Requisitos
+
+### Definición y Conceptos Fundamentales
+
+**Trazabilidad de requisitos** constituye una técnica fundamental en la gestión de requisitos que permite establecer y mantener relaciones entre diferentes artefactos del ciclo de desarrollo. Esta disciplina proporciona un mecanismo para rastrear el origen de cada requisito y seguir su evolución a través de las distintas fases del proyecto.
+
+### Motivaciones y Beneficios de la Trazabilidad
+
+La implementación de trazabilidad responde a diversas necesidades estratégicas:
+
+- **Detección de requisitos faltantes**: Permite identificar requisitos de negocio que no se traducen en requisitos de usuario, y requisitos de usuario que no generan requisitos funcionales correspondientes
+- **Identificación de requisitos innecesarios**: Facilita el descubrimiento de requisitos funcionales que no tienen conexión con requisitos de negocio o de usuario
+- **Cumplimiento normativo**: Proporciona evidencia para certificación de productos críticos y demostración de conformidad regulatoria
+- **Análisis de impacto de cambios**: Minimiza el riesgo de omitir elementos del sistema afectados por modificaciones en requisitos
+- **Mantenimiento del sistema**: Agiliza la implementación correcta de cambios durante el mantenimiento
+- **Seguimiento del proyecto**: Ofrece un registro preciso del estado de implementación de funcionalidades planificadas
+
+### Matriz de Trazabilidad de Requisitos
+
+El instrumento principal para gestionar la trazabilidad es la **Matriz de Trazabilidad de Requisitos** (Requirements Traceability Matrix), que puede adoptar diferentes formatos:
+
+#### Matriz Unificada (Tabla 29-1)
+Representa relaciones múltiples en una sola estructura tabular que conecta:
+- Requisitos de usuario → Requisitos funcionales → Elementos de diseño → Elementos de código → Casos de prueba
+
+#### Matrices Bidireccionales (Tabla 29-2)
+Establecen relaciones entre pares de artefactos mediante símbolos que indican conexiones específicas, permitiendo visualizar reutilización de requisitos entre diferentes casos de uso.
+
+### Cardinalidad de las Relaciones
+
+Las relaciones de trazabilidad pueden presentar diferentes patrones de cardinalidad:
+
+- **Uno-a-uno**: Un elemento de diseño implementado en un módulo de código
+- **Uno-a-muchos**: Un requisito funcional verificado por múltiples pruebas
+- **Muchos-a-muchos**: Múltiples casos de uso que generan múltiples requisitos funcionales, con requisitos compartidos entre casos de uso
+
+### Consideraciones para Requisitos No Funcionales
+
+Los requisitos no funcionales presentan particularidades en su trazabilidad:
+- No siempre se traducen directamente en código específico
+- Pueden influir en decisiones arquitectónicas, selección de hardware o algoritmos
+- Algunos (como seguridad) generan requisitos funcionales derivados que sí son trazables
+
+### Aspectos Organizacionales y de Implementación
+
+**Responsabilidades**:
+- La recolección y gestión de datos de trazabilidad debe asignarse explícitamente (generalmente a analistas de negocio o ingenieros de calidad)
+- Cada tipo de relación debe ser definido por los roles con el conocimiento apropiado (Tabla 29-3)
+
+**Consideraciones prácticas**:
+- La información debe registrarse cuando el trabajo se completa, no cuando se planifica
+- El costo incremental de capturar información de trazabilidad durante el desarrollo es mínimo comparado con reconstruirla posteriormente
+- La trazabilidad debe considerarse una inversión que reduce costos del ciclo de vida del producto
+
+La implementación efectiva de trazabilidad requiere equilibrio entre beneficios potenciales y esfuerzo requerido, seleccionando estratégicamente qué relaciones gestionar según el contexto específico del proyecto.

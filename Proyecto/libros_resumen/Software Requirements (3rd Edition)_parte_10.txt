@@ -1,0 +1,106 @@
+### Parte 10 (Pág. 226–250)
+
+## Resumen de las Páginas 226-250: Documentación de Requisitos
+
+### 1. Descripción General del Producto
+
+**Definición**: Sección que proporciona una visión de alto nivel del producto, su entorno de uso, usuarios anticipados y restricciones conocidas.
+
+#### 1.1 Perspectiva del Producto
+- Describe el contexto y origen del producto
+- Identifica si es parte de una línea de productos, versión de sistema existente o producto nuevo
+- Especifica relaciones con sistemas mayores e interfaces principales
+- Recomienda el uso de modelos visuales (diagramas de contexto, mapas de ecosistema)
+
+#### 1.2 Clases de Usuario y Características
+- Identificación de diferentes clases de usuario anticipadas
+- Descripción de características pertinentes por clase de usuario
+- Identificación de clases de usuario favorecidas
+- Posibilidad de referencia a catálogos maestros de clases de usuario
+
+#### 1.3 Entorno Operativo
+- Descripción del hardware, sistemas operativos y versiones
+- Ubicaciones geográficas de usuarios, servidores y bases de datos
+- Organizaciones que alojan componentes relacionados
+- Listado de componentes de software para coexistencia
+
+#### 1.4 Restricciones de Diseño e Implementación
+- Factores que restringen opciones de desarrollo
+- Lenguajes de programación específicos
+- Librerías de código existentes
+- Advertencia sobre requisitos que imponen restricciones de diseño innecesarias
+
+#### 1.5 Supuestos y Dependencias
+- **Supuesto**: Declaración considerada verdadera sin prueba definitiva
+- **Dependencia**: Relación con factores externos fuera del control del proyecto
+- Identificación de riesgos por supuestos incorrectos u obsoletos
+- Ejemplo: Dependencia de .NET Framework 4.5+
+
+### 2. Características del Sistema
+
+#### 2.1 Organización de Requisitos Funcionales
+- Múltiples esquemas organizativos posibles:
+  - Por características del sistema
+  - Por área funcional
+  - Por flujo de proceso
+  - Por casos de uso
+  - Por clase de usuario
+- No existe elección única correcta
+
+#### 2.2 Estructura por Característica
+- **3.x Característica del Sistema X**: Nombre breve
+- **3.x.1 Descripción**: Descripción corta con prioridad (alta/media/baja)
+- **3.x.2 Requisitos Funcionales**: Capacidades específicas a implementar
+- Respuesta a condiciones de error e inputs inválidos
+- Etiquetado único para cada requisito funcional
+
+### 3. Requisitos de Datos
+
+#### 3.1 Modelo de Datos Lógico
+- Representación visual de objetos de datos y sus relaciones
+- Notaciones: Diagramas entidad-relación, diagramas de clases UML
+- Diferenciación entre modelo lógico y modelo de implementación
+
+#### 3.2 Diccionario de Datos
+- Define composición de estructuras de datos
+- Especifica: significado, tipo de datos, longitud, formato, valores permitidos
+- Recomendación de almacenamiento como artefacto separado
+
+#### 3.3 Reportes
+- Identificación y descripción de características
+- Especificación de layout predefinido como restricción
+- Enfoque en descripciones lógicas de contenido
+
+#### 3.4 Adquisición, Integridad, Retención y Eliminación de Datos
+- Métodos de adquisición y mantenimiento de datos
+- Técnicas de protección de integridad (backups, mirroring, verificación)
+- Políticas de retención y eliminación de datos
+
+### 4. Requisitos de Interfaces Externas
+
+#### 4.1 Interfaces de Usuario
+- Características lógicas de cada interfaz de usuario
+- Estándares de interfaz y guías de estilo
+- Consideraciones de accesibilidad para usuarios con limitaciones
+
+#### 4.2 Interfaces de Software
+- Conexiones con otros componentes de software
+- Formatos y contenidos de mensajes intercambiados
+- Mapeos de datos de entrada/salida entre sistemas
+- Servicios necesarios desde sistemas externos
+
+### Modelos y Procesos Relevantes
+
+1. **Modelo de Organización de Requisitos**: Esquema jerárquico por características del sistema
+2. **Proceso de Documentación**: Enfoque estructurado con secciones específicas
+3. **Gestión de Atributos**: Prioridades dinámicas y etiquetado único de requisitos
+4. **Control de Cambios**: Sincronización de modificaciones en interfaces
+
+### Consideraciones Clave
+
+- La documentación debe facilitar la comprensión de capacidades del producto
+- Los supuestos representan riesgos potenciales del proyecto
+- Las dependencias externas deben ser explícitamente identificadas
+- La organización de requisitos debe adaptarse al contexto específico del proyecto
+
+Este marco proporciona una base sólida para la documentación sistemática y completa de requisitos de software, asegurando claridad y consistencia en la especificación de sistemas.

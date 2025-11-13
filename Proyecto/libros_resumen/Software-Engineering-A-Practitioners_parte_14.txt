@@ -1,0 +1,65 @@
+### Parte 14 (Pág. 521–560)
+
+## Resumen de las Páginas 521–560: Control de Calidad y Revisiones Técnicas en Ingeniería de Software
+
+### 1. Terminología Fundamental en Control de Calidad
+
+**Definiciones Clave:**
+- **Error:** Problema de calidad identificado antes de la liberación del software a usuarios finales u otras partes interesadas
+- **Defecto:** Problema de calidad detectado únicamente después de la liberación del software
+- **Distinción Temporal:** La diferenciación temporal entre error y defecto tiene implicaciones económicas, empresariales y psicológicas significativas
+
+**Nota Conceptual:** Existe divergencia en la comunidad de ingeniería de software respecto a esta distinción temporal, donde muchos consideran los términos como sinónimos.
+
+### 2. Revisión Técnica Formal (FTR)
+
+**Objetivo Primario:** Detectar errores antes de que se transfieran a otras actividades de ingeniería de software o se liberen al usuario final.
+
+**Efectividad:** 
+- Las actividades de diseño introducen 50-65% de todos los errores
+- Las técnicas de revisión demuestran hasta 75% de efectividad en detectar fallos de diseño
+- Reducción sustancial de costos en actividades subsiguientes
+
+### 3. Amplificación y Propagación de Defectos
+
+**Concepto Central:** Un error no detectado en etapas tempranas (ej: modelado de requisitos) puede amplificarse en múltiples errores durante el diseño y codificación.
+
+**Impacto Económico:**
+- El costo de encontrar y corregir errores aumenta progresivamente durante el proceso de desarrollo
+- La amplificación de defectos exacerba este costo al transformar un error único en múltiples errores
+- **Deuda Técnica:** La inversión en revisiones tempranas evita costos significativamente mayores posteriormente
+
+### 4. Métricas de Revisión y su Aplicación
+
+**Métricas Fundamentales:**
+- **Esfuerzo de Preparación (Ep):** Tiempo dedicado a revisar el producto antes de la reunión
+- **Esfuerzo de Evaluación (Ea):** Tiempo invertido durante la revisión
+- **Esfuerzo de Retrabajo (Er):** Tiempo dedicado a corregir errores identificados
+- **Esfuerzo Total de Revisión:** Ereview = Ep + Ea + Er
+- **Tamaño del Producto (WPS):** Medida cuantitativa del producto revisado
+- **Densidad de Errores:** Errores por unidad de producto revisado
+
+**Aplicación Práctica:**
+- Estimación de errores esperados basada en datos históricos
+- Cálculo de eficiencia mediante comparación de esfuerzos de corrección
+- Ejemplo demostrativo: Ahorro de 858 horas-persona mediante revisión de requisitos
+
+### 5. Criterios para Tipos de Revisiones
+
+**Modelo de Referencia para Revisiones Técnicas:**
+Las revisiones pueden clasificarse en un espectro formal-informal determinado por cuatro características:
+
+1. **Roles Definidos:** Especificación explícita de responsabilidades
+2. **Planificación y Preparación:** Nivel de estructuración previa
+3. **Estructura de la Revisión:** Definición de tareas y productos internos
+4. **Seguimiento:** Monitoreo de correcciones implementadas
+
+**Factores de Influencia:**
+- Tipo de producto desarrollado
+- Cronograma del proyecto
+- Características del equipo de trabajo
+- Frecuencia de las revisiones (ej: en metodologías ágiles)
+
+### Conclusión
+
+Las revisiones técnicas representan una inversión estratégica en calidad del software que, aunque incrementa el esfuerzo inicial, genera beneficios significativos en reducción de costos posteriores, acortamiento de ciclos de entrega y mejora en la calidad del producto final. La implementación efectiva requiere una cuidadosa selección del nivel de formalidad apropiado y el uso sistemático de métricas para evaluar su eficacia.

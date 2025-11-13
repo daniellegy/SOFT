@@ -1,0 +1,120 @@
+### Parte 15 (Pág. 561–600)
+
+## Resumen de páginas 561-600: Métodos alternativos de desarrollo de sistemas
+
+### 1. PROTOTIPADO DE SISTEMAS
+
+**Definición y proceso:**
+El prototipado constituye una metodología de desarrollo que genera versiones preliminares de sistemas para refinar especificaciones. El proceso culmina cuando el prototipo aprobado se convierte en prototipo operacional, pudiendo adoptarse como versión de producción definitiva.
+
+**Aplicación principal:**
+- Especialmente útil en contextos de alta incertidumbre en requerimientos o soluciones de diseño
+- Se emplea predominantemente para diseñar interfaces de usuario final
+
+**Ventajas:**
+- Fomenta participación intensiva del usuario final
+- Incrementa probabilidad de cumplimiento de requerimientos
+- Facilita la validación temprana de especificaciones
+
+**Desventajas:**
+- Omisión de etapas esenciales del desarrollo
+- Documentación y pruebas insuficientes
+- Limitaciones en escalabilidad y manejo de grandes volúmenes de datos
+- Posibles deficiencias en entornos de producción con múltiples usuarios
+
+### 2. DESARROLLO POR USUARIO FINAL
+
+**Concepto fundamental:**
+Metodología que permite a usuarios finales desarrollar aplicaciones con mínima asistencia de especialistas técnicos, utilizando herramientas de software amigables.
+
+**Herramientas empleadas:**
+- Lenguajes de consulta e informes
+- Herramientas de desarrollo web
+- Software gráfico y herramientas de PC
+- Software de cuarta generación
+
+**Caso de estudio: Neways Enterprise**
+Implementó WEBFOCUS de Information Builders para crear sistema de informes de autoservicio, permitiendo:
+- Monitoreo financiero y predicción de tendencias
+- Acceso a datos de producción en tiempo real
+- Seguimiento de calificaciones para bonos mensuales
+
+**Ventajas:**
+- Reducción significativa de tiempos de desarrollo
+- Mejora en recopilación de requerimientos
+- Mayor satisfacción y participación del usuario
+
+**Riesgos organizacionales:**
+- Desarrollo fuera de mecanismos tradicionales de control
+- Procesos de prueba y documentación inadecuados
+- Pérdida de control sobre datos corporativos
+- Limitaciones técnicas para aplicaciones complejas
+
+**Mecanismos de control recomendados:**
+- Justificación de costos de proyectos
+- Establecimiento de estándares de hardware y software
+- Definición de criterios de calidad
+
+### 3. PAQUETES DE SOFTWARE DE APLICACIÓN
+
+**Fundamento conceptual:**
+Adquisición de sistemas predesarrollados para funciones empresariales universales con procesos estandarizados.
+
+**Aplicaciones típicas:**
+- Nómina
+- Cuentas por cobrar
+- Control de inventario
+- Libro mayor
+
+**Ventajas:**
+- Ahorro significativo en tiempo y costos de desarrollo
+- Mantenimiento y soporte continuo por el distribuidor
+- Programas previamente probados y validados
+
+**Proceso de evaluación:**
+Basado en Solicitud de Propuesta (RFP) que considera:
+- Funcionalidades proporcionadas
+- Flexibilidad y facilidad de uso
+- Requerimientos de hardware/software
+- Esfuerzos de instalación y mantenimiento
+- Calidad del distribuidor y costos
+
+**Limitaciones:**
+- Pérdida de control sobre diseño del sistema
+- Necesidad de adaptar procesos organizacionales al paquete
+- Costos elevados de personalización que pueden eliminar ventajas
+
+### 4. OUTSOURCING DE SISTEMAS
+
+**Definición:**
+Subcontratación externa de desarrollo y operación de sistemas de información.
+
+**Modalidades:**
+- **Computación en nube y SaaS:** Uso de plataformas técnicas externas
+- **Desarrollo externo:** Diseño y creación externa con operación interna
+
+**Outsourcing doméstico:**
+- Motivado por acceso a habilidades y recursos especializados
+- Evita contratación temporal de personal especializado
+- Reduce costos de capacitación
+
+**Outsourcing internacional:**
+- Orientado principalmente a reducción de costos
+- Diferencias salariales significativas (ej: $10,000-$20,000 vs $60,000 anuales)
+- Beneficiado por tecnologías de comunicación de bajo costo
+- Ofrece acceso a capacidades tecnológicas de clase mundial
+
+**Consideraciones críticas:**
+- Evaluación exhaustiva de riesgos
+- Comprensión completa del proyecto y sus requerimientos
+- Identificación de métricas de desempeño
+- Consideración de costos ocultos de transición y evaluación
+
+**Tendencias actuales:**
+- Inflación salarial internacional está reduciendo ventajas competitivas
+- Algunas operaciones están regresando a países de origen
+- Creciente importancia de trabajo con equipos globales
+
+### CONCLUSIÓN
+
+Estos métodos alternativos representan diferentes estrategias para abordar el desarrollo de sistemas, cada una con ventajas, limitaciones y consideraciones organizacionales específicas. La selección entre prototipado, desarrollo por usuario final, paquetes de software u outsourcing debe basarse en análisis cuidadoso de requerimientos específicos, capacidades organizacionales y consideraciones de costo-beneficio.

@@ -1,0 +1,69 @@
+### Parte 2 (Pág. 41–80)
+
+## Resumen de las Páginas 41-80: Procesos de Software
+
+### 1. Arquitectura de Entornos Digitales de Aprendizaje (Páginas 41-42)
+
+**Definición Clave**: El sistema iLearn representa un entorno digital de aprendizaje que ilustra principios arquitectónicos fundamentales en ingeniería de software.
+
+**Niveles de Integración de Servicios**:
+
+- **Servicios Integrados**: Ofrecen API que permiten comunicación directa servicio-a-servicio. Ejemplo: servicio de autenticación que puede ser invocado por otros servicios sin necesidad de reautenticación.
+
+- **Servicios Independientes**: Operan a través de interfaz de navegador sin integración directa. La compartición de información requiere acciones explícitas del usuario (copiar/pegar).
+
+**Componentes Arquitectónicos**:
+- Servicios de utilidad (autenticación, gestión de usuarios, almacenamiento)
+- Servicios de aplicación (procesamiento de texto, hojas de cálculo, simulaciones)
+- Servicios de configuración para adaptar el entorno según usuarios
+
+### 2. Fundamentos de la Ingeniería de Software (Páginas 42-44)
+
+**Definiciones Esenciales**:
+
+- **Ingeniería de Software**: Disciplina de ingeniería concernida con todos los aspectos de la producción de software.
+
+- **Software**: No solo programas, sino toda documentación electrónica necesaria para usuarios, QA y desarrolladores.
+
+**Atributos Esenciales del Producto Software**:
+- Mantenibilidad
+- Confiabilidad y seguridad
+- Eficiencia
+- Aceptabilidad
+
+**Aspectos Éticos y Profesionales**:
+- Responsabilidades hacia la profesión y sociedad
+- Códigos de conducta publicados por sociedades profesionales
+- Consideración de implicaciones éticas en el desarrollo
+
+### 3. Procesos de Software (Páginas 45-80)
+
+**Definición de Proceso de Software**: Conjunto de actividades relacionadas que conducen a la producción de un sistema software.
+
+**Cuatro Actividades Fundamentales**:
+
+1. **Especificación de Software**: Definición de funcionalidad y restricciones operativas
+2. **Desarrollo de Software**: Producción del software según especificación
+3. **Validación de Software**: Verificación de que el software cumple con los requerimientos del cliente
+4. **Evolución de Software**: Adaptación a necesidades cambiantes del cliente
+
+**Elementos del Proceso**:
+
+- **Productos/Deliverables**: Resultados de las actividades del proceso
+- **Roles**: Responsabilidades de las personas involucradas
+- **Condiciones**: Factores que influyen en la secuencia de actividades
+
+**Características de los Procesos**:
+- No existe un proceso universalmente aplicable
+- Dependen del tipo de software, requerimientos del cliente y habilidades del equipo
+- Incluyen actividades de soporte (gestión de configuración, planificación de proyectos)
+
+### Modelos y Enfoques Relevantes
+
+El texto establece las bases para entender que los procesos software deben ser:
+- Adaptables a diferentes contextos
+- Centrados en actividades fundamentales
+- Orientados a la calidad y mantenibilidad
+- Conscientes de aspectos éticos y profesionales
+
+Esta sección sienta las bases conceptuales para la comprensión de modelos de proceso específicos que se desarrollan posteriormente en el texto, enfatizando la naturaleza sistemática y disciplinada de la ingeniería de software.

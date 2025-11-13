@@ -1,0 +1,74 @@
+### Parte 17 (Pág. 401–425)
+
+## Resumen de Páginas 401-425: "Más Allá del Desarrollo de Requisitos"
+
+### I. Estimación del Esfuerzo en Requisitos
+
+**Definición Clave**: La estimación del esfuerzo de requisitos constituye un proceso sistemático para predecir los recursos necesarios en las actividades de ingeniería de requisitos.
+
+**Métodos de Estimación**:
+1. **Estimación basada en actividades del Analista de Negocios (BA)**: Calcula el esfuerzo según artefactos específicos del proyecto (flujos de procesos, historias de usuario, pantallas, reportes).
+2. **Herramienta de Estimación Integral**: Planilla de cálculo con tres componentes:
+   - Hoja de resumen para características del proyecto
+   - Hoja de supuestos ajustables
+   - Instrucciones de uso
+
+**Principio Fundamental**: Las estimaciones preliminares contienen alta incertidumbre y deben refinarse progresivamente mediante:
+- Registro de supuestos explícitos
+- Ajuste basado en datos históricos organizacionales
+- Modificación de parámetros según experiencia del equipo
+
+### II. Transición de Requisitos a Planificación de Proyectos
+
+**Concepto Central**: Los requisitos representan la base fundamental para:
+- Estimaciones realistas del proyecto
+- Planes y cronogramas efectivos
+- Alineación con objetivos de negocio
+
+**Paradoja Crítica**: El éxito del proyecto se mide por el cumplimiento de objetivos de negocio, no necesariamente por la implementación completa de requisitos iniciales.
+
+### III. Métricas y Técnicas de Estimación
+
+**Métricas de Tamaño de Software**:
+- Requisitos individualmente probables
+- Puntos de función
+- Puntos de historia o puntos de caso de uso
+- Elementos de interfaz de usuario
+- Líneas de código estimadas
+
+**Proceso de Estimación**:
+1. Estimación del tamaño del producto
+2. Evaluación de productividad del equipo
+3. Cálculo del esfuerzo total considerando:
+   - Tamaño del equipo
+   - Cronograma planificado
+   - Complejidad del proyecto
+
+### IV. Enfoques Ágiles en Estimación
+
+**Conceptos Específicos**:
+- **Puntos de Historia**: Medida relativa del esfuerzo para implementar historias de usuario
+- **Velocidad del Equipo**: Capacidad predictiva basada en iteraciones anteriores
+- **Gestión de Volatilidad**: Implementación incremental con retroalimentación continua
+
+### V. Gestión de Incertidumbre y Negociación
+
+**Principios Críticos**:
+- Las estimaciones deben expresarse como rangos, no valores únicos
+- Los buffers de contingencia son esenciales para acomodar crecimiento de requisitos
+- La negociación debe basarse en procesos estructurados y datos históricos
+
+**Problema Identificado**: La "programación de derecha a izquierda" (fechas fijas antes de definir requisitos) genera conflictos y compromete la calidad.
+
+### VI. Caso de Estudio: Dilema de Betty
+
+**Situación Prototípica**: Conflicto entre estimaciones técnicas realistas y expectativas de gestión.
+
+**Solución Propuesta**: Uso de herramientas de estimación para:
+- Comunicación objetiva de capacidades
+- Timeboxing efectivo del esfuerzo de requisitos
+- Negociación basada en datos cuantitativos
+
+### Conclusión
+
+La estimación efectiva de requisitos requiere un equilibrio entre rigor metodológico y flexibilidad adaptativa. La integración de datos históricos, el reconocimiento de incertidumbre inherente y la comunicación transparente con stakeholders constituyen elementos esenciales para la planificación exitosa de proyectos de software.

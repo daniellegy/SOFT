@@ -1,0 +1,92 @@
+### Parte 1 (Pág. 1–25)
+
+# Resumen Académico: "Software Requirements (3rd Edition)" - Páginas 1-25
+
+## Estructura General del Libro
+
+El texto presenta una organización sistemática en cinco partes fundamentales:
+
+**Parte I:** Fundamentos de los requisitos de software (qué, por qué y quién)
+**Parte II:** Desarrollo de requisitos
+**Parte III:** Requisitos para clases específicas de proyectos
+**Parte IV:** Gestión de requisitos
+**Parte V:** Implementación de la ingeniería de requisitos
+
+## Definiciones Clave Conceptuales
+
+### Requisitos de Software
+Los autores establecen que los requisitos de software representan **"las capacidades y condiciones que debe cumplir un producto software para satisfacer las necesidades de los stakeholders"**. Se identifican tres niveles fundamentales:
+
+1. **Requisitos de Negocio (Business Requirements)**
+   - Objetivos organizacionales de alto nivel
+   - Define el valor que el software aportará a la organización
+
+2. **Requisitos de Usuario (User Requirements)**
+   - Necesidades específicas de los usuarios finales
+   - Describe las tareas que los usuarios deben poder realizar
+
+3. **Requisitos Funcionales (Functional Requirements)**
+   - Comportamientos específicos que el sistema debe exhibir
+   - Especificaciones detalladas y técnicas
+
+## Procesos Fundamentales
+
+### Desarrollo de Requisitos (Requirements Development)
+Proceso sistemático que comprende:
+- **Elicitación**: Identificación y recolección de necesidades
+- **Análisis**: Refinamiento y detallamiento de requisitos
+- **Especificación**: Documentación formal
+- **Validación**: Verificación de corrección y completitud
+
+### Gestión de Requisitos (Requirements Management)
+Actividades que aseguran el control continuo:
+- Seguimiento y control de cambios
+- Mantenimiento de trazabilidad
+- Gestión de versiones
+- Control de prioridades
+
+## Problemáticas Identificadas
+
+El texto destaca problemas recurrentes en la ingeniería de requisitos:
+
+1. **Participación Insuficiente del Usuario**
+   - Falta de involucramiento de stakeholders clave
+   - Consecuencia: productos que no satisfacen necesidades reales
+
+2. **Planificación Inadecuada**
+   - Estimaciones poco realistas
+   - Falta de comprensión del alcance real
+
+3. **Expansión Continua de Requisitos (Scope Creep)**
+   - Cambios no controlados durante el desarrollo
+   - Impacto significativo en cronogramas y costos
+
+4. **Ambiguidad en Requisitos**
+   - Especificaciones poco claras o contradictorias
+   - Diferentes interpretaciones por parte del equipo
+
+5. **Sobredimensionamiento (Gold Plating)**
+   - Adición de funcionalidades no esenciales
+   - Incremento innecesario de complejidad
+
+6. **Stakeholders No Identificados**
+   - Omisión de actores relevantes
+   - Requisitos incompletos o sesgados
+
+## Enfoque Metodológico
+
+Los autores enfatizan un enfoque **práctico y adaptable**, reconociendo la evolución hacia:
+- Metodologías ágiles
+- Soluciones empaquetadas
+- Desarrollo externalizado
+- Proyectos de analítica empresarial
+
+## Valoración Académica
+
+La obra se posiciona como referencia fundamental que integra:
+- Fundamentos teóricos sólidos
+- Prácticas validadas empíricamente
+- Adaptación a contextos modernos de desarrollo
+- Enfoque comprehensivo que abarca desde aspectos técnicos hasta organizacionales
+
+El texto establece las bases para una comprensión sistemática de la ingeniería de requisitos, destacando su carácter crítico para el éxito de proyectos software y su evolución constante ante nuevas metodologías y contextos de desarrollo.

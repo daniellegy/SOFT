@@ -1,0 +1,76 @@
+### Parte 7 (Pág. 241–280)
+
+## Resumen de Modelado de Requisitos: Casos de Uso y Modelado Basado en Clases (Páginas 241-280)
+
+### 1. Modelado Basado en Escenarios: Casos de Uso Formales
+
+#### 1.1. Estructura Formal de Casos de Uso
+El texto presenta un enfoque estructurado para la elaboración de casos de uso formales, utilizando como ejemplo el caso ACS-DCV (Access Camera Surveillance - Display Camera Views) del sistema SafeHome. La estructura formal incluye:
+
+- **Objetivo en contexto**: Define el alcance general del caso de uso
+- **Precondiciones**: Establece condiciones que deben cumplirse antes de iniciar el caso de uso
+- **Disparador (Trigger)**: Identifica el evento o condición que inicia la ejecución del caso de uso
+- **Escenario**: Secuencia detallada de acciones del actor y respuestas del sistema
+- **Excepciones**: Situaciones alternativas identificadas durante el refinamiento del caso de uso
+
+#### 1.2. Representación Gráfica y Limitaciones
+- Los diagramas de casos de uso UML facilitan la comprensión de relaciones entre casos de uso
+- Cada caso de uso se representa mediante un óvalo en el diagrama
+- **Limitaciones identificadas**:
+  - Dependen de la claridad del autor
+  - Enfocados en requisitos funcionales y comportamentales
+  - Inapropiados para requisitos no funcionales
+  - Insuficientes para sistemas de alta criticidad que requieren mayor precisión
+
+### 2. Modelado Basado en Clases
+
+#### 2.1. Identificación de Clases de Análisis
+El proceso de identificación de clases se realiza mediante:
+
+- **Análisis gramatical** de escenarios de uso desarrollados en el modelo de requisitos
+- **Subrayado de sustantivos** y frases nominales en las narrativas de procesamiento
+- Clasificación de sustantivos en **espacio del problema** vs. **espacio de la solución**
+
+#### 2.2. Categorías de Clases de Análisis
+Las clases de análisis se manifiestan en siete categorías principales:
+
+1. **Entidades externas**: Sistemas, dispositivos o personas que producen/consumen información
+2. **Cosas**: Elementos del dominio de información (reportes, displays, señales)
+3. **Eventos u ocurrencias**: Sucesos en el contexto de operación del sistema
+4. **Roles**: Papeles desempeñados por personas que interactúan con el sistema
+5. **Unidades organizacionales**: Divisiones, grupos o equipos relevantes
+6. **Lugares**: Contextos físicos que establecen la función del sistema
+7. **Estructuras**: Clases de objetos o clases relacionadas
+
+#### 2.3. Criterios de Selección de Clases
+Coad y Yourdon proponen seis características para evaluar clases potenciales:
+
+1. **Información retenida**: La clase debe recordar información para el funcionamiento del sistema
+2. **Servicios necesarios**: Debe tener operaciones identificables que modifiquen atributos
+3. **Múltiples atributos**: Enfocarse en información "principal" durante el análisis
+4. **Atributos comunes**: Conjunto de atributos aplicables a todas las instancias
+5. **Operaciones comunes**: Conjunto de operaciones aplicables a todas las instancias
+6. **Requisitos esenciales**: Entidades externas que producen/consumen información esencial
+
+### 3. Aplicación Práctica: Ejemplo SafeHome
+
+#### 3.1. Proceso de Identificación
+Mediante análisis gramatical de la narrativa del sistema de seguridad SafeHome, se identifican clases potenciales como:
+- Homeowner (rol)
+- Sensor (entidad externa)
+- Control panel (entidad externa)
+- Security system (cosa)
+- Sensor event (evento)
+
+#### 3.2. Evaluación y Filtrado
+La aplicación de los criterios de selección resulta en:
+- **Clases aceptadas**: Sensor, Control panel, Security system, Sensor event, Audible alarm
+- **Clases rechazadas**: Homeowner, Installation, Number/Type (atributos), Master password, Telephone number
+
+#### 3.3. Observaciones Clave
+- Las clases rechazadas pueden convertirse en atributos de clases aceptadas
+- La lista no es exhaustiva y requiere completarse
+- Las decisiones de inclusión/exclusión tienen cierto grado de subjetividad
+- Diferentes formulaciones del problema pueden alterar las decisiones de aceptación/rechazo
+
+Este enfoque sistemático proporciona una base sólida para el desarrollo del modelo de análisis, estableciendo las bases para el diseño detallado del sistema software.

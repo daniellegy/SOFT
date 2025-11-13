@@ -1,0 +1,55 @@
+### Parte 6 (Pág. 201–240)
+
+## Resumen de las páginas 201-240: Diseño Orientado a Objetos usando UML
+
+### 7.1.1 Contexto del Sistema e Interacciones
+
+**Definiciones Clave:**
+- **Modelo de contexto del sistema:** Modelo estructural que demuestra los otros sistemas en el entorno del sistema en desarrollo
+- **Modelo de interacción:** Modelo dinámico que muestra cómo el sistema interactúa con su entorno durante su uso
+- **Asociaciones:** Relaciones entre las entidades involucradas en el sistema
+
+**Conceptos Fundamentales:**
+El proceso de diseño comienza comprendiendo las relaciones entre el software y su entorno externo. Esto permite establecer los límites del sistema y decidir cómo distribuir la funcionalidad entre sistemas asociados.
+
+**Modelos Aplicados:**
+- **Diagrama de contexto:** Representa las entidades del sistema y sus asociaciones mediante diagramas de bloques
+- **Modelos de casos de uso:** Representan interacciones abstractas con el sistema, donde cada caso de uso representa una interacción específica
+
+**Ejemplo Práctico - Estación Meteorológica:**
+El contexto incluye sistemas de información meteorológica, sistema satelital y sistema de control. Los casos de uso identificados son: Reportar clima, Reportar estado, Reiniciar, Apagar, Reconfigurar, Modo ahorro de energía y Control remoto.
+
+### 7.1.2 Diseño Arquitectónico
+
+**Proceso de Diseño:**
+Una vez definidas las interacciones, se procede al diseño de la arquitectura del sistema, identificando los componentes principales y sus interacciones.
+
+**Patrones Arquitectónicos:**
+- **Modelo de escucha (Listener model):** Estilo arquitectónico común para sistemas distribuidos donde los subsistemas escuchan mensajes en una infraestructura común
+- **Patrón productor-consumidor:** Utilizado en el subsistema de recolección de datos
+
+**Arquitectura de la Estación Meteorológica:**
+- Subsistemas independientes que se comunican mediante transmisión de mensajes
+- Subsistemas principales: Recolección de datos, Comunicaciones, Gestor de configuración, Gestor de fallos, Gestor de energía e Instrumentos
+
+### 7.1.3 Identificación de Clases de Objetos
+
+**Métodos de Identificación:**
+1. **Análisis gramatical:** Objetos y atributos como sustantivos; operaciones como verbos
+2. **Entidades tangibles:** Elementos del dominio de aplicación como aeronaves, roles, eventos, interacciones
+3. **Análisis basado en escenarios:** Identificación de objetos requeridos mediante el análisis de escenarios de uso
+
+**Práctica Recomendada:**
+Utilizar múltiples fuentes de conocimiento para descubrir clases de objetos, combinando descripciones informales del sistema, conocimiento del dominio de aplicación y análisis de escenarios.
+
+**Clases de Objetos Identificadas:**
+1. **WeatherStation:** Proporciona la interfaz básica con el entorno
+2. **WeatherData:** Procesa el comando de reporte meteorológico
+3. **Objetos de dominio:** GroundThermometer, Anemometer, Barometer - relacionados directamente con instrumentos hardware
+
+**Características de Implementación:**
+- Los objetos de dominio reflejan entidades hardware tangibles
+- Operaciones autónomas de control de hardware
+- Combinación de objetos de aplicación y objetos de implementación para servicios generales
+
+Este enfoque sistemático permite un diseño robusto que integra adecuadamente las interacciones externas, la arquitectura del sistema y la identificación de objetos, siguiendo las mejores prácticas de la ingeniería de software orientada a objetos.

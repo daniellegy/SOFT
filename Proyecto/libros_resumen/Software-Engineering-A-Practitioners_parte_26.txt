@@ -1,0 +1,54 @@
+### Parte 26 (Pág. 1001–1040)
+
+**Resumen Académico: Páginas 1001-1040 - Ingeniería de Software: Prácticas Contemporáneas**
+
+**I. Introducción Conceptual**
+Las páginas analizadas constituyen una compilación bibliográfica especializada que refleja la evolución multidimensional de la ingeniería de software. Se documentan contribuciones fundamentales organizadas en áreas temáticas clave que abarcan desde metodologías de desarrollo hasta aspectos de seguridad y calidad.
+
+**II. Taxonomía de Contribuciones Relevantes**
+
+**A. Metodologías de Desarrollo**
+- **Desarrollo Ágil**: Schwaber y Beedle (2001) establecen SCRUM como marco de referencia para desarrollo iterativo e incremental
+- **Ingeniería Dirigida por Modelos (MDE)**: Schmidt (2006) propone la automatización del ciclo de desarrollo mediante transformaciones de modelos
+- **Desarrollo Basado en Componentes**: Vitharana (2003) identifica riesgos y desafíos en el ensamblaje de sistemas mediante componentes reutilizables
+
+**B. Ingeniería de Requisitos**
+- **Casos de Uso y Casos de Mal Uso**: Schneider y Winters (2001) sistematizan la especificación de funcionalidades, mientras Sindre y Opdahl (2000) introducen técnicas para requisitos de seguridad mediante anti-patrones
+- **Modelado de Amenazas**: Scandariato et al. (2015) y Shostack (2014) desarrollan metodologías sistemáticas para identificación proactiva de vulnerabilidades
+
+**C. Arquitectura de Software**
+- **Patrones de Diseño**: Shalloway y Trott (2005) documentan soluciones arquitectónicas reutilizables
+- **Decisiones Arquitectónicas**: Tyree y Akerman (2005) formalizan la documentación de opciones arquitectónicas críticas
+- **Arquitecturas Móviles y en la Nube**: Taivalsaari y Systä (2012) proponen modelos de referencia para computación móvil
+
+**D. Garantía de Calidad**
+- **Métricas de Mantenibilidad**: SEI (2002) establece índices cuantitativos para evaluar mantenibilidad
+- **Pruebas Especializadas**: 
+  - Tai (1989) avanza más allá del testing de ramas
+  - SOASTA (2011) establece estrategias para testing de rendimiento móvil
+  - Thomas et al. (2004) documentan patrones de testing en Java
+
+**E. Aspectos Emergentes**
+- **Computación Móvil**: Schilit (2011) y Wasserman (2010) analizan desafíos específicos del desarrollo móvil
+- **DevOps**: Sharma y Coyne (2017) sistematizan prácticas de integración continua y entrega
+- **Accesibilidad**: W3C (2018) actualiza directrices WCAG para diseño inclusivo
+
+**III. Modelos y Procesos Documentados**
+
+**A. Modelos de Proceso**
+- **IDEAL (SEI, 2008)**: Marco para mejora de procesos organizacionales
+- **SPICE (ISO/IEC, 1999)**: Modelo de evaluación de capacidades de proceso
+
+**B. Procesos Especializados**
+- **Refactorización Segura**: Soares et al. (2010) establecen protocolos para modificación controlada de código
+- **Revisión por Pares**: Wiegers (2002) sistematiza técnicas de inspección de artefactos
+- **Gestión de Riesgos**: Williams et al. (1997) proponen frameworks para identificación y mitigación
+
+**IV. Conclusiones y Tendencias**
+La bibliografía analizada evidencia la maduración disciplinar de la ingeniería de software hacia:
+1. Enfoques basados en evidencia empírica
+2. Integración de consideraciones de seguridad desde etapas tempranas
+3. Adaptación a paradigmas emergentes (móvil, cloud, IA)
+4. Énfasis en métricas cuantitativas para evaluación de calidad
+
+Esta compilación constituye un corpus de referencia fundamental para investigadores y profesionales que buscan fundamentar sus prácticas en literatura especializada y avalada académicamente.

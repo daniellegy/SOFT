@@ -1,0 +1,90 @@
+### Parte 20 (Pág. 761–800)
+
+## Resumen de las Páginas 761-800: Métricas de Software y Gestión de Proyectos
+
+### **I. Ejercicios de Métricas de Software (Págs. 761-763)**
+Se presentan problemas prácticos para calcular métricas clave en ingeniería de software:
+
+1. **Métricas Orientadas a Objetos**  
+   - *Weighted Methods per Class (WMC)*: Suma de complejidades de operaciones en una clase.  
+   - Ejemplo: Clase X con 12 operaciones y complejidades individuales [5,4,3,3,6,8,2,2,5,5,4,4].  
+   - **Cálculo**: WMC = Σ complejidades = 51.
+
+2. **Métricas de Mantenibilidad**  
+   - *Software Maturity Index (SMI)*: Evalúa estabilidad de releases.  
+   - Fórmula:  
+     ```
+     SMI = [Mt - (Fa + Fc + Fd)] / Mt
+     ```
+     Donde:  
+     - Mt = módulos totales (940)  
+     - Fa = módulos añadidos (40)  
+     - Fc = módulos cambiados (90)  
+     - Fd = módulos eliminados (12)  
+   - **Resultado**: SMI ≈ 0.85 → Alta madurez.
+
+3. **Métricas de Calidad**  
+   - *Defect Removal Efficiency (DRE)*:  
+     ```
+     DRE = Errores pre-detección / (Errores pre-detección + Errores post-detección)
+     ```
+   - Ejemplo (Pregunta 23.9):  
+     - Fase modelado: 30 errores detectados.  
+     - Fase construcción: 12 errores por fallos en modelado.  
+     - **DRE_modelado** = 30/(30+12) ≈ 0.714.
+
+4. **Métricas Web**  
+   - *Customization Index*:  
+     ```
+     CI = (Páginas dinámicas / Total páginas) × 100
+     ```
+     - Ejemplo: 65 páginas dinámicas de 145 totales → CI ≈ 44.8%.  
+   - *Integridad de WebApps*:  
+     ```
+     Integridad = [1 - (Prob.ataque × (1 - Prob.repeler))] × 100
+     ```
+     - Ejemplo: Prob. repeler = 30%, Prob. ataque = 25% → Integridad ≈ 82.5%.
+
+### **II. Conceptos Fundamentales en Métricas (Págs. 762-763)**
+- **Métricas Públicas vs. Privadas**:  
+  - *Privadas*: Uso interno del equipo (ej: defectos por componente, complejidad ciclomática, tiempo de resolución de errores).  
+  - *Públicas*: Reportadas a stakeholders (ej: DRE, índice de madurez, métricas de productividad).  
+- **Definiciones Clave**:  
+  - *Error*: Defecto identificado pre-entrega.  
+  - *Defecto*: Fallo descubierto post-entrega.  
+  - *Fan-out*: Número de módulos subordinados inmediatos.
+
+### **III. Transición a Gestión de Proyectos (Págs. 764-768)**
+#### **Introducción a la Gestión de Proyectos Software**
+- **Objetivo**: Planificar, organizar, monitorear y controlar proyectos para entregar productos de calidad dentro de restricciones de tiempo y recursos.  
+- **Enfoque en las 4Ps**:  
+  1. **Personas**: Factor crítico (People-CMM).  
+  2. **Producto**: Definir alcance y objetivos antes de la planificación.  
+  3. **Proceso**: Seleccionar metodologías apropiadas (ágiles o formales).  
+  4. **Proyecto**: Planificación iterativa con gestión de riesgos.
+
+#### **Elementos Clave de Gestión**
+- **Roles**:  
+  - *Líderes de equipo*: Facilitan coordinación y comunicación.  
+  - *Stakeholders*: Definición conjunta de requisitos.  
+- **Principio W5HH**:  
+  - Marco para definir alcance, hitos, responsabilidades, técnicas y criterios de éxito.  
+- **Prácticas Críticas**:  
+  - Descomposición de problemas.  
+  - Estimación realista de esfuerzo.  
+  - Gestión de riesgos proactiva.
+
+### **IV. Anexos y Consideraciones Técnicas**
+- **Métricas OO Alternativas**: Harrison-Counsell-Nithi (1998).  
+- **Limitaciones de Métricas**:  
+  - LCOM puede ser engañoso en cohesión.  
+  - Controversias en las "Leyes de Halstead".  
+- **Arquitectura Web**: Regiones distintivas (barras de menú, áreas de contenido).
+
+### **Conclusión**
+Las páginas analizadas integran métricas cuantitativas con principios de gestión, destacando la necesidad de:
+1. **Medición objetiva** para mejorar calidad y procesos.  
+2. **Enfoque balanceado** entre factores técnicos y humanos.  
+3. **Planificación adaptativa** basada en retroalimentación continua.
+
+Este marco proporciona bases sólidas para la toma de decisiones en proyectos software, vinculando medición técnica con estrategias de gestión efectivas.

@@ -1,0 +1,83 @@
+### Parte 12 (Pág. 441–480)
+
+## Resumen del Capítulo 10: E-commerce - Mercados Digitales, Productos Digitales (Páginas 441-444)
+
+### 1. Marketing Dirigido Basado en el Comportamiento
+
+**Definición Central**: Estrategia de marketing que utiliza datos del comportamiento de navegación de usuarios para crear perfiles detallados y ofrecer publicidad personalizada.
+
+#### Mecanismos de Implementación:
+- **Recolección de Datos**: Los sitios web registran:
+  - Sitios de procedencia y destino
+  - Sistema operativo y navegador utilizado
+  - Ubicación geográfica
+  - Páginas específicas visitadas
+  - Patrones de compra y abandono de carritos
+
+- **Tecnologías de Rastreo**:
+  - Cookies
+  - Bugs web
+  - Balizas de rastreo
+  - Programas de seguimiento de flujo de clics
+
+#### Redes de Publicidad Principales:
+- DoubleClick de Google
+- RightMedia de Yahoo
+- Ad Network de AOL
+
+### 2. Proceso de Personalización Web
+
+**Flujo Operativo** (Figura 10.3):
+1. Registro de secuencia de clics del usuario
+2. Análisis de preferencias (tamaños, colores, productos)
+3. Identificación de patrones de abandono
+4. Redirección de anuncios relacionados en otros sitios
+5. Evaluación de la efectividad del diseño web
+
+**Beneficios de la Personalización**:
+- Creación de páginas web personalizadas
+- Mejora de la experiencia del usuario
+- Incremento del valor percibido
+- Reducción de costos comparado con vendedores individuales
+
+### 3. Arquitectura de Redes Publicitarias
+
+**Funcionamiento** (Figura 10.5):
+1. El usuario solicita una página web
+2. El servidor del comerciante se conecta al servidor de anuncios
+3. El servidor de anuncios lee las cookies del usuario
+4. Consulta la base de datos de perfiles
+5. Selecciona y muestra anuncios personalizados
+
+**Efectividad**: Los anuncios dirigidos tienen 10 veces más probabilidades de generar respuesta que la publicidad aleatoria.
+
+### 4. E-commerce Social y Marketing en Redes Sociales
+
+**Definición**: Comercio electrónico basado en el "gráfico social digital" - mapa de todas las relaciones sociales significativas en línea.
+
+#### Conceptos Fundamentales:
+
+**Gráfico Social**:
+- Representación matemática de las relaciones sociales
+- Sinónimo de "red social"
+- Agregación de todos los gráficos sociales personales
+
+**Teoría del Mundo Pequeño**:
+- Cualquier persona está conectada con otra mediante máximo seis grados de separación
+- Base matemática: 100 contactos × 50 nuevos contactos × 5 niveles = 31 mil millones de personas
+
+### 5. Aspectos Éticos y de Privacidad
+
+**Preocupaciones Documentadas**:
+- 68% de usuarios desaprueban el rastreo para publicidad dirigida
+- 86% toman medidas para enmascarar su comportamiento en línea
+- 25% utiliza software bloqueador de anuncios
+- 64% bloquea cookies para dificultar el rastreo
+
+**Tendencias Regulatorias**:
+- Creciente demanda por opciones "No rastrear" en navegadores
+- Aumento de preocupaciones sobre privacidad de datos personales
+- Desarrollo de legislación para proteger la privacidad en línea
+
+### Implicaciones Gerenciales:
+La implementación de estas tecnologías requiere balancear la efectividad del marketing con el respeto a la privacidad del consumidor, considerando tanto oportunidades de negocio como responsabilidades éticas.

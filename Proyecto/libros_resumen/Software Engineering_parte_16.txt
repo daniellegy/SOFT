@@ -1,0 +1,55 @@
+### Parte 16 (Pág. 601–640)
+
+### Resumen de las Páginas 601-640: Arquitectura de Sistemas de Sistemas
+
+#### 20.5 Arquitectura de Sistemas de Sistemas
+
+**Definición Clave:**  
+La arquitectura de sistemas de sistemas (SoS) constituye la actividad fundamental del proceso de ingeniería de SoS, enfocándose en la selección de sistemas constituyentes, su interoperabilidad y el diseño de mecanismos de interacción. Esta etapa determina aspectos críticos como gestión de datos, redundancia y comunicaciones.
+
+**Principios Fundamentales de Diseño Arquitectónico:**
+
+1. **Principios de Maier (1998):**
+   - *Diseño para valor incompleto:* Los SoS deben proporcionar utilidad incluso en estados parcialmente completos, mediante "formas intermedias estables".
+   - *Control realista:* Evitar el sobrecontrol que genere resistencia de los propietarios de sistemas constituyentes.
+   - *Enfoque en interfaces:* Diseñar interfaces flexibles que permitan la evolución de los componentes.
+   - *Incentivos de colaboración:* Establecer motivaciones financieras, de acceso o comunitarias para la participación continua.
+
+2. **Directrices de Sillitto (2010):**
+   - *Arquitectura nodo-red:* Modelar los SoS como sistemas sociotécnicos interconectados.
+   - *Especificación basada en servicios:* Utilizar arquitecturas orientadas a servicios para la interoperabilidad.
+   - *Gestión de vulnerabilidades:* Diseñar sistemas resilientes ante fallos inesperados.
+
+**Marcos Arquitectónicos:**
+- **MODAF y TOGAF:** Frameworks desarrollados para arquitecturas empresariales, aplicables a SoS organizacionales con autoridad de gobierno única.
+- **Método de Desarrollo de Arquitectura (ADM) de TOGAF:** Proceso iterativo que incluye fases de visión arquitectónica, arquitectura empresarial, de sistemas de información, tecnológica, y gestión de cambios.
+
+**Limitaciones de los Frameworks:**
+- Enfoque reduccionista que ignora aspectos sociotécnicos y políticos.
+- Alta complejidad en el mantenimiento de la consistencia de modelos.
+- Sobrecarga administrativa en la gestión de modelos arquitectónicos.
+
+#### 20.5.1 Patrones Arquitectónicos para Sistemas de Sistemas
+
+**Definición:** Los patrones arquitectónicos representan esquemas estilizados reutilizables que facilitan el diseño y documentación de arquitecturas SoS.
+
+**Patrón 1: Sistemas como Fuentes de Datos**
+- **Características:**
+  - Sistema principal que consulta datos de sistemas secundarios.
+  - Ausencia de interacción entre sistemas proveedores.
+  - Aplicable cuando existen mecanismos de gobierno establecidos.
+
+- **Ejemplo:** Sistema de licencias de vehículos en UK que consulta:
+  1. Sistema federado de vehículos asegurados
+  2. Sistema de certificados de aptitud vial (MOT)
+
+- **Variante con Capa Intermedia:**  
+  Implementación de interfaz unificadora para traducir consultas genéricas a formatos específicos de sistemas heterogéneos (ej: plataforma iLearn con sistemas administrativos escolares).
+
+**Consideraciones de Diseño:**
+- Los arquitectos deben adoptar una perspectiva holística que integre dimensiones técnicas y sociotécnicas.
+- La solución óptima puede involucrar modificaciones en políticas operativas más que desarrollos software adicionales.
+- Los patrones facilitan la comprensión de la organización SoS sin requerir conocimiento detallado del dominio.
+
+**Conclusión:**  
+El diseño arquitectónico de SoS requiere equilibrar consideraciones técnicas con factores organizativos y humanos, priorizando la flexibilidad en interfaces y la creación de incentivos adecuados para la colaboración entre sistemas autónomos.

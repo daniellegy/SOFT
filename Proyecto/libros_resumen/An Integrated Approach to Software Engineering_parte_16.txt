@@ -1,0 +1,98 @@
+### Parte 16 (Pág. 451–480)
+
+## Resumen de las páginas 451-480: Verificación de Programas
+
+### 9.4. VERIFICACIÓN
+
+#### 9.4.3 Demostración de Correctitud
+
+**Definición Clave**: La demostración de correctitud constituye una aproximación formal para establecer matemáticamente que un programa satisface su especificación formal.
+
+**Características Fundamentales**:
+- Requiere especificaciones formales precisas (precondiciones y postcondiciones)
+- Establece la correctitud directamente, a diferencia de otras técnicas que solo detectan errores
+- Resulta más efectiva cuando se integra durante el desarrollo del programa
+
+**Conceptos Esenciales**:
+- **Precondición**: Aserción que define las condiciones de entrada válidas
+- **Postcondición**: Aserción que especifica el estado final esperado
+- **Terminación**: Condición que garantiza que la ejecución finalizará
+
+#### Método Axiomático de Floyd-Hoare
+
+**Base Teórica**: Modelo axiomático propuesto por Hoare que utiliza aserciones de la forma:
+```
+P {S} Q
+```
+Donde P es la precondición, S el segmento de programa y Q la postcondición.
+
+**Axiomas y Reglas Fundamentales**:
+
+1. **Axioma de Asignación**:
+   ```
+   P^f {x := f} P
+   ```
+   Donde P^f se obtiene sustituyendo todas las ocurrencias de x por f en P.
+
+2. **Regla de Composición**:
+   ```
+   P {S1} Q, Q {S2} R
+   ────────────────────
+      P {S1; S2} R
+   ```
+
+3. **Regla para Sentencias Alternativas**:
+
+   **If-then-else**:
+   ```
+   P∧B {S1} Q, P∧¬B {S2} Q
+   ──────────────────────────
+      P {if B then S1 else S2} Q
+   ```
+
+   **If-then**:
+   ```
+   P∧B {S} Q, P∧¬B ⇒ Q
+   ─────────────────────
+      P {if B then S} Q
+   ```
+
+4. **Reglas de Consecuencia**:
+   - Si P ⇒ P' y P' {S} Q' y Q' ⇒ Q, entonces P {S} Q
+   - Permiten fortalecer precondiciones y debilitar postcondiciones
+
+#### Análisis Estático Automatizado
+
+**Propósito**: Detección de errores mediante análisis del código fuente sin ejecución.
+
+**Ventajas Identificadas**:
+- Detección coste-efectiva de errores
+- Identificación directa de defectos (no solo su presencia)
+- Reducción significativa del debugging posterior
+
+**Limitaciones**:
+- Generación de falsos positivos
+- Esfuerzo adicional para verificar advertencias
+- Posible desconfianza del programador hacia alertas válidas
+
+**Ejemplo de Errores Detectados**:
+- Fugas de memoria (memory leaks)
+- Desreferenciación de punteros no inicializados
+- Acceso a punteros NULL
+
+#### Aplicación Práctica
+
+**Contexto de Uso**:
+- Lenguajes de programación procedural simples
+- Constructores básicos: asignación, condicionales, iteración
+- Especificaciones formales como base del proceso
+
+**Metodología**:
+1. Definición formal de precondiciones y postcondiciones
+2. Aplicación sistemática de axiomas y reglas
+3. Construcción incremental de demostraciones
+4. Verificación de terminación para programas iterativos
+
+**Relevancia Actual**: Incremento en entornos comerciales debido a su escalabilidad y efectividad en la detección de errores complejos.
+
+Este enfoque integrado combina métodos formales con herramientas automatizadas, proporcionando un marco robusto para el desarrollo de software confiable y verificable.

@@ -1,0 +1,82 @@
+### Parte 20 (Pág. 571–581)
+
+## Resumen de Páginas 571-581: Gestión de Calidad y Métricas en Ingeniería de Software
+
+### 1. Conceptos Fundamentales de Calidad
+
+**Defecto**: Cualquier imperfección o deficiencia en un producto de software que puede manifestarse como un error durante la ejecución. Se clasifica según:
+- **Severidad**: Impacto en el sistema (crítico, mayor, menor, cosmético)
+- **Tipología**: Naturaleza del defecto (lógico, de interfaz, de rendimiento, etc.)
+
+**Ciclo de Vida del Defecto**:
+- Detección y registro
+- Análisis y asignación
+- Corrección y verificación
+- Cierre y documentación
+
+### 2. Prevención de Defectos
+
+**Estrategias Organizacionales**:
+- **Análisis Causal**: Identificación sistemática de causas raíz
+- **Diagrama Causa-Efecto (Ishikawa)**: Herramienta gráfica para análisis de causas
+- **Análisis Pareto**: Técnica estadística para priorizar problemas (80/20)
+
+**Proceso de Prevención**:
+1. Recopilación y análisis de datos de defectos
+2. Identificación de patrones recurrentes
+3. Desarrollo de soluciones preventivas
+4. Implementación y seguimiento
+
+### 3. Métricas de Calidad y Productividad
+
+**Métricas Clave**:
+- **Eficiencia en Remoción de Defectos (DRE)**: 
+  ```
+  DRE = (Defectos encontrados antes de liberación) / (Defectos totales) × 100%
+  ```
+- **Productividad**: Relación entre tamaño del software y esfuerzo requerido
+- **Confiabilidad**: Medida mediante:
+  - **Intensidad de Fallos**: Frecuencia de ocurrencia de fallos
+  - **MTTF (Mean Time To Failure)**: Tiempo promedio entre fallos
+
+### 4. Modelos de Confiabilidad
+
+**Características Esenciales**:
+- **Perfil Operacional**: Distribución de probabilidad de entradas en operación real
+- **Modelo Básico de Musa**: Modelo matemático para predecir confiabilidad
+- **Método Newton-Raphson**: Técnica numérica para estimación de parámetros
+
+### 5. Métricas de Diseño Orientado a Objetos (OOD)
+
+**Métricas Específicas**:
+- **Profundidad del Árbol de Herencia (DIT)**: Niveles de herencia de una clase
+- **Número de Hijos (NOC)**: Cantidad de subclases directas
+- **Acoplamiento entre Clases (CBO)**: Número de clases acopladas
+- **Falta de Cohesión en Métodos (LCOM)**: Medida de cohesión interna
+- **Respuesta para una Clase (RFC)**: Conjunto de métodos ejecutables
+- **Métodos Ponderados por Clase (WMC)**: Complejidad de métodos implementados
+
+### 6. Técnicas de Verificación y Validación
+
+**Verificación de Diseño Detallado**:
+- **Revisión de Diseño**: Evaluación formal mediante checklist
+- **Walkthrough de Diseño**: Revisión paso a paso con el equipo
+- **Revisión de Escritorio**: Evaluación individual del diseñador
+
+**Pruebas Especializadas**:
+- **Pruebas por Pares (Pair-wise)**: Combinación sistemática de parámetros
+- **Pruebas de Mutación**: Inyección de fallos artificiales para evaluar casos de prueba
+
+### 7. Principios de Programación Robustos
+
+**Buenas Prácticas**:
+- Verificación de valores de retorno en operaciones de lectura
+- Manejo apropiado de excepciones y bloques finally
+- Minimización de efectos secundarios
+- Uso restrictivo de goto
+- Aplicación de tipos de datos definidos por el usuario
+- Control de anidamiento de construcciones
+
+### Conclusión
+
+Las páginas analizadas presentan un marco integral para la gestión de calidad en ingeniería de software, enfatizando la importancia de métricas cuantitativas, procesos sistemáticos de prevención de defectos y técnicas avanzadas de verificación. La integración de estos elementos permite desarrollar software de calidad industrial con niveles predecibles de confiabilidad y mantenibilidad.

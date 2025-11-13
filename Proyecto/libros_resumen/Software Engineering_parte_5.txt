@@ -1,0 +1,69 @@
+### Parte 5 (Pág. 161–200)
+
+### Resumen de las Páginas 161-200: Arquitectura Dirigida por Modelos
+
+#### 5.5 Arquitectura Dirigida por Modelos (MDA)
+
+**Definición y Antecedentes**
+La Arquitectura Dirigida por Modelos (MDA) constituye un paradigma de desarrollo de software centrado en modelos, propuesto inicialmente por el Object Management Group (OMG). Se enmarca dentro de la Ingeniería Dirigida por Modelos (MDE), aunque se diferencia de esta última al concentrarse específicamente en las etapas de diseño e implementación, mientras que la MDE abarca todo el proceso de ingeniería de software.
+
+**Modelos Fundamentales en MDA**
+El enfoque MDA prescribe la elaboración de tres tipos de modelos abstractos:
+
+1. **Modelo Independiente de Computación (CIM)**
+   - Representa las abstracciones fundamentales del dominio sin considerar aspectos computacionales
+   - También denominado "modelo de dominio"
+   - Pueden existir múltiples CIMs representando diferentes perspectivas (ej: seguridad, registros médicos)
+
+2. **Modelo Independiente de Plataforma (PIM)**
+   - Describe la operación del sistema sin referencia a detalles de implementación
+   - Utiliza notación UML para representar estructura estática y comportamiento dinámico
+   - Captura la esencia del sistema independientemente de la tecnología
+
+3. **Modelo Específico de Plataforma (PSM)**
+   - Representa transformaciones del PIM adaptadas a plataformas específicas
+   - Puede existir jerarquía de PSMs con niveles progresivos de especificidad
+   - Permite la generación automática de código ejecutable
+
+**Proceso de Transformación**
+El núcleo de MDA radica en las transformaciones automáticas entre modelos:
+- Las herramientas software aplican reglas y patrones para convertir modelos entre niveles
+- La transformación final genera código ejecutable para la plataforma objetivo
+- En la práctica, se requiere intervención humana para mapeos conceptuales complejos
+
+**Limitaciones y Desafíos**
+La implementación completa de MDA enfrenta varias dificultades:
+
+1. **Problemas Técnicos**
+   - Traducción automática CIM→PIM permanece como desafío de investigación
+   - Necesidad de herramientas especializadas para entornos específicos
+   - Integración con sistemas legacy y servicios externos
+
+2. **Barreras de Adopción**
+   - Costos de implementación y mantenimiento de herramientas
+   - Tensión conceptual con métodos ágiles
+   - Beneficios limitados para sistemas de corta vida útil
+   - Dependencia de proveedores especializados
+
+**Aplicaciones y Casos de Éxito**
+MDA ha demostrado mayor efectividad en:
+- Sistemas productos que integran hardware y software
+- Dominios bien entendidos y formalizables (automoción, control aéreo)
+- Sistemas de larga vida útil donde la independencia de plataforma es crucial
+
+**UML Ejecutable (xUML)**
+Subconjunto de UML 2 que permite:
+- Definición de modelos gráficos con semántica precisa
+- Compilación directa a código ejecutable
+- Especificación de implementación de operaciones
+
+**Puntos Clave del Capítulo**
+- Los modelos proporcionan vistas abstractas que ignoran deliberadamente detalles del sistema
+- Los modelos de contexto definen límites del sistema y su relación con el entorno
+- Los diagramas de casos de uso y secuencia modelan interacciones usuario-sistema
+- Los modelos estructurales (diagramas de clases) definen la arquitectura estática
+- Los modelos comportamentales describen la dinámica del sistema en ejecución
+- Los diagramas de actividades modelan procesamiento de datos
+- Los diagramas de estados modelan comportamiento reactivo a eventos
+
+La adopción de MDA ha sido selectiva, mostrando mejores resultados en contextos específicos donde los beneficios de la independencia de plataforma y la automatización superan los costos de implementación y mantenimiento.

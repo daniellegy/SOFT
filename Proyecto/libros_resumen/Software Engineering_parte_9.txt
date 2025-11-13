@@ -1,0 +1,95 @@
+### Parte 9 (Pág. 321–360)
+
+## Resumen de Arquitecturas Tolerantes a Fallos (Páginas 321-326)
+
+### 11.3 Arquitecturas Tolerantes a Fallos
+
+#### 11.3.1 Sistemas de Protección
+
+**Definición:** Un sistema de protección es un sistema especializado asociado a otro sistema principal, generalmente de control, que monitorea independientemente el entorno y activa mecanismos de seguridad cuando detecta problemas no gestionados por el sistema controlado.
+
+**Características Fundamentales:**
+- Opera con sensores independientes del sistema principal
+- Incluye funcionalidad crítica mínima para llevar el sistema a un estado seguro
+- Posee actuadores redundantes y sistemas de respaldo
+- Ejemplo paradigmático: sistema de respaldo del Transbordador Espacial con funcionalidad "get you home"
+
+**Arquitectura (Figura 11.6):**
+- Monitoreo dual: equipo controlado y ambiente
+- Dos conjuntos de sensores (principal y protección)
+- Mecanismos de actuación independientes
+- Transición a estado seguro ante emergencias
+
+**Ventajas:**
+- Simplicidad del software de protección
+- Mayor capacidad de inversión en evitación y detección de fallos
+- Alta confiabilidad con probabilidad de fallo en demanda muy baja (≈ 0.001)
+
+#### 11.3.2 Arquitecturas de Auto-monitoreo
+
+**Concepto:** Sistemas que monitorean su propia operación mediante cómputos en canales separados y comparación de resultados.
+
+**Arquitectura Básica (Figura 11.7):**
+- Computaciones paralelas en canales separados
+- Comparador de salidas
+- Generación de excepción de fallo ante discrepancias
+
+**Requisitos para Efectividad:**
+1. **Diversidad de hardware:** Diferentes tipos de procesadores o fabricantes
+2. **Diversidad de software:** Implementaciones independientes para evitar errores comunes
+
+**Aplicación en Sistemas Críticos:**
+- **Sistema de Control de Vuelo Airbus 340:** Cinco computadoras auto-monitoreadas
+- Arquitectura con filtros hardware que detectan fallos
+- Capacidad de continuar operando con hasta cuatro fallos
+- Cero incidentes reportados en 15+ años de operación
+
+**Estrategias de Diversidad Airbus:**
+- Procesadores diferentes entre sistemas primarios y secundarios
+- Chipsets de diferentes fabricantes por canal
+- Software secundario con funcionalidad crítica reducida
+- Desarrollo con diferentes lenguajes de programación y equipos
+
+#### 11.3.3 Programación N-Versiones
+
+**Base Conceptual:** Extensión de la Redundancia Modular Triple (TMR) de hardware a sistemas software.
+
+**Arquitectura TMR (Figura 11.9):**
+- Tres o más unidades hardware idénticas
+- Sistema de votación para comparar salidas
+- Tolerancia a fallos de un componente
+- Reconfiguración automática ante fallos
+
+**Programación N-Versiones (Figura 11.10):**
+- Múltiples versiones software desarrolladas independientemente
+- Ejecución paralela en computadoras separadas
+- Sistema de votación para selección de resultados
+- Mínimo tres versiones para tolerar fallos simples
+
+**Aplicaciones:**
+- Sistemas de señalización ferroviaria
+- Sistemas de aviación
+- Sistemas de protección de reactores
+
+**Consideraciones Económicas:**
+- Alto costo de desarrollo por múltiples equipos
+- Uso restringido a sistemas donde es impracticable implementar sistemas de protección convencionales
+
+#### 11.3.4 Diversidad de Software
+
+**Principio Fundamental:** Implementaciones diversas de la misma especificación reducen probabilidad de fallos comunes.
+
+**Políticas de Diversidad:**
+1. **Métodos de diseño diferentes:** Orientación a objetos vs. orientación a funciones
+2. **Equipos de desarrollo independientes** sin comunicación durante el proceso
+3. **Lenguajes de programación diversos**
+4. **Proveedores de hardware diferentes**
+
+**Limitaciones:**
+- No garantiza diversidad absoluta
+- Reduce probabilidad de fallos comunes pero no los elimina completamente
+- Incrementa significativamente costos de desarrollo
+
+### Conclusión
+
+Las arquitecturas tolerantes a fallos representan estrategias fundamentales para sistemas críticos donde la confiabilidad es primordial. La evolución desde sistemas de protección simples hasta arquitecturas complejas de auto-monitoreo y programación N-versiones demuestra un enfoque escalonado hacia la tolerancia a fallos, siempre balanceando complejidad, costo y nivel de confiabilidad requerido.

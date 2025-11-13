@@ -1,0 +1,94 @@
+### Parte 9 (Pág. 321–360)
+
+## Resumen de las Páginas 321-360: Arquitectura de Software y Consideraciones de Diseño
+
+### 1. Arquitectura Modelo-Vista-Controlador (MVC)
+
+**Definición**: El patrón arquitectónico MVC es un modelo de infraestructura móvil ampliamente utilizado en desarrollo web que separa la aplicación en tres componentes interconectados:
+
+- **Modelo**: Contiene toda la lógica de procesamiento y contenido específico de la aplicación
+- **Vista**: Gestiona las funciones específicas de interfaz y permite la presentación de contenido al usuario final
+- **Controlador**: Administra el acceso al modelo y la vista, coordinando el flujo de datos entre ellos
+
+**Proceso de Funcionamiento**:
+1. Las solicitudes del usuario son manejadas por el controlador
+2. El controlador selecciona la vista apropiada según la solicitud
+3. Se transmite una solicitud de comportamiento al modelo
+4. El modelo implementa la funcionalidad o recupera el contenido requerido
+5. Los datos son formateados y organizados por la vista correspondiente
+6. La información se transmite del servidor de aplicaciones al navegador cliente
+
+### 2. Selección de Estilos Arquitectónicos
+
+**Consideraciones Clave**:
+- La ingeniería de requisitos debe descubrir características y restricciones del sistema
+- Pueden combinarse múltiples patrones arquitectónicos
+- Es posible diseñar y evaluar estilos arquitectónicos alternativos
+- Ejemplo: estilo en capas combinado con arquitectura centrada en datos
+
+**Caso de Estudio SAFEHOME**:
+- Discusión entre enfoques orientado a objetos vs. llamada-retorno
+- Importancia de visualizar la estructura arquitectónica
+- Posibilidad de combinar múltiples estilos arquitectónicos
+
+### 3. Patrones Arquitectónicos
+
+**Definición**: Los patrones arquitectónicos abordan problemas específicos de aplicación dentro de un contexto particular y bajo un conjunto de limitaciones y restricciones.
+
+**Características**:
+- Proporcionan soluciones arquitectónicas que sirven como base para el diseño
+- Operan dentro de estilos arquitectónicos generales
+- Abordan problemas comunes dentro de dominios específicos
+
+### 4. Organización y Refinamiento Arquitectónico
+
+**Criterios de Evaluación**:
+
+**Control**:
+- Gestión de la jerarquía de control
+- Transferencia de control entre componentes
+- Topología de control
+- Sincronización vs. operación asíncrona
+
+**Datos**:
+- Comunicación entre componentes
+- Modo de transferencia de datos (flujo continuo vs. esporádico)
+- Componentes de datos (repositorios, pizarras)
+- Interacción entre datos y control
+
+### 5. Consideraciones Arquitectónicas Fundamentales
+
+**Economía**: Software sin complicaciones que utiliza abstracción para reducir detalles innecesarios y evita complejidad por funciones superfluas.
+
+**Visibilidad**: Las decisiones arquitectónicas y sus fundamentos deben ser evidentes para los ingenieros que examinen el modelo posteriormente.
+
+**Espaciado (Separación de Concerns)**: 
+- Espaciado suficiente conduce a diseños modulares
+- Espaciado excesivo causa fragmentación y pérdida de visibilidad
+
+**Simetría**: 
+- Consistencia y balance en los atributos del sistema
+- Puede ser estructural y comportamental
+- Ejemplo: métodos open() y close() en ciclo de vida de objetos
+
+**Emergencia**: 
+- Comportamiento autoorganizado y control emergente
+- Clave para arquitecturas escalables, eficientes y económicas
+- Particularmente relevante en sistemas en tiempo real dirigidos por eventos
+
+### 6. Desafíos de Mantenimiento Arquitectónico
+
+- La descripción arquitectónica no es explícitamente visible en el código fuente
+- Las modificaciones de código pueden causar erosión gradual de la arquitectura
+- Necesidad de encontrar abstracciones adecuadas para la información arquitectónica
+- Importancia de mejorar la legibilidad y mantenibilidad del código
+
+### 7. Evaluación de Decisiones Arquitectónicas (Caso SAFEHOME)
+
+**Proceso de Evaluación**:
+- Análisis de economía, visibilidad, espaciado y simetría
+- Consideración de comportamiento emergente en sistemas en tiempo real
+- Evaluación de alternativas arquitectónicas antes de la implementación
+- Importancia de la modularidad para reutilización futura
+
+Este resumen presenta los conceptos fundamentales de arquitectura de software, destacando la importancia de la selección cuidadosa de patrones arquitectónicos y la evaluación sistemática de las decisiones de diseño para garantizar la calidad y mantenibilidad del software.

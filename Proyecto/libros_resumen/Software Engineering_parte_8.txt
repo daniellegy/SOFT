@@ -1,0 +1,63 @@
+### Parte 8 (Pág. 281–320)
+
+### Resumen de las Páginas 281-320: Mantenimiento de Software y Evolución
+
+#### **Introducción**
+El mantenimiento de software es una fase crítica en el ciclo de vida del desarrollo, enfocada en garantizar la utilidad y adaptabilidad de los sistemas existentes. En esta sección, se abordan conceptos clave como la reingeniería, la refactorización y la gestión de sistemas legacy, destacando su relevancia para la sostenibilidad y evolución del software.
+
+---
+
+#### **1. Diferencias entre Reingeniería y Refactorización**
+- **Reingeniería**:  
+  Proceso aplicado tras un período de mantenimiento extenso, donde los costos incrementan. Utiliza herramientas automatizadas para transformar un sistema legacy en uno más mantenible. Su objetivo es modernizar la estructura y documentación del software.
+
+- **Refactorización**:  
+  Mejora continua durante el desarrollo y evolución, destinada a prevenir la degradación del código. Se realiza mediante cambios pequeños que preservan la funcionalidad, optimizando la legibilidad y modularidad.
+
+---
+
+#### **2. "Malos Olores" (Bad Smells) y Refactorización**
+Fowler et al. (1999) identifican situaciones estereotípicas que indican la necesidad de refactorización:
+1. **Código Duplicado**: Repetición de lógica en múltiples ubicaciones. Solución: Consolidar en métodos únicos.
+2. **Métodos Largos**: Fragmentar funcionalidades extensas en métodos más cortos y cohesivos.
+3. **Sentencias Switch/Case**: Evitar duplicación mediante polimorfismo en lenguajes orientados a objetos.
+4. **Agrupación de Datos (Data Clumping)**: Reemplazar grupos de datos recurrentes con objetos encapsulados.
+5. **Generalidad Especulativa**: Eliminar funcionalidades innecesarias añadidas "por si acaso".
+
+**Transformaciones de Refactorización**:
+- *Extraer Método*: Crear un nuevo método a partir de código duplicado.
+- *Consolidar Expresión Condicional*: Unificar secuencias de pruebas en una sola.
+- *Subir Método (Pull Up Method)*: Mover métodos similares de subclases a una superclase.
+
+---
+
+#### **3. Puntos Clave**
+- **Modelo de Desarrollo**: La evolución del software se representa mediante un modelo espiral iterativo.
+- **Costos de Mantenimiento**: En sistemas personalizados, superan los costos de desarrollo inicial.
+- **Proceso de Evolución**: Incluye análisis de impacto, planificación de lanzamientos e implementación de cambios.
+- **Sistemas Legacy**: Sistemas antiguos que siguen siendo útiles. Evaluar su valor empresarial y calidad para decidir entre mantenimiento, transformación o reemplazo.
+- **Tipos de Mantenimiento**:
+  1. *Correctivo*: Corrección de fallos.
+  2. *Adaptativo*: Modificaciones para nuevos entornos.
+  3. *Perfectivo*: Implementación de nuevos requisitos.
+- **Refactorización como Mantenimiento Preventivo**: Reduce costos a largo plazo y mejora la mantenibilidad.
+
+---
+
+#### **4. Consideraciones Adicionales**
+- **Refactorización de Diseño**: Cuando la degradación estructural es severa, se requiere identificar patrones de diseño (Capítulo 7) y reestructurar el código según estos.
+- **Herramientas de Soporte**: Entornos como Eclipse incluyen funcionalidades para automatizar la refactorización.
+- **Responsabilidad Profesional**: Los ingenieros deben desarrollar código mantenible, incluso si no se solicita explícitamente.
+
+---
+
+#### **5. Referencias y Lecturas Recomendadas**
+- **Feathers, M. (2004)**: *Working Effectively with Legacy Code*.
+- **Jones, C. (2006)**: "The Economics of Software Maintenance in the 21st Century".
+- **Bird, J. (2011)**: "You Can’t Be Agile in Maintenance?".
+- **Kumar, Y. y Dipti (2012)**: "Software Reengineering and Testing Considerations".
+
+---
+
+#### **Conclusión**
+El mantenimiento y la evolución del software son procesos fundamentales para extender la vida útil de los sistemas. La refactorización y reingeniería son estrategias complementarias para gestionar la complejidad y los costos, mientras que la evaluación de sistemas legacy permite tomar decisiones informadas sobre su futuro. La aplicación de buenas prácticas y herramientas adecuadas es esencial para garantizar la sostenibilidad del software.

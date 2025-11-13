@@ -1,0 +1,74 @@
+### Parte 14 (Pág. 521–560)
+
+### Resumen del Capítulo 21: Modelado y Verificación Formal (Páginas 521-560)
+
+#### **Introducción al Modelado Formal**
+El capítulo aborda técnicas de especificación formal mediante notación matemática para definir sistemas de software con precisión. Se enfatiza la importancia de conceptos fundamentales como **estados**, **operaciones** e **invariantes** para garantizar consistencia y completitud en las especificaciones.
+
+---
+
+#### **Conceptos Fundamentales**
+1. **Estado del Sistema**:  
+   - Representa un modo de comportamiento observable externamente.  
+   - En lenguajes como **Z**, el estado se define por los datos almacenados (ejemplo: una tabla de símbolos).  
+   - Los datos determinan el estado, permitiendo verificar la configuración del sistema en cualquier momento.
+
+2. **Operaciones**:  
+   - Acciones que leen o escriben datos (ejemplo: `add()` o `remove()` en una tabla de símbolos).  
+   - Se asocian con tres tipos de condiciones:  
+     - **Invariantes**: Garantizan que ciertas propiedades no cambian (ejemplo: el número de elementos en una tabla nunca excede `MaxIds`).  
+     - **Precondiciones**: Definen cuándo una operación es válida (ejemplo: `add()` requiere que el nombre no exista en la tabla y que haya espacio disponible).  
+     - **Poscondiciones**: Especifican el efecto de una operación sobre los datos (ejemplo: tras `add()`, la tabla incluye el nuevo identificador).
+
+---
+
+#### **Ejemplo Ilustrativo: Manipulador de Bloques**
+- **Contexto**: Subsistema de un sistema operativo que gestiona bloques de almacenamiento para archivos.  
+- **Componentes**:  
+  - **Bloques no utilizados**: Reservorio de bloques libres.  
+  - **Bloques usados**: Bloques asignados a archivos activos.  
+  - **Fila de bloques**: Secuencia de conjuntos de bloques liberados tras borrar archivos.  
+
+- **Invariantes de Datos** (expresadas en lenguaje natural y notación matemática):  
+  1. Ningún bloque está marcado como usado y libre simultáneamente.  
+  2. Los conjuntos en la fila son subconjuntos de los bloques usados.  
+  3. No hay duplicados en la fila, ni en los conjuntos de bloques usados o libres.  
+  4. La unión de bloques usados y libres equivale al total de bloques (`AllBlocks`).  
+
+- **Operaciones Clave**:  
+  - **`remove()`**:  
+    - *Precondición*: La fila no está vacía (`#BlockQueue > 0`).  
+    - *Poscondición*: La cabeza de la fila se mueve a bloques libres, y la fila se actualiza (`BlockQueue' = tail BlockQueue`).  
+  - **`add()`**:  
+    - *Precondición*: Los bloques a agregar (`Ablocks`) pertenecen a los bloques usados.  
+    - *Poscondición*: `Ablocks` se añade al final de la fila, sin alterar `used` o `free`.  
+  - **`check()`**:  
+    - Sin precondición; siempre devuelve `true` si la fila está vacía, `false` en caso contrario.
+
+---
+
+#### **Aplicación de Notación Matemática**
+- **Representación Formal**:  
+  - **Conjuntos**: `used` y `free` como subconjuntos de `BLOCKS`.  
+  - **Secuencias**: `BlockQueue` como una secuencia de conjuntos de bloques.  
+  - **Invariantes en Lógica de Predicados**:  
+    - Ejemplo: `used ∩ free = ∅` (bloques usados y libres son disjuntos).  
+    - Uso de cuantificadores (`∀`, `∃`) para restricciones (ejemplo: elementos de la fila son subconjuntos de `used`).  
+
+- **Rigor y Beneficios**:  
+  - La especificación matemática elimina ambigüedades del lenguaje natural.  
+  - Facilita la verificación de propiedades como consistencia e integridad.  
+
+---
+
+#### **Lenguajes de Especificación Formal**
+- **Componentes**:  
+  1. **Sintaxis**: Define la estructura de las especificaciones.  
+  2. **Semántica**: Asigna significado a las construcciones sintácticas.  
+  3. **Herramientas de Verificación**: Permiten validar corrección (ejemplo: chequeo de invariantes).  
+- **Ejemplo Destacado**: **Lenguaje Z** (Sección 21.7.2), que utiliza esquemas para modelar estados y operaciones.
+
+---
+
+#### **Conclusión**
+La especificación formal, mediante notación matemática y lenguajes como Z, proporciona un marco riguroso para modelar sistemas críticos. Conceptos como estados, operaciones e invariantes permiten definir precondiciones y poscondiciones de manera precisa, reduciendo errores en fases posteriores del desarrollo. Su aplicación es especialmente relevante en dominios donde la confiabilidad es prioritaria (ejemplo: sistemas operativos o software de seguridad).

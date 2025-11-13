@@ -1,0 +1,72 @@
+### Parte 15 (Pág. 561–600)
+
+## Resumen de las Páginas 561-600: Ingeniería de Calidad y Seguridad del Software
+
+### 17.8 Estándares de Calidad ISO 9000
+
+**Definición Clave:** Un sistema de aseguramiento de calidad se define como la estructura organizacional, responsabilidades, procedimientos, procesos y recursos para implementar la gestión de calidad.
+
+**Características Fundamentales:**
+- Los sistemas de calidad cubren actividades a lo largo de todo el ciclo de vida del producto
+- ISO 9000 describe elementos de aseguramiento de calidad en términos genéricos aplicables a cualquier negocio
+- El proceso de certificación incluye auditorías de terceros y auditorías de vigilancia semestrales
+
+**Elementos del Estándar ISO 9001:2015:**
+- Establecimiento de elementos del sistema de gestión de calidad
+- Desarrollo e implementación de políticas de calidad
+- Documentación del sistema de calidad
+- Mecanismos de control y actualización de documentos
+- Enfoque en la satisfacción del cliente
+- Métodos para el mejoramiento continuo
+- Control de actividades técnicas (análisis, diseño, pruebas)
+
+### 17.9 Plan SQA (Aseguramiento de Calidad del Software)
+
+**Concepto:** El plan SQA proporciona un mapa de ruta para instituir el aseguramiento de calidad del software, sirviendo como plantilla para actividades SQA en cada proyecto.
+
+**Estructura Recomendada por IEEE:**
+1. Propósito y alcance del plan
+2. Descripción de productos de trabajo de ingeniería de software
+3. Estándares y prácticas aplicables
+4. Acciones y tareas SQA con su ubicación en el proceso
+5. Herramientas y métodos de soporte
+6. Procedimientos de gestión de configuración
+7. Métodos para mantener registros SQA
+8. Roles y responsabilidades organizacionales
+
+### 17.10 Resumen de Aseguramiento de Calidad
+
+**Definición Integral:** El SQA es una actividad paraguas que se aplica en cada paso del proceso de software, abarcando:
+- Aplicación efectiva de métodos y herramientas
+- Supervisión de actividades de control de calidad
+- Procedimientos de gestión de cambios
+- Cumplimiento de estándares
+- Mecanismos de medición y reporte
+
+**Diferenciación Conceptual:**
+- **Confiabilidad del Software:** Utiliza análisis estadístico para determinar la probabilidad de fallas
+- **Seguridad del Software:** Examina cómo las fallas resultan en condiciones que pueden conducir a accidentes
+
+### 18. Ingeniería de Seguridad del Software
+
+**Importancia:** La ubicuidad del software en sistemas críticos (dispositivos médicos, transacciones financieras, infraestructura) requiere enfoques proactivos de seguridad.
+
+**Conceptos Clave:**
+- **Patrones de ataque:** Patrones comunes utilizados por atacantes
+- **Superficie de ataque:** Puntos de entrada potenciales al sistema
+- **Casos de uso y abuso:** Identificación de comportamientos maliciosos
+- **Modelado de amenazas:** Identificación y priorización de riesgos de seguridad
+- **Codificación segura:** Prácticas de desarrollo que previenen vulnerabilidades
+
+**Enfoque de Desarrollo Seguro:**
+- Integración de expertos en seguridad durante el desarrollo
+- Implementación de actividades de seguridad en el ciclo de vida
+- Análisis de riesgos de seguridad
+- Mejora continua del proceso de seguridad
+- Utilización de modelos de madurez para evaluación
+
+**Productos de Trabajo:** Múltiples artefactos generados durante el proceso de ingeniería de software seguro, siendo el software desarrollado el producto final.
+
+### Conclusión
+
+La integración de prácticas de calidad y seguridad representa un componente esencial en la ingeniería de software moderna. Los estándares como ISO 9000 proporcionan marcos estructurados para la gestión de calidad, mientras que los enfoques de seguridad proactiva mitigan riesgos en sistemas cada vez más interconectados y críticos. La madurez disciplinar se demuestra mediante la capacidad de mapear efectivamente los principios de gestión de calidad y seguridad en el espacio tecnológico de la ingeniería de software.

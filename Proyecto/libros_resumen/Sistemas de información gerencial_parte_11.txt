@@ -1,0 +1,75 @@
+### Parte 11 (Pág. 401–440)
+
+# Resumen de Sistemas de Información Gerencial - Capítulo 9 (Páginas 401-404)
+
+## Sistemas de Gestión de Relaciones con el Cliente (CRM)
+
+### Definiciones Fundamentales
+
+**CRM (Customer Relationship Management):** Conjunto de aplicaciones integradas que manejan todos los aspectos de la relación con el cliente, incluyendo servicio al cliente, ventas y marketing desde una perspectiva multifacética.
+
+**PRM (Partner Relationship Management):** Sistema que utiliza datos, herramientas y sistemas similares al CRM para mejorar la colaboración entre una compañía y sus socios de ventas, facilitando el intercambio de información y distribución de iniciativas comerciales.
+
+**ERM (Employee Relationship Management):** Software que gestiona aspectos relacionados con los empleados vinculados al CRM, incluyendo establecimiento de objetivos, administración del desempeño y capacitación.
+
+### Componentes Operativos del CRM
+
+#### 1. Automatización de la Fuerza de Ventas (SFA)
+- **Objetivo:** Incrementar productividad del personal de ventas
+- **Funcionalidades:**
+  - Información sobre prospectos y contactos
+  - Herramientas para configuración de productos
+  - Generación de cotizaciones
+  - Recomendaciones personalizadas basadas en historial de compras
+  - Pronósticos de ventas y administración de territorios
+
+#### 2. Servicio al Cliente
+- **Componentes:**
+  - Centros de llamadas eficientes
+  - Departamentos de soporte técnico
+  - Herramientas de autoservicio web
+- **Beneficios:**
+  - Reducción de tiempo de transacciones
+  - Mayor calidad de servicio a menor costo
+  - Experiencia mejorada para el cliente
+
+#### 3. Marketing
+- **Capacidades:**
+  - Captura de datos de prospectos y clientes
+  - Clasificación de iniciativas para marketing dirigido
+  - Programación y seguimiento de campañas
+  - Análisis de datos de marketing
+  - Identificación de clientes rentables
+  - Gestión de venta cruzada
+
+### Tipología CRM
+
+#### CRM Operacional
+- Integra aplicaciones que interactúan directamente con el cliente
+- Incluye: automatización de fuerza de ventas, centros de llamadas, soporte al cliente y automatización de marketing
+
+#### CRM Analítico
+- Aplica técnicas de análisis (OLAP, minería de datos) sobre datos generados por CRM operacional
+- Utiliza almacenes de datos y plataformas analíticas
+- Calcula métricas clave como el **Valor del Tiempo de Vida del Cliente (CLTV)**
+
+### Procesos de Negocio y Mejores Prácticas
+
+#### Mapa de Procesos para Gestión de Lealtad
+1. Recepción de solicitud de servicio
+2. Obtención de información del cliente
+3. Calificación del cliente (valor y lealtad)
+4. Canalización al agente apropiado
+5. Provisión de ofertas y servicios especiales
+6. Resolución del problema de servicio
+
+#### Características del Software CRM
+- Orientado a procesos de negocio
+- Incorpora mejores prácticas del sector
+- Integra información de múltiples fuentes
+- Soporta aspectos operacionales y analíticos
+
+### Principales Proveedores
+Oracle, SAP, Salesforce.com y Microsoft Dynamics CRM
+
+El texto enfatiza que para maximizar beneficios, las compañías deben revisar y modelar sus procesos de negocio para ajustarse a las mejores prácticas incorporadas en el software CRM.

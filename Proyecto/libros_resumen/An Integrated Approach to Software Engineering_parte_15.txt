@@ -1,0 +1,74 @@
+### Parte 15 (Pág. 421–450)
+
+## Resumen de las Páginas 421-450: Principios y Procesos de Codificación
+
+### 9.1.5 Estándares de Codificación
+
+**Definición:** Los estándares de codificación constituyen un conjunto de reglas y directrices que regulan aspectos específicos de la programación con el objetivo fundamental de mejorar la legibilidad y mantenibilidad del código.
+
+#### Convenciones de Nomenclatura
+- **Nombres de paquetes:** Deben escribirse en minúsculas (ej: `mypackage`, `edu.iitk.maths`)
+- **Nombres de tipos:** Deben ser sustantivos que inicien con mayúscula (ej: `Day`, `DateOfBirth`)
+- **Nombres de variables:** Sustantivos en minúscula (ej: `name`, `amount`)
+- **Constantes:** Completamente en mayúsculas (ej: `PI`, `MAX_ITERATIONS`)
+- **Métodos:** Verbos en minúscula (ej: `getValue()`)
+- **Variables de clase privadas:** Sufijo `_` (ej: `private int value_`)
+- **Variables booleanas:** Prefijo `is` (ej: `isStatus`)
+
+#### Organización de Archivos
+- Archivos fuente Java deben tener extensión `.java`
+- Cada archivo debe contener una clase externa cuyo nombre coincida con el nombre del archivo
+- Longitud de línea limitada a 80 columnas
+
+#### Directrices para Declaraciones
+- Variables deben inicializarse donde se declaran
+- Variables relacionadas deben declararse juntas
+- Variables de clase nunca deben ser públicas
+- Evitar construcciones complejas en bucles y condicionales
+
+### 9.1.6 Comentarios y Diseño
+
+**Concepto Clave:** Los comentarios deben explicar **qué** hace el código o **por qué** existe, no traducir la lógica al inglés. Cuando la lógica es tan compleja que requiere comentarios extensos, es preferible refactorizar el código.
+
+**Prólogo de Módulo:** Comentarios que describen:
+- Funcionalidad y propósito del módulo
+- Interfaz pública y forma de uso
+- Parámetros y efectos secundarios
+- Suposiciones sobre los parámetros
+
+### 9.2 Proceso de Codificación
+
+#### 9.2.1 Proceso de Codificación Incremental
+
+**Definición:** Enfoque donde el código se desarrolla en incrementos funcionales, con pruebas después de cada adición.
+
+**Ventajas:**
+- Facilita la depuración al aislar errores al código recién añadido
+- Permite detección temprana de defectos
+- Facilita la integración continua
+
+**Requisito:** Scripts de prueba automatizados que permitan ejecución frecuente de casos de prueba.
+
+#### 9.2.2 Desarrollo Guiado por Pruebas (TDD)
+
+**Definición:** Metodología donde primero se escriben las pruebas y posteriormente el código necesario para pasarlas.
+
+**Proceso TDD (Figura 9.3):**
+1. Escribir prueba que falle
+2. Escribir código mínimo para pasar la prueba
+3. Refactorizar el código
+4. Repetir el ciclo
+
+**Características Principales:**
+- **Enfoque uso-conducido:** El desarrollo se centra en cómo se usará el código
+- **Sincronización código-pruebas:** El código siempre está alineado con las pruebas
+- **Responsabilidad transferida:** Las pruebas garantizan que se implemente la funcionalidad requerida
+- **Especificación precisa:** Las pruebas definen claramente la interfaz de uso
+
+**Beneficios:**
+- Cobertura de pruebas más completa
+- Diseño más orientado al uso
+- Documentación ejecutable a través de las pruebas
+- Detección temprana de problemas de diseño
+
+Este enfoque, aunque originado en Programación Extrema (XP), es aplicable independientemente de la metodología de desarrollo utilizada.

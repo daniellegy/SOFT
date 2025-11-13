@@ -1,0 +1,68 @@
+### Parte 25 (Pág. 961–1000)
+
+## Resumen de Diagramas UML: Diagramas de Actividad y de Estado (Páginas 961-968)
+
+### I. Diagramas de Actividad
+
+**Definición**: Los diagramas de actividad UML modelan el comportamiento dinámico de un sistema mediante el flujo de control entre las acciones que el sistema ejecuta. Se distinguen de los diagramas de flujo tradicionales por su capacidad para representar flujos concurrentes.
+
+#### Elementos Fundamentales:
+
+1. **Nodo de Acción**: Representado mediante rectángulos redondeados, corresponde a tareas ejecutadas por el sistema.
+
+2. **Flujo de Control**: Flechas que conectan nodos de acción, indicando la secuencia de ejecución.
+
+3. **Nodos Especiales**:
+   - **Nodo Inicial**: Punto de partida (círculo negro sólido)
+   - **Nodo Final**: Fin de la actividad (círculo negro con anillo exterior)
+
+4. **Elementos de Concurrencia**:
+   - **Bifurcación (Fork)**: Barra horizontal negra que divide el flujo en múltiples actividades concurrentes
+   - **Unión (Join)**: Barra horizontal negra que sincroniza flujos concurrentes, requiriendo la finalización de todos los flujos entrantes
+
+5. **Nodo de Decisión**: Triángulo blanco que representa ramificaciones condicionales, donde cada flecha saliente incluye una **guardia** (condición entre corchetes).
+
+#### Características Avanzadas:
+
+- **Carriles (Swimlanes)**: División del diagrama en áreas que asignan responsabilidades a diferentes participantes, clarificando la distribución de tareas.
+
+### II. Diagramas de Estado
+
+**Definición**: Los diagramas de estado UML modelan los estados de un objeto, las acciones ejecutadas en función de dichos estados y las transiciones entre estados.
+
+#### Componentes Estructurales:
+
+1. **Estados**: Representados mediante rectángulos redondeados con nombre en la mitad superior.
+
+2. **Pseudostado Inicial**: Círculo negro que indica el estado inicial.
+
+3. **Transiciones**: Flechas entre estados con formato: **evento disparador / actividad**.
+
+4. **Estado Final**: Círculo negro con anillo blanco, indica fin de transiciones.
+
+#### Mecánica de Transiciones:
+
+- Cuando un objeto en un estado recibe un evento disparador, ejecuta la actividad especificada y transiciona al nuevo estado.
+- Las transiciones pueden carecer de evento disparador, ejecutándose inmediatamente o al finalizar actividades.
+
+#### Tipos Especiales de Estados:
+
+- **Estados de Actividad (Activity States)**: Estados donde el objeto ejecuta una **actividad-do** mientras permanece en el estado.
+- Se representan incluyendo "do/" seguido de la actividad en la mitad inferior del estado.
+- Las actividades-do pueden completarse o ser interrumpidas por transiciones.
+
+#### Aplicación Práctica:
+
+El texto ilustra ambos diagramas mediante ejemplos concretos:
+- **Diagrama de Actividad**: Proceso de horneado de pastel con tareas concurrentes
+- **Diagrama de Estado**: Comportamiento del objeto WhiteSpaceAndCommentEliminator en un compilador Java, mostrando estados como "start", "saw '/'", "line comment" y "block comment".
+
+### III. Valor en Ingeniería de Software
+
+Estos diagramas proporcionan:
+- Visualización clara de comportamientos complejos
+- Identificación de situaciones no contempladas
+- Verificación de cobertura completa de casos posibles
+- Especificación precisa de lógica de negocio y flujos de control
+
+La selección entre diagramas de secuencia, comunicación, actividad o estado depende del aspecto del comportamiento dinámico que se desee enfatizar: relaciones entre objetos, orden temporal, flujos de control o estados del sistema.

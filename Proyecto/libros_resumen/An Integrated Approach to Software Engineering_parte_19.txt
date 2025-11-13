@@ -1,0 +1,67 @@
+### Parte 19 (Pág. 541–570)
+
+## Resumen de las Páginas 541-570: Modelado y Estimación de Confiabilidad en Ingeniería de Software
+
+### 1. Fundamentos del Modelado de Confiabilidad
+
+**Definición Clave**: La confiabilidad del software se modela mediante la **intensidad de fallos** (λ), que representa la tasa a la que ocurren fallos durante la ejecución del software.
+
+#### Modelo Exponencial de Confiabilidad
+- La intensidad de fallos disminuye exponencialmente con el tiempo de ejecución (τ)
+- **Ecuación fundamental**: λ(τ) = λ₀ × e^(-λ₀/ν₀ × τ)
+- Donde:
+  - λ₀: Intensidad inicial de fallos
+  - ν₀: Número total esperado de fallos
+
+#### Supuestos del Modelo
+- El perfil operacional uniforme garantiza que la reducción de intensidad de fallos sea lineal
+- Para perfiles no uniformes, se recomienda el **modelo logarítmico**
+- La reducción de intensidad ocurre únicamente cuando se eliminan las fallas detectadas
+
+### 2. Proceso de Estimación de Parámetros
+
+#### Requisitos para la Aplicación del Modelo
+- **Recolección sistemática** de datos de fallos durante las pruebas del sistema
+- **Tiempo suficiente** de observación para obtener datos significativos
+- **Exclusión** de datos de pruebas unitarias y de integración
+
+#### Métodos de Recolección de Datos
+1. **Datos de tiempos de fallo**: Registro secuencial de instantes de fallo
+2. **Datos agrupados de fallos**: Conteo de fallos en intervalos temporales definidos
+
+### 3. Técnicas de Estimación Estadística
+
+#### Método de Mínimos Cuadrados
+- Objetivo: Minimizar la suma de cuadrados de diferencias entre valores observados y predichos
+- **Ecuación de regresión**: λ(μ) = λ₀(1 - μ/ν₀)
+- Conversión de datos brutos a intensidades de fallo:
+  - Para intervalos regulares: rᵢ = k/(tₖᵢ - tₖ₍ᵢ₋₁₎)
+  - Para último intervalo: rₚ = (mₑ - k(p-1))/(tₑ - tₖ₍ₚ₋₁₎)
+
+#### Consideraciones Prácticas
+- **Tamaño de intervalo óptimo**: k ≈ 5 fallos por intervalo
+- **Ponderación de errores**: Preferencia por minimización de error relativo sobre error absoluto
+- **Incertidumbre inherente**: Los parámetros estimados siempre contienen cierto grado de incertidumbre
+
+### 4. Aplicaciones Prácticas del Modelo
+
+#### Determinación de Criterios de Finalización de Pruebas
+- **Número adicional de fallos esperados**:
+  Δμ = (ν₀/λ₀) × (λₚ - λₚ)
+- **Tiempo adicional de ejecución requerido**:
+  Δτ = (1/λ₀) × ln(λₚ/λₚ)
+
+#### Limitaciones del Enfoque
+- **Dependencia del tamaño del software**: Modelos poco efectivos para sistemas pequeños
+- **Requisito de datos suficientes**: Necesidad de conjunto extenso de fallos para estimación precisa
+- **Influencia del perfil operacional**: La validez del modelo depende de la uniformidad del perfil
+
+### 5. Implicaciones para la Gestión de Proyectos
+
+El modelo permite:
+- **Estimación cuantitativa** del esfuerzo de testing restante
+- **Conversión a tiempo calendario** mediante parámetros del entorno de desarrollo
+- **Toma de decisiones basada en métricas** sobre la finalización de pruebas
+- **Establecimiento de objetivos de confiabilidad** medibles y alcanzables
+
+Este enfoque proporciona un marco sistemático para la gestión de la calidad del software mediante métricas de confiabilidad objetivas y cuantificables.

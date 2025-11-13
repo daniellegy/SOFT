@@ -1,0 +1,77 @@
+### Parte 21 (Pág. 801–811)
+
+## Resumen de las páginas 801-811 del libro "Software Engineering"
+
+### 1. **Pruebas de Software (Software Testing)**
+**Definición**: Proceso sistemático de ejecutar un programa con el objetivo de descubrir defectos y validar que cumple con los requisitos especificados.
+
+**Tipos de pruebas**:
+- **Pruebas de desarrollo**: 
+  - *Pruebas de unidad*: Verificación de componentes individuales.
+  - *Pruebas de componentes*: Incluyen análisis de errores de temporización.
+  - *Pruebas de sistema*: Validación del sistema completo (ej: estaciones meteorológicas).
+- **Pruebas de aceptación**:
+  - *Pruebas alfa y beta*: Realizadas por usuarios finales.
+- **Pruebas de seguridad**: 
+  - *Penetración*: Identificación de vulnerabilidades.
+  - *Análisis basado en herramientas*: Automatización de pruebas.
+
+**Enfoques relevantes**:
+- **Desarrollo guiado por pruebas (TDD)**: Ciclo "prueba-código-refactorización".
+- **Pruebas estadísticas**: Relacionadas con confiabilidad y modelos probabilísticos.
+
+### 2. **Modelado con UML (Unified Modeling Language)**
+**Conceptos clave**:
+- **Diagramas de comportamiento**: 
+  - *Diagramas de estado*: Modelan transiciones entre estados.
+  - *Diagramas de actividad*: Representan flujos de trabajo.
+- **Diagramas estructurales**:
+  - *Diagramas de clases*: Estructura estática del sistema.
+  - *Diagramas de despliegue*: Arquitectura física.
+- **Modelado de interacciones**:
+  - *Casos de uso*: Requisitos funcionales desde perspectiva del usuario.
+  - *Diagramas de secuencia*: Interacciones temporales entre objetos.
+
+### 3. **Servicios Web y Arquitecturas**
+**Definición**: Componentes software reutilizables que facilitan la interoperabilidad entre sistemas.
+
+**Estándares y tecnologías**:
+- **WSDL (Web Service Definition Language)**: Describe interfaces de servicios.
+- **SOAP/XML**: Protocolos de comunicación.
+- **RESTful**: Arquitectura basada en recursos y operaciones HTTP.
+- **WS-BPEL**: Orquestación de flujos de trabajo empresariales.
+
+**Arquitecturas asociadas**:
+- **Arquitectura orientada a servicios (SOA)**: Integración mediante servicios loosely coupled.
+- **Sistemas de sistemas (SoS)**: Enfocados en complejidad técnica e integración.
+
+### 4. **Ingeniería de Seguridad y Confiabilidad**
+**Principios clave**:
+- **Tolerancia a fallos**:
+  - *Redundancia modular triple (TMR)*: Técnica de hardware/software.
+  - *Chequeos de validez*: Detección temprana de errores.
+- **Gestión de amenazas**:
+  - *Análisis de vulnerabilidades*: Identificación de puntos débiles.
+  - *Logs de usuario*: Registro de acciones para auditoría.
+
+**Métodos formales**:
+- *Verificación formal*: Demostración matemática de corrección.
+- *Model checking*: Verificación automática de propiedades.
+
+### 5. **Gestión de Configuración y Versiones**
+**Procesos fundamentales**:
+- **Control de versiones (VC)**: 
+  - Gestión de cambios incremental.
+  - Sistemas como Git/SVN.
+- **Gestión de líneas base**: Establecimiento de puntos estables en el desarrollo.
+
+### 6. **Referencias Académicas y Autores Clave**
+Se citan contribuciones seminales de:
+- **Beck** (TDD, metodologías ágiles).
+- **Boehm** (modelos de proceso y estimación).
+- **Gamma et al.** (patrones de diseño).
+- **Humphrey** (mejora de procesos).
+
+---
+
+**Conclusión**: Estas páginas sintetizan aspectos críticos de las etapas de verificación, modelado arquitectónico y paradigmas de desarrollo modernos, enfatizando la importancia de métodos sistemáticos para garantizar calidad, seguridad y mantenibilidad del software.

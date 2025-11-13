@@ -1,0 +1,95 @@
+### Parte 21 (Pág. 501–525)
+
+## Resumen de las Páginas 501-525: Gestión de Requisitos y Control de Cambios
+
+### **I. Gestión del Esfuerzo en Requisitos**
+
+#### **1.1 Diferenciación Conceptual**
+- **Esfuerzo de trabajo**: Medido en horas-hombre, representa la inversión real de recursos humanos
+- **Tiempo calendario**: Duración total considerando interrupciones y dependencias
+- **Productividad**: Se ve afectada negativamente por interrupciones frecuentes
+
+#### **1.2 Categorización del Esfuerzo**
+**Desarrollo de Requisitos:**
+- Planificación de actividades relacionadas con requisitos
+- Ejecución de talleres, entrevistas y actividades de elicitación
+- Especificación de requisitos y creación de modelos de análisis
+- Desarrollo y evaluación de prototipos
+- Actividades de validación y revisión
+
+**Gestión de Requisitos:**
+- Configuración de herramientas de gestión
+- Procesamiento de cambios y nuevas propuestas
+- Análisis de impacto y toma de decisiones
+- Actualización del repositorio de requisitos
+- Comunicación de cambios a stakeholders
+- Seguimiento del estado y trazabilidad
+
+### **II. Gestión de Requisitos en Proyectos Ágiles**
+
+#### **2.1 Marco Conceptual Ágil**
+- **Backlog de producto**: Lista dinámica de trabajo pendiente
+- **Iteraciones**: Ciclos de desarrollo que acomodan el cambio
+- **Priorización**: Selección constante de historias de máximo valor
+
+#### **2.2 Estados de las Historias de Usuario**
+1. **En backlog**: No asignada a iteración
+2. **Definida**: Detalles comprendidos y criterios de aceptación establecidos
+3. **En progreso**: En implementación
+4. **Completada**: Implementación finalizada
+5. **Aceptada**: Pruebas de aceptación superadas
+6. **Bloqueada**: Desarrollo impedido por dependencias
+
+#### **2.3 Métricas Ágiles**
+- **Puntos de historia**: Unidades de medida del esfuerzo
+- **Velocidad del equipo**: Capacidad de entrega por iteración
+- **Gráfico de burndown**: Visualización del trabajo restante
+  - Monitorea el alcance pendiente en puntos de historia
+  - Evita el "síndrome del 90% completado"
+  - Revela la fecha de finalización proyectada
+
+### **III. Fundamentos del Control de Cambios**
+
+#### **3.1 Justificación de la Gestión de Cambios**
+**Problemas por cambios no controlados:**
+- Caos en el proyecto
+- Deslizamientos de cronograma
+- Problemas de calidad
+- Expectativas no alineadas
+
+**Beneficios del control formal:**
+- Evaluación consciente de propuestas
+- Toma de decisiones informada
+- Visibilidad para stakeholders
+- Comunicación efectiva
+- Implementación consistente
+
+#### **3.2 Costos del Cambio**
+- **Cambios aprobados**: Inversión necesaria para mantener relevancia
+- **Cambios rechazados**: Costo de evaluación sin implementación
+- **Cambios subversivos**: Costos ocultos por desviación de procesos
+
+### **IV. Próximos Pasos Recomendados**
+
+#### **4.1 Establecimiento de Procesos**
+- Documentación de procesos organizacionales
+- Participación de analistas de negocio en diseño
+- Validación mediante pilotos
+- Enfoque en valor práctico y realismo
+
+#### **4.2 Herramientas y Esquemas**
+- Implementación de herramientas de gestión
+- Definición de esquemas de versionado
+- Educación sobre protocolos establecidos
+
+#### **4.3 Gestión de Estados**
+- Selección de estados del ciclo de vida
+- Diagramas de transición de estados
+- Mantenimiento de estados actualizados
+- Seguimiento continuo del progreso
+
+### **Conclusiones Clave**
+
+La gestión efectiva de requisitos representa una **inversión estratégica** más que un costo operativo. Los proyectos ágiles requieren mecanismos específicos para manejar la dinámica cambiante del backlog, mientras que los enfoques tradicionales necesitan procesos formales de control de cambios. La **visibilidad**, **comunicación** y **consistencia** emergen como principios fundamentales para evitar la brecha de expectativas y garantizar la entrega de valor.
+
+El control de cambios debe equilibrar la **flexibilidad** necesaria para adaptarse al entorno cambiante con la **disciplina** requerida para mantener la predictibilidad del proyecto.

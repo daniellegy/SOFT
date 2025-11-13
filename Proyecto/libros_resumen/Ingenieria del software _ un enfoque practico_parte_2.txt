@@ -1,0 +1,56 @@
+### Parte 2 (Pág. 41–80)
+
+## Resumen Académico: Capítulo 1 - El Software y la Ingeniería de Software (Páginas 41-44)
+
+### 1.2 La Naturaleza Única de las WebApps
+
+#### Definición y Evolución
+Las **aplicaciones web (webapps)** representan una categoría distintiva de software que ha evolucionado desde simples archivos de hipertexto hasta sistemas sofisticados de cómputo integrados con bases de datos corporativas y aplicaciones de negocio.
+
+#### Atributos Característicos
+Las webapps se diferencian del software convencional mediante los siguientes atributos fundamentales:
+
+1. **Uso intensivo de redes**: Residen en redes que permiten acceso global (internet) o limitado (intranet)
+2. **Concurrencia**: Acceso simultáneo por numerosos usuarios con patrones de uso variables
+3. **Carga impredecible**: Fluctuaciones significativas en el número de usuarios (órdenes de magnitud)
+4. **Rendimiento crítico**: La demora en el acceso o procesamiento puede causar abandono del usuario
+5. **Alta disponibilidad**: Expectativa de acceso 24/7/365 sin interrupciones por mantenimiento
+6. **Orientación a datos**: Presentación de contenido multimedia y acceso a bases de datos externas
+7. **Contenido sensible**: La calidad estética del contenido determina la calidad percibida
+8. **Evolución continua**: Actualizaciones constantes, frecuentemente en tiempo real
+9. **Inmediatez**: Plazos de desarrollo extremadamente cortos (días o semanas)
+10. **Seguridad robusta**: Protección esencial dada la accesibilidad abierta mediante redes
+11. **Estética fundamental**: El diseño visual impacta directamente en el éxito de la aplicación
+
+### 1.3 Ingeniería de Software
+
+#### Realidades Fundamentales
+La ingeniería de software debe abordar cuatro realidades críticas:
+
+1. **Comprensión del problema**: Necesidad de entender exhaustivamente los requerimientos antes del desarrollo
+2. **Complejidad creciente**: Los sistemas modernos demandan atención cuidadosa al diseño de interacciones
+3. **Dependencia crítica**: Las fallas del software pueden tener consecuencias desde inconvenientes menores hasta catastróficas
+4. **Evolución continua**: El software debe diseñarse para facilitar el mantenimiento y las adaptaciones futuras
+
+#### Definiciones Clave
+**Ingeniería de Software según Bauer**:
+"El establecimiento y uso de principios fundamentales de la ingeniería con objeto de desarrollar en forma económica software que sea confiable y que trabaje con eficiencia en máquinas reales."
+
+**Definición IEEE**:
+"1) La aplicación de un enfoque sistemático, disciplinado y cuantificable al desarrollo, operación y mantenimiento de software; 2) El estudio de enfoques según el punto 1."
+
+#### Marco Conceptual de Capas
+La ingeniería de software se estructura como una tecnología multicapa:
+
+1. **Capa de Fundamentos**: Compromiso organizacional con la calidad (TQM, Six Sigma)
+2. **Capa de Proceso**: Proceso de ingeniería de software como aglutinante tecnológico
+3. **Capa de Métodos**: Enfoques sistemáticos para el desarrollo
+4. **Capa de Herramientas**: Soporte automatizado para el proceso y métodos
+
+#### Puntos Clave Destacados
+- El diseño constituye una actividad crucial en la ingeniería de software
+- La calidad y facilidad de mantenimiento son resultados directos de un buen diseño
+- La ingeniería de software integra proceso, métodos y herramientas para la gestión y desarrollo del software
+- Se requiere equilibrio entre disciplina estricta y adaptabilidad ágil según el contexto del proyecto
+
+Este marco conceptual establece las bases para el desarrollo sistemático de software que satisfaga los requerimientos de calidad, confiabilidad y eficiencia en entornos computacionales reales.

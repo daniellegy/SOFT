@@ -1,0 +1,89 @@
+### Parte 9 (Pág. 321–360)
+
+## Resumen de las páginas 321-360: Sistemas de Información Gerencial
+
+### Introducción
+El presente análisis aborda las tecnologías emergentes en sistemas de información, específicamente las aplicaciones de inteligencia artificial, la evolución de la Web 2.0 y las perspectivas futuras hacia la Web 3.0, según se documenta en el texto de referencia.
+
+### 1. Tecnologías de Reconocimiento Facial y Agentes Inteligentes
+
+**Definición clave:**
+- **Reconocimiento facial:** Sistema biométrico que genera una representación digital única de rostros humanos, análoga a una huella dactilar.
+
+**Aplicaciones relevantes:**
+- **Tag Suggest de Facebook:** Combina reconocimiento facial con funcionalidades de etiquetado para identificar automáticamente individuos en fotografías grupales.
+- **Bots de compras:** Agentes inteligentes especializados en:
+  - Filtrado y recuperación de información comercial
+  - Evaluación comparativa de productos
+  - Negociación automatizada de precios y condiciones
+  - Ejemplos: MySimon, PriceGrabber
+
+### 2. Web 2.0: Características y Componentes
+
+**Definición:**
+- **Web 2.0:** Segunda generación de servicios web interactivos que facilitan la colaboración, creación y distribución de contenido.
+
+**Características fundamentales:**
+1. Interactividad en tiempo real
+2. Control del usuario
+3. Participación social (compartición)
+4. Contenido generado por usuarios
+
+**Tecnologías asociadas:**
+- Computación en la nube
+- Mashups y widgets
+- Blogs y microblogs
+- Sistemas RSS
+- Wikis
+- Redes sociales
+
+### 3. Herramientas Colaborativas de la Web 2.0
+
+**Blogs:**
+- Sitios web personales con entradas cronológicas
+- Características: blogrolls, trackbacks, comentarios
+- Plataformas: Blogger, TypePad, WordPress
+- **Microblogging:** Mensajes cortos (ej. Twitter, 140 caracteres)
+
+**RSS (Sindicación Realmente Simple):**
+- Sistema de distribución automatizada de contenido
+- Permite suscripción y actualización automática de fuentes
+
+**Wikis:**
+- Sitios web colaborativos de edición colectiva
+- Aplicaciones empresariales: colaboración interinstitucional, repositorios técnicos
+- Ejemplos: Wiki del NCSC, Pixar Wiki
+
+### 4. Redes Sociales
+
+**Definición:**
+- Plataformas para creación de comunidades virtuales mediante perfiles personales
+
+**Características:**
+- Perfiles personalizados con multimedia
+- Mecanismos de conexión ("amigos"/contactos)
+- Interacción en tiempo real
+- Generación de contenido colaborativo
+
+**Principales plataformas:**
+- Facebook (1,300 millones de usuarios)
+- Twitter (270 millones de usuarios)
+- LinkedIn (red profesional)
+
+### 5. Perspectivas Futuras: Web 3.0
+
+**Definición:**
+- **Web Semántica:** Evolución hacia una web donde la información se interconecta de manera significativa
+
+**Objetivos principales:**
+- Mejorar la relevancia de los resultados de búsqueda
+- Comprensión semántica del contenido
+- Integración inteligente de información dispersa
+
+**Desafíos actuales:**
+- Limitaciones en la comprensión contextual por motores de búsqueda
+- Indexación de aproximadamente 500 billones de páginas web
+- Búsquedas basadas en popularidad más que en significado
+
+### Conclusión
+La evolución tecnológica descrita demuestra una transición desde sistemas de información estáticos hacia entornos colaborativos e inteligentes, donde la participación del usuario y la comprensión semántica constituyen los pilares fundamentales para el desarrollo futuro de los sistemas de información gerencial.

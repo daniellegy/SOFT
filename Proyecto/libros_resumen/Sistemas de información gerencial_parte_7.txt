@@ -1,0 +1,84 @@
+### Parte 7 (Pág. 241–280)
+
+## Resumen Académico: Infraestructura de TI y Modelos de Inversión (Páginas 241-280)
+
+### **I. Modelo de Fuerzas Competitivas para la Inversión en Infraestructura de TI**
+
+#### **Definición Central**
+El modelo de fuerzas competitivas (Figura 5.13) constituye un marco analítico para determinar el nivel óptimo de inversión en infraestructura de tecnología de la información mediante la evaluación de seis factores críticos.
+
+#### **Componentes del Modelo**
+
+**Factores Internos:**
+1. **Demanda del Mercado por Servicios:** Evaluación sistemática de la satisfacción de clientes, proveedores y empleados con los servicios TI existentes mediante inventarios de servicios, encuestas y grupos focales.
+
+2. **Estrategia de Negocios Empresarial:** Análisis prospectivo de los requerimientos tecnológicos necesarios para alcanzar los objetivos estratégicos en un horizonte de cinco años.
+
+3. **Estrategia, Infraestructura y Costo de TI:** Evaluación de la alineación entre planes tecnológicos y estratégicos, incluyendo análisis de Costo Total de Propiedad (TCO).
+
+**Factores Externos:**
+4. **Evaluación de Tecnología de Información:** Determinación del posicionamiento tecnológico de la empresa, evitando tanto el retraso como la adopción prematura de tecnologías experimentales.
+
+5. **Servicios de Empresas Competidoras:** Benchmarking cuantitativo y cualitativo de los servicios tecnológicos ofrecidos por competidores.
+
+6. **Inversiones en Infraestructura de Competidores:** Comparación de niveles de gasto en TI mediante análisis de informes públicos (formulario 10-K de SEC).
+
+### **II. Fundamentos Conceptuales de Infraestructura de TI**
+
+#### **Definición y Componentes**
+**Infraestructura de TI:** Conjunto de recursos tecnológicos compartidos que constituyen la plataforma para aplicaciones específicas de sistemas de información. Componentes principales:
+- Plataformas de hardware computacional
+- Plataformas de sistemas operativos
+- Software empresarial
+- Redes y telecomunicaciones
+- Sistemas de gestión de bases de datos
+- Plataformas Internet
+- Servicios de consultoría e integración
+
+#### **Evolución Histórica y Leyes Tecnológicas**
+**Eras Evolutivas:**
+1. Mainframe
+2. Computadora personal
+3. Cliente/servidor
+4. Computación empresarial
+5. Computación móvil y en nube
+
+**Leyes Fundamentales:**
+- **Ley de Moore:** Duplicación del poder de procesamiento cada 18 meses con reducción de costos
+- **Ley de Almacenamiento Digital Masivo:** Duplicación de capacidad de almacenamiento por dólar cada 15 meses
+- **Ley de Metcalfe:** Incremento exponencial del valor de red con cada nuevo usuario
+
+### **III. Tendencias Contemporáneas en Plataformas Tecnológicas**
+
+#### **Plataformas de Hardware**
+- **Plataforma Móvil Digital:** Migración creciente hacia computación móvil
+- **Computación Cuántica:** Tecnología emergente con procesamiento multies-tado simultáneo
+- **Consumerización de TI:** Adopción empresarial de tecnologías originadas en mercado consumidor
+- **Virtualización:** Abstracción de recursos computacionales de limitaciones físicas
+- **Computación en Nube:** Provisión de recursos computacionales como servicio
+- **Procesadores Multinúcleo:** Integración de múltiples núcleos de procesamiento
+- **Computación Verde:** Prácticas ambientalmente sostenibles en ciclo de vida de TI
+
+#### **Plataformas de Software**
+- **Software de Código Abierto:** Desarrollo colaborativo global con acceso gratuito
+- **Linux:** Sistema operativo robusto para servidores Web
+- **Java:** Lenguaje de programación multiplataforma para entornos Web interactivos
+- **HTML5:** Estándar para integración nativa de multimedia en Web
+- **Servicios Web:** Componentes software basados en estándares abiertos
+- **Fuentes Externas de Software:** Paquetes comerciales, desarrollo externalizado y Software como Servicio (SaaS)
+- **Mashups:** Combinación de servicios software para crear nuevas aplicaciones
+- **Apps:** Aplicaciones software ligeras para dispositivos móviles e Internet
+
+### **IV. Desafíos Gerenciales y Soluciones**
+
+#### **Principales Desafíos**
+- Gestión del cambio de plataforma
+- Administración y gobernanza de infraestructura
+- Realización de inversiones estratégicas inteligentes
+
+#### **Soluciones Gerenciales**
+- Aplicación del modelo de fuerzas competitivas para decisiones de inversión
+- Implementación de análisis de Costo Total de Propiedad (TCO)
+- Desarrollo de estrategias de TI alineadas con objetivos empresariales
+
+Este resumen sintetiza los conceptos fundamentales, modelos analíticos y tendencias tecnológicas que configuran la gestión contemporánea de infraestructura de TI, proporcionando un marco comprehensivo para la toma de decisiones estratégicas en inversión tecnológica.

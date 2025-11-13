@@ -1,0 +1,111 @@
+### Parte 13 (Pág. 301–325)
+
+## Resumen de Páginas 301-325: Atributos de Calidad No Funcionales
+
+### Introducción
+Esta sección aborda requisitos de calidad que trascienden la funcionalidad básica del sistema, enfocándose en atributos críticos para el éxito del software. Se presentan cuatro categorías principales: disponibilidad, instalabilidad, integridad e interoperabilidad.
+
+### 1. Requisitos de Disponibilidad
+
+**Definición**: Capacidad del sistema para estar operativo y accesible cuando los usuarios lo requieren.
+
+**Características Clave**:
+- Tiempo crítico para operaciones esenciales
+- Especialmente complejos en aplicaciones web, basadas en nube y con usuarios en múltiples zonas horarias
+- Frecuentemente especificados contractualmente mediante Acuerdos de Nivel de Servicio (SLA)
+
+**Ejemplos de Especificación**:
+```
+AVL-1. El sistema estará disponible al menos 95% en días laborables entre 6:00 AM y medianoche (hora del Este)
+AVL-2. El tiempo de inactividad excluido del cálculo incluye mantenimiento programado domingos 6:00 PM - lunes 3:00 AM
+```
+
+**Consideraciones de Costo**:
+- Evitar especificar 100% de disponibilidad (imposible de alcanzar y costoso)
+- Aplicaciones críticas pueden requerir "cinco nueves" (99.999%) con impacto significativo en costos
+- Un requisito de alta disponibilidad puede representar hasta 25% del costo total del sistema
+
+**Preguntas Clave para Elicitación**:
+- ¿Qué porciones del sistema son más críticas?
+- ¿Cuáles son las consecuencias empresariales de la indisponibilidad?
+- ¿Cuándo programar mantenimiento y qué impacto tiene?
+- ¿Qué notificaciones son necesarias durante indisponibilidad?
+
+### 2. Requisitos de Instalabilidad
+
+**Definición**: Facilidad para realizar operaciones de instalación correctamente.
+
+**Actividades Cubiertas**:
+- Instalación inicial
+- Recuperación de instalaciones incompletas
+- Reinstalación de misma versión
+- Instalación de nueva versión
+- Reversión a versión anterior
+- Instalación de componentes adicionales
+- Desinstalación
+
+**Métrica Principal**: Tiempo promedio de instalación (dependiente de múltiples factores)
+
+**Ejemplos de Especificación**:
+```
+INS-1. Usuario no entrenado podrá realizar instalación inicial en promedio 10 minutos
+INS-2. Las personalizaciones del perfil se conservarán durante actualizaciones
+INS-3. Verificación de descarga correcta antes de instalación
+```
+
+**Consideraciones de Elicitación**:
+- Operaciones que no interrumpan sesión del usuario
+- Necesidad de reinicios
+- Confirmación de validez de instalación
+- Manejo de instalaciones incompletas o interrumpidas
+
+### 3. Requisitos de Integridad
+
+**Definición**: Prevención de pérdida de información y preservación de la corrección de datos.
+
+**Características**:
+- Cero tolerancia a errores
+- Protección contra amenazas accidentales e intencionales
+- La seguridad como subconjunto de integridad
+- Protección de datos y ejecutables
+
+**Aspectos de Integridad de Datos**:
+- Formato correcto de campos
+- Restricciones de tipo y longitud de datos
+- Validación de valores
+- Verificaciones de consistencia entre campos
+
+**Ejemplos de Especificación**:
+```
+INT-1. Verificación de copias de seguridad contra originales
+INT-2. Protección contra modificaciones no autorizadas
+INT-3. Validación de estructuras químicas importadas
+INT-4. Confirmación diaria de integridad de ejecutables
+```
+
+**Factores Críticos**:
+- Atomicidad de cambios de datos
+- Persistencia de modificaciones
+- Coordinación de cambios en múltiples almacenes de datos
+- Seguridad física de dispositivos
+- Estrategias de backup y archivado
+
+### 4. Requisitos de Interoperabilidad
+
+**Definición**: Capacidad del sistema para intercambiar datos y servicios con otros sistemas.
+
+**Enfoque**:
+- Identificación de aplicaciones complementarias
+- Definición de formatos de intercambio de datos
+- Integración con hardware externo
+
+**Ejemplo de Especificación**:
+```
+IOP-1. El sistema podrá importar estructuras químicas de ChemDraw y MarvinSketch
+IOP-2. Capacidad de importar estructuras en notación SMILES
+```
+
+**Mejor Práctica**: Evitar duplicación de requisitos en múltiples categorías para prevenir inconsistencias.
+
+### Conclusión
+Los atributos de calidad no funcionales representan aspectos críticos que impactan significativamente la usabilidad, confiabilidad y mantenibilidad del sistema. Su especificación precisa es esencial para el éxito del proyecto y requiere consideración cuidadosa de las implicaciones técnicas y de costo asociadas.

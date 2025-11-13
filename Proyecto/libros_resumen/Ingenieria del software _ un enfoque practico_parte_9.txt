@@ -1,0 +1,78 @@
+### Parte 9 (Pág. 321–360)
+
+## Resumen del Capítulo 11: Diseño de la Interfaz de Usuario (Páginas 321-360)
+
+### Introducción Conceptual
+El diseño de interfaces de usuario constituye un elemento crítico en el desarrollo de sistemas basados en computadora. Una interfaz adecuadamente diseñada optimiza la percepción del usuario respecto a los contenidos y servicios proporcionados, priorizando una estructura coherente y principios ergonómicos sólidos sobre aspectos meramente estéticos.
+
+### Flujo de Trabajo para el Diseño de Interfaces Web
+Se establece un proceso sistemático compuesto por 11 tareas fundamentales:
+
+1. **Revisión y refinamiento del modelo de requerimientos**
+   - Análisis exhaustivo de la información contenida en los modelos de requerimientos
+
+2. **Desarrollo de esquemas de distribución preliminares**
+   - Creación de bosquejos iniciales de la disposición de elementos
+   - Colaboración con stakeholders para validación
+
+3. **Mapeo de objetivos de usuario a acciones específicas**
+   - Transformación de objetivos primarios en acciones de interfaz concretas
+   - Implementación de la pregunta guía: "¿Cómo facilita la interfaz el logro de cada objetivo?"
+
+4. **Definición de tareas asociadas a cada acción**
+   - Identificación de conjuntos de tareas vinculadas a acciones específicas
+   - Mapeo hacia interacciones que incluyen navegación, objetos de contenido y funcionalidades
+
+5. **Elaboración de guiones de pantalla**
+   - Desarrollo de secuencias de imágenes que ilustren la respuesta de la interfaz
+   - Identificación de objetos de contenido y mecanismos de navegación
+
+6. **Integración con diseño estético**
+   - Colaboración interdisciplinaria con especialistas en diseño visual
+   - Refinamiento de distribuciones y guiones con criterios estéticos
+
+7. **Identificación de objetos de interfaz**
+   - Búsqueda en bibliotecas de objetos reutilizables
+   - Especificación de clases personalizadas cuando sea necesario
+
+8. **Representación de procedimientos de interacción** (Opcional)
+   - Utilización de diagramas UML de secuencia o actividades
+   - Modelado de flujos de actividades y decisiones
+
+9. **Representación del comportamiento de interfaz** (Opcional)
+   - Implementación de diagramas de estado UML
+   - Definición de mecanismos de control y transiciones
+
+10. **Descripción de distribución por estado**
+    - Asociación de distribuciones específicas con cada estado del sistema
+
+11. **Refinamiento y revisión del modelo**
+    - Evaluación centrada en criterios de usabilidad
+
+### Evaluación del Diseño de Interfaces
+Se establece un ciclo iterativo de evaluación que comprende:
+
+**Ciclo de Evaluación Iterativa:**
+- Construcción de prototipos iniciales
+- Evaluación por usuarios y expertos
+- Recopilación de retroalimentación
+- Implementación de modificaciones
+- Desarrollo de prototipos sucesivos
+
+**Criterios de Evaluación Preliminar:**
+1. Complejidad de especificaciones → Indicador de curva de aprendizaje
+2. Número de tareas y acciones → Medida de eficiencia del sistema
+3. Cantidad de elementos → Indicador de carga cognitiva
+4. Estilo y herramientas de ayuda → Medida de complejidad percibida
+
+**Métodos de Recolección de Datos:**
+- **Cualitativos:** Cuestionarios con escalas de respuesta variadas (sí/no, numéricas, subjetivas, porcentuales, abiertas)
+- **Cuantitativos:** Estudios de tiempos que miden tareas completadas, frecuencia de acciones, secuencias, tiempos de error y uso de ayuda
+
+### Principios Fundamentales del Diseño
+1. **Transferencia de control al usuario**
+2. **Minimización de la carga memorística**
+3. **Consistencia en la interfaz**
+
+### Conclusión
+El diseño efectivo de interfaces requiere un enfoque metodológico que integre análisis exhaustivo, diseño iterativo y evaluación continua. La interfaz representa el punto crítico de interacción humano-computadora, donde deficiencias en el diseño pueden comprometer la utilidad de sistemas técnicamente sólidos. La aplicación sistemática de los principios y procesos descritos garantiza el desarrollo de interfaces que optimizan la experiencia del usuario y maximizan la efectividad del sistema.

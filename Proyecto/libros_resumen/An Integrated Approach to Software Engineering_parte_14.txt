@@ -1,0 +1,101 @@
+### Parte 14 (Pág. 391–420)
+
+## Resumen de las Páginas 391-420: Diseño Detallado y Verificación
+
+### 8.1 Diseño Detallado y PDL
+
+#### 8.1.1 Refinamiento por Pasos (Stepwise Refinement)
+
+**Definición**: Técnica de diseño descendente (top-down) para desarrollar el diseño detallado mediante sucesivas aproximaciones desde especificaciones abstractas hasta implementaciones concretas.
+
+**Características principales**:
+- Cada paso de refinamiento representa una o dos decisiones de diseño
+- Requiere un lenguaje con flexibilidad para diferentes niveles de precisión
+- Los lenguajes de programación convencionales no son adecuados para este propósito
+
+**Lenguaje de Diseño de Programación (PDL)**:
+- Sintaxis externa formal que garantiza la conversión posterior a lenguajes de programación
+- Sintaxis interna flexible basada en lenguaje natural
+- Permite expresar declaraciones con distintos grados de precisión
+
+**Ejemplo de aplicación**: Sistema de conteo de palabras diferentes en archivo de texto
+- Estrategia inicial: lectura del archivo, ordenamiento de lista y conteo de palabras diferentes
+- Refinamientos sucesivos de operaciones:
+  - Lectura desde archivo (Figura 8.4)
+  - Conteo de palabras diferentes (Figura 8.5)
+  - Ordenamiento de lista
+
+**Estrategias de refinamiento**:
+- **Profundidad primero (Depth-first)**: Completar el refinamiento de una operación antes de proceder con otras
+- **Amplitud primero (Breadth-first)**: Refinar todas las operaciones necesarias en cada nivel antes de proceder al siguiente nivel
+- **Combinación**: Uso mixto de ambas estrategias
+
+#### 8.1.2 Comparación con Diseño Estructurado
+
+**Diferencias fundamentales**:
+- En refinamiento por pasos, la función de ordenamiento es subordinada al módulo principal
+- En diseño estructurado, el ordenamiento es subordinado al módulo de entrada
+- El refinamiento por pasos se enfoca en especificar operaciones necesarias
+- El diseño estructurado se centra en particionar el problema en módulos de entrada, salida y transformación
+
+#### 8.1.3 Modelado de Estados para Clases
+
+**Contexto**: Enfoque necesario para diseño orientado a objetos donde las clases no pueden tratarse como abstracciones funcionales.
+
+**Conceptos clave**:
+- **Estado del objeto**: Valor de sus atributos en un momento dado
+- **Evento**: Ejecución de una operación sobre el objeto
+- **Estado lógico**: Combinación de estados desde los cuales el comportamiento del objeto es similar para todos los eventos posibles
+
+**Modelado mediante Autómatas Finitos de Estados (FSA)**:
+- Estados representan condiciones lógicas del objeto
+- Transiciones ocurren cuando se ejecutan operaciones
+- Estado inicial desde el cual todos los demás estados son alcanzables
+
+**Ejemplo aplicado**: Pila de tamaño acotado (Figura 8.6)
+- Estados lógicos: Pila vacía, pila con elementos, pila llena
+- Comportamientos diferenciados para operaciones push, pop y top según el estado
+
+**Utilidad del modelado de estados**:
+- Comprensión de efectos de operaciones sobre el estado del objeto
+- Desarrollo de lógica para operaciones individuales
+- Validación de corrección de implementaciones
+- Generación de casos de prueba (Capítulo 10)
+
+### 8.2 Verificación del Diseño Detallado
+
+**Objetivo**: Demostrar que el diseño detallado cumple con las especificaciones del diseño del sistema.
+
+#### 8.2.1 Recorridos de Diseño (Design Walkthroughs)
+
+**Definición**: Método manual de verificación mediante revisión informal por pares.
+
+**Características**:
+- Reunión informal convocada por el diseñador o líder del grupo
+- Grupo pequeño (diseñador, líder y/o otro diseñador)
+- Explicación paso a paso de la lógica del diseño
+- Identificación de errores y búsqueda de clarificaciones
+
+**Beneficios**:
+- El proceso de explicación ayuda al diseñador a descubrir errores
+- Revisión por pares
+- Naturaleza informal
+
+**Limitaciones**: Menos efectivo que las revisiones formales de diseño
+
+#### 8.2.2 Revisión Crítica de Diseño (Critical Design Review)
+
+**Propósito**: Asegurar que el diseño detallado satisface las especificaciones del diseño del sistema.
+
+**Proceso**: Similar al proceso de inspecciones con grupo de revisión que incluye:
+- Autor del diseño detallado
+- Miembro del equipo de diseño del sistema
+- Programador responsable de la codificación
+- Ingeniero de calidad de software independiente
+
+**Enfoque**:
+- Descubrir errores de diseño, no corregirlos
+- La corrección se realiza posteriormente
+- Uso de listas de verificación (checklists) para evaluación sistemática
+
+**Conclusión**: La combinación de técnicas de refinamiento sistemático con métodos de verificación formal e informal constituye un enfoque integral para garantizar la calidad del diseño detallado en ingeniería de software.

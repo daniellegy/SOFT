@@ -1,0 +1,96 @@
+### Parte 8 (Pág. 211–240)
+
+## Resumen de las Páginas 211-240: Evaluación y Resumen de Arquitectura de Software
+
+### 4.6 Evaluación de Arquitecturas
+
+#### 4.6.2 Ejemplo de Aplicación del ATAM
+
+Se presenta un estudio de caso del sistema de encuestas estudiantiles utilizando el Architecture Tradeoff Analysis Method (ATAM). Se analizan tres arquitecturas alternativas bajo diferentes escenarios y atributos de calidad.
+
+**Escenarios de Evaluación:**
+- S1: Envío normal de encuesta con servidores operativos
+- S2: Intentos múltiples de envío
+- S3: Caída temporal del servidor de base de datos
+- S4: Sistema altamente cargado
+
+**Requisitos del Sistema:**
+- **Seguridad:** Limitación de un envío por estudiante
+- **Tiempo de Respuesta:** < 2 segundos en 80% de los casos
+- **Disponibilidad:** Mínimo 0.85
+- **Actualidad de Datos:** Resultados no mayores a 5 envíos anteriores
+
+**Metodología de Análisis:**
+- Para disponibilidad y tiempo de respuesta: modelos probabilísticos
+- Para seguridad y actualidad de datos: análisis cualitativo basado en comprensión arquitectónica
+
+**Resultados del Análisis Comparativo:**
+La Tabla 4.1 muestra que:
+- Todas las arquitecturas cumplen con seguridad y actualidad de datos
+- Solo las arquitecturas 2 y 3 satisfacen el requisito de disponibilidad
+- La arquitectura 3 presenta mejores tiempos de respuesta promedio (550 ms vs 1150 ms)
+
+**Puntos de Sensibilidad y Compromisos:**
+- El servidor se identifica como punto de compromiso crítico
+- La replicación mejora disponibilidad pero afecta rendimiento de actualización
+
+### 4.7 Resumen de Arquitectura de Software
+
+#### Definición Fundamental
+La arquitectura de software representa el diseño de alto nivel del sistema en términos de sus componentes y sus relaciones. Se define como "las estructuras del sistema que comprenden elementos software, sus propiedades externamente visibles y las relaciones entre ellos".
+
+#### Vistas Arquitectónicas Principales
+
+**1. Vista de Módulos**
+- Sistema como estructura de módulos de programación
+- Elementos: paquetes, clases, funciones
+- Enfoque en construcción futura
+
+**2. Vista de Componentes y Conectores (C&C)**
+- Sistema como colección de entidades en tiempo de ejecución
+- **Componentes:** entidades runtime
+- **Conectores:** mecanismos de interacción
+- Relación no necesariamente directa con vista de módulos
+
+**3. Vista de Asignación**
+- Distribución de unidades software en recursos hardware
+- Relación con aspectos físicos del sistema
+
+#### Estilos Arquitectónicos Comunes
+
+**Pipe and Filter**
+- Componente: Filtro
+- Conector: Tubería
+- Restricción: Conexión exclusiva mediante tuberías
+
+**Client-Server**
+- Componentes: Cliente y Servidor
+- Conector: Request/Reply
+- Restricción: Iniciación por cliente
+
+**Shared Data**
+- Componentes: Repositorio y Accesadores de datos
+- Mecanismo: Compartición mediante repositorio
+
+**Otros Estilos:**
+- Publish-Subscribe
+- Peer-to-Peer
+- Procesos Comunicantes
+
+#### Documentación Arquitectónica
+
+**Elementos Esenciales:**
+1. **Contexto:** Stakeholders y objetivos
+2. **Vistas Arquitectónicas:** Especificación completa
+3. **Relaciones entre Vistas:** Integración coherente
+4. **Rationale Arquitectónico:** Justificación de decisiones
+
+**Buenas Prácticas:**
+- Selección de vista primaria como eje central
+- Combinación de vistas sin complicar diagramas
+- Especificación clara de tipos de elementos y comportamiento externo
+- Documentación del proceso de toma de decisiones
+
+### Conclusión
+
+La arquitectura de software constituye la base fundamental para el desarrollo de sistemas de calidad, permitiendo el análisis temprano de propiedades críticas como rendimiento y disponibilidad. La evaluación sistemática mediante métodos como ATAM facilita la selección de arquitecturas óptimas que balanceen adecuadamente los diferentes atributos de calidad del sistema.

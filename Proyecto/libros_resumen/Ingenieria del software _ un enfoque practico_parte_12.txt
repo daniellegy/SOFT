@@ -1,0 +1,85 @@
+### Parte 12 (Pág. 441–480)
+
+# Resumen del Capítulo 17-18: Estrategias y Técnicas de Prueba de Software
+
+## Capítulo 17: Estrategias de Prueba de Software
+
+### Definiciones Fundamentales
+
+**Verificación vs. Validación**: La verificación asegura que el software se construye correctamente (cumple especificaciones), mientras que la validación garantiza que se construye el software correcto (satisface requisitos del usuario).
+
+### Estrategias de Prueba
+
+**Secuencia de Pruebas**:
+- Prueba de unidad: Prueba de componentes individuales
+- Prueba de integración: Verificación de interfaces y colaboración entre componentes
+- Prueba de validación: Confirmación de cumplimiento de requisitos
+- Prueba del sistema: Evaluación en entorno operacional completo
+
+### Aspectos Clave
+
+**Web Applications**: Se prueban de manera similar a sistemas orientados a objetos, enfocándose en:
+- Contenido
+- Funcionalidad
+- Interfaz de usuario
+- Navegación
+- Rendimiento
+- Seguridad
+
+**Depuración vs. Pruebas**: Mientras las pruebas son actividades sistemáticas planificadas, la depuración se considera un arte que requiere rastrear la causa de errores a partir de síntomas.
+
+### Consideraciones Organizacionales
+
+- **Grupos de Prueba Independientes (GPI)**: Ventajas y problemas de implementación
+- **Integración con SQA**: Relación entre garantía de calidad y grupos de prueba
+- **Calendarización**: Impacto en la prueba de integración
+
+## Capítulo 18: Prueba de Aplicaciones Convencionales
+
+### Perspectivas de Prueba
+
+**Prueba de Caja Blanca**: 
+- Enfoque en la lógica interna del programa
+- Técnicas basadas en estructura de control
+- Uso de gráficos de flujo y matrices de grafo
+
+**Prueba de Caja Negra**:
+- Enfoque en requisitos funcionales
+- Evaluación de dominios de entrada y salida
+- Verificación de comportamiento externo
+
+### Técnicas Específicas
+
+**Prueba de Ruta Básica**:
+- Utiliza complejidad ciclomática para determinar número de pruebas
+- Basada en análisis de gráficos de flujo
+
+**Métodos Basados en Gráficos**:
+- Representación visual de relaciones lógicas
+- Identificación de caminos de prueba
+
+**Técnicas de Diseño de Casos de Prueba**:
+- Partición de equivalencia
+- Análisis de valor de frontera
+- Prueba de arreglo ortogonal
+- Prueba basada en modelo
+
+### Entornos Especializados
+
+- Aplicación de patrones de prueba
+- Adaptación a entornos específicos
+- Consideración de características particulares del sistema
+
+### Filosofía de Pruebas
+
+El texto enfatiza el cambio de mentalidad requerido: los ingenieros deben adoptar una perspectiva "destructiva" para diseñar pruebas efectivas que identifiquen errores, superando el mito de que los buenos programadores no cometen errores.
+
+### Productos y Resultados
+
+- Conjunto documentado de casos de prueba
+- Definición de resultados esperados
+- Registro de resultados reales
+- Evaluación de cobertura de pruebas
+- Trazabilidad de actividades de detección de errores
+
+Esta sección establece las bases metodológicas para el diseño sistemático de pruebas que maximicen la detección de errores con mínimo esfuerzo y tiempo.

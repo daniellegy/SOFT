@@ -1,0 +1,74 @@
+### Parte 19 (Pág. 721–760)
+
+## Resumen del Capítulo 30: Mejoramiento del Proceso de Software (Páginas 721-760)
+
+### 1. Introducción al Mejoramiento del Proceso de Software (MPS)
+
+El capítulo aborda los marcos conceptuales y metodologías para el mejoramiento sistemático de los procesos de desarrollo de software, destacando la importancia de establecer áreas de proceso clave (APC) dentro de las organizaciones.
+
+### 2. Marcos Conceptuales Alternativos de MPS
+
+#### 2.1 SPICE (Software Process Improvement and Capability dEtermination)
+- **Definición**: Marco de valoración MPS que cumple con los estándares ISO 15504:2003 e ISO 12207
+- **Componentes principales**:
+  - Modelo para gestión de procesos
+  - Lineamientos para valoración y clasificación de procesos
+  - Instrumentos y herramientas de valoración
+  - Programas de capacitación para asesores
+
+#### 2.2 Bootstrap
+- **Características**: Desarrollado para asegurar conformidad con SPICE y alineación con ISO 12207
+- **Objetivo**: Evaluar procesos de software mediante mejores prácticas de ingeniería
+- **Metodología**: Emplea cuestionarios para recopilar información sobre procesos existentes
+
+#### 2.3 PSP y TSP (Personal Software Process y Team Software Process)
+- **Enfoque**: Mejoramiento a nivel individual y de equipo
+- **Fundamentos**:
+  - Recopilación continua de datos del trabajo
+  - Uso de datos para desarrollar estrategias de mejora
+  - Énfasis en planificación, seguimiento y calidad consistente
+
+#### 2.4 TickIT
+- **Propósito**: Garantizar cumplimiento con ISO 9001:2000 para software
+- **Estrategia**: Basada en el ciclo "Planificar-Hacer-Verificar-Actuar"
+  - **Planificar**: Establecer objetivos y actividades para calidad
+  - **Hacer**: Implementar procesos de software
+  - **Verificar**: Monitorear y medir el proceso
+  - **Actuar**: Iniciar mejoras continuas
+
+### 3. Rendimiento sobre Inversión (RSI) en MPS
+
+#### 3.1 Cálculo del RSI
+```
+RSI = [(Σ(beneficios) - Σ(costos)) / Σ(costos)] × 100%
+```
+
+#### 3.2 Componentes de la ecuación:
+- **Beneficios**:
+  - Ahorros por mayor calidad (menos defectos)
+  - Reducción de reelaboración
+  - Menor esfuerzo en cambios
+  - Ingresos por menor tiempo al mercado
+
+- **Costos**:
+  - Directos: Capacitación, medición
+  - Indirectos: Control de calidad, gestión de cambios, aplicación rigurosa de métodos
+
+### 4. Tendencias Futuras en MPS
+
+#### 4.1 Evolución hacia enfoques más ágiles
+- **Transición**: De modelos organizacionales complejos a enfoques a nivel de proyecto
+- **Objetivo**: Mejoras significativas en semanas en lugar de años
+- **Características**:
+  - Simplificación de modelos complejos
+  - Reducción de prácticas clave y complementarias
+  - Enfoque en resultados rápidos y medibles
+
+### 5. Consideraciones Clave
+
+- La implementación de MPS requiere inversión significativa en tiempo y recursos
+- Es fundamental realizar análisis cuidadoso de costos-beneficios
+- Los marcos conceptuales deben adaptarse al contexto específico de cada organización
+- La medición y evaluación continua son esenciales para el éxito de las iniciativas MPS
+
+Este capítulo proporciona una visión integral de los principales marcos conceptuales para el mejoramiento de procesos de software, destacando tanto las metodologías establecidas como las tendencias emergentes hacia enfoques más ágiles y centrados en resultados específicos.
