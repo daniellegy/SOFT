@@ -7,13 +7,27 @@ import fitz
 from docx import Document
 from PIL import Image
 import pytesseract
+# Ajusta la ruta si es necesario
 pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 from dotenv import load_dotenv
-from openai import OpenAI
+# --- MODIFICACIÓN (NOTIFICACIONES): Importamos error específico de conexión ---
+from openai import OpenAI, APIConnectionError
 from difflib import SequenceMatcher
 
 # CONFIGURACIÓN INICIAL
 st.set_page_config(page_title="SOFT-IA", layout="wide")
+
+# --- MODIFICACIÓN (NOTIFICACIONES): GESTOR DE NOTIFICACIONES PENDIENTES ---
+# Este bloque soluciona el problema de que los mensajes desaparecían al cambiar de pantalla.
+if "notificacion_pendiente" not in st.session_state:
+    st.session_state.notificacion_pendiente = None
+
+if st.session_state.notificacion_pendiente:
+    msg = st.session_state.notificacion_pendiente
+    st.toast(msg["texto"], icon=msg["icono"])
+    # Limpiamos para que no salga cada vez que toques un botón
+    st.session_state.notificacion_pendiente = None 
+# ---------------------------------------------------------------------------
 
 load_dotenv()
 client = OpenAI(
@@ -40,8 +54,8 @@ def crear_usuario(u, p):
     if usuario_existe(u): return False
     with open(archivo_usuario(u), "w") as f:
         json.dump({"contrasena": cifrar_contrasena(p),
-                    "mensajes": [],
-                    "archivos": [] #---> guarda contenido
+                   "mensajes": [],
+                   "archivos": [] 
                 }, f, indent=2)
     return True
 
@@ -68,7 +82,6 @@ def guardar_archivo_usuario(u, nombre, contenido):
     with open(archivo_usuario(u)) as f:
         data = json.load(f)
 
-    #EVITAR DUPLICADOS
     for nom_arch in data["archivos"]:
         if nom_arch["nombre"] == nombre:
             return 
@@ -96,12 +109,9 @@ def procesar_imagen(archivo):
     try:
         img = Image.open(io.BytesIO(archivo.read()))
         texto_extraido = pytesseract.image_to_string(img, lang="spa")
-
         if not texto_extraido.strip():
             texto_extraido = "(No se detectó texto legible en la imagen)"
-
         return {"tipo": "texto", "texto": texto_extraido}
-
     except Exception as e:
         return {"tipo": "texto", "texto": f"(Error procesando la imagen: {e})"}
 
@@ -166,6 +176,12 @@ if not st.session_state.logueado:
                     crear_usuario(nuevo, contrasena)
                     st.session_state.logueado = True
                     st.session_state.usuario = nuevo
+                    
+                    # --- MODIFICACIÓN (NOTIFICACIONES): Guardar mensaje antes del rerun ---
+                    st.session_state.notificacion_pendiente = {
+                        "texto": f"¡Bienvenido {nuevo}! Cuenta creada.",
+                        "icono": "🎉"
+                    }
                     st.rerun()
 
         with st.form("login"):
@@ -177,6 +193,12 @@ if not st.session_state.logueado:
                     st.session_state.logueado = True
                     st.session_state.usuario = nombre
                     st.session_state.mensajes = cargar_mensajes(nombre)
+                    
+                    # --- MODIFICACIÓN (NOTIFICACIONES): Guardar mensaje antes del rerun ---
+                    st.session_state.notificacion_pendiente = {
+                        "texto": f"Hola de nuevo, {nombre}.",
+                        "icono": "👋"
+                    }
                     st.rerun()
                 else:
                     st.error("Usuario o contraseña incorrectos.")
@@ -191,14 +213,13 @@ if st.session_state.logueado:
         st.rerun()
 
     archivo_biblio = st.sidebar.file_uploader(
-        "Subir archivo",
+        "Subir archivo a Bibliografía",
         type=["pdf", "docx"],
         key="biblio_uploader"
     )
 
     if archivo_biblio:
         nombre = archivo_biblio.name.split(".")[0]
-
         if archivo_biblio.name.endswith(".pdf"):
             texto = procesar_pdf(archivo_biblio)
         elif archivo_biblio.name.endswith(".docx"):
@@ -206,7 +227,6 @@ if st.session_state.logueado:
         else:
             st.sidebar.error("Formato no soportado.")
             texto = ""
-
         guardar_en_bibliografia(nombre, texto)
         st.sidebar.success(f"'{nombre}' agregado a la bibliografía.")
 
@@ -214,19 +234,17 @@ if st.session_state.logueado:
 
     chat_area = st.container()
 
-    # Mostrar historial persistente
     with chat_area:
         for mensaje in st.session_state.mensajes:
             with st.chat_message(mensaje["role"]):
                 st.markdown(mensaje["content"])
     
     archivo = st.file_uploader(
-        "Sube un archivo",
+        "Sube un archivo a tu memoria personal",
         type=["pdf", "docx", "png", "jpg", "jpeg"])
 
     if archivo:
         nombre = archivo.name.lower()
-
         if nombre.endswith(".pdf"):
             contenido = {"tipo": "texto", "texto": procesar_pdf(archivo)}
         elif nombre.endswith(".docx"):
@@ -236,58 +254,61 @@ if st.session_state.logueado:
 
         if st.session_state.usuario:
             guardar_archivo_usuario(st.session_state.usuario, archivo.name, contenido)
-            st.success(f"Archivo '{archivo.name}' guardado en tu memoria.")
+            # --- MODIFICACIÓN (NOTIFICACIONES): Aviso simple de archivo guardado ---
+            st.toast(f"Archivo '{archivo.name}' guardado en memoria.", icon="💾")
 
     if mensaje_usuario := st.chat_input("¿En qué puedo ayudarte hoy?"):
+        # --- MODIFICACIÓN (CONTEXTO): Guardamos input usuario antes de llamar API ---
         st.session_state.mensajes.append({"role": "user", "content": mensaje_usuario})
+        
         with chat_area.chat_message("user"):
             st.markdown(mensaje_usuario)
 
         memoria_archivos = []
         if st.session_state.usuario:
             archivos_usuario = cargar_archivos_usuario(st.session_state.usuario)
-
             for a in archivos_usuario:
                 if a["contenido"]["tipo"] == "texto":
-                    memoria_archivos.append(
-                        f"[Archivo: {a['nombre']}]\n{a['contenido']['texto'][:2000]}"
-                    )
+                    memoria_archivos.append(f"[Archivo usuario: {a['nombre']}]\n{a['contenido']['texto'][:2000]}")
                 else:
-                    memoria_archivos.append(
-                        f"[Imagen: {a['nombre']} (solo OCR de texto)]"
-                    )
-
+                    memoria_archivos.append(f"[Imagen usuario: {a['nombre']} (OCR)]")
         memoria_str = "\n\n".join(memoria_archivos)
 
         fragmentos = buscar_fragmentos(mensaje_usuario)
-        contexto = "\n\n".join([f" [{f[1]}]\n{f[2][:2000]}" for f in fragmentos])
+        contexto_libros = "\n\n".join([f" [Fuente: {f[1]}]\n{f[2][:2000]}" for f in fragmentos])
 
-        with chat_area.chat_message("assistant"):
-            st.write("💭 Analizando tus libros, un momento...")
-        prompt = (
-            "Responde de forma clara y académica en español. "
-            "Memoria del usuario (archivos previos):\n"
-            f"{memoria_str}\n\n"
-            "Usa la siguiente información de libros de ingeniería de software como base, "
-            "pero complementa con tu conocimiento general cuando sea necesario.\n\n"
-            f"{contexto}\n\n"
-            f"Pregunta del estudiante: {mensaje_usuario}"
-        )
-        
-        response = client.chat.completions.create(
-            model="deepseek-chat",
-            messages=[
-                {"role": "system", "content": "Eres un experto en ingeniería de software."},
-                {"role": "user", "content": prompt}
-            ],
-            temperature=0.4
+        # --- MODIFICACIÓN (CONTEXTO): Prompt de Sistema reforzado para usar memoria ---
+        instrucciones_sistema = (
+            "Eres SOFT-IA, un experto en ingeniería de software. "
+            "IMPORTANTE: Tienes acceso total al historial de esta conversación. "
+            "Revisa los mensajes anteriores para mantener el contexto. "
+            "CONTEXTO ADICIONAL (Archivos y Libros):\n"
+            f"{memoria_str}\n"
+            f"{contexto_libros}\n"
         )
 
-        texto_respuesta = response.choices[0].message.content
+        # --- MODIFICACIÓN (CONTEXTO): Construcción de la lista con historial completo ---
+        mensajes_api = [{"role": "system", "content": instrucciones_sistema}]
+        mensajes_api.extend(st.session_state.mensajes)
 
-        st.session_state.mensajes.append({"role": "assistant", "content": texto_respuesta})
         with chat_area.chat_message("assistant"):
-            st.markdown(texto_respuesta)
+            try:
+                with st.spinner("Pensando..."): 
+                    response = client.chat.completions.create(
+                        model="deepseek-chat",
+                        messages=mensajes_api, # Enviamos todo el historial
+                        temperature=0.4
+                    )
+                texto_respuesta = response.choices[0].message.content
+                
+                st.markdown(texto_respuesta)
+                st.session_state.mensajes.append({"role": "assistant", "content": texto_respuesta})
+                if st.session_state.usuario:
+                    guardar_mensajes(st.session_state.usuario, st.session_state.mensajes)
 
-        if st.session_state.usuario:
-            guardar_mensajes(st.session_state.usuario, st.session_state.mensajes)
+            # --- MODIFICACIÓN (NOTIFICACIONES): Manejo de errores de conexión ---
+            except APIConnectionError:
+                st.error("⚠️ SIN CONEXIÓN A INTERNET: No se pudo conectar con el agente. Verifica tu red.")
+                
+            except Exception as e:
+                st.error(f"❌ ERROR DE CONEXIÓN CON API: Ocurrió un problema técnico. Detalle: {e}")
