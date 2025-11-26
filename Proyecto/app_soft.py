@@ -15,6 +15,103 @@ from difflib import SequenceMatcher
 
 st.set_page_config(page_title="SOFT-IA", layout="wide")
 
+# --- INICIO DE ESTILOS PERSONALIZADOS (ADAPTABLES CLARO/OSCURO) ---
+def configurar_estilos():
+    st.markdown("""
+        <style>
+        /* Tipografía general */
+        html, body, [class*="css"] {
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        }
+        
+        /* 1. Título Principal */
+        h1 {
+            color: #1E88E5 !important; /* Azul fuerte (visible en blanco y negro) */
+            text-align: center;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #1E88E5;
+        }
+
+        /* 2. Burbujas de chat INTELIGENTES (Usamos RGBA para transparencia) */
+        
+        /* ASISTENTE: Fondo azul muy suave (10% opacidad) */
+        [data-testid="stChatMessage"]:nth-child(even) {
+            background-color: rgba(41, 181, 232, 0.1); 
+            border-left: 4px solid #29B5E8;
+            border-radius: 10px;
+            padding: 15px;
+        }
+        
+        /* USUARIO: Fondo gris muy suave (5% opacidad) */
+        [data-testid="stChatMessage"]:nth-child(odd) {
+            background-color: rgba(150, 150, 150, 0.1); 
+            border-right: 4px solid #1E88E5;
+            border-radius: 10px;
+            padding: 15px;
+        }
+
+        /* 3. Barra Lateral (Sidebar) */
+        /* Quitamos el color de fondo forzado para que respete el modo Claro/Oscuro */
+        [data-testid="stSidebar"] {
+            border-right: 1px solid rgba(41, 181, 232, 0.2);
+        }
+        
+        /* Botones estandarizados */
+        .stButton > button {
+            width: 100%;
+            border-radius: 20px;
+            border: 1px solid rgba(41, 181, 232, 0.5);
+            /* Fondo transparente para adaptarse */
+            background-color: transparent; 
+            color: inherit; /* Hereda el color de texto del tema actual */
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+        
+        .stButton > button:hover {
+            border-color: #29B5E8;
+            color: white;
+            background-color: #1E88E5; /* Al pasar el mouse sí se pone azul sólido */
+            box-shadow: 0 4px 15px rgba(30, 136, 229, 0.4);
+        }
+
+        /* 4. Inputs y Notificaciones */
+        .stChatInputContainer {
+            border-color: #29B5E8 !important;
+        }
+        
+        div[data-baseweb="toast"] {
+            background-color: #1E88E5 !important;
+            color: white !important;
+        }
+
+        /* 5. Forzar color AZUL en inputs de Login y Radio Buttons (Reemplazo de config.toml) */
+        
+        /* Bordes de inputs de texto al hacer foco */
+        div[data-baseweb="input"] > div:focus-within {
+            border-color: #29B5E8 !important;
+            box-shadow: 0 0 0 1px #29B5E8 !important;
+        }
+        
+        /* Color del cursor en inputs */
+        div[data-baseweb="input"] > div > input {
+            caret-color: #29B5E8;
+        }
+        
+        /* Radio Buttons seleccionados (El puntito) */
+        div[role="radiogroup"] div[aria-checked="true"] div:first-child {
+            background-color: #29B5E8 !important;
+            border-color: #29B5E8 !important;
+        }
+        </style>
+    """, unsafe_allow_html=True)
+
+configurar_estilos()
+# --- FIN DE ESTILOS ---
+
 if "notificacion_pendiente" not in st.session_state:
     st.session_state.notificacion_pendiente = None
 
@@ -63,7 +160,7 @@ def verificar_usuario(u, p):
 def validar_usuario(nombre):
     if not nombre:
         return "El nombre de usuario no puede estar vacío."
-    if not re.match(r"^[A-Za-z0-9_]+$", nombre):
+    if not re.match(r"^[A-Za-z0-9_ ]+$", nombre):
         return "El nombre de usuario solo puede contener letras, números y guiones bajos."
     if len(nombre) < 3:
         return "El nombre de usuario debe tener al menos 3 caracteres."
@@ -265,8 +362,10 @@ if st.session_state.logueado:
         st.session_state.mensajes = []
         st.rerun()
 
-    # --- #Nuevo: selector de chats ---
-    st.sidebar.markdown("### 💬 Tus Chats")
+    # --- #CAMBIO C: Separador en sidebar y título limpio ---
+    st.sidebar.markdown("---")
+    st.sidebar.markdown("### 💬 Historial de Chats")
+    
     if st.session_state.usuario:
         chat_seleccionado = st.sidebar.selectbox(
             "Seleccionar chat:",
@@ -310,13 +409,18 @@ if st.session_state.logueado:
         guardar_en_bibliografia(nombre, texto)
         st.sidebar.success(f"'{nombre}' agregado a la bibliografía.")
 
-    st.title("🤖 SOFT-IA — Agente de Ingenieria de Software")
+    # --- CAMBIO A: Título mejorado con subtítulo ---
+    st.title("🤖 SOFT-IA")
+    st.markdown("<h3 style='text-align: center; color: #8B949E;'>Agente Especializado en Ingeniería de Software</h3>", unsafe_allow_html=True)
+    st.markdown("---")
 
     chat_area = st.container()
 
     with chat_area:
         for mensaje in st.session_state.mensajes:
-            with st.chat_message(mensaje["role"]):
+            # --- CAMBIO B: Iconos (Avatares) en historial ---
+            avatar = "🧑‍💻" if mensaje["role"] == "user" else "🤖"
+            with st.chat_message(mensaje["role"], avatar=avatar):
                 st.markdown(mensaje["content"])
     
     archivo = st.file_uploader(
@@ -339,7 +443,8 @@ if st.session_state.logueado:
     if mensaje_usuario := st.chat_input(f"[{st.session_state.chat_actual}] ¿En qué puedo ayudarte hoy?"):
         st.session_state.mensajes.append({"role": "user", "content": mensaje_usuario})
         
-        with chat_area.chat_message("user"):
+        # --- CAMBIO B: Icono (Avatar) en nuevo mensaje ---
+        with chat_area.chat_message("user", avatar="🧑‍💻"):
             st.markdown(mensaje_usuario)
 
         memoria_archivos = []
@@ -355,7 +460,7 @@ if st.session_state.logueado:
         fragmentos = buscar_fragmentos(mensaje_usuario)
         contexto = "\n\n".join([f" [Fuente: {f[1]}]\n{f[2][:2000]}" for f in fragmentos])
 
-        with chat_area.chat_message("assistant"): 
+        with chat_area.chat_message("assistant", avatar="🤖"): 
             st.write("Analizando tus libros, un momento...")
 
         prompt = (
@@ -396,7 +501,7 @@ if st.session_state.logueado:
         mensajes_api = [{"role": "system", "content": prompt}]
         mensajes_api.extend(st.session_state.mensajes)
 
-        with chat_area.chat_message("assistant"):
+        with chat_area.chat_message("assistant", avatar="🤖"):
             try:
                 with st.spinner("Pensando..."): 
                     response = client.chat.completions.create(
